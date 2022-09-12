@@ -56,7 +56,7 @@ var question = question.concat(
 '[Governance]- 인터넷 거버넌스',
 '[Governance]- 데이터 분석 거버넌스',
 'ISO 26000',
-'[ISO 26000]- CSR',
+'[ISO 26000]- CSR', 
 'BCP',
 '[BCP]- RTO, RPO',
 '[BCP]- BIA',
@@ -101,7 +101,6 @@ var question = question.concat(
 '[대기행렬]- 대기행렬 시스템',
 'Value Chain',
 'MVP',
-'테스트 bs_20220912',
 );
 
 var answer = answer.concat(
@@ -143,7 +142,7 @@ var answer = answer.concat(
 <img src = "./img/MECE_LISS_Compare.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 125회 관리 1교시 8번\
 ',
-
+ 
 // 국제 표준화 기구
 '# IEEE-Std. Framework <br/>\
 - Full name : Institute of Electrical and Electronics Engineers <br/>\
@@ -178,7 +177,7 @@ var answer = answer.concat(
 - 일본 : ICT 인프라 지역 전개 마스터 플랜 3.0 발표 <br/><br/>\
 * 123회 응용 3교시 6번\
 ',
-
+  
 // de facto standard
 '# 정의 : 시장형성과정 생산되는 표준 <br/>\
 - 세계 표준화 기관이나 공인기관에서 지정된 표준은 아니지만 시장형성과정에서 생성되는 표준 <br/><br/>\
@@ -194,7 +193,7 @@ var answer = answer.concat(
 <img src = "./img/DeFactoDeJure.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 123회 응용 1교시 12번\
 ',
-
+ 
 // ITSM
 '# 정의 : IT 서비스 수준관리 위한 프레임워크 <br/>\
 - Information Technology Service Management <br/>\
@@ -206,7 +205,7 @@ var answer = answer.concat(
 // SoW/SLA/SLM
 '<img src = "./img/SOW_SLA_SLM.png" style = "max-width:100%; height:auto;">\
 ',
-
+ 
 // SLA
 '# 정의 : 사용자 공급자간 서비스 명시 문서<br/>\
 - Service Level Agreement <br/>\
@@ -246,7 +245,7 @@ var answer = answer.concat(
 * 123회 관리 4교시 2번 <br/>\
 * 라이지움 87회 관리 3교시 5번\
 ',
-
+ 
 // Penalty/Incentive
 '# 정의 : KPI 선정 / 가점, 감점 / 수행 관리 체계 <br/>\
 - IT 서비스의 핵심성과지표(KPI)를 선정하고 달성수준에 따라 가점(금액)과 감점(금액)으로 수행능력을 관리하는 체계 <br/><br/>\
@@ -257,7 +256,7 @@ var answer = answer.concat(
 <img src = "./img/SLA_IncentivePenalty.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 123회 4교시 2번\
 ',
-
+ 
 // SIP
 '# 정의 : 변화 대응, 개선, 향상 / Life-Cycle, 역할 기준 / 개선 계획 <br/>\
 - Service Improvement Plan <br/>\
@@ -272,7 +271,7 @@ var answer = answer.concat(
 * Informed : 결과통보 대상자 </font><br/><br/>\
 * 123회 4교시 2번\
 ',
-
+ 
 // Annual Reset
 '# 정의 : KPI / 외주 용역, 차년도 계약 / 제시 지표 <br/>\
 - KPI 지표의 달성 결과에 따른 외주 용역업체의 차년도 갱신(연장) 계약 조건으로 제시 지표 <br/><br/>\
@@ -309,8 +308,8 @@ var answer = answer.concat(
 - 서비스 측정도구 : 사용량 과금 <br/>\
 - 서비스 프로비저닝 <br/><br/>\
 * 123회 관리 4교시 2번\
-',
-
+', 
+ 
 // 아웃소싱 운영관리 메뉴얼
 '# 아웃소싱 정의 : 외부 자원 활용 <br/>\
 - 정보기술요소의 일부 또는 전부에 대한 관리 및 운영의 위임 <br/><br/>\
@@ -355,7 +354,7 @@ var answer = answer.concat(
 - 계약관리 및 정산 : 계약관리, 계약전환, 결과보고 <br/><br/>\
 * 123회 관리 4교시 2번\
 ',
-
+ 
 // 장애 관리
 '# 개념 : 서비스 중단 / 서비스 정상화 / 영향 최소화 / 사후 대응적 <br/>\
 - 장애 : 계획되지 않은 IT 서비스의 중단이나 IT 서비스의 품질을 감소시키는 이벤트 <br/>\
@@ -368,7 +367,7 @@ var answer = answer.concat(
 - 사고 종결 : Incident 대한 사용자 확인, 장애조치내역 기록 <br/><br/>\
 * KPC 91회 관리 1교시 12번\
 ',
-
+ 
 // 문제 관리
 '# 정의 : 장애 근본 원인 해결 / 재발 방지 / 사전 예방적 <br/>\
 - 문제 : 하나 이상의 인시던트에 내재된 장애 원인이 <font color = "red">밝혀지지 않은</font> 상태 <br/>\
@@ -426,8 +425,8 @@ var answer = answer.concat(
 - Monitoring and review : 설계, 구현 및 결과의 품질과 효과를 보장하고 향상 <br/>\
 - Recording and reporting : 조직 전체의 위험 관리 활동 및 결과 전달\
 ',
-
-// ITIL
+ 
+// ITIL 
 '# 정의 : ITSM을 위한 Practice 모음집 <br/>\
 - IT Infrastructure Library <br/>\
 - IT 서비스 관리에 대한 프레임워크 구현을 돕기 위한 문서들의 집합 <br/>\
@@ -473,7 +472,7 @@ var answer = answer.concat(
 <img src = "./img/ITIL.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * ITPE 6회 관리 2교시 5번\
 ',
-
+ 
 // SKMS
 '# 정의 : ITIL 3.0 CMDB 대체 시스템 <br/>\
 - Service Knowledge Management System <br/>\
@@ -523,7 +522,7 @@ var answer = answer.concat(
 - ISMP - SW 사업 구축 전략 대한 지침 제공 / 지식경제부 <br/><br/>\
 * 119회 관리 4교시 3번\
 ',
-
+ 
 // ISP
 '# 정의 : 조직의 목표 달성 / 중장기 마스터 플랜 <br/>\
 - Information Strategy Planning <br/>\
@@ -563,7 +562,7 @@ var answer = answer.concat(
 * ITPE 8회 관리 3교시 6번 <br/>\
 * 123회 관리 2교시 6번\
 ',
-
+ 
 // Information Strategy Master Plan
 '# 정의 : SW 개발사업 RFP 마련 / FP 도출 수준 까지 / 요건 기술, 구축 전략 수립 활동 <br/>\
 - 특정 SW 개발 사업에 대한 상세 분석과 제안요청서(RFP)를 마련하기 위해 기능점수 도출 가능수준까지 요건을 기술하여 구축전략 및 이행 전략 수립하는 활동 <br/><br/>\
@@ -642,12 +641,12 @@ var answer = answer.concat(
 - 산출물 : 컨설팅 대가 <br/><br/>\
 * 125회 관리 2교시 1번\
 ',
-
+ 
 // 플랫폼 경제
 '# 정의 : 인터넷 기술 / 기업 소비자 연결 / 플랫폼 기반 경제 활동 <br/>\
 - 인터넷 기술의 발전으로 네트워크 상에서 기업과 소비자를 연결하는 디지털 플랫폼을 기반으로 상품 및 서비스의 공급자와 수요자가 거래하는 경제활동\
 ',
-
+ 
 // 프로토콜 경제
 '# 개념 : 플랫폼 경쟁 보완 / 참여형 공정경쟁 시스템 <br/>\
 - 플랫폼 경제가 가져온 독점화 폐해를 보완하는 개념의 참여형 공정경쟁 시스템 <br/><br/>\
@@ -669,7 +668,7 @@ var answer = answer.concat(
 - 사례 : DeFi 사업 <br/><br/>\
 # 기대효과 : 일정한 규칙 아래 참여자 모두에게 공정성과 투명성 확보 \
 ',
-
+ 
 // 데이터 경제
 '# 개념 : 데이터 활용 / 산업 발전 촉매 / 제품 서비스 창출 경제 <br/>\
 - 데이터 활용이 다른 산업 발전의 촉매역할을 하고 새로운 제품과 서비스를 창출하는 경제 <br/><br/>\
@@ -678,7 +677,7 @@ var answer = answer.concat(
 # 활성화 계획 <br/>\
 <img src = "./img/DataEconomyStragety.png" style = "max-width:100%; height:auto;">\
 ',
-
+ 
 // 공유 경제
 '# 정의 : 소유 -> 대여 개념 / 경제 활동 패러다임 <br/>\
 - 물품을 소유의 개념이 아닌 서로 대여해주고 차용해 쓰는 개념으로 인식한 경제활동 패러다임 <br/><br/>\
@@ -695,7 +694,7 @@ var answer = answer.concat(
 - 이용자 : 유휴자원 훼손, 거래 안전 및 품질 보장 <br/>\
 - 기존 산업 : 소비 위축, 일자리 감소 \
 ',
-
+ 
 // 구독 경제
 '# 정의 : 무소유 사용시대 <br/>\
 - 소비자가 기업에 회원가입 및 구독을 하면 정기적으로 원하는 상품을 배송받거나, 필요한 서비스를 언제든지 이용할 수 있는 경제모델 <br/><br/>\
@@ -705,15 +704,15 @@ var answer = answer.concat(
 - 정기배송 모델 : 정기배송 / 면도날, 칫솔, 화장품, 소모품 <br/>\
 - 랜털 모델 : 원하는 품목 바꿔가며 이용 / 자동차, 가구, 가방, 명품옷 \
 ',
-
+ 
 // 가상융합 경제
 '# 추진목표, 전략 <br/>\
 <img src = "./img/XREconomyGoal.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 범위 <br/>\
 <img src = "./img/XREConomyRange.png" style = "max-width:100%; height:auto;">\
 ',
-
-// RTE
+ 
+// RTE 
 '# 정의 : 지연 최소화 / 실시간 전달 / 의사결정 속도 높 / 경쟁력 극대화 기업 <br/>\
 - Real Time Enterprise <br/>\
 - 수행하는 업무를 기업 내/외부를 포함하는 전체적인 관점에서 지속적인 프로세스의 개선 및 정보의 실시간 전달을 통해 업무 지연요소를 최소화하고 의사 결정의 속도를 높여 경쟁력을 극대화한 기업 의미 <br/><br/>\
@@ -753,7 +752,7 @@ var answer = answer.concat(
 - Operation(4) : 구매~대금, 주문~판매, 수요~자원, 고객수요~서비스<br/><br/>\
 * 수요에서 자원배분 고객 수요에 따른 서비스 제공\
 ',
-
+ 
 // 기술 수명주기 이론
 '# S-Curve 이론 <br/>\
 <img src = "./img/SCurve.png" style = "max-width:100%; height:auto;"><br/>\
@@ -765,8 +764,8 @@ var answer = answer.concat(
 <img src = "./img/GatnersHyperCycle.png" style = "max-width:100%; height:auto;"><br/>\
 - 기술촉발, 기대, 환멸, 계몽, 생산성 안정 \
 ',
-
-// Chasm
+ 
+// Chasm 
 '# 정의 : 기술 수용시기 / 제품 확산 과정 / 초기시장 -> 주류 시장 / 실패, 정체 저항 현상 <br/>\
 - 첨단 제품의 기술수용시기를 바탕으로 제품이 확산되는 과정에서 초기시장에서 주류시장으로 넘어가는 지점에 신제품 확산이 실패하거나 일시적인 판매 정체 현상이 일어나는 저항이 발생되는 현상 <br/><br/>\
 # 특징 <br/>\
@@ -777,7 +776,7 @@ var answer = answer.concat(
 <img src = "./img/Chasm.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 88회 관리 1교시 8번\
 ',
-
+ 
 // 하이테크 마케팅
 '# 정의 : 하이테크 제품 / 소통, 전달 활동 <br/>\
 - 하이테크 제품으로 고객가치를 창출하기 위해 제품을 알리고, 소통하고 전달하는 종합적인 활동 <br/><br/>\
@@ -1159,8 +1158,8 @@ var answer = answer.concat(
 # 모형 <br/>\
 - 다중이해 당사자 모형(Multi-Stakeholder Model) : 영미계 주주중심주의(shareholderism)에 대항하여 새롭게 등장한 지배구조 모형, 정책 결정 구조의 개방 <br/>\
 ',
-
-// 데이터 분석 거버넌스
+ 
+// 데이터 분석 거버넌스 
 '# 정의 : 전략 수립 / 구축 / 지원 체계<br/>\
 - 전사 차원의 모든 데이터에 대한 정책, 지침, 표준화, 전략을 수립하고 데이터를 관리하는 조직과 프로세스를 구축함으로써 고품질의 데이터를 활용하여 기업의 가치 창출을 지원하는 체계 <br/><br/>\
 # 구성요소 <br/>\
@@ -1240,7 +1239,7 @@ var answer = answer.concat(
 - 개인적 목표/가치 : 생존, 위생욕구, 물질적 풍요 > 소속, 존경욕구, 정직적 풍요 > 자아실현 욕구, 영적 충만감 \
 ',
 
-// BCP
+// BCP 
 '# 정의 : 무중단 / 예방 및 복구 / 비즈니스 연속성 보장 체계 <br/>\
 - 기업 내외부에 발생 가능한 모든 재해 및 장애에도 비즈니스의 중단없이 정상적 업무수행이 가능하도록 예방 및 복구활동을 포함하는 비즈니스 연속성 보장 체계 <br/><br/>\
 # 절차 <br/>\
@@ -1249,7 +1248,7 @@ var answer = answer.concat(
 <img src = "./img/BCP.png" style = "max-width: 100%; height: auto;"><br/><br/>\
 * 아이리포 24회 관리 4교시 1번\
 ',
-
+ 
 // RTO, RPO
 '# RTO(복구목표시간) <br/>\
 <img src = "./img/RTO.png" style = "max-width: 100%; height: auto;"><br/><br/>\
@@ -1296,7 +1295,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 - 유효기간 : ISO 22301:2012 - 2021까지 / 이후 ISO 22301:2019 적용 <br/><br/>\
 * 라이지움 87회 관리 1교시 8번\
 ',
-
+ 
 // DRS
 '# 정의 : 업무 연속성을 유지할 수 있는 체계 <br/>\
 - Disaster Recovery System <br/>\
@@ -1368,7 +1367,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 - 회계 관리 : Throughput Accounting <br/><br/>\
 * 119회 관리 1교시 3번\
 ',
-
+ 
 // 5 Force
 '# 정의 : 조직 외부환경 분석 기법 <br/>\
 - 조직의 외부환경을 경쟁사를 중심으로 잠재적 경쟁자, 대체제, 공급업자, 구매자 관점에서 분석하는 기법 <br/><br/>\
@@ -1383,7 +1382,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 # CSF 도출 Overview <br/>\
 <img src = "./img/5ForceCSF.png" style = "max-width:100%; height:auto;">\
 ',
-
+ 
 // 7S
 '# 정의 : 조직 내부 상황 평가, 모니터링 하는 분석 도구 <br/>\
 - 조직이 잘 수행하기 위해 일곱 가지 요소가 서로 조화되고 상호 보강되어야 한다는 이론에 근거한 내부 상황 변화 평가, 모니터링하는 조직 분석 도구 <br/><br/>\
@@ -1427,7 +1426,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 # 암기 : 쇼-온 <br/><br/>\
 # 사례 : 모바일스토어 (오프라인 -> 온라인 : 엘롯데)\
 ',
-
+  
 // [옴니채널]- 역쇼루밍
 '# 정의 : 구매 방식 / 온라인 보고 / 매장 구매 <br/>\
 - 온라인에서 제품 정보와 가격 비교 후, 좋은 혜택의 오프라인 매장에서 직접 구매<br/><br/>\
@@ -1435,7 +1434,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 # 사례 : 스마트픽 (온라인 쇼핑, 오프라인 인수 : 교보문고, 롯데닷컴)\
 ',
 
-// [옴니채널]- 모루밍
+// [옴니채널]- 모루밍 
 '# 정의 : 구매 방식 / 오프라인 보고 / 모바일 구매 <br/>\
 - 오프라인 매장에서 제품을 살피고, 모바일로 구매',
 
@@ -1487,7 +1486,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 - Barcode / RFID \
 ',
 
-// [SCM]- 채찍효과
+// [SCM]- 채찍효과 
 '# 정의 : 소비자 수요 반응 나비효과 / 공급망 수요 정보 왜곡 / 공급업체 과잉,과소 생산 현상<br/>\
 - Bullwhip Effect <br/>\
 - 공급망상에서 시장의 수요 정보가 유통업체를 거쳐 공급업체로 움직이면서 왜곡이 발생하여 공급업체들이 과잉 또는 과소 생산하는 현상<br/>\
@@ -1583,7 +1582,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 - 대기업 부분참여 도입 : 공동수급자 사업비 20% 이내 참여 <br/><br/>\
 * ITPE 8회 관리 3교시 4번\
 ',
-
+ 
 // 소프트웨어 영향 평가 제도
 '# 정의 : 민간 SW 시장 및 SW 산업 생태계 영향을 평가, 개선하는 제도 <br/>\
 - 국가 정보화 시행 계획에 SW 영향평가 제도를 반영하여 공공 정보화 사업의 기획 단계부터 민간 시장에 미치는 부정적 영향을 평가 제도 <br/><br/>\
@@ -1621,7 +1620,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 - 사례 : 스마트 온도계 예상 절약 금액 공지 \
 ',
 
-// Philip Crosby의 품질경영 성숙도 모델 5단계
+// Philip Crosby의 품질경영 성숙도 모델 5단계 
 '1. 불확실성(Uncertainty)<br/>\
 2. 인지(Awakening)<br/>\
 3. 이해(Enlightenment)<br/>\
@@ -1652,7 +1651,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 - 적절한 IT 투자 의사결정 도구 부족 : IT 투자 타당성 평가 위한 다양, 복합적인 의사결정 지원도구 부족 <br/><br/>\
 * 122회 관리 3교시 5번\
 ',
-
+ 
 // IT 투자 성과 평가
 '# 정의 : 투자/품질/이용/효과, 전략적, 정성적 타당성 평가 <br/>\
  - 조직의 투자에 대한 목표 달성 기여도를 투자/품질/이용/효과 측면에서 전략적, 정성적으로 타당성을 평가하는 활동 <br/><br/>\
@@ -1684,8 +1683,8 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 * 122회 관리 3교시 5번 <br/>\
 * 119회 관리 2교시 3번\
 ',
-
-// IT 투자 평가 항목
+ 
+// IT 투자 평가 항목 
 '# 정량적 평가 항목 <br/>\
 - EVA (Economic Value Added) : IT(수익-투자) <br/>\
 - TCO (Total Cost Ownership) : 직접 + 간접 <br/>\
@@ -1705,7 +1704,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 // 나라장터 절차
 '<img src = "./img/나라장터.png" style = "max-width:100%; height:auto;">\
 ',
-
+  
 // COBIT 5.0
 '# 정의 : 실행, 수준 진단 / 통제, 감사, 개선 / IT-Governance Framework <br/>\
 - IT 거버넌스 실행, 수준 진단 통해 IT 통제, 감사, 개선에 사용되는 IT 거버넌스 프레임워크 <br/><br/>\
@@ -1736,7 +1735,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 - 인력/스킬/전문성 : 모든 활동 및 의사결정을 수행하는 인적 역량 <br/><br/>\
 * KPC 90회 관리 1교시 7번\
 ',
-
+ 
 // IT-Compliance
 '# 정의 : 내,외부 규제에 대한 통제활동 <br/>\
 - 기업의 투명성 강화, 리스크 관리를 위하여 정부나 관련 기관이 제시한 각종 규제, 법안 등에 만족될 수 있도록 IT 관점에서 시스템을 재정비하는 활동 <br/><br/>\
@@ -1776,7 +1775,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 - 기술 측면 : 문서보호 도입, 데이터 보호 기술, 외부 침해 대응, 내부 오남용 대응 <br/><br/>\
 * 116회 관리 2교시 5번\
 ',
-
+ 
 // 규제 샌드박스
 '# 정의 : 일정 기간 규제 면제, 일부 적용 않는 제도 <br/>\
 - 관련 법령의 허가 등 규제로 인해 사업 시행이 어려운 신기술,서비스를 대상으로 일정 기간 동안 규제의 전부 또는 일부를 적용하지 않는 제도 <br/><br/>\
@@ -1787,13 +1786,13 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 - 법령정비(필요시) : 관계기관의 장 <br/><br/>\
 <img src = "./img/SandBox.png" style = "max-width:100%; height:auto;">\
 ',
-
+ 
 // 매매 임치제도
 '# 정의 : SW 유지보수 지속 담보 보험 <br/>\
 - 저작권자가 소프트웨어의 유지보수를 계속 수행할 수 없는 경우를 대비하여 신뢰성 있는 제3기관에 소스코드와 정보기술을 임치해 두는 제도 <br/>\
 - <font color = "red">저작권법 제101조의 7</font> (프로그램의 임치) \
 ',
-
+ 
 // Design Thinking
 '# 정의 : 공감적 관찰 통한 창의적 문제해결 <br/>\
 - "사람과 사물"에 대한 공감적 관찰 (Empathic Observation)을 통해 문제 재해석 (Reframing Issue) 하고, 시각적 아이디어 도출, 프로토 타입 제작 통해 솔루션 도출하는 통합적 사용자 중심 문제 해결 방법론 <br/><br/>\
@@ -1810,7 +1809,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 - 테스트 : 사용성 테스트, 반복적 테스트 / 프로토타이핑 테스트, 피드백 <br/><br/>\
 * 119회 관리 1교시\
 ',
-
+ 
 // Servitization
 '# 정의 : 제품과 서비스의 결합 <br/>\
 - 기존 제품 판매에서 제품 서비스를 판매하는 시스템의 변화를 통해 부가가치를 창출하는 기업의 경쟁력 개선에 대한 혁신 및 기업 전략 <br/><br/>\
@@ -1822,7 +1821,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 - 제품의 서비스화 : 정수기 판매시 필터 관리 서비스 <br/>\
 - 서비스의 제품화 : 검색 O/S 서비스 완벽함 위해 넥서스 폰 제공 \
 ',
-
+ 
 // 대기행렬이론
 '# 정의 : 적정서비스를 유지하기위한 이론 <br/>\
 - Queuing Theory <br/>\
@@ -1848,7 +1847,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 <img src = "./img/QueingTheoryTarget.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 116회 3교시 5번 \
 ',
-
+ 
 // 대기행렬 시스템
 '# 정의 : 서비스를 제공하는 서비스제공자와 서비스를 받기 위한 대기행렬이 존재하는 시스템 <br/><br/>\
 # 구성요소 <br/>\
@@ -1910,14 +1909,5 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 - MMR : <font color = "red">MMF의 모든</font> 기능 제공 <br/>\
 - MMP : <font color = "red">MMR의 최초</font> 버전 <br/><Br/>\
 * ITPE 합숙 124회 2일차 관리 1교시 2번\
-',
-
-// 테스트 bs
-'# 정의 : 솰라솰라 <br/>\
-- Minimum Viable Product <br/>\
-- 초기 사용자들이 관심과 구매 의사 및 피드백을 제공할 것으로 예상되는 핵심 가치(기능)을 선정하고 시간과 돈을 최소한 투입하여 구현한 제품 혹은 서비스 <br/><br/>\
-# 개념도 <br/>\
-<img src = "./img/MVP_Overview.png" style = "max-width:100%; height:auto;"><br/><br/>\
-
 ',
 );
