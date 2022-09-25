@@ -3,19 +3,19 @@ var question = question.concat(
 'MECE',
 '[Standard]- 국제 표준화 기구',
 '[Standard]- de facto standard',
-'ITSM',
-'[ITSM]- SoW/SLA/SLM',
-'[ITSM]- SLA',
-'[ITSM][SLA]- Penalty/Incentive',
-'[ITSM][SLA]- SIP',
-'[ITSM][SLA]- Annual Reset',
-'[ITSM]- OLA',
-'[ITSM]- SLM',
+'<h3 style="color:blue">ITSM</h3>',
+'<h3 style="color:blue">[ITSM]- SoW/SLA/SLM</h3>',
+'<h3 style="color:blue">[ITSM]- SLA</h3>',
+'<h3 style="color:blue">[ITSM][SLA]- Penalty/Incentive</h3>',
+'<h3 style="color:blue">[ITSM][SLA]- SIP</h3>',
+'<h3 style="color:blue">[ITSM][SLA]- Annual Reset</h3>',
+'<h3 style="color:blue">[ITSM]- OLA</h3>',
+'<h3 style="color:blue">[ITSM]- SLM</h3>',
 '아웃소싱 운영관리 메뉴얼',
-'[ITSM]- 장애 관리',
-'[ITSM]- 문제 관리',
+'<h3 style="color:blue">[ITSM]- 장애 관리</h3>',
+'<h3 style="color:blue">[ITSM]- 문제 관리</h3>',
 'ISO 31000',
-'ITIL',
+'<h3 style="color:blue">ITIL</h3>',
 '[ITIL]- SKMS',
 '[정보화 사업]- Enterprise Arcitecture',
 '[정보화 사업]- Information Strategy Plan',
@@ -39,8 +39,8 @@ var question = question.concat(
 'BABOK',
 '[성과관리 방법]- BSC',
 '[성과관리 방법]- BSC 전략맵',
-'[성과관리 방법]- IT-BSC',
-'ESG 경영',
+'[성과관리 방법]- <h3 style="color:blue">IT-BSC</h3>',
+'<h3 style="color:blue">ESG 경영</h3>',
 '[성과관리 방법]- MBO',
 '[성과관리 방법]- OKR',
 '코호트분석(Cohort Analysis)',
@@ -57,17 +57,17 @@ var question = question.concat(
 '[Governance]- 데이터 분석 거버넌스',
 'ISO 26000',
 '[ISO 26000]- CSR',
-'BCP',
-'[BCP]- RTO, RPO',
-'[BCP]- BIA',
-'[BCP]- ISO 22301',
-'[BCP]- DRS',
-'[BDP]- DRP',
-'[BCP]- BPR',
-'[BCP]- PI',
-'TOC',
-'[환경분석]- 5 Force',
-'[환경분석]- 7S',
+'<h3 style="color:blue">BCP</h3>',
+'<h3 style="color:blue">[BCP]- RTO, RPO</h3>',
+'<h3 style="color:blue">[BCP]- BIA</h3>',
+'<h3 style="color:blue">[BCP]- ISO 22301</h3>',
+'<h3 style="color:blue">[BCP]- DRS</h3>',
+'<h3 style="color:blue">[BDP]- DRP</h3>',
+'<h3 style="color:blue">[BCP]- BPR</h3>',
+'<h3 style="color:blue">[BCP]- PI</h3>',
+'<h3 style="color:blue">TOC</h3>',
+'<h3 style="color:blue">[환경분석]- 5 Force</h3>',
+'<h3 style="color:blue">[환경분석]- 7S</h3>',
 '빅블러 현상',
 '옴니채널(Omni-Channel)',
 '[옴니채널]- 쇼루밍',
@@ -82,14 +82,14 @@ var question = question.concat(
 '[공공 소프트웨어 사업 제안 요청서 작성 가이드라인]- 제안서 평가',
 '[공공 소프트웨어 사업 제안 요청서 작성 가이드라인]- 공급자 선정',
 '공공SW사업 대기업 참여제한 제도',
-'소프트웨어 영향 평가 제도',
+'<h3 style="color:blue">소프트웨어 영향평가 제도</h3>',
 '넛지(Nudge) 이론',
 'Philip Crosby의 품질경영 성숙도 모델 5단계',
 'KANO Model',
 '마세라티 문제(Maserati Problem)',
-'[IT-BS]- IT 투자',
-'[IT-BS]- IT 투자 성과 평가',
-'[IT-BS]- IT 투자 평가 항목',
+'<h3 style="color:blue">[IT-BS]- IT 투자</h3>',
+'<h3 style="color:blue">[IT-BS]- IT 투자 성과 평가</h3>',
+'<h3 style="color:blue">[IT-BS]- IT 투자 평가 항목</h3>',
 '나라장터 ',
 'COBIT 5.0',
 'IT-Compliance',
@@ -101,6 +101,7 @@ var question = question.concat(
 '[대기행렬]- 대기행렬 시스템',
 'Value Chain',
 'MVP',
+'<h3 style="color:blue">IT 거버넌스 프레임워크(IT Governance Framework)</h3>',
 );
 
 var answer = answer.concat(
@@ -1483,7 +1484,8 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 - EDI(Electric Data Interface) <br/>\
 - ABC(Activity Based Cost) <br/>\
 - EFT(find Trasnfer) : 금융기관과의 청구 자금 정보 전자 교환<br/>\
-- Barcode / RFID \
+- Barcode / RFID <br/>\
+<img src = "./img/erp_mes_scm_crm.PNG" style = "max-width:100%; height:auto;"><br/>\
 ',
 
 // [SCM]- 채찍효과
@@ -1909,5 +1911,17 @@ A(10) 개선 : 부적합 <font color = "red">시정조치</font>, 개선 <br/>\
 - MMR : <font color = "red">MMF의 모든</font> 기능 제공 <br/>\
 - MMP : <font color = "red">MMR의 최초</font> 버전 <br/><Br/>\
 * ITPE 합숙 124회 2일차 관리 1교시 2번\
-'
+',
+
+//IT 거버넌스 프레임워크(IT Governance Framework)
+'# 정의 : IT와 관련된 Resource/Process / 관리 통제 / 프로세스 및 방법 집합</br>\
+기업의 전략과 목표에 부합되도록 IT와 관련된 Resource와 Process를 통제/관리 체계인 IT거버넌스를 수행하 기 위한 개념, 구조, 규칙, 프로세스 및 방법의 집합<br/>\
+<br/>\
+* 영역 : 전가위자성 SIRRP<br/>\
+  - 전략적연계(Strategic Alignment : EA/ITA, ISP)<br/>\
+  - IT가치전달(Value Delivery : ERP, SCM, CRM, EP)<br/>\
+  - 위험관리(Risk Mgnt : BCP, DRP) <br/>\
+  - 자원관리(Resource Mgmt : IRM, ILM, ITAM, KMS)<br/>\
+  - 성과관리(Performance Mgmt : BSC, IT BSC)<br/>\
+',
 );
