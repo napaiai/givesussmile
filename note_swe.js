@@ -403,7 +403,7 @@
 '[사업자 선정]- 협상 의한 계약체결',
 '[사업자 선정]- 낙찰자 결정방식',
 'Marshalling',
-'<h3 style="color:blue">ALM</h3>',
+'<font color="blue" size=4 face="impact">ALM</font>',
 'SW Visualization',
 'SW안전 확보 지침',
 'Integrated Development Equipment',
