@@ -196,35 +196,35 @@
 '[운영유지보수]- Lehman 소프트웨어 변화',
 '프로젝트 관리계획서',
 '[관리표준][PMBOK]- 통합관리',
-'[관리표준][PMBOK]- <font color="blue" size=4 face="impact">범위관리</font>',
-'[PMBOK]-[범위관리]- <font color="blue" size=4 face="impact">형상관리</font>',
-'[PMBOK]-[범위관리]- <font color="blue" size=4 face="impact">형상관리 베이스라인</font>',
-'[관리표준][PMBOK]- <font color="blue" size=4 face="impact">WBS</font>',
+'[관리표준][PMBOK]- 범위관리',
+'[범위관리]- 형상관리',
+'[범위관리]- 형상관리 베이스라인',
+'[관리표준][PMBOK]- WBS',
 '[관리표준][PMBOK]- Gold Plating',
-'[관리표준][PMBOK]- <font color="blue" size=4 face="impact">Resource Leveling</font>',
+'[관리표준][PMBOK]- Resource Leveling',
 '[관리표준][PMBOK]- 브룩스 법칙',
 '[관리표준][PMBOK]- 수확 체감의 법칙',
 '[관리표준][PMBOK]- 범위 크립',
-'[관리표준][PMBOK]- <font color="blue" size=4 face="impact">원가관리</font>',
-'[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질관리</font>',
-'[PMBOK]- [관리표준]- SW Metrics',
-'[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질비용</font>',
-'[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질관리QC7도구</font>',
-'[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질관리신QC7도구</font>',
+'[관리표준][PMBOK]- 원가관리',
+'[관리표준][PMBOK]- 품질관리',
+'[관리표준]- SW Metrics',
+'[관리표준][PMBOK]- 품질비용',
+'[관리표준][PMBOK]- 품질관리QC7도구',
+'[관리표준][PMBOK]- 품질관리신QC7도구',
 '[관리표준][PMBOK]- 인적자원관리',
 '[관리표준][PMBOK]- 터크만 팀 발달 5단계',
 '[관리표준][PMBOK][터크만]- 동기부여이론',
 '[관리표준][PMBOK][터크만][동기부여]- 내용이론',
 '[관리표준][PMBOK][터크만][동기부여]- 과정이론',
-'[관리표준][PMBOK]- <font color="blue" size=4 face="impact">프로젝트 위험</font>',
-'[관리표준][PMBOK]- <font color="blue" size=4 face="impact">프로젝트 위험관리</font>',
-'[관리표준][PMBOK]- <font color="blue" size=4 face="impact">프로젝트 위험요소</font>',
-'[관리표준][위험관리]- <font color="blue" size=4 face="impact">정성적 위험분석</font>',
-'[관리표준][위험관리]- <font color="blue" size=4 face="impact">정량적 위험분석</font>',
-'[PMBOK]- [위험관리][정량적 위험분석]- <font color="blue" size=4 face="impact">민감도 분석</font>',
-'[PMBOK]- [위험관리][정량적 위험분석]- <font color="blue" size=4 face="impact">의사결정나무 분석</font>',
-'[PMBOK]- [위험관리][모의실험]- <font color="blue" size=4 face="impact">몬테카를로 시뮬레이션</font>',
-'[PMBOK]- [위험관리][모의실험]- <font color="blue" size=4 face="impact">EMV</font>',
+'[관리표준][PMBOK]- 프로젝트 위험',
+'[관리표준][PMBOK]- 프로젝트 위험관리',
+'[관리표준][PMBOK]- 프로젝트 위험요소',
+'[관리표준][위험관리]- 정성적 위험분석',
+'[관리표준][위험관리]- 정량적 위험분석',
+'[위험관리][정량적 위험분석]- 민감도 분석',
+'[위험관리][정량적 위험분석]- 의사결정나무 분석',
+'[위험관리][모의실험]- 몬테카를로 시뮬레이션',
+'[위험관리][모의실험]- EMV',
 '[관리표준][PMBOK]- 조달관리(구매)',
 '[관리표준][PMBOK]- 이해관계자관리',
 '[관리표준][PMBOK][이해관계자]- 현저성 모델',
@@ -3632,13 +3632,13 @@ var answer = answer.concat(
 - 형상항목 : 프로젝트에서 공식적으로 정의된 관리 대상 <br/>\
 - 형상물 : 형상항목의 실제 대상 컨텐츠 <br/>\
 - 형상버전 : 기준선 설정 이후 일어난 변경 기록 <br/>\
-- <font color="blue" size=4 face="impact">CCB</font>(Configuration Control Board) <br/><br/>\
+- CCB(Configuration Control Board) <br/><br/>\
 # 절차 (<font color = "red">식통감기</font>) <br/>\
 - 준비 : 형상항목 식별, 통제, 평가 수행 방안 수립 <br/>\
-- <font color="blue" size=4 face="impact">식</font>별 : 형상 관리 대상 구분, Numbering / 소스코드 목록, 기준선, 관리체계 <br/>\
-- <font color="blue" size=4 face="impact">통</font>제 : SW Baseline 반영 통제 / 변경 요청서, 검토,승인서, 변경 보고서 <br/>\
-- <font color="blue" size=4 face="impact">감</font>사 : SW Baseline 무결성 평가 수단 / 계획서, 보고서 <br/>\
-- <font color="blue" size=4 face="impact">기</font>록 : 형상 및 변경관리 대한 기록, 보고서 작성 / 상태 기록 문서, 상태 보고서 <br/><br/>\
+- 식별 : 형상 관리 대상 구분, Numbering / 소스코드 목록, 기준선, 관리체계 <br/>\
+- 통제 : SW Baseline 반영 통제 / 변경 요청서, 검토,승인서, 변경 보고서 <br/>\
+- 감사 : SW Baseline 무결성 평가 수단 / 계획서, 보고서 <br/>\
+- 기록 : 형상 및 변경관리 대한 기록, 보고서 작성 / 상태 기록 문서, 상태 보고서 <br/><br/>\
 # 도구 <br/>\
 1. 저장관리 측면 <br/>\
 - CVS, SVN : 변경사항 추적, 관리 도구 <br/>\
@@ -3754,22 +3754,22 @@ var answer = answer.concat(
 '# 정의 : 품질보증, 통제 수행 절차 <br/>\
 - 품질 정책, 목표 책임사항을 결정하여 품질보증, 통제를 수행하는 절차 <br/><br/>\
 # 구성 <br/>\
-- <font color="blue" size=4 face="impact">품질 계획</font>(QM) : 품질계획 관리 <br/>\
-- <font color="blue" size=4 face="impact">품질 통제</font>(QC) : 변경요청 <br/>\
-- <font color="blue" size=4 face="impact">품질 보증</font>(QA) : 품질통제측정치, 변경요청<br/><br/>\
+- 품질 계획(QM) : 품질계획 관리 <br/>\
+- 품질 통제(QC) : 변경요청 <br/>\
+- 품질 보증(QA) : 품질통제측정치, 변경요청<br/><br/>\
 # 도구 (<font color = "red">7벤실 브명흐 친우)</font>)<br/>\
-- <font color="blue" size=4 face="impact">7</font>QC Tools : 기본 품질도구 <br/>\
-- <font color="blue" size=4 face="impact">벤</font>치마킹 : 품질목표 수준 설정시 <br/>\
-- <font color="blue" size=4 face="impact">실</font>험 설계법 : 제품에 영향 요인 분석시 <br/>\
-- <font color="blue" size=4 face="impact">브</font>레인스토밍 : 문제해결 의견 모집시 <br/>\
-- <font color="blue" size=4 face="impact">명</font>목 집단법 : 간섭 없이 우선순위 정할때 <br/>\
-- <font color="blue" size=4 face="impact">흐</font>름도 : 프로세스 개선점 도출시 <br/>\
-- <font color="blue" size=4 face="impact">친</font>화도 : 브레인스톰이 아이디어 그룹핑 <br/>\
-- <font color="blue" size=4 face="impact">우</font>선순위 매트릭스 : 여러 대안 체계적 평가시 <br/><br/>\
+- 7QC Tools : 기본 품질도구 <br/>\
+- 벤치마킹 : 품질목표 수준 설정시 <br/>\
+- 실험 설계법 : 제품에 영향 요인 분석시 <br/>\
+- 브레인스토밍 : 문제해결 의견 모집시 <br/>\
+- 명목 집단법 : 간섭 없이 우선순위 정할때 <br/>\
+- 흐름도 : 프로세스 개선점 도출시 <br/>\
+- 친화도 : 브레인스톰이 아이디어 그룹핑 <br/>\
+- 우선순위 매트릭스 : 여러 대안 체계적 평가시 <br/><br/>\
 # 절차 (<font color = "red">계보통</font>)<br/>\
-- <font color="blue" size=4 face="impact">계</font>획 수립 <br/>\
-- <font color="blue" size=4 face="impact">보</font>증 수행 <br/>\
-- <font color="blue" size=4 face="impact">통</font>제 수행 \
+- 계획 수립 <br/>\
+- 보증 수행 <br/>\
+- 통제 수행 \
 ',
 
 // SW Metrics
@@ -3793,8 +3793,8 @@ var answer = answer.concat(
 '# 정의 : 품질 실현 발생 비용 <br/>\
 - 요구된 품질을 실현하기 위한 원가, 품질활동 수행을 위해 발생하는 비용 <br/><br/>\
 # 구성요소 <br/>\
-- <font color="blue" size=4 face="impact">적합</font>비용 : <font color="blue" size=4 face="impact">예</font>방비용, <font color="blue" size=4 face="impact">평</font>가비용 <br/>\
-- <font color="red" size=4 face="impact">부적합</font>비용 : <font color="red" size=4 face="impact">내</font>부 실패, <font color="red" size=4 face="impact">외</font>부 실패 <br/>\
+- 적합비용 : 예방비용, 평가비용 <br/>\
+- 부적합비용 : 내부 실패, 외부 실패 <br/>\
 - 총비용 : 통제비용 + 통제실패비용 <br/>\
 - 적절 품질비용 : 수용가능 품질수준 확보수준 확보할 수 있는 비용 \
 ',
@@ -4001,7 +4001,7 @@ P 히스토그램 : Data 분포 <br/>\
 ',
 
 // [PMBOK 5th edition]- 민감도 분석 <br/>\
-'# 정의 : <font color="blue" size=4 face="impact">평가 방법 / 불확실성 / 목표 영향</font> <br/>\
+'# 정의 : 평가 방법 / 불확실성 / 목표 영향 <br/>\
 - Sensativity Analysis <br/>\
 - 프로젝트 요소의 불확실성이 검토 대상 목표에 미칠 영향력을 평가하는 방식 <br/><br/>\
 # 예시 <br/>\
@@ -4010,7 +4010,7 @@ P 히스토그램 : Data 분포 <br/>\
 ',
 
 // 의사결정나무 분석
-'# 정의 : <font color="blue" size=4 face="impact">도표화 / 분류, 예측 / 정량적 분석 기법 </font><br/>\
+'# 정의 : 도표화 / 분류, 예측 / 정량적 분석 기법 <br/>\
 - 의사결정 규칙을 도표화하여 관심대상이 되는 집단을 몇 개의 소집단으로 분류하거나 예측을 수행하는 정량적 분석 기법 <br/><br/>\
 # 특징 <br/>\
 - Tree 형태 규칙 표현, 쉽게 이해 되고 활용 가능 <br/>\
@@ -4021,7 +4021,7 @@ P 히스토그램 : Data 분포 <br/>\
 ',
 
 // 몬테카를로 시뮬레이션
-'# 정의 : <font color="blue" size=4 face="impact">확률모형 모수, 변수 반복적 대입 / 확률 변수 분포 산정</font> <br/>\
+'# 정의 : 확률모형 모수, 변수 반복적 대입 / 확률 변수 분포 산정 <br/>\
 - 특정 변수를 예측하기 위해 확률모형의 모수나 변수에 대해 반복적으로 여러 수치를 대입하여 확률 변수의 분포를 산정하는 기법 <br/>\
 - 일련의 난수를 반복적으로 생성하여 계산 가능한 함수의 값을 확률적으로 계산하는 알고리즘 <br/><br/>\
 # 절차 <br/>\
