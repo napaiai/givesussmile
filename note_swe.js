@@ -23,7 +23,7 @@
 '[계획단계]- 예비타당성 조사',
 '[분석단계]- 요구공학',
 '[분석단계]- 요구공학 프로세스',
-'[분석단계][요구공학]- SRS',
+'[분석단계][요구공학]-SRS',
 '[분석단계][요구공학]- 요구사항 추적성',
 '[분석단계][요구공학]- 요구사항 도출',
 '[분석단계][요구공학]- 요구사항 수집기법',
@@ -813,7 +813,7 @@ var answer = answer.concat(
 ',
 
 // 요구공학
-'# 정의 : SW 사용자의 기능적/비기능적 요구사항을 체계적으로 수집,추출,분석,명세화,검증,변경관리하는 절차를 수행하는 공학기법 <br/><br/>\
+'# 정의 : SW 사용자의 기능적/비기능적 요구사항을 체계적으로 수집,<strong><span style="color: #ff0000;">추</span></strong>출,<strong><span style="color: #ff0000;">분</span></strong>석,<strong><span style="color: #ff0000;">명</span></strong>세화,<span style="color: #ff0000;"><strong>검</strong></span>증,<span style="color: #ff0000;"><strong>변</strong></span>경관리하는 절차를 수행하는 공학기법 <br/><br/>\
 # 특징 <br/>\
 - 추적성 제공 : 요구사항 추적표, 단계적 산출물 추적하여 관리 <br/>\
 - 범위기준선 제공 : 범위 정의, WBS 작성하여 기준선 제공 <br/>\
@@ -4183,8 +4183,8 @@ P 히스토그램 : Data 분포 <br/>\
 '# 정의 : Software Quality <br/>\
 - 주어진 요구사항을 만족시키는 소프트웨어 제품의 특성과 생산성 <br/><br/>\
 # 표준 모델 <br/>\
-- 제품품질 : ISO 9126, ISO 14598, ISO 12119, ISO 9001, 9002, ISO 25000<br/>\
-- SW 프로세스 품질 : ISO 12207, CMMI, SPICE <br/>\
+- 제품품질 : ISO <font color="blue" size=4 face="impact">9126</font>, ISO <font color="blue" size=4 face="impact">14598</font>, ISO <font color="blue" size=4 face="impact">12119</font>, ISO 9001, 9002, ISO 25000<br/>\
+- SW 프로세스 품질 : ISO <font color="red" size=4 face="impact">12207</font>, <font color="red" size=4 face="impact">CMMI</font>, <font color="red" size=4 face="impact">SPICE </font><br/>\
 - 품질경영 : 6 시그마, ISO 9000 \
 ',
 

@@ -1,0 +1,9 @@
+      p {
+        font-family: "Arial Black", sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        color: #ffffff;
+      }
+      .s1 { text-shadow: 2px 2px 2px gray; }
+      .s2 { text-shadow: 4px 2px 2px gray; }
+      .s3 { text-shadow: 6px 2px 2px gray; }
