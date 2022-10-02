@@ -172,7 +172,7 @@ var answer = answer.concat(
 * ITPE 6회 관리 1교시 1번\
 ',
 
-// 데이터무결성 
+// 데이터무결성
 '# Data 무결성 : 데이터 보호 성질 / ACID / 무효갱신 <br/>\
 - 데이터의 ACID 확보 위해 무효갱신으로부터 데이터를 보호하는 성질 <br/>\
 - 주어진 속성의 값이 그 속성이 정의된 도메인에 속한 값이어야 한다는 규정 <br/><br/>\
@@ -252,7 +252,7 @@ var answer = answer.concat(
 <img src = "./img/ACID_4.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 94회 4교시 5번\
 ',
-  
+
 // Isolation Level
 '# 정의 : 타 트랜잭션 접근 가능 여부 정의 수준 <br/>\
 - 트랜잭션 실행 중 결과에 대한 다른 트랜잭션의 접근가능 여부를 정의한 수준 <br/><br/>\
@@ -269,7 +269,7 @@ var answer = answer.concat(
 - Phantom Read : Query 2 수행시, Phantom Record 발생 / Isolation Level 3 <br/><br/>\
 * 119회 1교시 13번\
 ',
-   
+
 // 데이터 독립성
 '# 정의 : 스키마 정의 변경 성질 / 상위 하위 / <br/>\
 - 상위 단계 스키마 정의에 영향주지 않으면서 하위 단계 스키마 정의를 변경할 수 있는 성질 <br/><br/>\
@@ -386,7 +386,7 @@ var answer = answer.concat(
 <img src = "./img/Lock양립성.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 95회 관리 2교시 5번\
 ',
-  
+
 // 2PL
 '# 정의 : Lock, Unlock / 확장, 수축 단계 / Locking 기법 <br/>\
 - 모든 트랜잭션들이 Lock과 Unlock 연산을 확장단계와 수축단계로 구분하여 수행하는 Locking 기법 <br/><br/>\
@@ -397,7 +397,7 @@ var answer = answer.concat(
 <img src = "./img/2PL_Trans.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 89회 관리 3교시 6번\
 ',
-  
+
 // Phantom Conflict
 '# 정의 : 가상 튜플에 의한 충돌 <br/>\
 - 두 개 이상의 트랜잭션이 실제 데이터베이스에 저장되어 있는 튜플이 아니라, <font color = "red">데이터베이스에 삽입되려고 하는 가상의 튜플</font>, 즉 팬텀 튜플에 의해 트랜잭션이 충돌되어 <font color = "red">일관성/무결성</font>이 보장되지 않는 현상 <br/><br/>\
@@ -410,7 +410,7 @@ var answer = answer.concat(
 - 고립성 수준 높임 : 3단계, Serializable 설정 <br/><br/>\
 * KPC 94회 1교시 11번\
 ',
-  
+
 // MVCC
 '# 정의 : SCN 기반 / Lock 사용 x / 읽기 일관성 보장 기법 <br/>\
 - 트랜잭션 접근시 여러 버전 타임스탬프 비교, 직렬가능성 보장 적절한 버전 선택 접근 기법 <br/><br/>\
@@ -443,7 +443,7 @@ var answer = answer.concat(
 - Read Only : Commit된 변경사항만 열람 가능, insert, update, delete 허용않음 <br/><br/>\
 * 111회 관리 1교시 8번\
 ',
-  
+
 // 낙관적 검증
 '# 정의 : 트랜잭션 종료시 일괄적 검사 기법 <br/>\
 - 트랜잭션 수행 동안은 어떠한 검사도 하지 않고, 트랜잭션 종료 시에 일괄적으로 검사하는 방법 <br/><br/>\
@@ -462,7 +462,7 @@ var answer = answer.concat(
 # 유효성 검사 <br/>\
 <img src = "./img/ValidationCheck.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // 회복기법
 '# 정의 : 복원 기법 / DB 장애시 / 발생이전 <br/>\
 - DB에 장애 발생시 발생 이전의 일관된 상태(Consistent State)로 복원하는 기법 <br/><br/>\
@@ -484,7 +484,7 @@ var answer = answer.concat(
 <img src = "./img/회복기법_1.png" style = "max-width:100%; height:auto;"><br/>\
 <img src = "./img/회복기법_2.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // Log 기반
 '<img src = "./img/회복기법_4.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 지연갱신 <br/>\
@@ -495,7 +495,7 @@ var answer = answer.concat(
 - 트랜잭션 수행 도중에도 변경 내용을 <font color = "red">즉시</font> 데이터베이스에 기록 <br/>\
 - 커밋 발생 이전의 갱신은 원자성이 보장되지 않는 미완료 갱신이므로 <font color = "red">UNDO 필요</font>\
 ',
-  
+
 // 그림자 페이지
 '<img src = "./img/ShadowPaging.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 특징 <br/>\
@@ -503,14 +503,14 @@ var answer = answer.concat(
 - Tx 성공할 경우 Shadow Page Table 삭제 <br/>\
 - Tx 실패할 경우 Shadow Page Table을 Current Page Table 로 복사 \
 ',
-  
+
 // 체크포인트 회복기법
 '# 정의 : 장애발생시에 체크포인트 이후 처리된 트랜잭션에 대해서만 회복작업을 시행하는 방법 <br/><br/>\
 # 개념도 <br/>\
 <img src = "./img/회복기법_3.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 96회 관리 4교시 3번\
 ',
-  
+
 // 미디어 회복기법
 '# 특징 <br/>\
 - 디스크와 같은 비휘발성 저장 장치가 손상되는 장애 발생 대비 <br/>\
@@ -533,7 +533,7 @@ var answer = answer.concat(
 <font color = "red">* NO STEAL/FORCE 정책 : 구현 Good 성능 Bad <br/>\
 * STEAL/NO FORCE 정책 : 성능 Good</font>\
 ',
-  
+
 // ARIES
 '# 정의 : WAL(로그선행기록), LSN(로그순서번호) / 회복기법 <br/>\
 - Algorithms for Recovery and Isolation Exploiting Semantics <br/>\
@@ -555,7 +555,7 @@ var answer = answer.concat(
 <img src = "./img/AriesFlow.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 96회 관리 4교시 3번\
 ',
-  
+
 // SAGA
 '# 정의 : 비동기 메시징(버퍼링) / 로컬 트랜잭션 <br/>\
 - 데이터 일관성 유지를 위해 비동기 메시징(버퍼링)을 이용하여 편성한 일련의 로컬 트랜잭션 <br/><br/>\
@@ -594,7 +594,7 @@ var answer = answer.concat(
 - Orchestration-Based Saga <br/><br/>\
 * KPC 97회 3교시 관리 1번\
 ',
-  
+
 // Choreography-Based Saga
 '# 정의 : Local Tx / 완료 Event 발생 방식 <br/>\
 - <font color = "red">자신이 보유한</font> 서비스내 Local 트랜잭선을 관리하며, 트랜잭션이 종료되면 완료 Event 발생하는 방식 <br/><br/>\
@@ -609,7 +609,7 @@ var answer = answer.concat(
 - 장점 : 구축하기 쉬움 <br/>\
 - 단점 : 운영자 입장에서 트랜잭션 현재 상태 알기 어려움 \
 ',
-  
+
 // Orchestration-Based Saga
 '# 정의 : Saga 인스턴스(Manager) / 별도 존재 방식 <br/>\
 - 트랜잭션 처리를 위한 <font color = "red">Saga 인스턴스(Manager)</font>가 별도 존재하는 방식 <br/><br/>\
@@ -688,7 +688,7 @@ var answer = answer.concat(
 * 125회 관리 1교시 6번\
 ',
 
-// [정규화]- 암스트롱공리, 함수폐포, 자기참조관계 
+// [정규화]- 암스트롱공리, 함수폐포, 자기참조관계
 '# 암스트롱 공리 : 함수 종속 성질 추론 규칙 <br/>\
 - 릴레이션 R에 대해 X,Y,Z라는 애트리뷰트의 집합이 주어졌을 경우 여러가지 함수종속의 성질을 유도해 낼 수 있는 추론 규칙 <br/><br/>\
 # 함수폐포 : 추론 가능 함수 종속성 집합 <br/>\
@@ -903,7 +903,7 @@ var answer = answer.concat(
 * 124회 관리 2교시 5번\
 ',
 
-// Data Scientist 
+// Data Scientist
 '# 정의 : 데이터 분석 / 가치 발견 / 비즈니스 기회 창출 업무 수행자 <br/>\
 - 다양한 경로로 수집되는 대량의 데이터를 분석하여 구조화되지 않은 데이터의 숨겨진 가치를 발견하여 새로운 비즈니스 기회를 창출하는 업무를 수행 담당자 <br/><br/>\
 # 필요 역량 <br/>\
@@ -1018,7 +1018,7 @@ var answer = answer.concat(
 - 데이터보안인증(DQC-S) : 접근제어, 암호화, 작업결재, 취약점분석 -> 접압작취(1~4Level)<br/><br/>\
 * 라이지움 78회 3교시 6번\
 ',
-  
+
 // 인덱스
 '# 정의 : 별도 체계 저장 DB Object <br/>\
 - 데이터 검색속도 향상을 위하여 테이블에 저장된 로우를 식별 가능하도록 구조화된 형태의 테이블과 별도의 체계로 저장한 데이터베이스 오브젝트 <br/><br/>\
@@ -1148,7 +1148,7 @@ var answer = answer.concat(
 <img src = "./img/Hilbert_RTree.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 116회 1교시 13번\
 ',
-  
+
 // Hashing
 '# 정의 : Table / Function / 저장, 검색 수행기법 <br/>\
 - Hash Table 저장공간에 Hash Function 을 이용하여 저장과 검색을 수행하는 기법 <br/><br/>\
@@ -1313,7 +1313,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 변화 : MAX 함수 등의 기능 대신하여 사용 설정 \
 ',
 
-// 데이터 표준화 
+// 데이터 표준화
 '# 정의 : 데이터 원칙적 정의 규칙 수립 및 적용 <br/>\
 - 시스템별로 산재해 있는 데이터 정보 요소에 대한 명칭, 정의 규칙에 대한 원칙을 수립하여 이를 전사적으로 적용하는 것 <br/><br/>\
 <img src = "./img/데이터표준화_1.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -1372,7 +1372,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 * KPC 92회 관리 1교시 3번\
 ',
 
-// Optimizer 
+// Optimizer
 '# 정의 : 최적 비용 처리경로 생성 DBMS 내부 엔진 <br/>\
 - SQL을 가장 빠르고 효율적으로 수행할 최적의 처리경로를 생성해주는 DBMS 내부의 핵심엔진 <br/>\
 - 사용자가 구조화된 질의언어로 결과집합을 요구하면, 이를 생성하는데 필요한 처리경로는 DBMS에 내장된 옵티마이저가 자동으로 생성 <br/>\
@@ -1404,7 +1404,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 예산비용산정(테이블,인덱스에대한 통계정보 기초) -> 총비용이 낮은 실행계획 선택 <br/><br/>\
 * 라이지움 86회 4교시 5번\
 ',
-  
+
 // Data Block Access
 '# 정의 : Optimizer Data Scan 방식 <br/><br/>\
 # 종류 <br/>\
@@ -1420,7 +1420,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 <img src = "./img/DataBlockAccess.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 86회 4교시 5번\
 ',
-  
+
 // Parallel Operation
 '# 정의 : 하나의 SQL을 여러개 CPU가 처리하는 방법 <br/><br/>\
 # 종류 <br/>\
@@ -1478,7 +1478,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 '(<font color = "red">릴튜속식카</font>)<br/>\
 <img src = "./img/RelationDataModel.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // 연결함정
 '# 정의 : ER 모델 / 관계성 분실 현상<br/>\
 - ER 모델 상 관계가 연결되지만, 실제 관계 설정이 되지 않는 관계성 분실 현상 <br/><br/>\
@@ -1538,7 +1538,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 * 123회 관리 1교시 11번 <br/>\
 * 117회 관리 1교시 9번 \
 ',
-  
+
 // Column Family Store
 '# 정의 : Value 조합 저장 / 분산 데이터 베이스 형태 <br/>\
 - Key-Value Store 방식의 단점 극복 위해, Value 조합을 저장하는 분산 데이터 베이스 <br/><br/>\
@@ -1580,7 +1580,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 금융 : 데이터 연결성, 패턴 분석, 금융거래 이상 탐지 및 예방 <br/><br/>\
 * ITPE 8회 관리 2교시 5번\
 ',
-  
+
 // NoSQL 데이터 모델링 패턴
 '# 데이터 모델링 패턴(<font color = "red">CGH - DAA CIA TAM</font>) <br/>\
 1 Conceptual Techniques <br/>\
@@ -1609,9 +1609,17 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 <img src = "./img/CAP.png" style = "max-width: 100%; height: auto;"><br/>\
 - C+P : 데이터 발생, 변경시 수평적으로 확장된 클러스터내의 데이터 일관성을 즉각적으로 유지 (Couchbase, MongoDB, Appache HBase)<br/>\
 - A+P : 즉시는 아니더라도 데이터 일관성은 결국에는 유지 (Cassandra, Couchbase(XDCR), ScyllaDB)<br/>\
-- C+A : 데이터 발생, 변경시 수직적으로 확장된 시스템내에서 데이터 일관성을 즉각적으로 유지 (MySQL, Oracle)\
+- C+A : 데이터 발생, 변경시 수직적으로 확장된 시스템내에서 데이터 일관성을 즉각적으로 유지 (MySQL, Oracle)<br/><br/>\
+# CAP 이론 한계 : <br/>\
+분산환경에서는 P를 포기할수 없음. 네트워크 문제 가능성 필수불가결 <br/><br/>\
+1)NoSQL에서 CA는 없음 ( P환경 가정이므로. 무결점은 RDB만 가능한데 분산 환경을 가정한 이론이기 때문에 오류) <br/>\
+2)완벽한 CP,AP 시스템은 없고 현실은 대부분 중간쯤 위치한다. <br/>\
+-완벽한 CP : 모든 노드가 동일 응답을 하며, 장애시에도 돌아감 <br/>\
+->대신 고칠때까지 기다려야하니까 성능(A)포기  <br/>\
+- 완벽한 AP : 장애에도 이용가능하며, 장애시에도 돌아감  <br/>\
+->대신 C(일관성) 포기했으니까 서로 다른 데이터 받을수 있음. <br/>\
 ',
-  
+
 // PACELC
 '# 정의 : 장애, 정상 상황 고려 / CAP 한계 극복 / 분산 데이터베이스 시스템 분류 이론 <br/>\
 - 장애상황(Partition)과 정상상황(Else)을 모두 고려한 NoSQL 특성 설명 통한 CAP 이론의 한계점 극복, 분산 데이터베이스 시스템 분류 이론 <br/><br/>\
@@ -1759,7 +1767,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 * KPC 95회 4교시 6번\
 ',
 
-// 하둡 에코시스템 
+// 하둡 에코시스템
 '# 정의 : Big Data Platform 생태계 <br/>\
 - 비정형 데이터 분석 뿐만 아니라, 실시간 분석, 정형 데이터 처리, 분석 알고리즘 , Workflow, Visualization 등 빅데이터 분석을 위한 다양한 오픈소스 기반 시스템 <br/><br/>\
 # 구성요소 <br/>\
@@ -1777,7 +1785,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 <img src = "./img/HadoopEcoSystem.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 95회 4교시 6번\
 ',
-  
+
 // ISO 20547
 '# 개요 <br/>\
 <img src = "./img/ISO20547Overview.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -1788,7 +1796,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 국내 : ISO 20546, 빅데이터 개요 및 용어, 과기정통부 참여 중 <br/><br/>\
 * 120회 응용 1교시 4번\
 ',
-  
+
 // BigData 분석 방법론
 '# 정의 : 계층적 프로세스 모델\
 - <font color = "red">Phase-Task-Step</font>의 3계층으로 구성된 <font color = "red">계층적 프로세스 모델</font> <br/>\
@@ -1818,7 +1826,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 <img src = "./img/OpenDataPlatformReferenceModel_CirculationModel.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 94회 3교시 3번\
 ',
-  
+
 // 데이터 플래그십
 '# 정의 : 국민 체감 성공 사례 / 빅데이터 산업 활성화 목적위한 정책 <br/>\
 - 인공지능, 딥러닝과 같은 지능정보 기술을 적용한 신 서비스를 개발하고, 교통, 의료, 환경, 안전 등 다양한 분야에서 국민이 체감할 수 있는 성공사례(Flagship) 확산 당을 통해 사회 현안 해결 도모하는 제도 <br/><br/>\
@@ -1842,7 +1850,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 토지이상거래 알람 서비스 고도화 : 한국감정원 <br/><br/>\
 * 라이지움 87회 관리 2교시 5번\
 ',
-  
+
 // 단순 대치법
 '# 정의 : 결측값 대체 통계적 기법 <br/>\
 - Single Imputation <br/>\
@@ -1902,7 +1910,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 극 백분위수 대체 : <font color = "red">상위</font> p번째 백분위수보다 큰 값<br/><br/>\
 * ITPE 합숙 124회 1일차 관리 1교시 9번\
 ',
-  
+
 // 정보 시각화
 '# 정의 : 탐색, 관계, 해결안 도출 과정 <br/>\
 - 탐색을 통해 대상들 간의 숨겨진 관계를 찾아 활용하여 해결안을 도출하는 과정 <br/><br/>\
@@ -1920,7 +1928,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 # 정보 시각화 유형 (<font color = "red">시분공관비</font>)<br/>\
 <img src = "./img/InformationVisualizationType.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // D-Commerce
 '# 정의 : 커머스 시장의 새로운 트랜드 / 빅데이터 분석 / 맞춤형 상품 제공, 구매 유도<br/>\
 - 빅데이터와 커머스의 만남, 큐레이션 커머스 시대 도래 <br/>\
@@ -1960,7 +1968,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 * 116회 응용 2교시 1번\
 ',
 
-// Filtering 
+// Filtering
 '# 기법 <br/>\
 1. 학습 기반 <br/>\
 - Rule Based : 정의된 이상치 / 키워드 기반 스팸 매일 <br/>\
@@ -1973,11 +1981,11 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - PCA : 차원 축 집단 분류 필터링 <br/><br/>\
 * 116회 응용 2교시 1번\
 ',
-  
+
 // DB 확장성 확보 방안
 '<img src = "./img/DB_AddScale.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // Database Shard
 '# 정의 : 대용량 데이터베이스 처리를 위한 파티셔닝 단위 <br/>\
 - 대용량 데이터베이스를 가용성, 확장성, 성능향상 처리를 위해 데이터베이스를 분할하는(파티셔닝) 분할 단위 또는 개별 파티션 <br/><br/>\
@@ -1985,7 +1993,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 <img src = "./img/DatabaseShardType.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 119회 관리 1교시 8번\
 ',
-  
+
 // Database Partitioning
 '# 정의 : SQL Application 수정 없이 / 작은 단위 분할 / 물리적 분할 관리 기법 <br/>\
 - SQL 문이나 어플리케이션 수정없이, 큰 테이블이나 인덱스를 관리하기 쉬운 작은 단위로 분할하여 관리하기 위한 물리적인 분할 관리 기법 <br/><br/>\
@@ -2019,7 +2027,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 스냅샷 북제 : 특정 시점 모든 데이터, Agent, Folder, Distribution Agent, 변경 적을 시, 많은 리소스 <br/><br/>\
 * 120회 관리 4교시 4번\
 ',
-  
+
 // Data File Structure
 '<img src = "./img/DataFileStructure.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 87회 응용 3교시 6번\
@@ -2073,7 +2081,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 재현자료 <br/><br/>\
 라이지움 86회 1교시 13번\
 ',
-  
+
 // 통계 Overview
 '<img src = "./img/StaticsUnderstand.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 척도 <br/>\
@@ -2086,7 +2094,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 * 124회 관리 1교시 2번 <br/>\
 * 123회 관리 3교시 3번\
 ',
- 
+
 // 데이터 분석 전처리
 '# 개념 : 데이터를 특정 <font color = "red">분석 목적</font>에 맞게 분석 가능한 상태로 만드는 것 <br/><br/>\
 # 종류 : 정제(Cleansing), 누가치 대체(missing vlaue imputation), 날짜 파싱 <br/><br/>\
@@ -2108,7 +2116,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 연속형 자료 : 연속성 속성 가지는 자료 (신장, 체중) <br/><br/>\
 * KPC 95회 관리 4교시 3번\
 ',
-  
+
 // 기술통계
 '# 정의 : 변수, 자료 체계적 조직화 / 요약 기술 / 통계 방법 <br/>\
 - 하나의 변수나 집단 수량적 자료 체계적 조직화, 요약 기술해주는 통계적 방법 <br/><br/>\
@@ -2126,7 +2134,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 <img src = "./img/DescribeInferenceCompare.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 123회 관리 3교시 3번\
 ',
-  
+
 // 추론통계
 '# 정의 : 표본 통계치 / 추정 가설검증 / 통계 방법 <br/>\
 - 표본에서 나온 통계치로부터 모든 추정 가설검증하는데 사용하는 통계적 방법 <br/><br/>\
@@ -2141,7 +2149,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 관계검정 : 교차분석(Chi Square), 상관분석(Correlation), 회귀분석(Regression) <br/><br/>\
 * 123회 관리 3교시 3번\
 ',
-  
+
 // 표본 추출 방법
 '# 개념 : 연구대상 전체에서 선택된 일부를 선택하는 과정 <br/><br/>\
 # 확률적 추출 방법 (단층계군) <br/>\
@@ -2157,7 +2165,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 눈덩이 추출법(Snowball Sampling) : 소수 응답자, 비슷한 사람 소개 <br/><br/>\
 * KPC 95회 관리 4교시 3번\
 ',
-  
+
 // 특이정보
 '# 정의 : Outlier <br/>\
 - 아주 작은 or 큰 값 <br/>\
@@ -2174,7 +2182,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 * KPC 95회 관리 4교시 3번 <br/>\
 * 라이지움 87회 응용 1교시 13번\
 ',
-  
+
 // 재현정보
 '# 개념 : 원자료 동일 분포 / 통계적 생성 자료 <br/>\
 - Synthetic Data <br/>\
@@ -2192,7 +2200,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 유형 : 민감변수(응답자 노출 꺼리는 변수), 키변수(응답자 특성, 조합시 식별가능) <br/><br/>\
 * 86회 라이지움 관리 1교시 3번\
 ',
-  
+
 // 차등정보보호
 '# 개념 <br/>\
 - 데이터에 수학적 노이즈를 추가하는 기술 <br/><br/>\
@@ -2209,7 +2217,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 위치 및 지리 정보 제공 시스템 <br/><br/>\
 * 86회 라이지움 관리 1교시 3번\
 ',
-  
+
 // 분석기법
 '# 정의 : 데이터 LifeCycle에 따른 Activity 중요성에 의해 빅데이터, 인공지능 핵심영역으로 자리잡고 있는 데이터 활용 기반 기술 <br/><br/>\
 # 종류 <br/>\
@@ -2233,7 +2241,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - EDA -> 전처리 -> 분석 모델링 -> 분석모델 평가 <br/><br/>\
 * KPC 96회 관리 4교시 2번\
 ',
-  
+
 // 회귀 분석
 '# 정의 : 독립, 종속 변수간 <font color = "red">관련성</font> / <font color = "red">함수적 관계 통계적 추정</font> / 종속(1) / 변화 따른 <font color = "red">예측</font> <br/>\
 - 독립변수들과 종속변수 간에 존재하는 관련성을 분석하기 위하여, 관측된 자료에서 이들 간의 함수적 관계를 통계적으로 추정하는 방법 <br/><br/>\
@@ -2254,7 +2262,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 * 123회 관리 2교시 4번 <br/>\
 * KPC 91회 3교시 1번\
 ',
-  
+
 // 다변량 회귀 분석
 '# 정의 : 다수 종속변수, 독립변수 / 변수 차원 줄이는 기법 <br/>\
 - 다수의 종속변수와 독립변수와의 상관관계 분석시 변수 차원을 줄이는 기법 <br/><br/>\
@@ -2302,7 +2310,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 <img src = "./img/RegressionCorelationCompare.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * ITPE 7회 관리 1교시 12번\
 ',
-  
+
 // 주성분 분석
 '# 개념 : 고차원 -> 저차원 / 환원 <br/>\
 - 고차원의 데이터를 저차원의 데이터로 환원시키는 기법 <br/><br/>\
@@ -2315,7 +2323,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 <img src = "./img/DeminsionDecreseProcess.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 123회 관리 2교시 4번\
 ',
-  
+
 // 다차원 척도법
 '# 개념 : 개체간 근접성 / 시각화 <br/>\
 - 낮은 차원 위치, 쉽게 학습 위한 기법 <br/>\
@@ -2344,7 +2352,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 마케팅 : 고객 반응 규명 <br/><br/>\
 * 123회 관리 2교시 4번\
 ',
-  
+
 // 군집분석
 '# 정의 : 사전 정보 없는 경우 값 기반 유사성 이용 분석법 <br/>\
 - 모집단 또는 범주에 대한 사전 정보가 없는 경우 주어진 관측 값들 사이의 거리 또는 유사성을 이용하는 분석법 <br/>\
@@ -2374,7 +2382,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 <img src = "./img/판별군집비교.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 122회 관리 1교시 5번\
 ',
- 
+
 // 계층적 군집분석
 '# 정의 : 작은 군집으로 출발해 군집을 병행하는 방법 <br/><br/>\
 # 종류 <br/>\
@@ -2386,7 +2394,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 <img src = "./img/HireachyClusterAnalyzeDistance.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 87회 관리 3교시 4번\
 ',
- 
+
 // 비 계층적 군집분석
 '# 정의 : 랜덤 군잡화 / 중앙값 변화 / 클러스터 이동 / 군집 형성 방법 <br/>\
 - 랜덤으로 데이터를 군집화하고 군집 과정에서 중앙값의 변화에 따라 각 데이터들을 적절한 클러스터로 이동시켜 군집을 형성하여 분석하는 기법 <br/><br/>\
@@ -2437,7 +2445,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - FP-growth Algorithm : 비교횟수 줄이기 <br/><br/>\
 <img src = "./img/연관규칙.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // Apriori Algorithm
 '# 정의 : 선험적 알고리즘 (사전지식 활용)<br/>\
 - 데이터베이스에서 후보 항목집합을 생성, 발생빈도 계산, 사용자 정의 최소 지지도 기준으로 빈발 항목집합 결정 알고리즘 <br/><br/>\
@@ -2476,7 +2484,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 공인 타당도 : 입증 받은 검사로부터의 관계 검증 <br/><br/>\
 * 123회 관리 1교시 2번\
 ',
-  
+
 // 신뢰도
 '# 정의 : 조사 일관성 (포반) <br/>\
 - 반복되는 측정에도 어느 정도 동일한 결과를 얻게 되는 정도 <br/><br/>\
@@ -2491,7 +2499,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 문항 내적 합치도 : 하나의 문항 하나의 설문지로 가정 (10문항 = 10번 조사처럼) (Cronbach의 Alpha) / + 가장 높은 신뢰도 - 문항간 연관성 높아야 <br/><br/>\
 * 123회 관리 1교시 2번\
 ',
-  
+
 // CLT
 '# 정의 : Central Limit Theorm (중심극한정리) <br/>\
 - 임의의 모집단에서 크기 n의 표본 k개를 복원추출을 할 때 n과 k가 충분히 크다면 각 표본의 평균 분포는 정규 분포로 수렴한다는 정리이론 <br/><br/>\
@@ -2504,7 +2512,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 정규 분포를 활용한 통계적 가설검정 및 기법에 적용하는 경우 <br/><br/>\
 * KPC 97회 관리 1교시 7번\
 ',
-  
+
 // 추정이론
 '# 정의 : 모집단 성질 유추 방법<br/>\
 - 표본에 들어있는 정보에 의거해서 모집단의 성질을 유추하는 통계적 추론 방법 <br/><br/>\
@@ -2557,7 +2565,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 * KPC 94회 1교시 12번\
 ',
 
-// 베이즈 정리 
+// 베이즈 정리
 '# 정의 : 조건부, 주변부 확률분포 연관 이론 <br/>\
 - 확률변수의 조건부(conditional) 확률분포와 주변부(marginal) 확률분포를 연관 짓는 확률이론<br/>\
 - 어떤 사건의 관측 전의 원인의 가능성과 관측 후의 원인의 가능성 사이의 관계를 설명하는 확률이론 <br/>\
@@ -2576,7 +2584,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 * KPC 97회 관리 1교시 6번\
 ',
 
-  
+
 // Data Mining
 '# 정의 : 정보 도출 방법 / 데이터 집합 / 사용자 요구 /<br/>\
 - 데이터 집합에서 사용자 요구 따라 유용 가능성 있는 정보 도출 방법 <br/><br/>\
@@ -2621,7 +2629,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 향상도 P(B|A)/P(B) = P(A∩B)/P(A)*P(B)\
 ',
 
-// Text Mining 
+// Text Mining
 '# 비정형 데이터 / 단어 행렬 / 분석, 마이닝 / 의사결정 지원 분석기법 <br/>\
 - 다양한 문서 형태의 비정형 데이터를 가져와 문서의 단어별 행렬을 만들어 추가적인 분석이나 데이터 마이닝 기법을 적용하여 의사결정을 지원해주는 분석기법 <br/><br/>\
 # 기능 <br/>\
@@ -2705,7 +2713,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - pLSA(Probailistic LSA) : 데이터셋과 선별된 토픽 K간의 가장 잘 맵핑되는 토픽과 단어, 단어와 문서간의 <font color = "red">조합 찾는 방법</font>, 기존 LSA를 확률적 접근 <br/>\
 - LDA(Latent Dirichlet Allocation) : 주어진 문서 대해 각 문서에 <font color = "red">어떤 주제</font>들이 존재하는지에 대한 확률 모형\
 ',
-  
+
 // Opinion Mining
 '# 정의 : Web 컨텐츠 Text / 의견, 성향 분석 / 마이닝 기법 <br/>\
 - Web 컨텐츠의 Text에 나타난 사람들의 의견, 성향등의 주관적인 <font color = "red">평판, 경향, 감성</font> 분석하는 자연어 처리 기술 <br/><br/>\
@@ -2736,8 +2744,8 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 <img src = "./img/OpinionMiningTextMining.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 122회 1교시 11번\
 ',
- 
-// System Dynamics 
+
+// System Dynamics
 '# 정의 : 사회 현상을 구성요소로 분해하여, 요소 간의 인과 관계를 표현하는 기법 <br/>\
 - 동태적, 순환적 인과관계의 시각적으로 현상 이해하고 설명하거나 컴퓨터상에서 실험해 보는 방법론이자 현상을 바라보는 프레임워크 <br/><br/>\
 # 특징 <br/>\
@@ -2773,7 +2781,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 적용 : 완성된 모델 업무 적용, 사후 관리 / 전개, 유지보수, 종료 <br/><br/>\
 * 111회 관리 1교시 11번\
 ',
-  
+
 // 데이터 사이언스
 '# 정의 : 과학적 / 통계적 / 비즈니스 인사이트 <br/>\
 - 다양한 데이터에서 과학적, 통계적 기법을 융합하여 비즈니스 인사이트를 도출하는 기술 <br/><br/>\
@@ -2799,7 +2807,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 분석기술 훈련 : 데이터 분석체계 구축, 데이터 프로세싱(웹 크롤링, 전처리), 머신러닝, 데이터 마이닝 <br/><br/>\
 * 라이지움 88회 관리 3교시 2번\
 ',
-  
+
 // 반정형 데이터
 '# 정의 : 내부 메타데이터 내재 데이터 <br/>\
 - 정형 데이터와 달리 데이터 내부에 정형 데이터의 스키마에 해당되는 메타데이터를 갖고 있음, 일반적으로 파일 형태로 저장되는 데이터 <br/><br/>\
@@ -2812,7 +2820,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 <img src = "./img/HalfNormalizationData.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 89회 관리 1교시 12번\
 ',
-  
+
 // RAID
 '# 정의 : 데이터의 가용성 및 성능 향상을 위한 디스크 중복구조 <br/>\
 - Redundant Array of Independent Disks <br/>\
