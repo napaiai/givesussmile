@@ -143,7 +143,7 @@ var answer = answer.concat(
 - 자원 사용량 : 선점, 비선점 <br/><br/>\
 * KPC 97회 응용 2교시 7번\
 ',
-  
+
 // Disk 할당 기법
 '# 종류 <br/>\
 1. 연속 할당 <br/>\
@@ -187,7 +187,7 @@ var answer = answer.concat(
 - 개별 유저 실행 불가 명령, 시스템 접근 권한 가지는 상태 <br/><br/>\
 * 125회 응용 4교시 4번\
 ',
-  
+
 // Unix
 '# 정의 : 이식, 다중 사용자, 대화식 / 운영체제 <br/>\
 - 다양한 시스템 사이에 서로 이식할 수 있고, 멀티 태스킹과 다중 사용자를 지원하도록 설계된, 범용 다중 사용자 방식의 대화식, 시분할처리 시스템 운영 체제 <br/><br/>\
@@ -210,7 +210,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 <img src = "./img/LinuxUnixCompare.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 125회 응용 1교시 3번\
 ',
-  
+
 // File System
 '# File System 구조 <br/>\
 <img src = "./img/Unix_2.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -232,7 +232,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - rootfs : Root File System, 시스템 초기화와 관리에 필요한 내용 관리<br/><br/>\
 * 라이지움 90회 응용 2교시 5번\
 ',
-  
+
 // Permission
 '# 정의 : RWX 접근 허가 <br/>\
 - 사용자가 파일이나 디렉토리를 읽기, 쓰기, 실행할 수 있도록 자격 또는 접근 허가 의미 <br/>\
@@ -252,7 +252,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 종류 : Primary group (최초 소속), Supplementrary (나머지) \
 ',
 
-// Linux ID 
+// Linux ID
 '# 종류 <br/>\
 - RUID(Real User ID) : 프로세스 실행시킨 사용자 UID <br/>\
 - RGID(Real Group ID) : 프로세스 실행시킨 사용자 GID <br/>\
@@ -302,13 +302,13 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - Triple indirect : 3개의 레이어(1,2 다른 인덱스 블록 포인터 / 실제 데이터 블록 포인터) ~4TB <br/><br/>\
 * 라이지움 86회 1교시 4번 \
 ',
-  
+
 // I/O Model
 '# I/O Model 개요도 <br/>\
 <img src = "./img/UnixIOModelOverview.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 97회 응용 4교시 8번\
 ',
-  
+
 // Blocking I/O
 '# 개념 : I/O 작업이 진행되는 동안 유저 프로세스는 자신의 작업을 중단한 채 대기하는 방식 <br/><br/>\
 # 개념도 <br/>\
@@ -349,7 +349,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - CPU 사용 비효율 <br/><br/>\
 * KPC 97회 응용 4교시 8번\
 ',
-  
+
 // I/O Multiplexing
 '# 개념 : 동시성 처리를 위해 다양한 System Call을 사용한 I/O 처리기법 <br/><br/>\
 # 필요성 <br/>\
@@ -376,7 +376,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - select 함수도 Synchronous I/O로 성능 이슈 존재 <br/><br/>\
 * KPC 97회 응용 4교시 8번\
 ',
-  
+
 // Asynchronous I/O Model
 '# 개념 : 비동기식 I/O Model <br/><br/>\
 # 개념도 <br/>\
@@ -397,7 +397,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 * ITPE 8회 응용 2교시 6번\
 ',
 
-// Programmed I/O 
+// Programmed I/O
 '# 메커니즘 <br/>\
 1. 입력과정 <br/>\
 <img src = "./img/ProgrammedIOInsert.png" style = "max-width:100%; height:auto;"><br/>\
@@ -484,7 +484,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 * 123회 응용 4교시 1번\
 ',
 
-// Loader 
+// Loader
 '# 정의 : OS Module / 정보,로드모듈 / 보조기억장치->주기억장치 <br/>\
 - 컴퓨터 내부로 정보를 들여오거나 로드 모듈(프로그램들과 라이브러리들)을 디스크등의 보조기억 장치로부터 주기억장치에 적재하는 시스템 소프트웨어로 OS의 한 부분 <br/>\
 - 멀티태스킹이 지원되는 운영체제에서 디스패처(dispatcher)라는 프로그램은 서로 다른 태스크들 간에 컴퓨터 CPU의 할당시간을 조절하고, 특정 태스크와 관련된 프로그램이 주기억 장치에 있지 않을때는 로더를 호출함 <br/><br/>\
@@ -560,7 +560,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - pc, 레지스터, 상태, account, 입출력, pid, pointer\
 ',
 
-// Interrupt 
+// Interrupt
 '# 정의 : MCU / 예외상황 / 선 처리 매커니즘 <br/>\
 - MCU가 프로그램을 실행하고 있을 때, 입출력 HW 등의 장치 및 예외상황 대응 위해 우선순위에 따라 선 처리하기 위한 매커니즘 <br/><br/>\
 # 발생원인 (기의주)<br/>\
@@ -611,7 +611,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 인터럽트 처리 종료 : 명령어 재시작 <br/><br/>\
 * 123회 응용 2교시 1번\
 ',
-  
+
 // Maskable Interrupt
 '# 정의 : 처리할 인터럽트 <br/>\
 - 인터럽트 요인이 발생 하였을 경우 처리를 할 것인지 설정할 수 있는 인터럽트 <br/><br/>\
@@ -622,7 +622,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 사례 : 외부 신호 인터럽트, 파일 오류 <br/><br/>\
 * 라이지움 88회 관리 4교시 2번\
 ',
-  
+
 // Non-Maskable Interrupt
 '# 정의 : CPU 처리 인터럽트 <br/>\
 - 인터럽트 요인이 발생 하면 CPU가 무조건 처리 해야 하는 인터럽트 <br/><br/>\
@@ -633,7 +633,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 사례 : 전원 이상, 메모리 에러, I/O 이상 <br/><br/>\
 * 라이지움 88회 관리 4교시 2번\
 ',
-  
+
 // Vectored Interrupt
 '# 정의 : ISR / 시작번지 <br/>\
 - 인터럽트 발생 원인에 따라 미리 지정된 서비스 루틴(ISR, Interrupt Service Routine)의 시작 번지(인터럽트 벡터)에서 처리하는 인터럽트 유형 <br/><br/>\
@@ -643,7 +643,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 <img src = "./img/MultiInterruptISR.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 88회 관리 4교시 2번\
 ',
-  
+
 // Memory 영역
 '# 종류 <br/>\
 - Code : 코드자체 구성 / Hex, Bin <br/>\
@@ -651,7 +651,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - Heap : 동적 메모리 / malloc(), new() <br/>\
 - Stack : 지역변수, 매개변수, 리턴 값 / \
 ',
-  
+
 // Memory Leak
 '# 정의 : 메모리 비반환 점유 현상 <br/>\
 - 컴퓨터 프로그램이 메모리를 할당된 메모리를 사용한 다음 반환하지 않아 메모리를 계속 점유하고 있는 현상 <br/><br/>\
@@ -691,7 +691,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 <img src = "./img/ProcessThreadCompare.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * ITPE 7회 관리 4교시 4번\
 ',
-  
+
 // PCB
 '# 정의 : 프로 그램 실행 자료, 자료구조 <br/>\
 - 운영체제가 프로그램 실행을 위해 필요한 자료를 담고 있는 자료구조 <br/><br/>\
@@ -706,7 +706,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 기타 정보 : 스케줄링 정보, 메모리 관리 정보 \
 ',
 
-// Thread 
+// Thread
 '# 정의 : 프로세스 내 / 메모리 공유 / 단위 명령 집합 <br/>\
 - 하나의 프로세스내에서 리소스를 공유하며 독립적으로 수행 가능한 단위 명령의 집합 <br/><br/>\
 # Keyword : 사용자모드(임계,스핀락), 커널모드(세마포어), TCB, Light Weight, 멀티스레드, 공유(힙/데이터/코드), 독립(레지스터/스택), PCB <br/><br/>\
@@ -740,7 +740,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 * 116회 3교시 4번\
 ',
 
-// Buffering, Spooling 
+// Buffering, Spooling
 '# Buffering : 일시적 데이터 축적 기법 / 일방향 / 양자 속도차 수정 / 중간 <br/>\
 - 장치간 데이터를 일방향으로 전송할 때 양자의 속도차를 수정하기 위하여 중간에서 데이터를 일시적으로 기억 장소에 축적하는 기법 <br/><br/>\
 # Spooling(Simultaneous Periphereal Operation On-line) : 완충 기법 / 주변장치 / 컴퓨터 처리 장치 / 보조기억장치 이용<br/>\
@@ -828,7 +828,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 <img src = "./img/고가용성_2.png" style = "max-width:100%; height:auto;">\
 ',
 
-// 우선순위 역전현상 
+// 우선순위 역전현상
 '# 정의 : TASK 수행 불가 현상 / 낮은 우선순위 / 임계영역 대기<br/>\
 - 낮은 우선순위를 가진 TASK에 의해 높은 우선순위를 가진 TASK가 임계 영역 대기 때문에 Block되어 수행되지 못하는 현상 <br/><br/>\
 # 원인 : 비선점 스케줄링, 실시간 운영체제, 상호배제, 공유자원의 장기 소유, 릴리즈 낮은 우선순위 task 자원 점유 <br/><br/>\
@@ -862,7 +862,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 * 다단계 참고 <br/>\
 - Reset > Kick > Timeout > Enable > Timeout > Timeout되면 Trigger Correction Action \
 ',
-  
+
 // 반도체 종류
 '# Overview <br/>\
 <img src = "./img/SemiConductorType.jpg" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -877,7 +877,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 1) 시스템 판도체 : 판단,연산 기능(CPU, AP), 통신 기능(모뎀), 수집 기능(이미지,라이다 센서) <br/>\
 2) 광,개별 소재 : LED 등과 같이 회로를 구성하는 각각의 소자 \
 ',
-  
+
 // 메모리 관리 기법
 '# 정의 : 다중 프로세스 / 운영체제 의해 / 동적 메모리 사용자 영역 / 여러 프로세스 상주 / 할호교배 기법 <br/>\
 - 다중 프로세스 시스템에서 운영체제에 의해 동적으로 메모리의 사용자 영역을 여러 프로세스가 상주할 수 있도록 할당, 호출, 교체, 배치하는 기법 <br/><br/>\
@@ -895,12 +895,12 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 기법 : First(가장 먼저), Best(단편화 min), Worst(단편화 max), Next(이전 배치 이후) <br/><br/>\
 * KPC 93회 응용 2교시 7번\
 ',
-  
+
 // 할당기법
 '# 종류 <br/>\
 <img src = "./img/MemoryAllocationOverview.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // 단일 분할 할당
 '# 개념 : 하나의 사용자만 주기억 장치의 사용자 영역 사용 기법 <br/><br/>\
 # 특징 <br/>\
@@ -910,7 +910,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - Overlay : 프로그램 조각화 후 적층 <br/>\
 - Swapping : 프로그램 전체 Swap in (보조->주) / 페이징 기법 발전\
 ',
-  
+
 // 다중 분할 할당
 '# 고정 분할 할당 <br/>\
 1. 개념 : MFT, 정적 할당 <br/>\
@@ -930,7 +930,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 주기억 장치 효율적 사용 <br/>\
 - 각 영역 사이 단편화 발생 가능\
 ',
-  
+
 // 분산 로딩 기법
 '# 가상 기억 장치 : 주기억 장치 내 용량이 부족할 때 사용하지 않은 프로그램을 보조기억장치 내 특별한 영역으로 이동해서 해당 보조기억장치의 일부를 주기억 장치처럼 사용할 수 있는 기법 <br/><br/>\
 # 암기 <br/>\
@@ -946,7 +946,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 세그먼트 기법 : 논리적 프로그램 개체 보호, 확장성 자료 구조 처리 <br/>\
 <img src = "./img/PagedSegmentation.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // 단편화
 '# 정의 : Fragmentation <br/>\
 - 주기억 장치에서 프로그램을 할당하고 반납하는 과정에서 발생하는 사용되지 않는 작은 조각 공간 <br/><br/>\
@@ -957,7 +957,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 통합 기법 : 인접된 빈 분할 공간 통합 <br/>\
 - 압축 기법 : Garbage Collection \
 ',
-  
+
 // Page Fault
 '# 정의 : 가상 메모리 접근 에러 <br/>\
 - 자신의 주소 공간에는 존재하지만 시스템 RAM에는 현재 없는 데이터나 코드에 접근 시도하였을 경우 발생하는 현상 <br/><br/>\
@@ -968,7 +968,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 주소 수령 : 원하는 주소 다른곳에서 가져오기 <br/><br/>\
 * 123회 응용 2교시 1번\
 ',
-  
+
 // 메모리 인터리빙
 '# 정의 : 메모리 접근시간 최소화, 연속적인 주소 <br/>\
 - 메모리 접근시간 최소화를 위해 메모리를 복수개의 모듈로 분할하고 각 모듈별 연속적인 주소를 부여하여 동시 Access가 가능하게 하는 기법 <br/><br/>\
@@ -978,7 +978,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 <img src = "./img/MemoryInterleavingDataAccess.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 92회 응용 1교시 16번\
 ',
-   
+
 // Slab allocator
 '# 정의 : 페이지 / 메모리 풀 구조 / 미리 고정된 크기 할당 / 커널 사용 / 동적 메모리 할당자 <br/>\
 - 메모리 풀 구조를 지닌 미리 고정된 크기의 메모리 블록 할당하는 커널에서 사용하는 동적 메모리 할당자 <br/><br/>\
@@ -1016,7 +1016,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 * 라이지움 88회 응용 1교시 12번\
 ',
 
-// [Virtual Memory]- Mapping 
+// [Virtual Memory]- Mapping
 '# 정의 : 가상주소를 실주소로 변화하는 기법 <br/>\
 - 보조기억장치에 저장된 프로그램을 CPU가 실행하기 위해서 보조기억장치의 가상주소를 주기억장치의 사용가능한 실주소로 변환 <br/><br/>\
 # 주소형식 <br/>\
@@ -1169,7 +1169,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 장점 : Hit Rate 높음 <br/>\
 - 단점 : 구현회로 복잡\
 ',
-  
+
 // Cache 일관성
 '# 정의 : 공유 메모리 시스템 / 개별 프로세서 / 지역 캐시간 일관성 <br/>\
 - 공유 메모리 시스템에서 개별 프로세서의 지역 캐시간의 일관성 <br/><br/>\
@@ -1247,7 +1247,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 활용 : 버스 기반 다중 프로세서에서 적합 <br/><br/>\
 * 123회 응용 3교시 1번\
 ',
-  
+
 // MESI
 '# 정의 : Write Back / 캐시 일관성 유지 Protocol <br/>\
 - 멀티프로세서가 시스템에서 캐시의 일관성을 유지하기 위하여 메모리가 가질 수 있는 4가지 상태를 정의한 프로토콜 <br/><br/>\
@@ -1256,7 +1256,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 # 상세 설명 <br/>\
 <img src = "./img/MESI.png" style = "max-width:100%; height:auto;"><br/>\
 <img src = "./img/MESI_ProtocolDetail.png" style = "max-width:100%; height:auto;">\
-', 
+',
 
 // PCI Express
 '# 정의 : x1~x32 확장 가능 다수 레인 / 물리 계층 기반 / 고속 데이터전송 / 점대점 기기간 연결 프로토콜 <br/>\
@@ -1415,7 +1415,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 * 125회 관리 2교시 3번 \
 ',
 
-// UMA 
+// UMA
 '# 정의 : 상호연결망 / 주기억장치 공유 / 병렬 컴퓨팅 <br/>\
 - Uniform Memory Access <br/>\
 - 모든 프로세서들이 상호연결망에 의해 접속된 주기억장치 공유 방식 병렬 컴퓨팅 <br/><br/>\
@@ -1564,7 +1564,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 예측 실패시 : UNDO, 실패한 파이프라인 개수 만큼 CPU 클럭 주기 낭비 <br/><br/>\
 * 120회 응용 4교시 1번\
 ',
-  
+
 // GPGPU
 '# 정의 : 프로그래밍이 가능한 병렬처리장치 <br/>\
 - 기존 그래픽 처리만 가능한 GPU에서 CPU처럼 프로그래밍, 행렬, 벡터 연산 및 병렬 처리가 가능한 처리장치 <br/><br/>\
@@ -1619,7 +1619,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 <img src = "./img/CloudGPU_HW.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 93회 2교시 8변\
 ',
-  
+
 // Many core CPU
 '# 정의 : 코어 집적, 극한 병렬화 프로세서 <br/>\
 - CPU에 수십개에서 수백개의 코어를 집적하여 극한의 병렬화된 실행을 목적으로 하는 프로세서 <br/><br/>\
@@ -1639,7 +1639,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 * 123회 응용 1교시 5번\
 ',
 
-// Fabric Computing 
+// Fabric Computing
 '# 정의 : 독립 모듈 형태 기술 / CPU, MM, NPU <br/>\
 - 중앙처리장치(CPU), 메모리, 네트워크 프로세서(NPU)등 IT 시스템의 모든 구성요소를 독립 모듈 형태로 만들어 환경 변화에 빠르고 쉽게 대응 돕는 기술 <br/><br/>\
 # 특징 : 모듈화, 통합화, 단순화, 공간제약 극복 <br/><br/>\
@@ -1693,7 +1693,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 <img src = "./img/QuantumComputing.png" style = "max-width:100%; height:auto;">\
 ',
 
-// Tiny OS 
+// Tiny OS
 '# 정의 : 임베디드 초소형 운영체제 / Smart Dust Project / CBD <br/>\
 - 스마트 더스트(Smart Dust)프로젝트에 사용하기 위해 제작한 컴포넌트 기반 임베디드 장치용 초소형 운영체제 <br/>\
 - UC 버클리에서 개발된 센서 네트워크를 위한 무료 운영 체계<br/>\
@@ -1728,7 +1728,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - User API : 센서 노드에 사용되는 HW 제어, 추상화하여 사용자에 API형태 제공 \
 ',
 
-// Flash Memory 
+// Flash Memory
 '# 정의 : 전원 제거 / 정보 유지 / 비휘발성 기억 장치 <br/>\
 - 전원이 제거되어도 정보를 그대로 유지하는 비휘발성 기억 장치 <br/><br/>\
 # 개념도 <br/>\
@@ -1819,12 +1819,12 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 속도 향상 : MCH 내부에서 SSD 입출력 처리, 에너지 절감 및 데이터 속도 향상 <br/><br/>\
 * ITPE 합숙 124회 4일차 1교시 13번\
 ',
-  
+
 // CPU
 '<img src = "./img/CPU.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 94회 2교시 8번\
 ',
-  
+
 // 뉴로모픽
 '# 정의 : 뉴런 / Action Potential 원리 <br/>\
 - 두뇌 뉴런에서 신호 전달방식인 Action Potential 원리 모방한 반도체 기술 <br/><br/>\
@@ -1848,7 +1848,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 유럽 : Brain Scales / 실시간 10,000 배에 달하는 뉴런 모델 구현 <br/>\
 - 중국 : Hybrid Tianjic Chip / Neuromorphic 컴퓨팅에 주류 딥러닝 기술 결합\
 ',
-  
+
 // Major State
 '# 정의 : Fetch, Indirect, Execute, Interrupt <br/>\
 - 현재 CPU가 무엇을 하고 있는가를 나타내는 상태 <br/><br/>\
@@ -1929,7 +1929,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 * 119회 관리 3교시 6번\
 ',
 
-// [CPU Scheduling]- Process Aging 
+// [CPU Scheduling]- Process Aging
 '# Process Aging : 대기시간 오래된 프로세스 해결 기법 <br/>\
 - Starvation을 방지하기 위해서 대기 시간이 오래된 프로세스에 대해 Priority를 높여주어 처리 보장하는 CPU 스케줄링 기법 <br/><br/>\
 # 기아현상 : 시스템 부하가 많아서 낮은 등급에 있는 준비 큐에 있는 프로세스가 무한정 기다리는 현상 <br/><br/>\
@@ -1945,7 +1945,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - 선점형 : MLFQ(오래 실행 프로세스 하위큐 이동) + Aging, RR <br/><br/>\
 * 기아 미유발 알고리즘 사용 or 기존 알고리즘에 Aging 수행 \
 ',
-  
+
 // RM
 '# 개념 : Rate-Monotonic Scheduling <br/>\
 - 독립적인 개별 프로세스 주기를 기준으로 주기가 짧을 수록 높은 우선순위를 부여하는 정적 방식의 스케줄링 기법 <br/><br/>\
@@ -1962,7 +1962,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 <img src = "./img/RM_Example.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 87회 응용 4교시 6번\
 ',
-  
+
 // EDF
 '# 정의 : Earliest Deadline First Scheduling <br/>\
 - 실시간 운영체제에서 사용되는 동적 CPU 스케줄링 알고리즘중 하나 <br/><br/>\
@@ -2036,7 +2036,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 <img src = "./img/동기화기법.png" style = "max-width:100%; hegiht:auto;">\
 ',
 
-// 상호배제 
+// 상호배제
 '# 정의 : 시스템의 어떠한 자원을 한 시점에서 한 개의 프로세스만이 임계구역을 사용하는 동기화 기법 <br/><br/>\
 # 요구조건 <br/>\
 - 임계규칙 : 1개 프로세스만 <br/>\
@@ -2155,7 +2155,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 * 아이리포 23회 1교시 2번<br/>\
 * 라이지움 86회 1교시 2번\
 ',
-  
+
 // 은행가 알고리즘
 '# 정의 : 교착상태 해결 방안중 회피기법의 중요한 알고리즘 <br/>\
 - 안전상태와 불안전 상태로 구분하고 운영체제는 안전상태를 유지할 수 있는 요구만을 수락하고 불안전 상태를 야기하는 요구는 거절 <br/><br/>\
@@ -2173,7 +2173,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 # Understand <br/>\
 <img src = "./img/BangkerAlgorithmUnderstand.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // Wait-Die, Wound-Wait
 '# 개념 : 교착상태를 회피하기 위한 요청 시점 기반 매커니즘 <br/><br/>\
 # 동작비교 <br/>\
@@ -2195,8 +2195,8 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 <img src = "./img/ResourceAllocationGraphDeadlockExample.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 96회 응용 1교시 14번\
 ',
-  
-// In-Memory Computing 
+
+// In-Memory Computing
 '# 정의 : 어플리케이션을 구동하는 컴퓨터의 메인 메모리에 DB 데이터와 같은 주요 데이터를 저장하고 처리하는 컴퓨팅 기술 <br/><br/>\
 # 특징 : 메인메모리 DB구축, 직접 저장 관리, 디스크 관리 최소화 <br/><br/>\
 # 스택 <br/>\
@@ -2206,7 +2206,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 * ITPE 합숙 125회 관리 1교시 8번 <br/>\
 * 119회 4교시 6번\
 ',
-    
+
 // In-Memory DataGrid
 '# 정의 : 고가용성, 확장성 / 여러 메인 메모리 / 분산 메모리 시스템 <br/>\
 - 고가용성과 확장성을 보장하기 위해 여러 메인메모리(MM)으로 데이터를 나누어 저장하는 분산 메모리 시스템 <br/><br/>\
@@ -2226,7 +2226,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 <img src = "./img/IMDG_Compare.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 122회 응용 1교시 5번\
 ',
-  
+
 // In-Memory Database
 '# 정의 : 익스트림 트랜잭션의 고성능 처리 지원 <br/>\
 - 데이터를 저장하는 주된 공간이 디스크가 아닌 메인 메모리인 데이터베이스 <br/>\
@@ -2244,7 +2244,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - Database 적용 : Data 성능, DBMS 모니터링 / 성능 모니터링 <br/><br/>\
 * 아이리포 23회 1교시 12번\
 ',
-  
+
 // Auto Scale Up, Out
 '# Auto Scale Up : 수직적 확장, 비용 부담 큼, 확장성 제약, 단일 장비 한계, 심플한 구성, 변화 없음 <br/><br/>\
 # Auto Scale Out : 수평적 확장, 상대적 저렴, 용량 확장성 편리, L4등을 통해 확장, 상대적으로 복잡, 가용성 증가 <br/><br/>\
@@ -2254,8 +2254,8 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 # 서비스 적용 방안 제언 : 사전검토 / 구축 / 운영 -> Capex, Opex 절감, 부하 분산, 빠른 서비스 제공 <br/><br/>\
 * 라이지움 88회 관리 2교시 1번\
 ',
-  
-// Library 
+
+// Library
 '# 정의 : 함수, 데이터 타입 집합 <br/>\
 - 소프트웨어 개발에서 자주 쓰고 기초적인 함수 중복 개발을 피하기 위해 표준화된 함수 및 데이터 타입을 만들어 모아 놓은 집합 <br/><br/>\
 # 종류 <br/>\
@@ -2307,7 +2307,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - IPS NW 트래픽 분석 <br/><br/>\
 * 121회 관리 1교시 11번\
 ',
-  
+
 // 유한 오토마타
 '# 정의 : 프로그램, 논리회로 / 수학적 모델 <br/>\
 - 유한한 개수의 상태를 가지는 기계로, 컴퓨터 프로그램과 전자 논리회로 설계에 사용되는 수학적 모델 <br/><br/>\
@@ -2329,7 +2329,7 @@ Power On-> Boot PROM -> Boot Program -> Init kernel -> Run Init Process -> SVC. 
 - NW 보안 : FW, IPS, ITM, Signature Rule Traffic 검색 <br/><br/>\
 * 121회 관리1 교시 11번\
 ',
-  
+
 // 엑사스케일 컴퓨팅 시스템
 '# 정의 : 엑사플롭스급 컴퓨팅 시스템 / 초당 10^18 연산<br/>\
 - 1 엑사플롭스(ExaFlops) 이상의 처리능력을 가진, 엑사플롭스(ExaFlops) 급의 컴퓨팅 시스템<br/>\

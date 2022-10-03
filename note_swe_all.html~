@@ -6,10 +6,10 @@
 <script type = "text/javascript">
 
   function search()
-  {  
+  {
     var data = document.getElementById("search");
     Init();
-    	  
+
     if( data != null)
     {
       for(var i = 0; i<question.length ; i++)
@@ -25,12 +25,12 @@
       }
     }
   }
-	
+
   function Init()
   {
     document.body.innerHTML = "";
     document.write('<head> <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" </head>');
-    document.write('** swe All Search **' + '<br /><br />');
+       document.write('** swe All Search **' + '<br /><style>span{color:red;font-weight:bold;font-size:25px}</style><br />');
     document.write('<input type = "text" id = "search" onkeyup="enterkey();"/> ');
     document.write('<button id="b_search" onclick="search();">Search</button>');
   }

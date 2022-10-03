@@ -1,5 +1,5 @@
 ﻿var question = question.concat(
-'공학 개요',
+'<span>공</span>학 개요',
 '[개요]- SW 공학',
 '[개요]- SW 공학의 원리',
 '[개요]- Web 공학',
@@ -351,6 +351,7 @@
 '[방법론][Ops]- DataOps',
 '[방법론][Ops]- GitOps',
 '[방법론][Ops]- MLOps',
+'[방법론][Ops]- ModelOps',
 '[방법론][Ops]- DevSecOps',
 '[방법론]- 시각적 분석 (Visual Analytics)',
 '[방법론]- 시각화 분석 (Visualization Analysis)',
@@ -5929,7 +5930,21 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 - 드리프트(시간 변화), 발생시 파이프라인 과정이 아닌 전체 수정 필요 <br/><br/>\
 2. DevOps 측면 <br/>\
 - 데이터 Silo 해체 <br/>\
-- 협업, 소통 중시문화 \
+- 협업, 소통 중시문화 <br/><br/><br/>\
+*MLOps = DataOps+ModelOps+DevOps<br/>\
+',
+
+//ModelOps
+'# 정의 :<font color = "red">기계학습 모델 / 학재관학/ 생명주기 관리 방법론</font> <br/>\
+-기계 학습 모델의 학습,재현,버전관리,배포,재학습까지의 모델생명주기를 관리하는 기계 학습 모델관리 방법론<br/><br/>\
+*<span style="color:red;font:solid;text-decoration:underline red">모델링</span> : 모든 모델의 수명주기를 조율하고 AI의 롤아웃 및 유지 관리를 효과적으로 자동화하고 지속적으로 향상<br/>\
+*<font size="4" color="red" face="bold">운영</font> : 소프트웨어 엔지니어 또는 데이터 과학자와 IT 간의 사일로를 제거<br/><br/>\
+*도입단계:<br/>\
+1) 현재상황파악<br/>\
+2) 변화의 촉진<br/>\
+3) 문화적 공감대<br/>\
+4) 표준화와 자동화<br/>\
+5) 효과적 모델 거버넌스<br/>\
 ',
 
 // DevSecOps
