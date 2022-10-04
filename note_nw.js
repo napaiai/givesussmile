@@ -1,152 +1,152 @@
 var question = question.concat(
-'OSI 7 계층',
-'서비스 프리미티브(Service Primitive)',
-'[Layer2]- Service',
-'[Layer2]- 회선제어',
-'[Layer2]- 오류제어',
-'[Layer2][오류제어][FEC]- 해밍코드',
-'[해밍코드]- 해밍거리',
-'[Layer2][오류제어][BEC]- CRC',
-'[Layer2][오류제어][BEC]- Parity Check',
-'[Layer2][오류제어][BEC]- Check Sum',
-'[Layer2][오류제어][BEC]- ARQ',
-'흐름제어',
-'[흐름제어]- Sliding Window',
-'[흐름제어]- Stop and Wait',
-'[Layer2][접근제어]- CSMA/CD',
-'[Layer2][접근제어]- CSMA/CA',
-'[Layer2]- Frame Relay',
-'[Layer2]- Collison Domain',
-'[Layer3]- 공증교환 데이터망(PSDN) 방식',
-'[Layer3]- 회선교환',
-'[Layer3]- 패킷교환',
-'[Layer3]- 패킷데이터 네트워크 계층 오류',
-'[Layer3]- 라우팅',
-'[Layer3]- 거리벡터 라우팅',
-'[Layer3]- 링크스테이트 라우팅',
-'[Layer3]- IGMP',
-'Layer4',
-'[Layer4]- Service',
-'[Layer4]- TCP 혼잡제어',
-'[Layer4]- TCP',
-'[Layer4][TCP]- SSL/TLS',
-'[Layer4][UDP]- DTLS',
-'DHCP',
-'DNS',
-'IP Tunneling',
-'Web RTC',
-'[Web RTC]- RTSP',
-'[Web RTC]- RTP',
-'[Web RTC]- SCTP',
-'[Internet]- 인터넷 프로토콜 3단계 주소체계',
-'[Internet]- HTTP/2.0',
-'[Internet]- HTTP/3.0',
-'[HTTP/3.0]- QUIC',
-'[Internet]- IPSec',
-'Network IP(Subnetting, Supernetting)',
-'[Internet]- IPv6',
-'[IPv6]- 헤더구성',
-'[IPv6]- 전환기술',
-'[IPv6]- 패킷 단편화',
-'[IPv6]- ICMPv6',
-'[IPv6]- 보안취약성 및 대응방안',
-'VLSM',
-'Subnet',
-'Subnetting',
-'Supernetting',
-'정보이론',
-'[정보이론]- 샤논의 제1정리',
-'[정보이론]- 샤논의 제2정리',
-'[정보이론]- 샤논의 제3정리',
-'대역확산',
-'전송부호화',
-'[전송부호화]- 소스코딩',
-'[소스코딩]- 압축기술',
-'[소스코딩][무손실 압축]- Run Length Coding',
-'[소스코딩][무손실 압축]- Huffman Coding',
-'[소스코딩][혼합 압축]- MPEG',
-'[전송부호화]- 채널코딩',
-'[전송부호화]- 라인코딩',
-'Modbus',
-'필드버스(Fieldbus)',
-'[필드버스(Fieldbus)]- IEEE802.11i, IEEE 802.11ac, IEEE 802.11ah(M2M-Wifi), IEEE 803.af(Super Wifi)',
-'[무선통신]- Wi-SUN',
-'[무선통신]- Wi-Fi Positioning System',
-'[무선통신]- 와이파이 헤일로(W-Fi HaLow)',
-'[무선통신]- 와이파이 콜링 서비스(Wi-Fi calling Service)',
-'[무선통신]- 패시브 와이파이(Passive wifi)',
-'[무선통신]- 인지무선(Cognitive Radio)',
-'[무선통신]- IEEE 802.11p',
-'[무선통신]- C-V2X',
-'[무선통신]- Gigabit WLAN',
-'[무선통신]- 저전력 무선통신 비교',
-'[무선통신][저전력]- 블루투스 5',
-'[무선통신][저전력]- UWB',
-'[측위기술]- LBS',
-'[측위기술]- IPS',
-'[측위기술]- LDT',
-'[측위기술]- GPS',
-'[측위기술][GPS]- 위성항법기술',
-'[측위기술][GPS]- SBAS',
-'[측위기술]- RTLS',
-'라이파이(Li-Fi)',
-'SON',
-'BcN',
-'CDN',
-'CDN, ADN',
-'IEEE 802.15.x',
-'USB4.0',
-'이동통신 발전역사',
-'5G 이동통신',
-'[5G]- 5G NSA',
-'[5G]- 5G SA',
-'[5G]- 3GPP Release 16',
-'[5G]- MEC',
-'[MEC]- SSL Offloading',
-'[5G]- 5GX',
-'[5G]- Open Lan',
-'[5G]- Network Slicing',
-'[5G]- Private 5G',
-'지능형 초연결망',
-'6G',
-'[6G]- 6G 추진 전략',
-'[6G]- Wifi 7',
-'Wifi 6',
-'Wifi 6e',
-'재난 안전 통신망',
-'[재난 안전 통신망]- LTE-M',
-'[재난 안전 통신망]- LTE-R',
-'[재난 안전 통신망]- RAN Sharing',
-'D2D',
-'토르 네트워크(Tor Network)',
-'비지상네트워크(NTN, Non-Terrestrial Network)',
-'eMTC',
-'Network Storage',
-'자가망 구축 가이드라인',
-'QoS',
-'[QoS]- WFQ',
-'[QoS]- 통합 서비스',
-'[QoS]- 차등 서비스',
-'[QoS][차등][Queuing]- Priority Queue',
-'[QoS][차등][Queuing]- Custom Queue',
-'FTP',
-'[FTP]- FTPS',
-'[FTP]- SFTP',
-'Socket',
-'NOS',
-'NW 가상화',
-'[NW 가상화]- VPN',
-'[NW 가상화]- NFV',
-'[NW 가상화]- SDN',
-'[NW 가상화]- Open flow',
-'[NW 가상화]- SD WAN',
-'[NW 가상화]- SDR',
-'SASE',
-'유무선 전력전송',
-'망분리',
-'망연계',
-'망중립성',
-'ISO 19626',
+'<span>OSI 7 계층</span>',
+'<span>서비스 프리미티브(Service Primitive)</span>',
+'<span>[Layer2]- Service</span>',
+'<span>[Layer2]- 회선제어</span>',
+'<span>[Layer2]- 오류제어</span>',
+'<span>[Layer2][오류제어][FEC]- 해밍코드</span>',
+'<span>[해밍코드]- 해밍거리</span>',
+'<span>[Layer2][오류제어][BEC]- CRC</span>',
+'<span>[Layer2][오류제어][BEC]- Parity Check</span>',
+'<span>[Layer2][오류제어][BEC]- Check Sum</span>',
+'<span>[Layer2][오류제어][BEC]- ARQ</span>',
+'<span>흐름제어</span>',
+'<span>[흐름제어]- Sliding Window</span>',
+'<span>[흐름제어]- Stop and Wait</span>',
+'<span>[Layer2][접근제어]- CSMA/CD</span>',
+'<span>[Layer2][접근제어]- CSMA/CA</span>',
+'<span>[Layer2]- Frame Relay</span>',
+'<span>[Layer2]- Collison Domain</span>',
+'<span>[Layer3]- 공증교환 데이터망(PSDN) 방식</span>',
+'<span>[Layer3]- 회선교환</span>',
+'<span>[Layer3]- 패킷교환</span>',
+'<span>[Layer3]- 패킷데이터 네트워크 계층 오류</span>',
+'<span>[Layer3]- 라우팅</span>',
+'<span>[Layer3]- 거리벡터 라우팅</span>',
+'<span>[Layer3]- 링크스테이트 라우팅</span>',
+'<span>[Layer3]- IGMP</span>',
+'<span>Layer4</span>',
+'<span>[Layer4]- Service</span>',
+'<span>[Layer4]- TCP 혼잡제어</span>',
+'<span>[Layer4]- TCP</span>',
+'<span>[Layer4][TCP]- SSL/TLS</span>',
+'<span>[Layer4][UDP]- DTLS</span>',
+'<span>DHCP</span>',
+'<span>DNS</span>',
+'<span>IP Tunneling</span>',
+'<span>Web RTC</span>',
+'<span>[Web RTC]- RTSP</span>',
+'<span>[Web RTC]- RTP</span>',
+'<span>[Web RTC]- SCTP</span>',
+'<span>[Internet]- 인터넷 프로토콜 3단계 주소체계</span>',
+'<span>[Internet]- HTTP/2.0</span>',
+'<span>[Internet]- HTTP/3.0</span>',
+'<span>[HTTP/3.0]- QUIC</span>',
+'<span>[Internet]- IPSec</span>',
+'<span>Network IP(Subnetting, Supernetting)</span>',
+'<span>[Internet]- IPv6</span>',
+'<span>[IPv6]- 헤더구성</span>',
+'<span>[IPv6]- 전환기술</span>',
+'<span>[IPv6]- 패킷 단편화</span>',
+'<span>[IPv6]- ICMPv6</span>',
+'<span>[IPv6]- 보안취약성 및 대응방안</span>',
+'<span>VLSM</span>',
+'<span>Subnet</span>',
+'<span>Subnetting</span>',
+'<span>Supernetting</span>',
+'<span>정보이론</span>',
+'<span>[정보이론]- 샤논의 제1정리</span>',
+'<span>[정보이론]- 샤논의 제2정리</span>',
+'<span>[정보이론]- 샤논의 제3정리</span>',
+'<span>대역확산</span>',
+'<span>전송부호화</span>',
+'<span>[전송부호화]- 소스코딩</span>',
+'<span>[소스코딩]- 압축기술</span>',
+'<span>[소스코딩][무손실 압축]- Run Length Coding</span>',
+'<span>[소스코딩][무손실 압축]- Huffman Coding</span>',
+'<span>[소스코딩][혼합 압축]- MPEG</span>',
+'<span>[전송부호화]- 채널코딩</span>',
+'<span>[전송부호화]- 라인코딩</span>',
+'<span>Modbus</span>',
+'<span>필드버스(Fieldbus)</span>',
+'<span>[필드버스(Fieldbus)]- IEEE802.11i, IEEE 802.11ac, IEEE 802.11ah(M2M-Wifi), IEEE 803.af(Super Wifi)</span>',
+'<span>[무선통신]- Wi-SUN</span>',
+'<span>[무선통신]- Wi-Fi Positioning System</span>',
+'<span>[무선통신]- 와이파이 헤일로(W-Fi HaLow)</span>',
+'<span>[무선통신]- 와이파이 콜링 서비스(Wi-Fi calling Service)</span>',
+'<span>[무선통신]- 패시브 와이파이(Passive wifi)</span>',
+'<span>[무선통신]- 인지무선(Cognitive Radio)</span>',
+'<span>[무선통신]- IEEE 802.11p</span>',
+'<span>[무선통신]- C-V2X</span>',
+'<span>[무선통신]- Gigabit WLAN</span>',
+'<span>[무선통신]- 저전력 무선통신 비교</span>',
+'<span>[무선통신][저전력]- 블루투스 5</span>',
+'<span>[무선통신][저전력]- UWB</span>',
+'<span>[측위기술]- LBS</span>',
+'<span>[측위기술]- IPS</span>',
+'<span>[측위기술]- LDT</span>',
+'<span>[측위기술]- GPS</span>',
+'<span>[측위기술][GPS]- 위성항법기술</span>',
+'<span>[측위기술][GPS]- SBAS</span>',
+'<span>[측위기술]- RTLS</span>',
+'<span>라이파이(Li-Fi)</span>',
+'<span>SON</span>',
+'<span>BcN</span>',
+'<span>CDN</span>',
+'<span>CDN, ADN</span>',
+'<span>IEEE 802.15.x</span>',
+'<span>USB4.0</span>',
+'<span>이동통신 발전역사</span>',
+'<span>5G 이동통신</span>',
+'<span>[5G]- 5G NSA</span>',
+'<span>[5G]- 5G SA</span>',
+'<span>[5G]- 3GPP Release 16</span>',
+'<span>[5G]- MEC</span>',
+'<span>[MEC]- SSL Offloading</span>',
+'<span>[5G]- 5GX</span>',
+'<span>[5G]- Open Lan</span>',
+'<span>[5G]- Network Slicing</span>',
+'<span>[5G]- Private 5G</span>',
+'<span>지능형 초연결망</span>',
+'<span>6G</span>',
+'<span>[6G]- 6G 추진 전략</span>',
+'<span>[6G]- Wifi 7</span>',
+'<span>Wifi 6</span>',
+'<span>Wifi 6e</span>',
+'<span>재난 안전 통신망</span>',
+'<span>[재난 안전 통신망]- LTE-M</span>',
+'<span>[재난 안전 통신망]- LTE-R</span>',
+'<span>[재난 안전 통신망]- RAN Sharing</span>',
+'<span>D2D</span>',
+'<span>토르 네트워크(Tor Network)</span>',
+'<span>비지상네트워크(NTN, Non-Terrestrial Network)</span>',
+'<span>eMTC</span>',
+'<span>Network Storage</span>',
+'<span>자가망 구축 가이드라인</span>',
+'<span>QoS</span>',
+'<span>[QoS]- WFQ</span>',
+'<span>[QoS]- 통합 서비스</span>',
+'<span>[QoS]- 차등 서비스</span>',
+'<span>[QoS][차등][Queuing]- Priority Queue</span>',
+'<span>[QoS][차등][Queuing]- Custom Queue</span>',
+'<span>FTP</span>',
+'<span>[FTP]- FTPS</span>',
+'<span>[FTP]- SFTP</span>',
+'<span>Socket</span>',
+'<span>NOS</span>',
+'<span>NW 가상화</span>',
+'<span>[NW 가상화]- VPN</span>',
+'<span>[NW 가상화]- NFV</span>',
+'<span>[NW 가상화]- SDN</span>',
+'<span>[NW 가상화]- Open flow</span>',
+'<span>[NW 가상화]- SD WAN</span>',
+'<span>[NW 가상화]- SDR</span>',
+'<span>SASE</span>',
+'<span>유무선 전력전송</span>',
+'<span>망분리</span>',
+'<span>망연계</span>',
+'<span>망중립성</span>',
+'<span>ISO 19626</span>',
 );
 
 var answer = answer.concat(
@@ -195,7 +195,7 @@ var answer = answer.concat(
 * 라이지움 86회 3교시 6번 <br/>\
 * 꿀닥 \
 ',
-  
+
 // 서비스 프리미티브
 '# 정의 : 개념적인 연동 규약 / 서비스만 주안점 <br/>\
 - OSI 기본 참조 모델에서, 서비스 이용자와 제공자간의 상호 동작시 제공하는 서비스만을 주안점으로 규정한 개념적인 연동 규약 <br/><br/>\
@@ -302,7 +302,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 * 125회 응용 4교시 3번 <br/>\
 * 그리타\
 ',
-  
+
 // 해밍코드
 '# 정의 : 패리티비트(Parity Bit)에 의한 오류검출 및 오류정정까지 가능한 코드 <br/><br/>\
 # 2^p >= d + p + 1 (d:데이터 비트수, p:패리티 비트수) <br/><br/>\
@@ -418,7 +418,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 * 125회 응용 3교시 1번 <br/>\
 * 라이지움 87회 관리 3교시 6번\
 ',
- 
+
 // Stop and Wait
 '# 정의 : 송신측에서 한번에 1개의 Frame을 송신후 수신측에서 Frame 검사후 ACK 혹은 NAK 전송하여 송신측은 수신측의 회신 올떄까지 기다리고 ACK 오면 다음 Frame 전송, NAK면 재전송 기법 <br/><br/>\
 # 특징 <br/>\
@@ -430,7 +430,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 * 125회 응용 3교시 1번 <br/>\
 * 라이지움 87회 관리 3교시 6번\
 ',
- 
+
 // CSMA/CD
 '# 정의 : 이더넷(유선)환경에서 Signal 전압의 강도를 통해 채널이 사용중인지 확인하고 트래픽이 없으면 패킷을 송출하는 LAN의 매체 점유 기법 <br/><br/>\
 # 특징 <br/>\
@@ -461,7 +461,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 * 125회 응용 4교시 1번 <br/>\
 * 라이지움 87회 관리 3교시 6번\
 ',
- 
+
 // CSMA/CA
 '# 정의 : 무선 환경에서 물리층에서 충돌이 일어날 것을 미리 예측하고 충돌발생 가능성을 송신전에 최소화하는 액세스 방법 <br/><br/>\
 # 특징 <br/>\
@@ -502,7 +502,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 <img src = "./img/FrameRelayX25Compare.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 124회 관리 1교시 10번\
 ',
- 
+
 // Collison Domain
 '# 정의 : 이더넷 통신 원리로서 CSMA/CD 동작 중 Level2 계층 통신 단위인 Frame 전송하게 되면 반드시 발생하는 Collision을 적절히 논리적으로 분할하는 영역 <br/><br/>\
 # CSMA/CD 작동방식과 Collison Domain 관계 <br/>\
@@ -513,7 +513,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 - BackOff Algorithm : 재전송(랜덤 시간 대기), 포기(15회) <br/><br/>\
 * 라이지움 87회 응용 1교시 11번\
 ',
-  
+
 // 공증교환 데이터망(PSDN) 방식
 '<img src = "./img/PSDN.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 88회 응용 2교시 7번\
@@ -530,7 +530,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 - 전송후 : 사용한 회선 자원 반납 <br/><br/>\
 * 라이지움 88회 응용 2교시 7번\
 ',
-  
+
 // 패킷교환
 '# 정의 : <br/>\
 - 전송할 데이터를 일정한 크기의 블록(패킷)으로 분리하여 패킷별 통신 경로를 수립하여 전송하는 교환 방식 <br/><br/>\
@@ -542,8 +542,8 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 - 에러 제어 : 패킷 유실 최소화, 유실된 패킷 복구 위한 에러제어 <br/><br/>\
 * 라이지움 88회 응용 2교시 7번\
 ',
-  
-// 패킷데이터 네트워크 계층 오류 
+
+// 패킷데이터 네트워크 계층 오류
 '# 패킷(Packet) : 데이터 비트의 덩어리, 데이터 전송단위, 데이터와 제어신호가 포함된 2진수의 비트그룹 <br/><br/>\
 # 오류제어 : 전송된 패킷의 부호적 오류를 검출하고 정확하게 재현하는 기법 <br/><br/>\
 # 패킷데이터 네트워크 계층오류 : 네트워크 상에 전송된 패킷(데이터)에 대하여 부호적 오류를 검출하고 오류를 보정하여 정확한 패킷을 재현하는 기법 <br/><br/>\
@@ -690,7 +690,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 - 하이브리드 : 손실 기반 혼잡 제어, 지연 기반 혼잡제어 융합 / CTCP(Compound), DCTCP(Data Center) <br/><br/>\
 * ITPE 합숙 125회 관리 1교시 13번\
 ',
-  
+
 // TCP
 '# 정의 : 신뢰성 데이터 전송 규격 <br/><br/>\
 # 연결수립 <br/>\
@@ -812,7 +812,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 - Release : 유니캐스팅 전달 <br/><br/>\
 * KPC 117회 대비 합숙 2일차 1교시 7번\
 ',
- 
+
 // DNS
 '# 정의 : 호스트의 도메인 이름을 IP 주소로 전환하는 분산형 이름 질의 시스템 <br/><br/>\
 # 구조 <br/>\
@@ -832,7 +832,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 - 다른 DNS 서버에게 같은 질의 반복 <br/><br/>\
 * 라이지움 87회 응용 2교시 5번\
 ',
-  
+
 // IP Tunneling
 '# 정의 : 개별 통신망, IP 통신 규약 / 캡슐화, 역 캡슐화<br/>\
 - 개별통신망 환경에서 사용하는 통신 규약을 IP 통신 규약으로 캡슐화/역캡슐화하여 가상의 터널을 형성하고 안전하게 데이터를 송수신 하는 기술 <br/><br/>\
@@ -945,7 +945,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 * 98회 응용 1교시 6번\
 ',
 
-// SCTP 
+// SCTP
 '# 정의 : TCP 신뢰성 / UDP 실시간성 / <font color = "red">멀티 스트리밍, 멀티 호밍</font> / RFC2960 표준 프로토콜 <br/>\
 - Stream Control Transmission Protocol <br/>\
 - TCP의 신뢰성 있는 연결 및 전송의 장점과 UDP의 실시간 데이터 전송의 장점을 취한 멀티스트리밍과 멀티호밍을 지원하는 RFC2960 표준의 프로토콜 <br/><br/>\
@@ -1007,7 +1007,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 * Dictionary에 저장되는 문자열은 허프만 코딩 압축방식이 사용됨 <br/>\
 * 스트림 우선순위 기준 : 의존성(Dependency), 가중치(Weight)\
 ',
- 
+
 // HTTP 3.0
 '# 정의 : HTTP-over-QUIC <br/>\
 - HTTP 연결 및 전송 지연을 최소화 하기 위해 TCP+TLS 조합 대신 UDP+TLS 조합을 이용하는 보안 및 향상된 성능을 제공하는 UDP 기반 전송 계층 프로토콜 <br/><br/>\
@@ -1018,7 +1018,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 <img src = "./img/HTTP3ProtocolConnection.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 119회 1교시 4번\
 ',
-  
+
 // QUIC
 '# 정의 : UDP 스트림 기반 다중화 전달 프로토콜 <br/>\
 - 구글에서 제안한 UDP 상에서 동작하는 스트림기반 다중화 서비스 제공하는 전달 프로토콜 <br/><br/>\
@@ -1064,7 +1064,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 * SAD : security Authentication Database </font><br/><br/>\
 * 정보관리 104회 2교시 3번 \
 ',
-  
+
 // Networ IP
 '# 정의 : 효율적 라우팅, 물리 주소 일치 주소 <br/>\
 - 인터넷 상에서 라우팅을 효율적으로 하기 위해 물리적인 네트워크 주소와 일치하는 32비트(IPv4) 혹은 128비트(IPv6) 주소체계 <br/><br/>\
@@ -1237,7 +1237,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 <img src = "./img/Subnet_6.png" style = "max-width:100%; height:auto;">\
 ',
 
-// Subnetting 
+// Subnetting
 '# 정의 : 하나의 NW를 여러개의 서브넷으로 분할하는 주소 이용의 효율화 기법 <br/>\
 - Subnet Mask를 통해 2단계 계층(Classful)에서 3단계 계층(Classless)구조로 변화 적용 <br/><br/>\
 # 공식 <br/>\
@@ -1366,7 +1366,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 * ITPE 6회 응용 3교시 6번\
 ',
 
-  
+
 // 압축기술
 '# 정의 : 데이터 저장공간과 전송대역폭의 효과적 이용을 위해 데이터 크기를 줄이는 기법 <br/><br/>\
 # 종류 <br/>\
@@ -1406,7 +1406,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 - AB*A5BCB*D7ABC (14 Bytes) <br/><br/>\
 * ITPE 합숙 124회 1일차 1교시 5번\
 ',
-  
+
 // Huffman Coding
 '# 정의 : 빈도 수 기반 / 다른 길이 비트 매칭 / 무손실 압축 방식 <br/>\
 - 동일한 데이터의 등장하는 빈도에 따라 다른 길이의 비트를 매칭하여 완성해가는 무손실 압축 방식 <br/><br/>\
@@ -1424,7 +1424,7 @@ T.CONNECT.Request(Called address, Calling address, ... user data) <br/>\
 <img src = "./img/HuffmanCodingEx1.png" style = "max-width:100%; height:auto;"><br/>\
 <img src = "./img/HuffmanCodingEx2.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // MPEG
 '# 정의 : 공간/시간적 동영상 압축 알고리즘 <br/>\
 - 정지영상의 압축/복원인 JPEG를 동영상에 적용시켜 공간적 압축 뿐만이 아니라 시간적 압축 기법을 적용한 표준 동영상 압축 알고리즘 <br/><br/>\
@@ -1583,7 +1583,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 <img src = "./img/실내측위방식.PNG" style = "max-width:100%; width:auto;">\
 ',
 
-// Wi-Fi Halow 
+// Wi-Fi Halow
 '# 정의 : 와이파이 얼라이언스 IoT 전용 무선 통신 규격 <br/>\
 - 와이파이 얼라이언스에서 사물인터넷용으로 제안한 새로운 무선랜 통신 규격으로 현재 표준화 진행 중인 와이파이 표준 IEEE802.11ah를 채용한 장치<br/><br/>\
 # 특징 <br/>\
@@ -1628,7 +1628,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 // Passive Wi-Fi
 '# 정의 : 후방산란 데이터 전달 기술 / 전력소비 RF 수신 장치 별도 분리 <br/>\
 - 전력소비가 많은 와이파이의 단점을 개선하여 사물인터넷(IoT)에서의 센서 정보 수집에 사용 가능도록 전력을 많이 소비하는 RF수신 장치를 별도 분리하고 후방산란 방식으로 데이터를 전달하는 기술',
- 
+
 // 인지무선
 '# 정의 : 스펙트럼 지능 분석 / 최적 주파수, 변조방식, 출력 선택 / 통신방식 <br/>\
 - Cognitive Radio<br/>\
@@ -1694,7 +1694,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 <img src = "./img/DSRC_V2X.png" style = "max-width:100%; height:auto;">\
 * 121회 관리 1교시 9번\
 ',
- 
+
 // Gigabit WLAN
 '# 정의 : IEEE 802.11n 초고속 무선랜 후속으로 Gigabit 수준의 무선 전송 서비스 <br/><br/>\
 # 키워드 : QAM, MU-MIMO, OBSS Management, Channel Bounding, Beamforming <br/><br/>\
@@ -1723,14 +1723,14 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 * BCH(Bitcoin Cash) <br/>\
 * 122회 응용 4교시 5번\
 ',
- 
+
 // 저전력 무선통신
 '# 유형 <br/>\
 <img src = "./img/LowPowerWirelessType.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 비교 <br/>\
 <img src = "./img/LowPowerWireless.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // 블루투스 5
 '# 정의 : 기존 4세대 대비 4배 확장된 거리, 2배의 속도 향상, 8배 Broadcast 용량을 제공하는 통신 규격 <br/><br/>\
 # 기술 변화 <br/>\
@@ -1743,7 +1743,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 * KPC 96회 응용 3교시 8번\
 ',
 
-// UWB 
+// UWB
 '# 정의 : 펄스신호 사용 / 넓은 주파수 대역 / 근거리 무선통신 <br/>\
 - Ultra Wide Band <br/>\
 - IEEE 802.15.4a / 4z <br/>\
@@ -1773,7 +1773,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 # UWB, Wi-Fi 비교 (<font color = "red">속거대주</font>)<br/>\
 <img src = "./img/UWB_Wifi_Compare.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // LBS
 '# 정의 : 사용자 / 알려진 존재 파악 가능 / 위치 정보 근거 서비스 <br/>\
 - Location Based Service <br/>\
@@ -1857,7 +1857,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 # 실내 측위 기술 <br/>\
 <img src = "./img/LDT_Tech.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // GPS
 '# 정의 : 인공위성을 이용한 정확한 위치파악 시스템 <br/>\
 - Global Positioning System <br/>\
@@ -1902,7 +1902,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 - C-ITS 구축 및 이용 : V2X, V2I, V2P, V2C 이용 실시간 업데이트 <br/><br/>\
 * 116회대비 JUD 2교시 \
 ',
-  
+
 // SBAS
 '# 정의 : 초정밀 GPS 보정 시스템 <br/>\
 - Satelite based Augment System <br/>\
@@ -1910,7 +1910,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 # DGPS 비교 <br/>\
 <img src = "./img/SBAS_DGPS.png" style = "max-width:100%; height:auto;">\
 ',
- 
+
 // RTLS
 '# 정의 : 특정 객체 위치 실시간 <font color ="red">추적</font> / LBS 제공 기술 <br/>\
 - 제한적인 범위의 실내 또는 실외에서 특정 사물이나 사람에 대한 인식 및 위치를 실시간으로 추적하여 위치정보기반의 서비스를 제공하는 기술 <br/><br/>\
@@ -1923,7 +1923,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 - 생물 : 애완동물관리, 성범죄자 추적 <br/><br/>\
 * 120회 응용 1교시 13번\
 ',
- 
+
 // Li-Fi
 '# 정의 : 광원 신호기반 통신 기술 <br/>\
 - Light Fidelity <br/>\
@@ -2027,11 +2027,11 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 - Meta Redirection : ASX 파일 요청시 위치 정보에 캐시서버IP 제공 <br/>\
 - L4 Switch Redirection : 클라이언트가 근원 서버 연결 시도시 Edge Site의 L4 스위치가 캐시서버로 연결\
 ',
-  
+
 '<img src = "./img/CDNADN.png" style = "width:100%; height:auto;">\
 ',
 
-// WPAN 
+// WPAN
 '# 정의 : adhoc 기반 무선 NW 기술 / 10m 이내 <br/>\
 - WPAN (Wireless Personal Area Network) / IEEE 802.15.x <br/>\
 - 10m 이내 짧은 거리 존재 컴퓨터 및 주변기기, 휴대폰, 가전제품 등 디지털 장비를 식별하고 기기사이 데이터 전송 및 제어가 가능한 adhoc 기반 무선 NW 기술<br/><br/>\
@@ -2124,7 +2124,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 - 적용 : Private 5G 적용 유리 <br/><br/>\
 * ITPE 7회 관리 3교시 1번\
 ',
- 
+
 // 3GPP Release 16
 '# 기술 진화 <br/>\
 - Release 15(2017하 ~ 2019상) : 5G 세대전환 <br/>\
@@ -2173,7 +2173,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 * KPC 91회 관리 2교시 1번 <br/>\
 * KPC 96회 관리 3교시 2번\
 ',
-  
+
 // SSL Offloading
 '# 정의 : SSL 인증서 로드 밸런서 배치 <br/>\
 - SSL 인증서를 로드 밸런서에 배치하여 백엔드 별 인증서 배포 및 암호화/복호화 수행을 최소화하여 서비스의 성능을 향상시키는 인프라 기술<br/>\
@@ -2275,7 +2275,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 * ITPE 합숙 124회 4일차 2교시 6번\
 ',
 
-// 지능형 초연결망 
+// 지능형 초연결망
 '# 정의 : NW 기술 + SDx 기술 / 초연결 네트워크 <br/>\
 - 5G, IoT, Wi-Fi 네트워크 기술과 SDN/NFV 기반의 지능형기술을 기반으로 모든 사람과 사물을 신경망과 같이 유기적으로 구축하여 혁신적 서비스 창출을 지원하는 초연결 네트워크 <br/><br/>\
 # 개념도 <br/>\
@@ -2290,7 +2290,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 <img src = "./img/InteligenceHyperConectivityBM.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * ITPE 8회 관리 1교시 10번\
 ',
-  
+
 // 6G
 '# 정의 : 최대 전송 용량, 5배 1Tbps / 체감 속도, 10배 1Gbps / 6세대 무선 이동 통신 기술 <br/>\
 - 5G의 20Gbps보다 5배 빠른 1Tbps 최대 전송 용량과 10배 우수한 1Gbps 사용자 체감 속도 등을 지원하는 차세대 이동 통신 기술 <br/><br/>\
@@ -2326,7 +2326,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 - 연구, 산업<font color = "red">기반 조성</font> 병행 : 부품, 장비 국산화, 고급 실무인력 양성 <br/><br/>\
 * ITPE 7회 관리 3교시 1번\
 ',
-  
+
 // Wifi 7
 '# 정의 : IEEE 802.11be, 비면허대역, CA 기술적용, 30Gbps <br/>\
 - 기존의 Wifi 6보다 3배 빠르고 초 실감 미디어 컨텐츠를 안정적으로 전송하는 차세대 무선통신 기술 <br/><br/>\
@@ -2348,7 +2348,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 * 125회 응용 1교시 1번 <br/>\
 * KPC 96회 응용 1교시 16번\
 ',
-  
+
 // Wifi 6
 '# 정의 : IEEE 802.11.ax(Wifi Alliance), High Efficiency Wireless <br/>\
 - IEEE 802.11.ac 대비 평균 Throughput 4배 이상 향상되어 밀집환경에서 더 많은 사용자에게 안정적인 Throughput을 제공하는 Wireless LAN 차세대 기술 <br/><br/>\
@@ -2364,7 +2364,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 * 123회 응용 1교시 7번 <br/>\
 * KPC 92회 응용 1교시 15번\
 ',
-  
+
 // Wifi 6e
 '# 정의 : 6GHz 추가 Wifi 6 <br/>\
 - IEEE 802.11.ax 규격을 바탕으로 Wifi 6의 2.4GHz와 5GHz 대역에 추가적으로 6GHz 대역을 포함한 무선통신 표준 <br/><br/>\
@@ -2389,7 +2389,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 - OFDMA를 활용한 초연결 특성 확보 <br/><br/>\
 * 123회 응용 1교시 7번 <br/>\
 ',
- 
+
 // 재난 안전 통신망
 '# 정의 : 공공안전 통신 / 그룹통신, 단말간 직접 통화 / 생존성 요구기능 지원 통신망 <br/>\
 - Public Safety - Long Term Evolution <br/>\
@@ -2551,7 +2551,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 * 122회 1교시 7번 \
 ',
 
-// 자가망 구축 가이드라인 
+// 자가망 구축 가이드라인
 '# 정의 : 과기정통부, 자가망 사용 범위 기준 제시 <br/>\
 - 과기정통부가 제시한 법률에 근거한 자가망 사용 범위와 기준 제시 가이드 라인 <br/><br/>\
 # 배경 <br/>\
@@ -2573,7 +2573,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 <img src = "./img/자가망2.png" style = "max-width:100%; height:auto;"><br/><br/>\
 <img src = "./img/자가망3.png" style = "max-width:100%; height:auto;">\
 ',
- 
+
 // QoS
 '# 정의 : 한정, 효율 사용 / 정책별 제어 / 종단간 품질 향상 기술 <br/>\
 - Quality of Service <br/>\
@@ -2621,7 +2621,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 * 125회 관리 3교시 3번 <br/>\
 * 125회 관리 1교시 10번\
 ',
- 
+
 // 통합 서비스
 '# 정의 : RSVP를 이용한 통합서비스 모델 <br/>\
 - 개별 종단간 개별 트래픽 흐름단위로 경로상의 라우터 자원을 미리 예약함으로써 종단간 QoS를 보장하는 모델<br/><br/>\
@@ -2642,7 +2642,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 * 125회 관리 3교시 3번 <br/>\
 * KPC 94회 1교시 3번\
 ',
- 
+
 // 차등 서비스
 '# 정의 : DSCP 마킹 통한 서비스 차별화 모델 <br/>\
 - 패킷의 DS(Differentiated Service) 필드에 DSCP(DS Code Point)를 마킹하여 서비스 클래스별 PHB(Per Hop Behavior) 우선순위를 정하여 QoS를 보장하는 서비스 모델 <br/><br/>\
@@ -2667,7 +2667,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 <img src = "./img/통합차등비교.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 125회 관리 3교시 3번\
 ',
-  
+
 // Priority Queue
 '# 정의 : 4개 구분 / 차등 서비스 / Starvation 발생 <br/>\
 - FIFO 큐잉 단점인 차등화된 서비스를 제공하지 못하는 문제를 해결하기 위해 4개의 트래픽 클래스로 구분하고 우선순위에 따라 서비스하는 큐잉 기법 <br/><br/>\
@@ -2677,7 +2677,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 - 높은 우선순위 도착시 선점 <br/><br/>\
 * KPC 91회 관리 1교시 5번\
 ',
-  
+
 // Custom Queue
 '# 정의 : Starvation 해결 / 16개 트래픽 클래스 / RR / 공평, 패킷 <br/>\
 - Starvation 해결 위해 16개의 트래픽 클래스를 구분하고 각 클래스별 큐를 Round-Robin 방식으로 서비스 하는 큐잉 기법 <br/><br/>\
@@ -2687,7 +2687,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 - 모든 큐 동일 우선순위 유지, 클래스별 순환 패킷 서비스 <br/><br/>\
 * KPC 91회 관리 1교시 5번\
 ',
- 
+
 // FTP
 '# 정의 : File Transfer Protocol <br/>\
 - TCP/IP 프로토콜을 기반으로 서버, 클라이언트 사이에서 파일 송수신을 하기 위한 프로토콜 <br/><br/>\
@@ -2698,7 +2698,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 <img src = "./img/FTP_FTPS_SFTP.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 116회 2교시 2번\
 ',
- 
+
 // FTPS
 '# 정의 : FTP Secure <br/>\
 - FTP(App) + SSL(Trans) <br/>\
@@ -2710,7 +2710,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 - 보안성 : End to End 보안 / RFC 2246 취약 <br/><br/>\
 * 116회 2교시 2번\
 ',
- 
+
 // SFTP
 '# 정의 : SSH FTP <br/>\
 - FTP + Tunneling <br/>\
@@ -2723,7 +2723,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 <img src = "./img/SFTP_Stack.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 116회 2교시 2번\
 ',
- 
+
 // Socket
 '# 정의 : 응용프로그램간의 실시간 정보의 교환 기술 <br/>\
 - 소프트웨어로 작성된 추상적인 개념의 통신 접속점을 이용하여 데이터 송수신하는 통신 기술<br/><br/>\
@@ -2737,7 +2737,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 <img src = "./img/SocketFunction.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 116회 3교시 6번\
 ',
- 
+
 // NOS
 '# 정의 : NW 환경에서 원활한 통신 보장위한 운영체제 <br/>\
 - 네트워크 환경에서 서버와 클라이언트간의 원활한 통신을 보장하기 위해 자원 공유 서비스 및 클라이언트의 관리 기능을 제공하는 운영체제 <br/><br/>\
@@ -2750,7 +2750,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 - 소프트웨어 중심 네트워킹 기술 구현 : 개방형 인터페이스 제공 구조 <br/><br/>\
 * 120회 응용 1교시 6번\
 ',
-  
+
 // NW 가상화
 '# 정의 : 자원 활용 극대화 <br/>\
 - 물리적인 네트워크를 하나 이상의 논리적인 네트워크로 세분화하는 기술 <br/><br/>\
@@ -2801,7 +2801,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 <img src = "./img/VPN_Type.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * ITPE 6회 관리 1교시 7번\
 ',
-  
+
 // NFV
 '# 정의 : 네트워크 기능 / 여러 사용자 사용 가능 / 네트워크 장비 가상화 기술 <br/>\
 - 하나의 물리적인 네트워크 기능을 여러 사용자 및 장치가 사용 가능하도록 네트워크 기능을 가상화하는 기술 <br/><br/>\
@@ -2835,7 +2835,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 * NFV : ETSI NFV Working Group <br/><br/>\
 * 아이리포 23회 관리 1교시 10번\
 ',
-  
+
 // SDN
 '# 정의 : 제어부 / 데이터부 / 네트워킹 가상화 기술 <br/>\
 - 네트워크 장비의 제어부와 데이터부를 분리하여 소프트웨어적으로 제어하는 네트워크 <br/><br/>\
@@ -2873,7 +2873,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 <img src = "./img/5GNetworkSlice.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 88회 응용 3교시 6번\
 ',
-  
+
 // Open flow
 '# 정의 : SDN 컨트롤러, 네트워크 장치간 인터페이스 / 프로그래밍 네트워크 제어 기술 <br/>\
 - SDN의 컨트롤러와 네트워크 장치간의 인터페이스 규격으로 패킷을 제어하는 기능과 전달하는 기능을 분리하고 프로그래밍을 통해 네트워크를 제어하는 기술 <br/><br/>\
@@ -2980,7 +2980,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 - 비용절감 : CAPEX, OPEX 절감, 단일 플랫폼 전략 사용 지출 <br/>\
 - 구축용이 : 복잡성 완화, 성능 최적화, 아키텍처 단순화 클라우드 활용 \
 ',
-  
+
 // 유무선 전력전송
 '# Overview <br/>\
 <img src = "./img/LienPowerOverview.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -3004,7 +3004,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 * 125회 응용 4교시 5번 <br/>\
 * KPC 93회 응용 4교시 8번\
 ',
-  
+
 // 망분리
 '# 정의 : 접근제어 / 유출차단 / 업무, 인터넷 망 차단 조치 <br/>\
 - 외부 인터넷망을 통한 불법적인 접근과 내부정보 유출을 차단하기 위해 업무망과 외부 인터넷망을 분리하는 망 차단 조치(개인정보의 기술적,관리적 보호조치 기준 제4조(접근통제) 제6항) <br/><br/>\
@@ -3050,13 +3050,13 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 * ITPE 7회 관리 2교시 2번 <br/>\
 * 라이지움 88회 관리 1교시 4번\
 ',
-  
+
 // 망연계
 '# 개념 : 업무망 컴퓨터와 인터넷 컴퓨터간 안전한 데이터 전달 기술 <br/><br/>\
 # 기술요소 <br/>\
 <img src = "./img/NetConnection.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // 망중립성
 '# 정의 : 네트워크 사업자, 정부, 동등 취급 <br/>\
 - 모든 네트워크 사업자와 정부는 인터넷을 통해 발생하는 데이터 트래픽을 동등하게 취급하고, 대상, 내용, 유형, 사용자, 플랫폼, 전송방식에 따른 어떠한 차별도 없이 동등하게 처리해야 하는 원칙 <br/><br/>\

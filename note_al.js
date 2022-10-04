@@ -1,166 +1,166 @@
 var question = question.concat(
-'자료구조',
-'[자료구조]- 선형구조',
-'[선형]- Stack',
-'[선형]- Queue',
-'[선형]- Priority Queue',
-'[비선형]- Heap',
-'[알고리즘 설계]- Back Tracking',
-'[알고리즘 설계]- 분할과정복',
-'[알고리즘 설계]- Greedy',
-'[알고리즘 설계]- 동적계획법',
-'트라이(Trie)',
-'정렬 알고리즘',
-'[정렬 알고리즘]- Selection sort',
-'[정렬 알고리즘]- Bubble sort',
-'[정렬 알고리즘]- Insertion sort',
-'[정렬 알고리즘]- Shell sort',
-'[정렬 알고리즘]- Merge sort',
-'[정렬 알고리즘]- Quick sort',
-'최단경로 알고리즘',
-'[최단경로 알고리즘]- 다익스트라(Dijkstra) 알고리즘',
-'[최단경로 알고리즘]- 플로이드(Floyd) 알고리즘',
-'[최단경로 알고리즘]- 벨만-포드(Bellman-Ford algorithm) 알고리즘',
-'[최단경로 알고리즘]- A* 알고리즘',
-'최소신장트리',
-'[최소신장트리]- 크루스칼(Kruskal) 알고리즘',
-'[최소신장트리]- 프림(Prim) 알고리즘',
-'[Tree]- AVL Tree',
-'[Tree]- Multiway Search Tree',
-'[Tree]- B Tree',
-'[Tree]- B Plus Tree',
-'[Tree]- B Star Tree',
-'[Tree]- 2 3 Tree',
-'[Tree]- Red Black Tree',
-'방향성 비순환 그래프',
-'[방향성 비순환 그래프]- 위상 정렬',
-'[AI]- 인공지능 특이점',
-'[AI]- 인공지능 데이터 평가',
-'[AI]- 기계학습',
-'[AI]- 지도학습',
-'[AI]- Clustering',
-'[AI]- 능동학습',
-'[AI][지도학습]- 머신러닝 예측모델',
-'[AI][지도학습]- 성능검증',
-'[AI][지도학습][성능검증]- Cross Validation',
-'[AI][지도학습][성능검증]- 혼동행렬(오차행렬)',
-'[AI][지도학습][성능검증]- ROC Curve',
-'[AI][지도학습]- 분류모델생성알고리즘',
-'[AI][지도학습][AL]- ANN',
-'[AI]- DNN',
-'[AI][지도학습][AL]- SVM',
-'[AI]- 비지도 학습',
-'[AI][비지도학습]- 차원축소',
-'[AI][비지도학습][AL]- PCA Algorithm',
-'[AI][비지도 학습]- GAN',
-'[AI][비지도 학습]- DCGAN',
-'[AI]- 강화학습',
-'[AI][강화학습]- 심층강화학습',
-'[AI]- 역강화학습',
-'[AI][AL]- 유전자 알고리즘',
-'[AI]- 전문가 시스템',
-'[AI][Classifier][AL]- Perceptron',
-'[AI][Classifier][AL]- Activation Function',
-'[AI]- Feed Forward Neural',
-'[AI][Classifier][AL]- Backpropagation',
-'[AI][Classifier][AL]- Gradient Descent',
-'[AI][Classifier][AL]- Optimizer',
-'[AI]- 비용함수, 손실함수',
-'[AI][Classifier][AL]- KNN',
-'[AI][Classifier]- 로지스틱 회귀분석',
-'[AI][Clustering][AL]- DBSCAN',
-'[AI][Clustering][AL]- EM Clustering',
-'[AI][Clustering][AL]- Dendrogram CLustering',
-'[AI][Clustering][AL]- K-means',
-'[AI][Clustering][AL]- SOM',
-'[AI][AL]- MCTS',
-'[AI][AL]- CNN',
-'[AI][CNN]- Efficient NET, DET',
-'[AI][AL]- R-CNN',
-'[AI][AL][R-CNN]- Fast RCNN',
-'[AI][AL][R-CNN]- Faster RCNN',
-'[AI][AL][R-CNN]- YOLO',
-'[AI][AL]- RNN',
-'[AI][AL][RNN]- BRNN',
-'[AI][AL]- LSTM',
-'[AI][AL]- GRU',
-'[AI][AL]- GNN',
-'[AI]- 딥러닝',
-'[AI][DeepLearning]- 딥러닝 한계점',
-'[AI][DeepLearning]- 컨텍스트 딥러닝',
-'[AI][DeepLearning]- 튜링테스트',
-'[AI][DeepLearning]- Vanishing Gradient Problem',
-'[AI][DeepLearning]- Drop Out',
-'[AI]- F1-Score',
-'[AI]- Bias',
-'[AI]- One-Hot Encoding',
-'[AI]- Softmax 함수',
-'[AI]- NPU',
-'[AI]- Deep Fake',
-'[AI]- Hyper Prameter',
-'[AI]- Computer Vision',
-'[AI][Computer Vision]- OpenCV',
-'[AI]- 머신러닝 파이프라인',
-'[AI]- Active Learning',
-'[AI]- AutoML',
-'[AI]- 역기능',
-'[AI]- 인공지능 편향',
-'[AI]- 인공지능 감성지능',
-'[AI]- 앙상블 학습법',
-'[AI]- Fitting',
-'[AI][Fitting]- Overfitting',
-'[AI][Fitting]- Underfitting',
-'[AI]- Python',
-'[AI][DL FW]- (1) TensorFlow',
-'[AI][DL FW]- (2) PyTorch',
-'[AI]- 모방학습',
-'[AI]- 연합학습',
-'[AI]- 딥러닝 경량화',
-'[AI][딥러닝 경량화]- 경량 딥러닝 기술',
-'[AI][딥러닝 경량화]- 알고리즘 경량화',
-'[AI][알고리즘 경량화]- 지식 증류',
-'[AI][AL]- Q-러닝',
-'[AI]- 모라벡의 역설(Moravec\'s Paradox)',
-'[AI]- 인공지능 서비스 플랫폼',
-'[AI]- 인공지능 소프트웨어 보안 취약성',
-'[AI]- AI Flow',
-'[AI]- XAI',
-'[AI][지식표현]- 생성규칙',
-'[AI][지식표현]- 의미망',
-'[AI][의미망]- 프레임',
-'[AI][지식표현]- 논리',
-'[AI]- 클라우드 활용 AI구축 모델',
-'[AI]- AI 프로젝트',
-'[AI][정책]- 한국판 AI 윤리기준', 
-'[AI]- 인공지능 규범 동향',
-'[AI]- 인공지능 국가전략',
-'[AI]- 인공지능 개인정보보호 자율점검표',
-'[AI]- 적대적 공격',
-'[AI]- 음성비서',
-'[AI]- Pre-Crime',
-'[AI]- 지능형 로봇',
-'[AI]- 초대규모 AI',
-'[AI]- NLP',
-'[AI][NLP]- NER',
-'[AI][NLP]- 워드 임베딩',
-'[AI][NLP]- TF-IDF',
-'[AI][NLP]- Word2Vec',
-'[AI][NLP]- Attention',
-'[AI][NLP]- Transformer',
-'[AI][NLP]- BERT',
-'[AI][NLP]- GPT-3',
-'[AI]- 전이학습',
-'[AI][비지도][자기지도]- Downstream Task',
-'[AI]- 추천 시스템',
-'[AI][정책]- AI 조달 가이드라인',
-'[AI]- Digital Cartel',
-'[AI]- 인공지능 성능 지표',
-'[AI][성능지표]- IoU',
-'CCW(CounterClockWise) 알고리즘',
+'<span>자료구조</span>',
+'<span>[자료구조]- 선형구조</span>',
+'<span>[선형]- Stack</span>',
+'<span>[선형]- Queue</span>',
+'<span>[선형]- Priority Queue</span>',
+'<span>[비선형]- Heap</span>',
+'<span>[알고리즘 설계]- Back Tracking</span>',
+'<span>[알고리즘 설계]- 분할과정복</span>',
+'<span>[알고리즘 설계]- Greedy</span>',
+'<span>[알고리즘 설계]- 동적계획법</span>',
+'<span>트라이(Trie)</span>',
+'<span>정렬 알고리즘</span>',
+'<span>[정렬 알고리즘]- Selection sort</span>',
+'<span>[정렬 알고리즘]- Bubble sort</span>',
+'<span>[정렬 알고리즘]- Insertion sort</span>',
+'<span>[정렬 알고리즘]- Shell sort</span>',
+'<span>[정렬 알고리즘]- Merge sort</span>',
+'<span>[정렬 알고리즘]- Quick sort</span>',
+'<span>최단경로 알고리즘</span>',
+'<span>[최단경로 알고리즘]- 다익스트라(Dijkstra) 알고리즘</span>',
+'<span>[최단경로 알고리즘]- 플로이드(Floyd) 알고리즘</span>',
+'<span>[최단경로 알고리즘]- 벨만-포드(Bellman-Ford algorithm) 알고리즘</span>',
+'<span>[최단경로 알고리즘]- A* 알고리즘</span>',
+'<span>최소신장트리</span>',
+'<span>[최소신장트리]- 크루스칼(Kruskal) 알고리즘</span>',
+'<span>[최소신장트리]- 프림(Prim) 알고리즘</span>',
+'<span>[Tree]- AVL Tree</span>',
+'<span>[Tree]- Multiway Search Tree</span>',
+'<span>[Tree]- B Tree</span>',
+'<span>[Tree]- B Plus Tree</span>',
+'<span>[Tree]- B Star Tree</span>',
+'<span>[Tree]- 2 3 Tree</span>',
+'<span>[Tree]- Red Black Tree</span>',
+'<span>방향성 비순환 그래프</span>',
+'<span>[방향성 비순환 그래프]- 위상 정렬</span>',
+'<span>[AI]- 인공지능 특이점</span>',
+'<span>[AI]- 인공지능 데이터 평가</span>',
+'<span>[AI]- 기계학습</span>',
+'<span>[AI]- 지도학습</span>',
+'<span>[AI]- Clustering</span>',
+'<span>[AI]- 능동학습</span>',
+'<span>[AI][지도학습]- 머신러닝 예측모델</span>',
+'<span>[AI][지도학습]- 성능검증</span>',
+'<span>[AI][지도학습][성능검증]- Cross Validation</span>',
+'<span>[AI][지도학습][성능검증]- 혼동행렬(오차행렬)</span>',
+'<span>[AI][지도학습][성능검증]- ROC Curve</span>',
+'<span>[AI][지도학습]- 분류모델생성알고리즘</span>',
+'<span>[AI][지도학습][AL]- ANN</span>',
+'<span>[AI]- DNN</span>',
+'<span>[AI][지도학습][AL]- SVM</span>',
+'<span>[AI]- 비지도 학습</span>',
+'<span>[AI][비지도학습]- 차원축소</span>',
+'<span>[AI][비지도학습][AL]- PCA Algorithm</span>',
+'<span>[AI][비지도 학습]- GAN</span>',
+'<span>[AI][비지도 학습]- DCGAN</span>',
+'<span>[AI]- 강화학습</span>',
+'<span>[AI][강화학습]- 심층강화학습</span>',
+'<span>[AI]- 역강화학습</span>',
+'<span>[AI][AL]- 유전자 알고리즘</span>',
+'<span>[AI]- 전문가 시스템</span>',
+'<span>[AI][Classifier][AL]- Perceptron</span>',
+'<span>[AI][Classifier][AL]- Activation Function</span>',
+'<span>[AI]- Feed Forward Neural</span>',
+'<span>[AI][Classifier][AL]- Backpropagation</span>',
+'<span>[AI][Classifier][AL]- Gradient Descent</span>',
+'<span>[AI][Classifier][AL]- Optimizer</span>',
+'<span>[AI]- 비용함수, 손실함수</span>',
+'<span>[AI][Classifier][AL]- KNN</span>',
+'<span>[AI][Classifier]- 로지스틱 회귀분석</span>',
+'<span>[AI][Clustering][AL]- DBSCAN</span>',
+'<span>[AI][Clustering][AL]- EM Clustering</span>',
+'<span>[AI][Clustering][AL]- Dendrogram CLustering</span>',
+'<span>[AI][Clustering][AL]- K-means</span>',
+'<span>[AI][Clustering][AL]- SOM</span>',
+'<span>[AI][AL]- MCTS</span>',
+'<span>[AI][AL]- CNN</span>',
+'<span>[AI][CNN]- Efficient NET, DET</span>',
+'<span>[AI][AL]- R-CNN</span>',
+'<span>[AI][AL][R-CNN]- Fast RCNN</span>',
+'<span>[AI][AL][R-CNN]- Faster RCNN</span>',
+'<span>[AI][AL][R-CNN]- YOLO</span>',
+'<span>[AI][AL]- RNN</span>',
+'<span>[AI][AL][RNN]- BRNN</span>',
+'<span>[AI][AL]- LSTM</span>',
+'<span>[AI][AL]- GRU</span>',
+'<span>[AI][AL]- GNN</span>',
+'<span>[AI]- 딥러닝</span>',
+'<span>[AI][DeepLearning]- 딥러닝 한계점</span>',
+'<span>[AI][DeepLearning]- 컨텍스트 딥러닝</span>',
+'<span>[AI][DeepLearning]- 튜링테스트</span>',
+'<span>[AI][DeepLearning]- Vanishing Gradient Problem</span>',
+'<span>[AI][DeepLearning]- Drop Out</span>',
+'<span>[AI]- F1-Score</span>',
+'<span>[AI]- Bias</span>',
+'<span>[AI]- One-Hot Encoding</span>',
+'<span>[AI]- Softmax 함수</span>',
+'<span>[AI]- NPU</span>',
+'<span>[AI]- Deep Fake</span>',
+'<span>[AI]- Hyper Prameter</span>',
+'<span>[AI]- Computer Vision</span>',
+'<span>[AI][Computer Vision]- OpenCV</span>',
+'<span>[AI]- 머신러닝 파이프라인</span>',
+'<span>[AI]- Active Learning</span>',
+'<span>[AI]- AutoML</span>',
+'<span>[AI]- 역기능</span>',
+'<span>[AI]- 인공지능 편향</span>',
+'<span>[AI]- 인공지능 감성지능</span>',
+'<span>[AI]- 앙상블 학습법</span>',
+'<span>[AI]- Fitting</span>',
+'<span>[AI][Fitting]- Overfitting</span>',
+'<span>[AI][Fitting]- Underfitting</span>',
+'<span>[AI]- Python</span>',
+'<span>[AI][DL FW]- (1) TensorFlow</span>',
+'<span>[AI][DL FW]- (2) PyTorch</span>',
+'<span>[AI]- 모방학습</span>',
+'<span>[AI]- 연합학습</span>',
+'<span>[AI]- 딥러닝 경량화</span>',
+'<span>[AI][딥러닝 경량화]- 경량 딥러닝 기술</span>',
+'<span>[AI][딥러닝 경량화]- 알고리즘 경량화</span>',
+'<span>[AI][알고리즘 경량화]- 지식 증류</span>',
+'<span>[AI][AL]- Q-러닝</span>',
+'<span>[AI]- 모라벡의 역설(Moravec\'s Paradox)</span>',
+'<span>[AI]- 인공지능 서비스 플랫폼</span>',
+'<span>[AI]- 인공지능 소프트웨어 보안 취약성</span>',
+'<span>[AI]- AI Flow</span>',
+'<span>[AI]- XAI</span>',
+'<span>[AI][지식표현]- 생성규칙</span>',
+'<span>[AI][지식표현]- 의미망</span>',
+'<span>[AI][의미망]- 프레임</span>',
+'<span>[AI][지식표현]- 논리</span>',
+'<span>[AI]- 클라우드 활용 AI구축 모델</span>',
+'<span>[AI]- AI 프로젝트</span>',
+'<span>[AI][정책]- 한국판 AI 윤리기준</span>',
+'<span>[AI]- 인공지능 규범 동향</span>',
+'<span>[AI]- 인공지능 국가전략</span>',
+'<span>[AI]- 인공지능 개인정보보호 자율점검표</span>',
+'<span>[AI]- 적대적 공격</span>',
+'<span>[AI]- 음성비서</span>',
+'<span>[AI]- Pre-Crime</span>',
+'<span>[AI]- 지능형 로봇</span>',
+'<span>[AI]- 초대규모 AI</span>',
+'<span>[AI]- NLP</span>',
+'<span>[AI][NLP]- NER</span>',
+'<span>[AI][NLP]- 워드 임베딩</span>',
+'<span>[AI][NLP]- TF-IDF</span>',
+'<span>[AI][NLP]- Word2Vec</span>',
+'<span>[AI][NLP]- Attention</span>',
+'<span>[AI][NLP]- Transformer</span>',
+'<span>[AI][NLP]- BERT</span>',
+'<span>[AI][NLP]- GPT-3</span>',
+'<span>[AI]- 전이학습</span>',
+'<span>[AI][비지도][자기지도]- Downstream Task</span>',
+'<span>[AI]- 추천 시스템</span>',
+'<span>[AI][정책]- AI 조달 가이드라인</span>',
+'<span>[AI]- Digital Cartel</span>',
+'<span>[AI]- 인공지능 성능 지표</span>',
+'<span>[AI][성능지표]- IoU</span>',
+'<span>CCW(CounterClockWise) 알고리즘</span>',
 );
 
 var answer = answer.concat(
-// 자료구조 
+// 자료구조
 '# 개념 : 자료 집합 / 논리 정의 규칙 나열 / 자료 처리 효율적 표현 구조 <br/>\
 - 자료의 집합으로 각 원소들이 논리적으로 정의된 규칙에 의해 나열되며 자료에 대한 처리를 효율적으로 수행할 수 있도록 자료를 구분하여 표현한 구조 <br/><br/>\
 # 유형 (<font color = "red">단선비파</font>)<br/>\
@@ -172,13 +172,13 @@ var answer = answer.concat(
 # 비선형 자료구조 : 비연속적 배정, 1:N,N:M, 관계표현 <br/><br/>\
 * 125회 관리 1교시 3번\
 ',
-  
+
 // 선형구조
 '<img src = "./img/LineaerStructure.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 125회 관리 1교시 3번 <br/>\
 * KPC 96회 3교시 6번\
 ',
-  
+
 // Stack
 '# 정의 : 선형리스트 구조의 특별한 형태로 데이터 삽입과 삭제가 한쪽 끝(Top)에서만 일어나는 선형구조 <br/><br/>\
 # 연산유형 <br/>\
@@ -243,7 +243,7 @@ var answer = answer.concat(
 - 단점 : 데이터 구조 따른 효율 저하 <br/><br/>\
 * 124회 관리 3교시 2번\
 ',
-  
+
 // Back Tracking
 '# 정의 : DFS, Pruning / 후보해 충족 / 모든 해 찾는 알고리즘 <br/>\
 - 깊이 우선 탐색(DFS)에 Pruning(가지치기) 기법을 이용하여 여러 후보해 중에서 특정 조건을 충족시키는 모든 해를 찾는 알고리즘 <br/><br/>\
@@ -297,7 +297,7 @@ var answer = answer.concat(
 - 피보나치 수열 <br/><br/>\
 * 라이지움 86회 4교시 4번\
 ',
-  
+
 
 // Trie
 '# 정의 : 키값 직접 표현 않는 자료구조<br/>\
@@ -385,7 +385,7 @@ var answer = answer.concat(
 '<img src = "./img/ShellSort.png" style = "max-width:100%; height:auto;"><br/><br/>\
 <img src = "./img/ShellSort_1.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // Merge sort
 '# 정의 : 분할과 정복이용 정렬 <br/>\
 -  전체 원소를 하나의 단위로 분할한 후 분할한 원소를 다시 병합하는 정렬방식 <br/><br/>\
@@ -403,7 +403,7 @@ var answer = answer.concat(
 # 코드 <br/>\
 <img src = "./img/MergeSortCode.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // Quick Sort
 '# 정의 : 분할정복 알고리즘의 하나로, Pivot 중심 정렬 알고리즘 <br/><br/>\
 # 도식 <br/>\
@@ -735,7 +735,7 @@ var answer = answer.concat(
 <img src = "./img/TopologicalAlignmentCode.jpg" style = "max-width:100%; height:auto;"><br/><br/>\
 * 125회 관리 4교시 4번\
 ',
-  
+
 // 인공지능 특이점
 '# 정의 : 인공지능 > 인간 시점 <br/>\
 - 인간이 스스로 만든 인공지능 기술을 이해하거나 따라잡지 못하는 미래의 한계점, 즉 인공지능이 인간의 두뇌를 뛰어넘는 시점 <br/><br/>\
@@ -754,7 +754,7 @@ var answer = answer.concat(
 - 기술요소 : 수집관리 기술(DB Bank), 대규모 처리 기술(처리 파이프라인), 내용 분석 기술(다차원 시각데이터 분석 및 이해 SW) <br/><br/>\
 * 108회 관리 3교시 6번\
 ',
-  
+
 // 인공지능 데이터 평가
 '# 정의 : 정합성, 품질 검증 평가 활동 <br/>\
 - 인공지능 서비스를 위한 데이터 수집, 가공, 모델링 절차에 맞는 데이터 정합성 및 품질을 검증하는 평가활동 <br/><br/>\
@@ -782,7 +782,7 @@ var answer = answer.concat(
 - 표준, 검증 체계 : 인공지능표준연구원 설립, AI 데이터 상호운용성 평가센터 설립 <br/><br/>\
 * 122회 응용 1교시 10번\
 ',
-  
+
 // 기계학습
 '# 정의 : 인공지능 / 컴퓨터 학습 / 알고리즘 <br/>\
 - 인공지능의 한 분야로, 컴퓨터가 학습할 수 있도록 알고리즘과 기술을 개발하는 분야 <br/><br/>\
@@ -804,7 +804,7 @@ var answer = answer.concat(
 - Artifical General Intelligence <br/><br/>\
 * 아이리포 23회 3교시 6번\
 ',
-  
+
 // 지도학습
 '# 정의 : 훈련데이터 / 하나의 함수 유추 <br/>\
 - 훈련데이터로부터 하나의 함수를 유추해내기 위한 기계학습의 한 방법 <br/><br/>\
@@ -827,8 +827,8 @@ var answer = answer.concat(
 - 3개 이상을 분류해야할 경우 : Softmax와 그 변형된 활성화 함수 <br/>\
 - 신경망에서 활성화 함수 적용할 경우 : 1개 이상의 비선형 함수 사용 \
 ',
-  
-// Clustering 
+
+// Clustering
 '# 정의 : 비지도 / 유사 특성 / 집단화 / 거리차이 최소화 <br/>\
 - 비지도 학습의 일종으로, 상호 간 유사 특성을 갖는 데이터들을 집단화로 묶고 중심과의 거리 차이를 최소화 하는 기법 <br/><br/>\
 # 유형 <br/>\
@@ -836,7 +836,7 @@ var answer = answer.concat(
 - EM-Clustrering : <font color = "red">Gaussian Mixture</font> 모델 기반 / E-step, M-step / 반복 군집 형성 <br/>\
 - Dendrogram Clustering : 각 단계의 군집이 </font color = "red">어떻게 형성되는지 확인</font>하고 형성된 군집의 유사성 수준이 평가 가능한 다이어그램 \
 ',
-  
+
 // 능동학습
 '# 정의 : Data 부족 / UnLabeled Data 선별 / Auto Labeling 기법 <br/>\
 - Data 부족 해결하기 위해 UnLabeled Data를 선별하여 자동 학습하는 Auto Labeling 기법 <br/>\
@@ -861,7 +861,7 @@ var answer = answer.concat(
 - 학습 데이터 통합 : 레코드단 중복제거, 룰셋 적용 <br/><br/>\
 * 123회 응용 1교시 4번\
 ',
-  
+
 // 머신러닝 예측모델
 '# 정의 : 라벨 / 미래 데이터 예측 모델 <br/>\
 - 라벨이 있는 훈련데이터로 모델을 학습하여 경험하지 못한 데이터나 미래의 데이터에 대한 예측하는 기법 <br/><br/>\
@@ -880,7 +880,7 @@ var answer = answer.concat(
 - 차원 축소 : PCA, LDA <br/><br/>\
 * KPC 97회 관리 3교시 6번\
 ',
-  
+
 // [기계학습]- 성능검증
 '# 정의 : 적합성, 경제성, 타당성 <br/>\
 - 머신러닝 모델의 적합성, 경제성, 타당성 판단을 위한 평가 <br/><br/>\
@@ -895,7 +895,7 @@ var answer = answer.concat(
 - Confusion Matrix : 예측, 실제 Value 비교로 이루어진 시각화 매트릭스 <br/><br/>\
 * 라이지움 85회 관리 2교시 2번\
 ',
-  
+
 // Cross Validation
 '# 정의 : Train, Dataset을 나누어 검증하는 방법 <br/><br/>\
 # 필요성 <br/>\
@@ -925,7 +925,7 @@ var answer = answer.concat(
 * RLT 에서 Random 복원 추출 (중복 허용)인 경우가 Monte-Carlo CV </font><br/><br/>\
 * 라이지움 87회 관리 2교시 2번\
 ',
-  
+
 // 혼동행렬(Confusion Matrix)
 '# 정의 : 예측값 일치여부 행렬 분류 모델 평가 기법<br/>\
 - 오류분포표 <br/>\
@@ -980,7 +980,7 @@ var answer = answer.concat(
 <img src = "./img/분류모델생성알고리즘_1.png" style = "max-width:100%; height:auto;"><br/><br/>\
 <img src = "./img/분류모델생성알고리즘_2.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // [딥러닝]- ANN
 '# 정의 : 사람 신경망 모방 기계학습 알고리즘<br/>\
 - Artificial Neural Network <br/>\
@@ -999,12 +999,12 @@ var answer = answer.concat(
 - 자율학습 : Competitive learning, SOM <br/><br/>\
 <img src = "./img/AL2_1_1.PNG" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // [딥러닝]- DNN
 '# 정의 : 여러개 은닉층 인공신경망 <br/>\
 - 입력층(Input Layer)과 출력층(Output Lyaer)사이에 여러개의 은닉층 (Hidden Layer)들로 이뤄진 인공신경망 (Artifical Neural Network, ANN) <br/><br/>\
 ',
-  
+
 // SVM
 '# 정의 : 가장 근접한 데이터 / 가장 큰 경계 식별 <br/>\
 - 데이터가 사상된 공간에서 경계선과 가장 근접한 데이터(Support Vector)간의 거리가 가장 큰 경계를 식별하는 알고리즘(Maximum Margin Hyper plane)<br/><br/>\
@@ -1019,7 +1019,7 @@ var answer = answer.concat(
 - 단점 : 최적 모델 찾기 어려움, 커널 함수 따라 성능 차이, 데이터셋 속성수 많으면 느림, 복잡한 해석 <br/><br/>\
 # 활용 사례 : 텍스트, 이미지, 의료정보, 문자 분류 \
 ',
-  
+
 // 비지도 학습
 '# 정의 : 목표치 x / 구성 파악 / 기계학습 <br/>\
 - 입력 값에 대한 목표치가 주어지지 않으며, 데이터가 어떻게 구성되었는지를 알아내는 문제의 범주에 속하는 기계학습의 한 방법 <br/><br/>\
@@ -1031,7 +1031,7 @@ var answer = answer.concat(
 - PCA : 분포된 데이터들의 주성분을 가장 잘 표현할 수 있는 벡터를 찾는 기법 <br/>\
 - ICA : 다변량의 신호를 통계적으로 독립된 하부 성분으로 분리 계산 방법 \
 ',
-    
+
 // 차원축소
 '개념 : 차원의 저주 <br/>\
 - 벡터의 차원이 높아짐에 따라 생길 수 있는 문제점 방지 위한 축소 기법 <br/><br/>\
@@ -1043,7 +1043,7 @@ var answer = answer.concat(
 - LDA(Linear Discriminant Analysis) : 데이터의 최적 분류의 견지에서 데이터 축소 \
 <img src = "./img/LDA.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // PCA Algorithm
 '# 정의 : 주성분 표현 / 벡터 찾기 <br/>\
 - 분포된 데이터들의 주성분을 가장 잘 표현할 수 있는 벡터를 찾는 기법 <br/><br/>\
@@ -1099,7 +1099,7 @@ var answer = answer.concat(
 <img src = "./img/GAN_Type.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 아이리포 23회 3교시 6번\
 ',
-  
+
 // DCGAN
 '# 정의 : Fully Connected Layer 제거 / Convolution Layer / 배치 정규화 / 안정적 학습 GAN <br/>\
 - Deep Convolution GAN <br/>\
@@ -1120,7 +1120,7 @@ var answer = answer.concat(
 - 장기간 학습시 Collapse 문제 발생 <br/><br/>\
 * 아이리포 23회 3교시 6번\
 ',
-  
+
 // 강화학습
 '# 정의 : Agent, State, Action, Reward <br/>\
 - Reinforcement Learning <br/>\
@@ -1136,7 +1136,7 @@ var answer = answer.concat(
 # 활용 분야 : 게임, 로봇제어, 자율주행, 금융서비스(수익율) <br/><br/>\
 * 라이지움 84회 4교시 4번\
 ',
-  
+
 // 심층강화학습
 '# 정의 : 시행 착오 알고리즘 / 누적 보상 함수 / 신경망 디자인 가속화 학습<br/>\
 - Deep Reinforcement Learning <br/>\
@@ -1155,7 +1155,7 @@ var answer = answer.concat(
 - APE-X : 2018 구글 발표, 경험 공유 멀티 액터 / Ape-X DQN <br/><br/>\
 * 라이지움 88회 관리 1교시 13번\
 ',
-  
+
 // 역강화학습
 '# 정의 : Inverse Reinforcement Learning <br/>\
 - Agent의 정책이나 행동 이력을 통해 그 행동을 설명하는 보상 함수를 구하는 알고리즘 <br/><br/>\
@@ -1166,7 +1166,7 @@ var answer = answer.concat(
 <img src = "./img/ReinforceInverseCompare.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 84회 4교시 4번\
 ',
-  
+
 // 유전자 알고리즘
 '# 정의 : 적응 탐색 / 최적화 문제 해결 <br/>\
 - 자연세계의 진화현상에 기반한 계산 모델로 진화론의 적자생존과 자연선택의 유전학에 근거한 적응 탐색과 최적화 문제 해결을 위한 알고리즘 <br/><br/>\
@@ -1197,7 +1197,7 @@ var answer = answer.concat(
 <img src = "./img/GneticReinforcementCompare.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * ITPE 6회 1교시 8번\
 ',
-  
+
 // 전문가 시스템
 '# 정의 : 전문가 지식 활용 / IF-THEN 구조 / 전방향, 역방향 질의 / 인공지능 시스템 <br/>\
 - 전문가가 가진 지식을 지식베이스 기반으로 축적하고 IF-THEN 구조의 전방향, 역방향 질의를 통해 전문가의 지식을 활용하는 인공지능 시스템 <br/><br/>\
@@ -1210,7 +1210,7 @@ var answer = answer.concat(
 - 전방향 추론 : 데이터 지향, 결과 항상 True, 추론의 건전성 <br/>\
 - 역방향 추론 : 목표 지향, 겨롸 false 가능, 유사추론, 휴리스틱\
 ',
-  
+
 // Perceptron
 '# 정의 : Pattern을 분류하기 위해 제안한 신경 회로망 모델 <br/><br/>\
 # 학습규칙 : 실제 출력물과 목표 출력 간의 차이 감소를 위한 가중치 조정 규칙 <br/><br/>\
@@ -1227,7 +1227,7 @@ var answer = answer.concat(
 3. Output Layer <br/>\
 - Output : 학습을 통해 도출된 결과값을 출력하는 계층 \
 ',
-  
+
 // Activation Function
 '# 정의 : input layer, output layer, thrshold, transfer function <br/>\
 - 신경망 알고리즘의 input layer의 값을 output node로 출력할 때, 출력값의 임계치(threshold)를 계산하여 output을 출력하는 일종의 전환 함수(transfer function) <br/><br/>\
@@ -1255,7 +1255,7 @@ var answer = answer.concat(
 - 은닉층에서 노드 간에 싸이클을 형성하지 않고 일방향으로 정보를 전달하는 방식의 인공 신경망 <br/><br/>\
 * 라이지움 86회 1교시 6번 \
 ',
-  
+
 // Backpropagation
 '# 정의 : 경사하강 관찰 / 가중치 이동 <br/>\
 - 가중치들 각각에 대해 별도의 경사하강을 관찰하고, 누적오차 감소에 가장 큰 기여를 하는 가중치 한 개 값을 이동시키는 방법을 반복하여 해를 찾아가는 알고리즘 <br/><br/>\
@@ -1391,7 +1391,7 @@ var answer = answer.concat(
 <img src = "./img/LogisticLinearRegression.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 87회 1교시 13번\
 ',
-  
+
 // DBSCAN
 '# 정의 : 반경 x / 점 n개 이상 <br/>\
 - Density Based Spatial Clustering of Application With Noise <br/>\
@@ -1400,7 +1400,7 @@ var answer = answer.concat(
 <img src = "./img/DBSCAN.png" style = "max-width:100%; height:auto;"><br/>\
 <img src = "./img/DBSCAN_Detail.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // EM Clustering
 '# 정의 : Gaussian Mixture / E-Step / M-Step <br/>\
 - Gaussian Mixture 모델을 기반으로 E-Step과 M-Step을 반복하여 군집형성 알고리즘 <br/><br/>\
@@ -1411,7 +1411,7 @@ var answer = answer.concat(
 # K-Means, EM 비교 <br/>\
 <img src = "./img/KMeansEM.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // Dendrogram Clustering
 '# 정의 : 배타적 그룹 / 큰 군집 작은 군집 포함 <br/>\
 - 전체 데이터를 몇 개의 배타적 그룹으로 나누는 대신, 큰 군집이 작은 군집을 포함하는 형태로 계층을 이루도록 군집화를 수행하여 그 구조를 살펴보는 방법 <br/><br/>\
@@ -1421,7 +1421,7 @@ var answer = answer.concat(
 # 개념도 <br/>\
 <img src = "./img/Dendrogram.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // K-Means
 '# 정의 : k개 클러스터 / 거리, 분산 최소화 <br/>\
 - 주어진 데이터를 사전 정의된 k개의 클러스터로 묶는 알고리즘, 각 클러스터와 거리차이와 분산을 최소화하는 방식으로 동작 <br/><br/>\
@@ -1439,7 +1439,7 @@ var answer = answer.concat(
 - 반복 : 군집 경계가 변경되지 않을 때까지 반복 <br/><br/>\
 * 101회 관리 4교시 5번\
 ',
-  
+
 // SOM
 '# 정의 : 저차원 격자 / 고차원 데이터 / 군집 도출 방법 <br/>\
 - Self Organized Map <br/>\
@@ -1467,8 +1467,8 @@ var answer = answer.concat(
 - 시뮬레이션 : 시뮬레이션 종료 까지 임의 경로 예측 <br/>\
 - 역전파 : 노드 가치 역전파, 승산 가능성 예측 \
 ',
-  
-// [딥러닝]- CNN 
+
+// [딥러닝]- CNN
 '# 정의 : 영상 적용 인공신경망의 종류 <br/>\
 - Convolutional Neural Networks <br/>\
 - 컨볼루션 신경망은 영상에 적용이 용이하도록 만들어진 인공신경망의 종류이며, 컨볼루션 레이어와 폴링 레이어 구조를 가진 알고리즘 <br/>\
@@ -1491,7 +1491,7 @@ var answer = answer.concat(
 # 발전 동향 <br/>\
 <img src = "./img/CNN_Growth.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // Efficient Net, Det
 '# 정의 : CNN 성능화 효율 향상 모델 / Object Detection 분야 <br/><br/>\
 # Efficient Net : <font color = "red">Compound Scaling</font> 통해 적은 파라미터수 가지고 정확성, 효율성 향상시킨 Image Classification Model <br/>\
@@ -1501,7 +1501,7 @@ var answer = answer.concat(
 * Compound Scaling : Depth/Resolution 고정, Width 값 변화 테스트 </font><br/><br/>\
 * 123회 관리 1교시 3번 \
 ',
-  
+
 // [딥러닝]- R-CNN
 '# 정의 : 객체 탐색 기술 <br/>\
 - 입력 영상 내 사물 인식을 위해 사물의 영역 탐지 및 사물 특징 추출, 분류 CNN 기반 신경망 알고리즘 <br/><br/>\
@@ -1511,12 +1511,12 @@ var answer = answer.concat(
 <img src = "./img/RCNN_Flow.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 95회 관리 3교시 5번\
 ',
-  
+
 // Fast RCNN
 '<img src = "./img/FastRCNN.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 95회 관리 3교시 5번\
 ',
-  
+
 // Faster RCNN
 '# 정의 : Region Proposal, Classification 단계적 순차적 수행 / 2-Stage / 객체 탐지 인공신경망 모델 <br/>\
 - Regional Proposal(관심영역 추출) 단계와 Classification 단계를 순차적으로 수행하는 대표적인 2-Stage 객체 탐지 인공신경망 모델 <br/><br/>\
@@ -1533,7 +1533,7 @@ var answer = answer.concat(
 * ITPE 6회 관리 1교시 4번 <br/>\
 * KPC 95회 관리 3교시 5번\
 ',
-  
+
 // YOLO
 '# 정의 : Regional Proposal, Classification 동시 수행 / 1-Stage 객체 탐지 인공신경망 모델 <br/>\
 - You Only Look Once <br/>\
@@ -1550,7 +1550,7 @@ var answer = answer.concat(
 <img src = "./img/YOLO.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * ITPE 6회 관리 1교시 4번 <br/>\
 * KPC 95회 관리 3교시 5번\
-', 
+',
 
 // [딥러닝]- RNN
 '# 정의 : Directed Cycle 구성 신경망 <br/>\
@@ -1574,7 +1574,7 @@ var answer = answer.concat(
 <img src = "./img/RNN_LSTM_GRU.png" style = "max-width:100%; hegiht:auto;"><br/><br/>\
 * 120회 응용 1교시 2번\
 ',
-  
+
 // BRNN
 '# 정의 : 역방향, 미래 시점 데이터 활용 <br/>\
 - RNN의 역방향의 연결이 존재하지 않아 미래 시점인 데이터는 추론 시 활용할 수 없는 점을 개선하여 양방향 연결을 구현한 RNN <br/><br/>\
@@ -1634,7 +1634,7 @@ var answer = answer.concat(
 * ITPE 124회 합숙 1일차 8번\
 ',
 
-// 딥러닝 
+// 딥러닝
 '# 정의 : 비지도 + 지도 / 사람처럼 <br/>\
 - 지도학습과 능동적인 비지도학습이 결합되어 컴퓨터가 마치 사람처럼 스스로 학습할 수 있는 기계학습 기법 <br/><br/>\
 # 활용분야 <br/>\
@@ -1644,7 +1644,7 @@ var answer = answer.concat(
 <img src = "./img/DeepLearning.png" style = "max-width:100%; height:auto;">\
 ',
 
-// [딥러닝]- 한계점 
+// [딥러닝]- 한계점
 '# 한계점 <br/>\
 1. Dataset 편향성 <br/>\
 - Google, Open Image Dataset 객체별 보유 영상 <br/>\
@@ -1671,7 +1671,7 @@ var answer = answer.concat(
 - 영상 인식시 판단에 중요한 부분 시각화 강조 설명 <br/><br/>\
 * 라이지움 86회 4교시 1번 \
 ',
-  
+
 // [딥러닝]- 컨텍스트 딥러닝
 '# 정의 : 감정, 상황적 맥락 이해<br/>\
 - 컴퓨터가 스스로 인간의 인지 능력을 확보하는 기술, 컴퓨터에게 사람의 감정과 상황적 맥락을 이해시키는 기술 <br/>\
@@ -1687,7 +1687,7 @@ var answer = answer.concat(
 2) 국가 재정약화, 인구노령화, 경기침체, 스타트업 육성 어려움등 국가 다양한 과제 해결 <br/>\
 3) 다양한 개인의 의도, Contet수집 -> 데이터로 의미있는 정보 생산, 공공데이터 개방 통한 가치 창출 기회 제공 -> 문제점 조기 파악, 선제적 대응\
 ',
-  
+
 // 튜링테스트
 '# 정의 : 사람, 기계 구분 테스트 <br/>\
 - 주어진 문제 해결적 사고 상황에서 판단자가 기계(컴퓨터)의 출력과 사람의 출력을 구별할 수 없다면, 그 기계는 인간과 같은 사고를 하였다고 규정할 수 있다는 테스트<br/><br/>\
@@ -1697,7 +1697,7 @@ var answer = answer.concat(
 3. 격리된 다수의 심사원이 A,B중 어느 쪽이 사람인지에 대한 평가를 함 <br/>\
 4. 어느쪽이 사람인지 구분할 수 없을 경우, A,B 둘다 인간 수준의 사고능력 가진것으로 판정\
 ',
-  
+
 // Vanishing Gradient Problem
 '# 정의 : 국부해, Sigmoid/Squash, ReLu/Leaky ReLu, DBN/Pre-Training <br/>\
 - 심층신경망의 역전파 알고리즘을 이용한 학습시 앞쪽의 은닉층으로 오차가 거의 전달되지 않는 현상 <br/><br/>\
@@ -1714,7 +1714,7 @@ var answer = answer.concat(
 - Leaky ReLU 활용 : 음의 값 활용, ReLU의 0 이하 값 손실, "Dying ReLU" 문제 개선 <br/><br/>\
 * KPC 92회 관리 3교시 5번\
 ',
-  
+
 // Drop Out
 '# 정의 : Overfitting, Voting/Co-Adaption, 축소신경망, Mini-Batch 경사 감소법 <br/>\
 - 심층신경망의 입력층과 은닉층의 임의 확률 기준 노드 제거, 축소 신경망 학습 통한 공동적은(Co-Adaption) 문제 해결, 규제화(Regulation)기법 <br/><br/>\
@@ -1728,7 +1728,7 @@ var answer = answer.concat(
 - Back Propagation : 출력 노드 대상 <br/>\
 - 시,공간 : 시,공간적 연관성 고려 \
 ',
-  
+
 // F1-Score
 '# 정의 : 분류성능 평가지표 측정 / 정밀도, 재현율 조화 평균<br/>\
 - 모델의 분류성능 평가지표를 측정하기 위한 정밀도와 재현율의 조화 평균의 값 <br/><br/>\
@@ -1752,7 +1752,7 @@ var answer = answer.concat(
 # 예상 문제 <br/>\
 <img src = "./img/F1ScoreExample.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // Bias
 '# 정의 : 편향된 데이터 학습, 최초 데이터의 디지털 가공 과정, 알고리즘 모델 자체 XAI <br/>\
 - 머신 러닝 인공지능에서 한쪽으로 치우쳐진 결과의 특성 <br/><br/>\
@@ -1761,7 +1761,7 @@ var answer = answer.concat(
 - 정부 : 설명 요구할 권리 규정, 자동화된 의사결정 제한 권리 <br/>\
 - 기업 : 기업 AI 윤리 수립, 정보 품질 진단과 감리, 설명가능 AI의 개발 및 설계, Bias 인식 알고리즘 개발 \
 ',
-  
+
 // One-Hot Encoding
 '# 정의 : 범주형 변수 / 하나만 True <br/>\
 - 범주형 변수에 대해 단 하나의 값만 True이고 나머지는 모두 False인 인코딩 기법 <br/><br/>\
@@ -1770,14 +1770,14 @@ var answer = answer.concat(
 * 122회 응용 2교시 2번 <br/>\
 * 라이지움 88회 관리 4교시 4번\
 ',
-  
+
 // Softmax 함수
 '# 정의 : 0~1 정규화 / 합 1<br/>\
 - 입력받은 값을 출력으로 0~1사이의 값으로 모두 정규화하며 출력 값들의 총합은 항상 1이 되는 특성을 가진 함수 <br/><br/>\
 * 122회 응용 2교시 2번 <br/>\
 * 라이지움 88회 관리 4교시 4번\
 ',
-  
+
 // NPU
 '# 정의 : 머신러닝 기반 차세대 반도체 / 저전력,고성능 <br/>\
 - 딥러닝 알고리즘 연산을 수행하는데 필요한 모든 제어 및 산술 논리를 구현하는 머신러닝 기반의 차세대 반도체 <br/><br/>\
@@ -1790,7 +1790,7 @@ var answer = answer.concat(
 # GPU NPU 비교 <br/>\
 <img src = "./img/GPUNPU.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // Deep Fake
 '# 정의 : GAN 이용 / 중첩 결합 / 가공 콘텐츠 생성 합성기술 <br/>\
 - GAN(Generative Adversial Network)을 이용해 원본 이미지나 동영상 위에 다른 영상을 중첩하거나 결합하여 원본과는 다른 가공 컨텐츠를 생성하는 합성기술 <br/><br/>\
@@ -1857,7 +1857,7 @@ var answer = answer.concat(
 - K-Means : 군집별 중심값에서 중심 거리 기반 데이터 분류 군집 알고리즘 <br/><br/>\
 * ITPE 7회 관리 1교시 7번 \
 ',
-  
+
 // OpenCV
 '# 정의 : 컴퓨터 비전 프로그래밍 이미지 프로세싱 라이브러리, 오픈소스 BSD <br/>\
 - 실시간 컴퓨터 비전을 목적으로 한 영상처리와 컴퓨터 비전 프로그래밍 분야의 대표적인 이미지 프로세싱 라이브러리 <br/><br/>\
@@ -1868,7 +1868,7 @@ var answer = answer.concat(
 <img src = "./img/OpenCVStrcture.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * ITPE 7회 관리 1교시 7번\
 ',
-  
+
 // 머신러닝 파이프라인
 '# 정의 : 수집, 예측, 제공 / 전과정 순차적 처리 / 머신러닝 아키텍처 <br/>\
 - 데이터 수집에서 예측 제공 단계까지의 전 과정을 순차적으로 처리하는 머신러닝의 아키텍처 <br/><br/>\
@@ -1888,7 +1888,7 @@ var answer = answer.concat(
 # 이점 : 무인 실행, 재사용 가능, 추적 및 버전 관리 <br/><br/>\
 * 121회 관리 1교시 13번\
 ',
-  
+
 // Active Learning
 '# 정의 : 원시 데이터 -> 레이블 데이터 확보 / 낮은 비용 지능형 시스템 구현 / 데이터 큐레이션, 기계학습 기법 <br/>\
 - 레이블이 없는 대규모 원시 데이터로부터 지도학습에 최적화된 레이블 데이터를 반복적으로 확보하여 낮은 비용으로 지능형 시스템을 구현하기 위한 데이터 큐레이션 및 기계학습 기법 <br/><br/>\
@@ -1900,7 +1900,7 @@ var answer = answer.concat(
 - 품질향상/개선 : 증강된 데이터 <br/><br/>\
 # 효과 : 모델 성능 향상, 샘플링 활용(적절한 개체 선택하는 샘플링 문제 활용 가능) \
 ',
-  
+
 // AutoML
 '# 개념 : 데이터 특징 추출, 하이퍼파라미터 / 소모적, 반복적 / 자동화 ML Process <br/>\
 - 기계학습 파이프라인에서 데이터의 특징 추출, 하이퍼파라미터 설정 등 소모적이고 반복적인 작업을 자동화하는 머신러닝 프로세스 <br/><br/>\
@@ -1929,7 +1929,7 @@ var answer = answer.concat(
 * ITPE 8회 관리 1교시 4번 <br/>\
 * 라이지움 88회 1교시 관리 2번\
 ',
-  
+
 // 인공지능 역기능
 '# 사회적 문제 <br/>\
 - 가짜 뉴스 (로봇 저널리즘)<br/>\
@@ -1949,7 +1949,7 @@ var answer = answer.concat(
 - 일자리 축소 실업율 증가 <br/><br/>\
 * 아이리포 23회 관리 4교시 4번\
 ',
-  
+
 // 인공지능 편향
 '# 정의 : 인공지능 / 의도 다른 결과 내리는 현상 <br/>\
 - 머신러닝과 인공지능 분석결과가 의도와는 다른 의사결정을 내리는 현상 <br/><br/>\
@@ -1981,7 +1981,7 @@ var answer = answer.concat(
 - 최적화 검증 : 유전자 알고리즘(국부해 극복), 필터버블 현상 대응(데이터 추가 생성), 준지도 학습 추가(신규 데이터 유형 분류 추가) <br/><br/>\
 * 117회 관리 4교시 6번\
 ',
-  
+
 // 인공지능 감성지능
 '# 정의 : 감성지능 + 인공지능 / 감정 구별 / 새로운 사고 행동 결정 <br/>\
 - 감성지능과 인공지능의 결합, 스스로 보유한 감정을 기반으로 자신과 타인의 감정 구별 및 새로운 사고와 행동을 결정하는 인공지능 <br/><br/>\
@@ -2099,7 +2099,7 @@ var answer = answer.concat(
 * 122회 2교시 1번\
 ',
 
-// TensorFlow 
+// TensorFlow
 '# 정의 : 다양한 디바이스 / 풍부 기술 / 2015 구글 / 오픈소스 딥러닝 프레임워크 <br/>\
 - 다양한 디바이스를 지원하고 풍부한 기능 및 기술 지원으로 널리 사용되고 있는 2015년 구글이 공개한 오픈 소스 딥러닝 프레임워크 <br/>\
 <img src = "./img/TensorFlowAPI.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -2146,7 +2146,7 @@ var answer = answer.concat(
 - MXNet(5위) : 빠른 모델 학습, 유연한 코드 작성, 다양 언어 지원 <br/><br/>\
 * ITPE 6회 1교시 10번\
 ',
-  
+
 // 모방학습
 '# 정의 : 최상 성능 위해 / 전문가 행동 모방 / 순차적 작업 <br/>\
 - Imitation Learning <br/>\
@@ -2161,7 +2161,7 @@ var answer = answer.concat(
 <img src = "./img/ApprenticeshipLearning.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 84회 4교시 4번\
 ',
-  
+
 // 연합학습
 '# 정의 : 데이터가 아닌 학습모델을 취합해 AI를 구현하는 방식 <br/>\
 - 저장 데이터를 직접 공유하지 않는 다수의 로컬 기기와 하나의 중앙 서버가 협력하여 AI 모델을 학습하는 분산형 머신러닝 <br/><br/>\
@@ -2185,7 +2185,7 @@ var answer = answer.concat(
 <img src = "./img/DatacenterFederateLearningCompare.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 86회 1교시 11번 \
 ',
-  
+
 // 딥러닝 경량화
 '# 정의 : 기존 모델 줄이는 분야 / 제거, 공유 <br/>\
 - 기존 알고리즘의 불필요한 파라미터를 제거하거나, 파라미터의 공통된 값을 가지고 공유하거나, 파라미터의 표현력을 잃지 않으면서 기존 모델의 크기를 줄이는 연구 분야 <br/><br/>\
@@ -2231,7 +2231,7 @@ var answer = answer.concat(
 * KPC 91회 2교시 2번\
 ',
 
-// 알고리즘 경량화 
+// 알고리즘 경량화
 '# 정의 : 파라미터 제거, 공유 / 모델 크기 경량화 기법 <br/>\
 - 기존 알고리즘의 불필요한 파라미터를 제거하거나, 파라미터의 공통된 값을 공유하거나 파라미터의 표현력을 잃지 않으면서 기존 모델의 크기를 줄이는 알고리즘 경량화 기법 <br/><br/>\
 # 종류 (압지하)<br/>\
@@ -2244,7 +2244,7 @@ var answer = answer.concat(
 - TPU, VPU, GPU : 벡터/행렬 연산 병렬 처리 연산 전용 하드웨어 기술 <br/><br/>\
 * KPC 91회 2교시 2번\
 ',
-  
+
 // 지식 증류
 '# 정의 : 큰 모델 파라미터 활용 학습 / Teacher NW / Student NW <br/>\
 - Knowledge Distillation <br/>\
@@ -2269,7 +2269,7 @@ var answer = answer.concat(
 * 123회 응용 1교시 9번\
 ',
 
-// Q-러닝 
+// Q-러닝
 '# 정의 : Q함수 강화학습 기법 <br/>\
 - 주어진 상태에서 주어진 행동을 수행하는 것이 가져다 줄 효용의 기대값을 예측하는 함수인 Q 함수를 학습하는 강화학습기법',
 
@@ -2287,7 +2287,7 @@ var answer = answer.concat(
 - Computing Power \
 ',
 
-// 인공지능 서비스 플랫폼 
+// 인공지능 서비스 플랫폼
 '# 정의 : 인공지능 활용 서비스 개발 도구 <br/>\
 - AI as a Service <br/>\
 - 인공지능 서비스에 활용되는 기계학습 라이브러리, 인터페이스, 소프트웨어 제공하는 인프라 유기적 집합 <br/><br/>\
@@ -2308,7 +2308,7 @@ var answer = answer.concat(
 - <font color = "red">IBM Waton</font> Health Platform : <font color = "red">의료</font> 전문 지능형 플랫폼 길병원 온톨로지 <br/>\
 - <font color = "red">GE</font> Predix Platform : 산업현장 정보 분석, <font color = "red">산업 현장</font> 데이터 + 기존 사업 <font color = "red">경험 노하우</font>\
 ',
-  
+
 // 인공지능 소프트웨어 보안 취약성
 '# 인공지능 소프트웨어 보안 취약성 (이취익보)<br/>\
 <img src = "./img/AI_SW_Week.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -2326,7 +2326,7 @@ var answer = answer.concat(
 2. 뇌 과학적 접근(2006) : 뇌 과학의 연구 성과를 도입하여 보다 뇌의 신경활동을 충실히 재현 <br/><br/>\
 * 라이지움 86회 4교시 1번 \
 ',
-  
+
 // [AI]- XAI
 '# 정의 : 설명가능한 Ai <br/>\
 - 사용자가 인공지능 시스템의 동작과 최종 결과를 이해 가능하도록 설명 해주는 기술(금융보안원 정의) <br/><br/>\
@@ -2364,7 +2364,7 @@ var answer = answer.concat(
 <img src = "./img/SemanticNetwork.png" style = "max-width: 100%; height: auto;">\
 ',
 
-// 프레임 
+// 프레임
 '# 정의 : 구조, 틀 표현 자료구조 <br/>\
 - 의미망의 한 종류로서 객체와 그 속성의 구조를 기술 <br/>\
 - 어떤 대상, 객체에 대한 여러개의 상황정보를 하나의 구조화된 틀로 표현할 수 있는 자료구조 <br/><br/>\
@@ -2389,7 +2389,7 @@ var answer = answer.concat(
 * 122회 1교시 12번\
 ',
 
-// 클라우드 활용 AI구축 모델 
+// 클라우드 활용 AI구축 모델
 '# LoB (Line of Business) : MaaS<br/>\
 - 개발툴, 시각/음성/자연어 등 특화 솔루션 API 및 서비스 <br/><br/>\
 # 개발환경 : PaaS <br/>\
@@ -2438,8 +2438,8 @@ var answer = answer.concat(
 - 투명성 : <font color = "red">설명 가능성</font>, 활용 내용 및 유의사항 사전 교체 <br/><br/>\
 * 라이지움 90회 관리 2교시 4번 <br/>\
 * ITPE 6회 관리 1교시 12번\
-',  
- 
+',
+
 // 인공지능 규범 동향
 '# 규범 동향 <br/>\
 1. 주요 국가별 <br/>\
@@ -2462,8 +2462,8 @@ var answer = answer.concat(
 * ITPE 6회 1교시 12번 <br/>\
 * 아이리포 23회 4교시 3번\
 ',
-   
-// 인공지능 국가전략 
+
+// 인공지능 국가전략
 '# 정의 : 2019년 12월 17일 경제,사회 전반의 혁신 프로젝트로서 과학기술정보통신부를 비롯한 전 부처가 참여해서 마련한 전략 <br/><br/>\
 # 내용 <br/>\
 1. 생태계 구축 <br/>\
@@ -2507,7 +2507,7 @@ var answer = answer.concat(
 - AI 윤리 점검 : 지속 점검 개선 <br/><br/>\
 * 125회 관리 3교시 4번\
 ',
-  
+
 // 적대적 공격
 '# 정의 : 적대적 교란, 오분류 발생, 공격기술 <br/>\
 - 머신러닝의 심층신경망을 이용한 모델에 적대적 교란을 적용하여 오분류를 발생시키는 공격 기술 <br/><br/>\
@@ -2541,7 +2541,7 @@ var answer = answer.concat(
 * 123회 관리 2교시 2번 <br/>\
 * 119회 응용 2교시 3번\
 ',
-  
+
 // 음성비서
 '# 정의 : 언어 이해 / 자동제공 / AI 비서 <br/>\
 - 머신 러닝, 음성 인식, 문장 분석, 상황인지 등 인공지능 기술과 첨단 기술의 결합으로 사용자의 언어를 이해하고 사용자가 원하는 지시 사항을 수행하는 기능을 자동으로 제공하는 AI 비서 서비스 <br/><br/>\
@@ -2556,7 +2556,7 @@ var answer = answer.concat(
 - 공유 서비스 인터페이스 표준 : W3C SOAP, REST, RSS 표준 <br/>\
 - 교환 데이터 표준 : W3C XML, JSON 표준 \
 ',
-  
+
 // Pre-Crime
 '# 정의 : 인공지능을 통한 예방 구현 <br/>\
 - 다양한 치안 데이터 수집 및 딥러닝 통한 분석을 통해 범죄가 일어나기 전 사건을 예측하여 범죄자를 식별, 추적, 차단하는 최첨단 치안 시스템 <br/><br/>\
@@ -2567,8 +2567,8 @@ var answer = answer.concat(
 - 해외 : 미국(PrePol;자동출동), 영국(OASys;재범), 일본(CCTV+행위분석;절도행위에측,범죄자 추적), 중국(AI+안면인식;안면인식 AI선글라스, 범죄자예측) <br/><br/>\
 * 120회 응용 1교시1 번\
 ',
-  
-// 지능형 로봇 
+
+// 지능형 로봇
 '# 정의 : 인간 모방 / 자율적 동작 <br/>\
 - 인간을 모방하여 외부 환경을 인식하고 상황을 판단하여 자율적으로 동작하는 지능형 기계 로봇 <br/><br/>\
 # 유형 <br/>\
@@ -2615,7 +2615,7 @@ var answer = answer.concat(
 - 하이퍼클로바(네이버) : GPT-3 대비 파라미터, 데이터 수 확장, 한국어 기반 언어 모델 <br/><br/>\
 * ITPE 합숙 124회 5일차 6번\
 ',
-  
+
 // NLP
 '# 정의 : 인간의 언어를 컴퓨터로 이해, 해석하는 기술 <br/>\
 - Natural Language Processing <br/>\
@@ -2655,7 +2655,7 @@ var answer = answer.concat(
 <img src = "./img/NLP_ProcessArea.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 123회 관리 4교시 4번\
 ',
-  
+
 // NER
 '# 정의 : 엔티티 인식 추출 분류 기법 <br/>\
 - Named Entity Recognition <br/>\
@@ -2680,7 +2680,7 @@ var answer = answer.concat(
 - Tag Decoder : Softmax, RNN <br/><br/>\
 * 123회 관리 4교시 4번\
 ',
-  
+
 // 워드 임베딩
 '# 정의 : 단어 특성 / 벡터화 / 유사도 계산 기법 <br/>\
 - 전체 단어들 간의 관계에 맞춰 해당 단어의 특성을 갖는 벡터로 바꿔주는 단어들 사이의 유사도 계산하는 기법  <br/><br/>\
@@ -2732,7 +2732,7 @@ var answer = answer.concat(
 * 123회 관리 4교시 4번<br/>\
 * KPC 96회 관리 4교시 5번\
 ',
-  
+
 // TF-IDF
 '# 개념 : TF, DF, IDF 수치화 / 통계적 단어 특성 추출 알고리즘 <br/>\
 - 여러 문서에서 단어의 중요도를 단어빈도 TF(Term Frequency), 문서빈도 DF(Document Frequency), 역문서 빈도 IDF(Inverse Document Frequency) 수치화 하고 이를 기반으로 단어의 중요도를 수치화 평가 하는 통계적 단어 특성 추출 알고리즘 <br/><br/>\
@@ -2748,7 +2748,7 @@ var answer = answer.concat(
 * 라이지움 89회 관리 1교시 8번 <br/>\
 * KPC 96회 관리 4교시 5번\
 ',
-  
+
 // Word2Vec
 '# 개념 : 단어 벡터 / 컴퓨터 인식 / 워드 임베딩 <br/>\
 - 단어를 벡터 평면에 배치하여 컴퓨터가 인식할 수 있도록 문맥적 의미를 보존하는 워드 임베딩 기법 <br/><br/>\
@@ -2773,7 +2773,7 @@ var answer = answer.concat(
 - weight : Encoder의 Sequence 결정위한 가중치 <br/><br/>\
 * KPC 81회 관리 4교시 6번\
 ',
-  
+
 // Transformer
 '# 정의 : RNN 탈피 / seq2seq의 인코더, 디코더 모델 / 셀프 어텐션 구조 / 자연어 처리 모델 <br/>\
 - RNN을 탈피하고 seq2seq의 인코더-디코더 모델과 셀프 어덴션 구조만으로 구현한 자연어 처리 모델 <br/><br/>\
@@ -2805,7 +2805,7 @@ var answer = answer.concat(
 * ITPE 7회 관리 3교시 3번 <br/>\
 * 123회 관리 4교시 4번\
 ',
-  
+
 // BERT
 '# 정의 : Transformer 인코더 / Fine-Tunning / 양방향 / NLP Model <br/>\
 - Transformer의 인코더 구조로 구성되어 Fine-Tunning 된 양방향 자연어 처리모델 <br/>\
@@ -2824,7 +2824,7 @@ var answer = answer.concat(
 <img src = "./img/BERT_Compare.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 123회 관리 4교시 4번\
 ',
-  
+
 // GPT-3
 '# 정의 : Transformer 디코더 구조 / Few Shot Learning / 순방향 / NLP Model <br/>\
 - Generation Pre-trained Transformer 3 <br/>\
@@ -2871,7 +2871,7 @@ var answer = answer.concat(
 - One-shot Learning : Downstream task 한 건만 사용, 모델 전체 1건 데이터 맞게 업데이트 <br/>\
 - Few-shot Learning : Downstream task 몇 건만 사용, 모델 전체 몇 건 데이터 맞게 업데이트 \
 ',
-   
+
 // 추천 시스템
 '# 정의 : 아이템 제공 시스템 / 정보 필터링 <br/>\
 - 정보 필터링을 사용하여 사용자에게 흥미로운 정보 아이템을 제공하는 시스템(TTA) <br/><br/>\
@@ -2958,7 +2958,7 @@ var answer = answer.concat(
 <img src = "./img/IOU_Detail.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * ITPE 7회 관리 4교시 6번\
 ',
-  
+
 // CCW 알고리즘
 '# 정의 : 외적 이용, 세점 위치 판단 알고리즘 <br/>\
 - 벡터의 외적을 이용하여 평면상에 세 점이 있을 때 점들의 위치 관계를 판단할 수 있는 알고리즘.<br/>\

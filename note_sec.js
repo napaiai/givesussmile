@@ -1,233 +1,233 @@
-﻿var question = question.concat(
-'[개론]- 보안 아키텍처',
-'[개론]- 보안 Overview',
-'[개론]- 보안이슈, 대응방안',
-'[개론]- 내외부 정보보안 위협',
-'[개론]- 공격 유형 Overview',
-'[개론]- 보안 약점, 취약점',
-'[개론]- STRIDE',
-'암호학',
-'[암호학]- Kerckhoff 원리',
-'[암호학]- 혼돈과 확산',
-'[암호학]- 암호문 분석(공격모델)',
-'[암호학]- 알고리즘 보안강도',
-'[암호학]- 블록암호화',
-'[블록암호화]- Feistel Cipher',
-'[블록암호화]- SPN Cipher',
-'[블록암호화]- 블록암호화 운영모드',
-'[블록암호화 운영모드]- ECB',
-'[블록암호화 운영모드]- CBC',
-'[블록암호화 운영모드]- PCBC',
-'[블록암호화 운영모드]- CFB',
-'[블록암호화 운영모드]- OFB',
-'[블록암호화 운영모드]- CTR',
-'[암호학][스트림]- OTP',
-'[암호학]- PKI',
-'[암호학][PKI]- X.509',
-'[암호학][PKI]- 2020 정부 전자서명법 개정',
-'[암호학]- 전자서명,전자봉투',
-'[암호학][전자서명,봉투]- 이중서명',
-'[암호학]- 양자암호통신',
-'[암호학][양자 보안]- QKD',
-'[암호학][양자 보안]- PQC',
-'[암호학]- 검색가능암호화',
-'[암호학][검색가능암호화]- PSES',
-'[암호학]- Base64',
-'[암호학][비대칭 암호]- 디피헬만 알고리즘',
-'[암호학][비대칭 암호]- ECC',
-'[암호학][비대칭 암호][ECC]- ECDSA',
-'[암호학][단방향 암호]- Hash Function',
-'[암호학][단방향 암호][Hash Function]- Hash Algorithm',
-'[암호학][Hash Algorithm]- MDC',
-'[암호학][Hash Algorithm]- MAC',
-'[암호학][Hash Algorithm]- Hash Salt',
-'[암호학][Hash Algorithm]- Key Stretching',
-'[암호학]경량 암호',
-'[암호학][경량 암호]- LSH 암호화',
-'[암호학][경량 암호]- LEA 암호화',
-'[암호학]형태 보존 암호화',
-'[암호학]순서 보존 암호화',
-'[암호학]- 동형암호',
-'[암호학][동형암호]- 준 동형암호',
-'[암호학][동형암호]- 완전 동형암호',
-'접근통제',
-'[접근통제][정책]- MAC',
-'[접근통제][정책]- DAC',
-'[접근통제][정책]- RBAC',
-'[접근통제][모델]- Bell LaPadula',
-'[접근통제][모델]- Biba',
-'[접근통제][모델]- Clark-Wilson',
-'[접근통제][네트워크]- TCP Wrapper',
-'[보안 솔루션]- 방화벽',
-'[보안 솔루션][방화벽]- 웹 방화벽',
-'[보안 솔루션][방화벽]- 차세대 방화벽',
-'[보안 솔루션]- Iptables',
-'[보안 솔루션]- IDS',
-'[보안 솔루션]- DPI',
-'[보안 솔루션][DPI]- IPS',
-'[보안 솔루션][DPI]- WIPS',
-'[보안 솔루션][기업보안]- UTM',
-'[보안 솔루션][기업보안]- ESM',
-'[보안 솔루션][기업보안]- RMS',
-'[보안 솔루션][기업보안]- SIEM',
-'[보안 솔루션][DB보안]- DB 암호화',
-'[보안 솔루션][DB보안]- DLP',
-'[보안 솔루션][File보안]- DRM',
-'[보안 솔루션][기업보안]- EMM',
-'[보안 솔루션][기업보안]- NAC',
-'[보안 솔루션][NAC]- WNAC',
-'[보안 솔루션][Key보안]- HSM',
-'[보안 솔루션]- AAA',
-'[보안 솔루션][AAA]- RADIOUS',
-'[보안 솔루션][AAA]- DIAMETER',
-'[보안 솔루션][DIAMETER]- Kerberos',
-'[보안 솔루션][Kerberos]- SSO',
-'[보안 솔루션][SSO]- EAM',
-'[보안 솔루션][SSO]- IAM',
-'[보안 솔루션]- FIDO',
-'[보안 솔루션][FIDO]- UAF 기술 표준',
-'[해킹]- 해킹, 악성프로그램',
-'[해킹]- 랜섬웨어',
-'[해킹][랜섬웨어]- RaaS',
-'[해킹][랜섬웨어]- 표적형 랜섬웨어',
-'[해킹][랜섬웨어]- DBD',
-'[해킹][랜섬웨어]- 드라이브 바이 크립토마이닝(drive-by cryptomining)',
-'[해킹][랜섬웨어]- 로키 랜섬웨어(Locky Ransomware)',
-'[해킹][랜섬웨어]- 워너크립터',
-'[해킹][랜섬웨어]- 독스웨어(doxware)',
-'[해킹][랜섬웨어]- 배드래빗(Bad Rabbit)',
-'[해킹][랜섬웨어]- 사이버범죄 서비스(CaaS, Cybercrime as a Service)',
-'[해킹][랜섬웨어]- 갠드크랩(GandCrab) 랜섬웨어',
-'[해킹]- APT',
-'[해킹][APT]- Lateral Movement',
-'[해킹][APT][Lateral Movement]- IoA',
-'[해킹][APT][Lateral Movement]- IoC',
-'[해킹]- 산업제어시스템 보안',
-'[해킹][APT]- 스턱스넷(stuxnet)',
-'[해킹]- 비즈니스 스캠',
-'[해킹][개론]- Cyber Kill Chain',
-'[해킹][개론]- ATT and CK',
-'[해킹]- 피싱(Phishing)',
-'[해킹][피싱(Phshing)]- 액티브 피싱',
-'[해킹][피싱(Phshing)]- 스피어 피싱',
-'[해킹]- 파밍(Pharming)',
-'[해킹]- 스미싱(Smishing)',
-'[해킹]- 스니핑(Sniffing)',
-'[해킹]- 스푸핑(Spoofing)',
-'[해킹]- Session Hijacking',
-'[해킹]- 워터링 홀 공격(Watering Hole Attack)',
-'[해킹]- 루트킷(Rootkit)',
-'[해킹]- 포맷 스트링 공격',
-'[해킹]- 카멜레온 바이러스',
-'[해킹]- 스테이지 프라이트(Stage Fright)',
-'[해킹]- 널 포인터 디레퍼런스(Null Pointer Dereference)',
-'[해킹]- 베놈(VENOM) 취약점',
-'[해킹]- 크리덴셜 스터핑',
-'[해킹]- Atom Bombing',
-'[해킹]- OWASP Top 10',
-'[해킹][OWASP]- Injection',
-'[해킹][OWASP][Injection]- SQL Injection',
-'[해킹]- OWASP Mobile Top 10',
-'[해킹]- OWASP IoT Top 10',
-'[해킹]- XSS',
-'[해킹][XSS]- SSRF',
-'[해킹][XSS]- CSRF',
-'[해킹]- DDoS',
-'[해킹][DDoS]- 스크러빙 센터, CDN',
-'[해킹][DDoS]- TCP Traffic Flooding',
-'[해킹][DDoS]- HTTP Head/Option Spoofing Flooding',
-'[해킹][DDoS]- HashDoS',
-'[해킹]- DRDoS',
-'[해킹]- DNS 보안',
-'[해킹]- 허니팟',
-'[해킹]- 사이버 디셉션',
-'[해킹]- 템퍼 프루핑',
-'[법률]- 데이터 3법',
-'[법률][개인정보]- 정보유형',
-'[법률][개인정보]- 개인정보 비식별 조치 가이드라인',
-'[법률][개인정보]- 프라이버시 보호모델',
-'[법률][개인정보]- 개인정보의 안전성 확보조치 기준',
-'[법률][개인정보]- 가명정보',
-'[법률][개인정보][가명정보]- 결합전문기관',
-'[법률][개인정보]- 가명처리 (ISO/IEC 20889 기준)',
-'[법률][개인정보]- 비식별수준 적정성평가',
-'[법률][개인정보][ISO/IEC 20889]- 재식별 공격',
-'[법률][개인정보]- 식별자',
-'[법률][개인정보]- 식별자, 민감정보',
-'[법률]- ISMS',
-'[법률][ISMS]- ISMS-P',
-'[법률]- 개인정보 영향평가(PIA)',
-'[법률][PIA]- ISO/IEC 29134',
-'[법률]- ISO/IEC 27017',
-'[법률]- ISO 27001',
-'[법률]- ISO/IEC 27018',
-'[법률]- GDPR',
-'[법률][GDPR]- GDPR 적정성 평가',
-'[보안활동]- ISO/IEC 27014',
-'[보안활동]- IoT 공통 보안 7원칙',
-'[보안활동]- 컴퓨터 포렌식(Computer forensics) = 디지털 포렌식',
-'[보안활동][포렌식]- 클라우드 포렌식',
-'[보안활동][포렌식]- 분산 포렌식 인덱싱',
-'[보안활동][포렌식]- File Carving',
-'[보안활동][포렌식]- e-Discovery',
-'[보안활동]- CPO',
-'[보안활동]- CISO',
-'[보안활동]- CVE',
-'[보안활동]- CWE',
-'[보안활동]- 버그 바운티',
-'[보안활동]- ISO/IEC 15408 (CC 인증)',
-'[융합보안]- TEE',
-'[융합보안]- Secure Boot',
-'[융합보안][Cloud 보안]- SECaaS',
-'[융합보안][Cloud 보안]- CWPP',
-'[융합보안][Cloud 보안]- CSPM',
-'[융합보안][Cloud 보안]- CASB',
-'[공격기법]- Race Condition',
-'Secure Coding',
-'[Secure Coding]- TouchPoints 기법',
-'[Secure Coding]- TOCTOU',
-'크라임웨어(Crimeware)',
-'멀버타이징(Mulvertising)',
-'소프트웨어 개발보안 가이드',
-'클라우드 컴퓨팅 보안',
-'PETs',
-'PPDM',
-'ISO 29151',
-'가상자산 사업자',
-'가상자산 사업자 ISMS',
-'[개인정보]- HIPPA Privacy Rule',
-'[개인정보]- OECD Privacy 8원칙',
-'[정보처리자유형]- 개인정보 유출사고 대응 매뉴얼',
-'정보보호산업진흥법(15.12 시행)',
-'정보윤리',
-'[정보윤리]- 사이버 범죄',
-'[정보윤리]- 사이버 중독',
-'탈린 매뉴얼(Tallinn Manual)',
-'ISA/IEC 62443',
-'DarkSide Ransomware',
-'코드서명 (코드사인, Codesign)',
-'WPA3',
-'라이트 커맨드(Light Commands) 취약점',
-'무자각 지속 인증(Implicity Continuous Authentication)',
-'개발보안 방법론',
-'Privacy By Design',
-'SDP',
-'BEC(Business  E-mail Compromise)',
-'[CPU 보안]- 스펙터(Spectre)',
-'[CPU 보안]- Meltdown',
-'[시스템 보안]- Shell Code',
-'[시스템 보안]- Buffer Overflow',
-'[시스템 보안]- Format String',
-'[Android]- Deeplink',
-'Zero Trust 보안 모델',
-'재택,원격근무 정보보호 6대 실전 수칙',
-'CDR',
-'사이버 레질리언스',
-'Reverse Turing Test',
-'Turing Completeness',
-'하인리히 법칙',
-'SOAR',
-'EMP',
+var question = question.concat(
+'<span>[개론]- 보안 아키텍처</span>',
+'<span>[개론]- 보안 Overview</span>',
+'<span>[개론]- 보안이슈, 대응방안</span>',
+'<span>[개론]- 내외부 정보보안 위협</span>',
+'<span>[개론]- 공격 유형 Overview</span>',
+'<span>[개론]- 보안 약점, 취약점</span>',
+'<span>[개론]- STRIDE</span>',
+'<span>암호학</span>',
+'<span>[암호학]- Kerckhoff 원리</span>',
+'<span>[암호학]- 혼돈과 확산</span>',
+'<span>[암호학]- 암호문 분석(공격모델)</span>',
+'<span>[암호학]- 알고리즘 보안강도</span>',
+'<span>[암호학]- 블록암호화</span>',
+'<span>[블록암호화]- Feistel Cipher</span>',
+'<span>[블록암호화]- SPN Cipher</span>',
+'<span>[블록암호화]- 블록암호화 운영모드</span>',
+'<span>[블록암호화 운영모드]- ECB</span>',
+'<span>[블록암호화 운영모드]- CBC</span>',
+'<span>[블록암호화 운영모드]- PCBC</span>',
+'<span>[블록암호화 운영모드]- CFB</span>',
+'<span>[블록암호화 운영모드]- OFB</span>',
+'<span>[블록암호화 운영모드]- CTR</span>',
+'<span>[암호학][스트림]- OTP</span>',
+'<span>[암호학]- PKI</span>',
+'<span>[암호학][PKI]- X.509</span>',
+'<span>[암호학][PKI]- 2020 정부 전자서명법 개정</span>',
+'<span>[암호학]- 전자서명,전자봉투</span>',
+'<span>[암호학][전자서명,봉투]- 이중서명</span>',
+'<span>[암호학]- 양자암호통신</span>',
+'<span>[암호학][양자 보안]- QKD</span>',
+'<span>[암호학][양자 보안]- PQC</span>',
+'<span>[암호학]- 검색가능암호화</span>',
+'<span>[암호학][검색가능암호화]- PSES</span>',
+'<span>[암호학]- Base64</span>',
+'<span>[암호학][비대칭 암호]- 디피헬만 알고리즘</span>',
+'<span>[암호학][비대칭 암호]- ECC</span>',
+'<span>[암호학][비대칭 암호][ECC]- ECDSA</span>',
+'<span>[암호학][단방향 암호]- Hash Function</span>',
+'<span>[암호학][단방향 암호][Hash Function]- Hash Algorithm</span>',
+'<span>[암호학][Hash Algorithm]- MDC</span>',
+'<span>[암호학][Hash Algorithm]- MAC</span>',
+'<span>[암호학][Hash Algorithm]- Hash Salt</span>',
+'<span>[암호학][Hash Algorithm]- Key Stretching</span>',
+'<span>[암호학]경량 암호</span>',
+'<span>[암호학][경량 암호]- LSH 암호화</span>',
+'<span>[암호학][경량 암호]- LEA 암호화</span>',
+'<span>[암호학]형태 보존 암호화</span>',
+'<span>[암호학]순서 보존 암호화</span>',
+'<span>[암호학]- 동형암호</span>',
+'<span>[암호학][동형암호]- 준 동형암호</span>',
+'<span>[암호학][동형암호]- 완전 동형암호</span>',
+'<span>접근통제</span>',
+'<span>[접근통제][정책]- MAC</span>',
+'<span>[접근통제][정책]- DAC</span>',
+'<span>[접근통제][정책]- RBAC</span>',
+'<span>[접근통제][모델]- Bell LaPadula</span>',
+'<span>[접근통제][모델]- Biba</span>',
+'<span>[접근통제][모델]- Clark-Wilson</span>',
+'<span>[접근통제][네트워크]- TCP Wrapper</span>',
+'<span>[보안 솔루션]- 방화벽</span>',
+'<span>[보안 솔루션][방화벽]- 웹 방화벽</span>',
+'<span>[보안 솔루션][방화벽]- 차세대 방화벽</span>',
+'<span>[보안 솔루션]- Iptables</span>',
+'<span>[보안 솔루션]- IDS</span>',
+'<span>[보안 솔루션]- DPI</span>',
+'<span>[보안 솔루션][DPI]- IPS</span>',
+'<span>[보안 솔루션][DPI]- WIPS</span>',
+'<span>[보안 솔루션][기업보안]- UTM</span>',
+'<span>[보안 솔루션][기업보안]- ESM</span>',
+'<span>[보안 솔루션][기업보안]- RMS</span>',
+'<span>[보안 솔루션][기업보안]- SIEM</span>',
+'<span>[보안 솔루션][DB보안]- DB 암호화</span>',
+'<span>[보안 솔루션][DB보안]- DLP</span>',
+'<span>[보안 솔루션][File보안]- DRM</span>',
+'<span>[보안 솔루션][기업보안]- EMM</span>',
+'<span>[보안 솔루션][기업보안]- NAC</span>',
+'<span>[보안 솔루션][NAC]- WNAC</span>',
+'<span>[보안 솔루션][Key보안]- HSM</span>',
+'<span>[보안 솔루션]- AAA</span>',
+'<span>[보안 솔루션][AAA]- RADIOUS</span>',
+'<span>[보안 솔루션][AAA]- DIAMETER</span>',
+'<span>[보안 솔루션][DIAMETER]- Kerberos</span>',
+'<span>[보안 솔루션][Kerberos]- SSO</span>',
+'<span>[보안 솔루션][SSO]- EAM</span>',
+'<span>[보안 솔루션][SSO]- IAM</span>',
+'<span>[보안 솔루션]- FIDO</span>',
+'<span>[보안 솔루션][FIDO]- UAF 기술 표준</span>',
+'<span>[해킹]- 해킹, 악성프로그램</span>',
+'<span>[해킹]- 랜섬웨어</span>',
+'<span>[해킹][랜섬웨어]- RaaS</span>',
+'<span>[해킹][랜섬웨어]- 표적형 랜섬웨어</span>',
+'<span>[해킹][랜섬웨어]- DBD</span>',
+'<span>[해킹][랜섬웨어]- 드라이브 바이 크립토마이닝(drive-by cryptomining)</span>',
+'<span>[해킹][랜섬웨어]- 로키 랜섬웨어(Locky Ransomware)</span>',
+'<span>[해킹][랜섬웨어]- 워너크립터</span>',
+'<span>[해킹][랜섬웨어]- 독스웨어(doxware)</span>',
+'<span>[해킹][랜섬웨어]- 배드래빗(Bad Rabbit)</span>',
+'<span>[해킹][랜섬웨어]- 사이버범죄 서비스(CaaS, Cybercrime as a Service)</span>',
+'<span>[해킹][랜섬웨어]- 갠드크랩(GandCrab) 랜섬웨어</span>',
+'<span>[해킹]- APT</span>',
+'<span>[해킹][APT]- Lateral Movement</span>',
+'<span>[해킹][APT][Lateral Movement]- IoA</span>',
+'<span>[해킹][APT][Lateral Movement]- IoC</span>',
+'<span>[해킹]- 산업제어시스템 보안</span>',
+'<span>[해킹][APT]- 스턱스넷(stuxnet)</span>',
+'<span>[해킹]- 비즈니스 스캠</span>',
+'<span>[해킹][개론]- Cyber Kill Chain</span>',
+'<span>[해킹][개론]- ATT and CK</span>',
+'<span>[해킹]- 피싱(Phishing)</span>',
+'<span>[해킹][피싱(Phshing)]- 액티브 피싱</span>',
+'<span>[해킹][피싱(Phshing)]- 스피어 피싱</span>',
+'<span>[해킹]- 파밍(Pharming)</span>',
+'<span>[해킹]- 스미싱(Smishing)</span>',
+'<span>[해킹]- 스니핑(Sniffing)</span>',
+'<span>[해킹]- 스푸핑(Spoofing)</span>',
+'<span>[해킹]- Session Hijacking</span>',
+'<span>[해킹]- 워터링 홀 공격(Watering Hole Attack)</span>',
+'<span>[해킹]- 루트킷(Rootkit)</span>',
+'<span>[해킹]- 포맷 스트링 공격</span>',
+'<span>[해킹]- 카멜레온 바이러스</span>',
+'<span>[해킹]- 스테이지 프라이트(Stage Fright)</span>',
+'<span>[해킹]- 널 포인터 디레퍼런스(Null Pointer Dereference)</span>',
+'<span>[해킹]- 베놈(VENOM) 취약점</span>',
+'<span>[해킹]- 크리덴셜 스터핑</span>',
+'<span>[해킹]- Atom Bombing</span>',
+'<span>[해킹]- OWASP Top 10</span>',
+'<span>[해킹][OWASP]- Injection</span>',
+'<span>[해킹][OWASP][Injection]- SQL Injection</span>',
+'<span>[해킹]- OWASP Mobile Top 10</span>',
+'<span>[해킹]- OWASP IoT Top 10</span>',
+'<span>[해킹]- XSS</span>',
+'<span>[해킹][XSS]- SSRF</span>',
+'<span>[해킹][XSS]- CSRF</span>',
+'<span>[해킹]- DDoS</span>',
+'<span>[해킹][DDoS]- 스크러빙 센터, CDN</span>',
+'<span>[해킹][DDoS]- TCP Traffic Flooding</span>',
+'<span>[해킹][DDoS]- HTTP Head/Option Spoofing Flooding</span>',
+'<span>[해킹][DDoS]- HashDoS</span>',
+'<span>[해킹]- DRDoS</span>',
+'<span>[해킹]- DNS 보안</span>',
+'<span>[해킹]- 허니팟</span>',
+'<span>[해킹]- 사이버 디셉션</span>',
+'<span>[해킹]- 템퍼 프루핑</span>',
+'<span>[법률]- 데이터 3법</span>',
+'<span>[법률][개인정보]- 정보유형</span>',
+'<span>[법률][개인정보]- 개인정보 비식별 조치 가이드라인</span>',
+'<span>[법률][개인정보]- 프라이버시 보호모델</span>',
+'<span>[법률][개인정보]- 개인정보의 안전성 확보조치 기준</span>',
+'<span>[법률][개인정보]- 가명정보</span>',
+'<span>[법률][개인정보][가명정보]- 결합전문기관</span>',
+'<span>[법률][개인정보]- 가명처리 (ISO/IEC 20889 기준)</span>',
+'<span>[법률][개인정보]- 비식별수준 적정성평가</span>',
+'<span>[법률][개인정보][ISO/IEC 20889]- 재식별 공격</span>',
+'<span>[법률][개인정보]- 식별자</span>',
+'<span>[법률][개인정보]- 식별자, 민감정보</span>',
+'<span>[법률]- ISMS</span>',
+'<span>[법률][ISMS]- ISMS-P</span>',
+'<span>[법률]- 개인정보 영향평가(PIA)</span>',
+'<span>[법률][PIA]- ISO/IEC 29134</span>',
+'<span>[법률]- ISO/IEC 27017</span>',
+'<span>[법률]- ISO 27001</span>',
+'<span>[법률]- ISO/IEC 27018</span>',
+'<span>[법률]- GDPR</span>',
+'<span>[법률][GDPR]- GDPR 적정성 평가</span>',
+'<span>[보안활동]- ISO/IEC 27014</span>',
+'<span>[보안활동]- IoT 공통 보안 7원칙</span>',
+'<span>[보안활동]- 컴퓨터 포렌식(Computer forensics) = 디지털 포렌식</span>',
+'<span>[보안활동][포렌식]- 클라우드 포렌식</span>',
+'<span>[보안활동][포렌식]- 분산 포렌식 인덱싱</span>',
+'<span>[보안활동][포렌식]- File Carving</span>',
+'<span>[보안활동][포렌식]- e-Discovery</span>',
+'<span>[보안활동]- CPO</span>',
+'<span>[보안활동]- CISO</span>',
+'<span>[보안활동]- CVE</span>',
+'<span>[보안활동]- CWE</span>',
+'<span>[보안활동]- 버그 바운티</span>',
+'<span>[보안활동]- ISO/IEC 15408 (CC 인증)</span>',
+'<span>[융합보안]- TEE</span>',
+'<span>[융합보안]- Secure Boot</span>',
+'<span>[융합보안][Cloud 보안]- SECaaS</span>',
+'<span>[융합보안][Cloud 보안]- CWPP</span>',
+'<span>[융합보안][Cloud 보안]- CSPM</span>',
+'<span>[융합보안][Cloud 보안]- CASB</span>',
+'<span>[공격기법]- Race Condition</span>',
+'<span>Secure Coding</span>',
+'<span>[Secure Coding]- TouchPoints 기법</span>',
+'<span>[Secure Coding]- TOCTOU</span>',
+'<span>크라임웨어(Crimeware)</span>',
+'<span>멀버타이징(Mulvertising)</span>',
+'<span>소프트웨어 개발보안 가이드</span>',
+'<span>클라우드 컴퓨팅 보안</span>',
+'<span>PETs</span>',
+'<span>PPDM</span>',
+'<span>ISO 29151</span>',
+'<span>가상자산 사업자</span>',
+'<span>가상자산 사업자 ISMS</span>',
+'<span>[개인정보]- HIPPA Privacy Rule</span>',
+'<span>[개인정보]- OECD Privacy 8원칙</span>',
+'<span>[정보처리자유형]- 개인정보 유출사고 대응 매뉴얼</span>',
+'<span>정보보호산업진흥법(15.12 시행)</span>',
+'<span>정보윤리</span>',
+'<span>[정보윤리]- 사이버 범죄</span>',
+'<span>[정보윤리]- 사이버 중독</span>',
+'<span>탈린 매뉴얼(Tallinn Manual)</span>',
+'<span>ISA/IEC 62443</span>',
+'<span>DarkSide Ransomware</span>',
+'<span>코드서명 (코드사인, Codesign)</span>',
+'<span>WPA3</span>',
+'<span>라이트 커맨드(Light Commands) 취약점</span>',
+'<span>무자각 지속 인증(Implicity Continuous Authentication)</span>',
+'<span>개발보안 방법론</span>',
+'<span>Privacy By Design</span>',
+'<span>SDP</span>',
+'<span>BEC(Business  E-mail Compromise)</span>',
+'<span>[CPU 보안]- 스펙터(Spectre)</span>',
+'<span>[CPU 보안]- Meltdown</span>',
+'<span>[시스템 보안]- Shell Code</span>',
+'<span>[시스템 보안]- Buffer Overflow</span>',
+'<span>[시스템 보안]- Format String</span>',
+'<span>[Android]- Deeplink</span>',
+'<span>Zero Trust 보안 모델</span>',
+'<span>재택,원격근무 정보보호 6대 실전 수칙</span>',
+'<span>CDR</span>',
+'<span>사이버 레질리언스</span>',
+'<span>Reverse Turing Test</span>',
+'<span>Turing Completeness</span>',
+'<span>하인리히 법칙</span>',
+'<span>SOAR</span>',
+'<span>EMP</span>',
 );
 
 var answer = answer.concat(
@@ -327,12 +327,12 @@ var answer = answer.concat(
 - 컨텐츠 서비스 보안 : 데이터 훼손, 탈취 방지, DRM 적용 <br/><br/>\
 * KPC 94회 2교시 1번\
 ',
-  
+
 // 내/외부 정보보안 위협
 '# 내부망 위협 : 정보유출, 악성코드, 불법SW 설치, 불법접근 <br/><br/>\
 # 외부망 위협 : 도막청, 정보유출, DDoS, 불법접근 \
 ',
-  
+
 // 공격유형 Overview
 '# Cyber Kill Chain : 보안 구상 전략 <br/>\
 - 개념 : 군사적 목적, 공격흐름 프로세스 분석 <br/>\
@@ -367,7 +367,7 @@ var answer = answer.concat(
 - Elevation of Privilege(권한 상승) : 권한 부여 <br/><br/>\
 * ITPE 합숙 125회 4일차 2교시 1번\
 ',
-  
+
 // 암호학
 '# 정의 : 메시지 평문 불명확화 / 알고리즘, 키 재구성 <br/>\
 - 메시지의 평문을 불명확하게 하기 위해 평문을 특정 알고리즘과 키로 재구성하고 해당 키를 가진 자만이 볼 수 있게 만든 기술 <br/><br/>\
@@ -378,7 +378,7 @@ var answer = answer.concat(
 # 원리 : 대체, 블록화, 치환, 확장, 압축 <br/><br/>\
 <img src = "./img/Encryption.png" style = "max-width: 100%; height: auto;">\
 ',
-  
+
 // Kerckhoff 원리
 '# 정의 : 내용 공개 / 키 노출만 안되면 안전 <br/>\
 - 알고리즘의 모든 내용 공개, 키가 노출되지 않으면 안전한 원리 <br/><br/>\
@@ -387,12 +387,12 @@ var answer = answer.concat(
 - 알고리즘 설계보다 키 변경이 용이 <br/>\
 - 키만 다르게 설정하는 것이 실용적\
 ',
-  
+
 // 혼돈과 확산
 '# 혼돈(Confusion) : 키와 암호문과의 관계 감추는 성질(s box, 대치/치환) <br/><br/>\
 # 확산(Diffusino) : 평문과 암호문과의 관계를 감추는성질(p box, 전치) \
 ',
-  
+
 // 암호문 분석(공격 모델)
 '# 정의 : 암호문 평문 / 암호문, 알고리즘, 키 / 알아내는 방법 <br/>\
 - 암호문과 평문을 가지고 평문과 암호문을 알아내거나 암호화 하는데 쓰인 알고리즘과 키를 알아내는 방법 <br/><br/>\
@@ -402,12 +402,12 @@ var answer = answer.concat(
 - 선택평문(CPA) : 원하는 평문 선택 대응 암호문 알 때 <br/>\
 - 선택암호문(CCA) : 원하는 암호문 선택 대응 평문 알 때 \
 ',
-  
+
 // 알고리즘 보안강도
 '# 정의 : 취약점 찾아내는데 / 작업량 수치화 정도 <br/>\
 - 암호 알고리즘이나 시스템의 암호키 또는 해시함수의 취약성을 찾아내는데 소요되는 작업량 수치화한 정도 \
 ',
-  
+
 // 블록암호화
 '# 정의 : 평문 고정길이 블록 단위 / 블록마다 암호화 / 고정길이 암호문 생성 기술 <br/>\
 - 평문을 고정 길이의 블록단위로 나누어 각 블록마다 암호화를 수행하여 고정된 크기의 블록 단위 암호문을 생성하는 암호화 기술 <br/><br/>\
@@ -459,8 +459,8 @@ var answer = answer.concat(
 * ITPE 6회 관리 2교시 4번<br/>\
 * KPC 93회 2교시 4번\
 ',
-  
-// ECB 
+
+// ECB
 '# 정의 : Electronic Code Book <br/>\
 - 평문/암호문 블록 1:1관계 가진 기본적인 블록 암호화 모드 <br/><br/>\
 # 암호화 <br/>\
@@ -474,7 +474,7 @@ var answer = answer.concat(
 * ITPE 6회 관리 2교시 4번<br/>\
 * KPC 93회 2교시 4번\
 ',
-  
+
 // CBC
 '# 정의 : Cipher Block Channing <br/>\
 - 맨 첫 블록은 Initialization Vector(IV)를 통해 XOR 처리하여 암호화, 두번 째 블록은 이전 암호화 결과를 XOR 처리 암호화 <br/><br/>\
@@ -489,7 +489,7 @@ var answer = answer.concat(
 * ITPE 6회 관리 2교시 4번<br/>\
 * KPC 93회 2교시 4번\
 ',
-  
+
 // PCBC
 '# 정의 : Propagation CBC <br/>\
 - 데이터와 암호화 결과를 한번 더 XOR 처리를 통해 복호화 복잡도 높인 암호화 <br/><br/>\
@@ -548,7 +548,7 @@ var answer = answer.concat(
 * KPC 93회 2교시 4번\
 ',
 
-// OTP 
+// OTP
 '# 정의 : 일회용 비밀 번호 / 생성 기술 <br/>\
 - 일회영 비밀번호를 매번 다르게 생성하는 기술 <br/><br/>\
 # 유형 <br/>\
@@ -677,7 +677,7 @@ var answer = answer.concat(
 <img src = "./img/QKDType.png" style = "max-width:100%; hegiht:auto;"><br/><br/>\
 * 117회 관리 1교시 3번 \
 ',
-   
+
 // QKD
 '# 정의 : Quantum Key Distribution <br/>\
 - 양자역학에서 말하는 복제 불가능성 원리 및 파동함수 붕괴 현상을 이용해 두 사용자 간 암호 통신에 필요한 키를 서로 공유할 수 있도록 해주는 기술 <br/><br/>\
@@ -698,7 +698,7 @@ var answer = answer.concat(
 4. 편광기저 같은 경우에 측정된 결과만 비밀키 생성 <br/><br/>\
 * 라이지움 87회 관리 2교시 6번\
 ',
-   
+
 // PQC
 '# 정의 : 양자 알고리즘 대응 암호화 <br/>\
 - Post-Quantum Cryptography <br/>\
@@ -739,7 +739,7 @@ var answer = answer.concat(
 - 패딩연산 (원본 비트수 mod3 만큼 "="문자로 패딩)<br/><br/>\
 <img src = "./img/AL_48_1.PNG" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // 디피헬만 알고리즘
 '# 정의 : Diffie-Hellman Algorithm <br/>\
 - 두 사람이 암호되지 않은 통신망을 통해 공통의 비밀키를 공유할 수 있도록 암호키 교환 알고리즘 <br/><br/>\
@@ -775,7 +775,7 @@ var answer = answer.concat(
 * 86회 라이지움 1교시 7번 <br/>\
 * 88회 라이지움 1교시 7번 \
 ',
-  
+
 // ECDSA
 '# 정의 : 타원곡선암호를 전자서명에 접목시킨 암호 알고리즘 <br/>\
 # 구성요소 <br/>\
@@ -803,7 +803,7 @@ var answer = answer.concat(
 - p의 x좌표 값, 서명 r 비교 <br/><br/>\
 * 81회 라이지움 응용 1교시 13번\
 ',
-  
+
 // Hash Function
 '# 개념 : 수학식 구성, 임의 길이 -> 고정길이 출력 함수 <br/>\
 - 임의의 길이의 데이터를 "해시 알고리즘을 이용하여" 고정된 길이 데이터로 매핑하는 함수 <br/>\
@@ -848,7 +848,7 @@ var answer = answer.concat(
 * 120회 관리 1교시 9번 <br/>\
 * 116회 1교시 3번\
 ',
-  
+
 // MDC
 '# 정의 : 무결성 보장, MDC 비교 알고리즘 <br/>\
 - Modification Detection Code <br/>\
@@ -863,7 +863,7 @@ var answer = answer.concat(
 - HAVAL : MD5 보완 128~256비트 다양한 크기 알고리즘 <br/><br/>\
 * 120회 관리 1교시 9번 \
 ',
-  
+
 // MAC
 '# 정의 : 대칭키 이용, 인증 알고리즘 <br/>\
 - Message Authentication Code <br/>\
@@ -993,7 +993,7 @@ var answer = answer.concat(
 * ITPE 합숙 124회 2일차 1교시 5번\
 ',
 
-// 순서 보존 암호화 
+// 순서 보존 암호화
 '# 정의 : 암호문, 평문 동일 순서 정렬 / 암호화 알고리즘 <br/>\
 - 일정한 규칙에 의해 순서가 있는 평문을 암호화한 암호문이 평문과 동일한 순서로 정렬되도록 암호화하는 알고리즘 <br/><br/>\
 # 개념도 <br/>\
@@ -1035,7 +1035,7 @@ var answer = answer.concat(
 * ITPE 124회 합숙 3일차 1교시 8번\
 ',
 
-// [동형암호]- 준 동형암호 
+// [동형암호]- 준 동형암호
 '# 정의 : 수학의 준동형성 이용 암호화 함수<br/>\
 - Homomorphic Encryption <br/>\
 - 암호화된 데이터에 대해 복호화 하지 않고 연산을 수행할 수 있는 암호 수학의 준동형성을 이용하여 암호화 함수 중에서 평문 공간과 암호문 공간에 정의된 연산을 보존화는 암호화 함수 <br/><br/>\
@@ -1049,7 +1049,7 @@ var answer = answer.concat(
 <img src = "./img/준동형암호화_4.png" style = "max-width:100%; height:auto;">\
 ',
 
-// [동형암호]- 완전 동형암호 
+// [동형암호]- 완전 동형암호
 '# 정의 : 상태 그대로 검색 가능 4세대 암호<br/>\
 - Fully Homomorhpic Encryption <br/>\
 - 암호화된 상태 그대로 원문 정보에 대한 연산이나 검색이 가능한 4세대 암호 (기본적인 준동형성에 모든 임의 논리 연산을 보존하는 준동형 암호) <br/><br/>\
@@ -1428,7 +1428,7 @@ var answer = answer.concat(
 * MAM : Mobile Application Management <br/>\
 * MCM : Mobile content Management </font>\
 ',
-  
+
 // NAC
 '# 정의 : Endpoint NW 접근 시도 / 확인 / 차단 / 네트워크 접근제어 시스템 <br/>\
 - 사용자 Endpoint(PC, 노트북 등)의 NW 접근 시도시 사전 승인여부 및 보안 정책 준수 여부를 확인하고, NW 접속을 승인 또는 차단하는 네트워크 접근제어 시스템 <br/><br/>\
@@ -1759,7 +1759,7 @@ var answer = answer.concat(
 <img src = "./img/DBD.png" style = "max-width:100%; height:auto;">\
 ',
 
-// [랜섬웨어]- Drive by cryptomining 
+// [랜섬웨어]- Drive by cryptomining
 '# 정의 : 웹사이트 방문자 채굴 공격 <br/>\
 - 암호화폐를 채굴하기 위한 악성코드로 예전에는 자신의 웹사이트에 방문한 사람들의 CPU 파워를 빌려 모네로(Monero)라는 암호화폐를 채굴하는 것이 공격의 주요 수법이었다면, 지금은 웹사이트에 방문한 사람들이 웹 브라우저를 꺼도 채굴이 계속 진행되로록 하는 공격',
 
@@ -1809,7 +1809,7 @@ var answer = answer.concat(
 * 파일 일부 복구해서 복구 가능성 확인시켜줌 1.0은 0.3 비트코인 요구 2.0은 300달러 요구 <br/><br/>\
 * [2017.04.] 해킹 조직 셰도브로커는 미국 정보기관 국가 안보부(NSA)를 해킹해 사이버 무기로 사용했던 취약점의 인터넷 공개에 포함\
 ',
-   
+
 // [랜섬웨어]- 독스웨어
 '# 정의 : 정보 미끼 금전 요구 악성 코드 <br/>\
 - 개인에게 피해를 줄 수 있는 파일이나 정보를 미끼로 금전을 요구하는 악성코드 <br/><br/>\
@@ -1900,7 +1900,7 @@ var answer = answer.concat(
 - 데이터 : DB 암호화 솔루션(API, Plugin, 암호화키), DB 접근제어(MAC, DAC, RBAC, ACL, CL, BLP, Biba, Clarkwilson, Chinese Wall) <br/><br/>\
 * 116회 2교시 1번\
 ',
-   
+
 // Lateral Movement
 '# 정의 : APT 내부망 이동 공격 기법 <br/>\
 - Lateral Movement <br/>\
@@ -1920,7 +1920,7 @@ var answer = answer.concat(
 - Client 허니팟 : Target 위장 <br/><br/>\
 * 120회 응용 1교시 9번\
 ',
-  
+
 // IoA
 '# 정의 : 공격 의도 파악 가능한 동적 지표 (공격지표)<br/>\
 - Indicators of Attack <br/>\
@@ -1934,7 +1934,7 @@ var answer = answer.concat(
 - 대응 : 학습을 통한 비반복적, Zero Day 등 새로운 위협 대응 가능 <br/><br/>\
 * 라이지움 88회 관리 1교시 3번\
 ',
-  
+
 // IoC
 '# 정의 : 방어자 대응 중심 관점 지표 (침해지표)<br/>\
 - Indicators of Compromise <br/>\
@@ -2008,7 +2008,7 @@ var answer = answer.concat(
 * 111회 관리 1교시 11번\
 ',
 
-// ATT and CK 
+// ATT and CK
 '# 정의 : MITRE / 보안 프레임워크 / 실제 사이버 공격 기반 / 적대적 기술 및 정보 / 보안 매트릭스 <br/>\
 - Adversarial Tactics, Techniques & Common Knowledge Matrix <br/>\
 - MITRE에서 제공하는 보안 프레임워크로서 실제 사이버공격에 대한 데이터를 기반으로 적대적인 전술 및 기술에 대한 정보를 쉽게 알아볼 수 있도록 만든 보안 매트릭스 <br/><br/>\
@@ -2090,7 +2090,7 @@ var answer = answer.concat(
 <img src = "./img/SpearPhishingWateringHole.png" style = "max-width:100%; height:auto;"><br/><br/>\
 *116회 1교시 7번\
 ',
-  
+
 // Pharming
 '# 정의 : 탈취한 도메인 이용 개인정보 탈취 수법<br/>\
 - 합법적 소유의 사용자 도메인 탈취, DNS 이름 속여 사용자들이 진짜 사이트로 오인하도록 유도하는 개인정보 탈취 수법 <br/><br/>\
@@ -2113,7 +2113,7 @@ var answer = answer.concat(
 - 소액결제 최저치 설정 <br/><br/>\
 ',
 
-// Sniffing 
+// Sniffing
 '# 정의 : 패킷 분석 정보 탈취 기법<br/>\
 - 이더넷상 전달되는 모든 패킷을 분석하여 사용자 계정/암호등 정보 알아내는 기법<br/><br/>\
 # 스니핑 취약 프로토콜(6) : Telnet, Rlogin, HTTP, SNMP, FTP, SMTP <br/><br/>\
@@ -2156,7 +2156,7 @@ var answer = answer.concat(
 - DNSSEC 솔루션 사용 : DNS 캐시 포이즈닝 대응, PKI 전자 서명기술 <br/><br/>\
 * KPC 92회 응용 3교시 7번\
 ',
-  
+
 // Session Hijacking
 '# 정의 : 인가된 아이디 패스워드 x / 세션 정보 가로채기 / 3 Way HandShake 과정 취약점 악용 <br/>\
 - 접속하고자 하는 시스템의 접속하기 위한 인가된 아이디와 패스워드가 없을 경우 현재 접속된 시스템들의 세션 정보를 가로채는 공격기법 <br/><br/>\
@@ -2172,7 +2172,7 @@ var answer = answer.concat(
 - Ack Storm 탐지 : 급격한 Ack 비율 증가시 탐지 <br/>\
 - 패킷 유실, 재전송 증가 탐지 : 패킷 유실, 서버 응답시간 길어짐 탐지 <br/>\
 - 리셋 탐지 : 예상치 못한 리셋시, 세션이 멈추거나 리셋 탐지 \
-', 
+',
 
 // Watering Hole Attack
 '# 정의 : 제로데이 취약점 악용 / Target / 해킹 방법 <br/>\
@@ -2218,7 +2218,7 @@ var answer = answer.concat(
 - Bluepill루트킷 : 최초의 HVM(Hardware Virtual Machine) 루트킷, 드라이버로 적재되며 OS상태를 게이트 운영체제로 이동시킴 <br/><br/>\
 * 시스템 부팅 시작단계부터 보안활동 시작 필요\
 ',
-   
+
 // 포맷 스트링 공격
 '# 정의 : 데이터 형태의 불명확 정의를 이용한 공격 <br/>\
 - 출력문에서 올바르지 못한 방법을 악용하여 크래커들이 실제 메모리 번지를 공격하여 원하는 값으로 변경하거나 시스템의 루트 권한을 획득하는 공격 <br/><br/>\
@@ -2261,7 +2261,7 @@ var answer = answer.concat(
 # 2.0 대응 : 출처 불분명 mp3 실행 주의 \
 ',
 
-// Null Pointer Dereference 
+// Null Pointer Dereference
 '# 정의 : NULL Pointer 대입시 iOS 다운, 재부팅 취약점 <br/>\
 - 널 포인터에 어떤 값을 대입할 때 발생하는 에러로 iOS운영체제를 다운시키거나 재부팅 시키는 취약점<br/><br/>\
 # 특징 : 악성동영상을 재생하기만 해도 iOS 재부팅, 탈옥 여부 무관하게 감염 가능\
@@ -2277,7 +2277,7 @@ var answer = answer.concat(
 # 대응 : 보안패치, 최근 CVE 지속 모니터링 및 대응 <br/><br/>\
 <img src = "./img/VENOM.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // 크리덴셜 스터핑
 '# 정의 : 무작위 대입공격 / ID / 계정 <br/>\
 - 유출된 정보 기반 무작위 대입 방식 공격기법 <br/><br/>\
@@ -2458,7 +2458,7 @@ var answer = answer.concat(
 9. 안전하지 않은 소프트웨어 / 펌웨어 <br/>\
 10. 빈약한 물리적 보안 \
 ',
- 
+
 // XSS
 '# 정의 : Web Script 게시물 기반 공격 기법 <br/>\
 - 웹기반 게시판 등에 등록된 Scrpit 게시물을 조회한 사용자를 대상으로 공격하는 기법 <br/>\
@@ -2493,7 +2493,7 @@ var answer = answer.concat(
 * 라이지움 86회 1교시 8번 <br/>\
 * 그리타 \
 ',
-  
+
 // SSRF
 '# 정의 : 신뢰하는 서버로부터의 공격 <br/>\
 - Server-Side Request Forgery <br/>\
@@ -2552,8 +2552,8 @@ var answer = answer.concat(
 * 114회 응용 3교시 3번 <br/>\
 * ITPE 2회 관리 2교시 4번\
 ',
-  
-// DDOS - 스크러빙 센터, 컨텐츠 전송 네트워크 
+
+// DDOS - 스크러빙 센터, 컨텐츠 전송 네트워크
 '# 스크러빙 센터 개념 : 디도스 공격방어 전용 서비스 제공 시설 <br/><br/>\
 # 스크러빙 센터, CDN 비교 관점 <br/>\
 - 대응방법 : Flooding / Connection / Application <br/>\
@@ -2620,7 +2620,7 @@ var answer = answer.concat(
 - 웹 서버 업데이트 : 위 2 항목 지원 버전 <br/><br/>\
 * 114회 응용 3교시 3번\
 ',
-  
+
 // DRDoS
 '# 개념 : 별도 설치 없이 / 프로토콜 취약성 이용 / DDoS 에이전트로 활용 공격 <br/>\
 - 별도의 에이전트 설치 없이 네트워크 통신 프로토콜 구조의 취약성을 이용해 정상적인 서비스를 운영하고 있는 시스템을 DDoS 공격의 에이전트로 활용하는 기법 <br/><br/>\
@@ -2632,7 +2632,7 @@ var answer = answer.concat(
 * ITPE 2회 관리 2교시 4번\
 ',
 
-// DNS 보안 
+// DNS 보안
 '# 취약점 <br/>\
 1. Protocol 측면 <br/>\
 - UDP 특성상 IP 변조 쉬움 <br/>\
@@ -2721,7 +2721,7 @@ var answer = answer.concat(
 - 실행코드 난독화 : 암호화 및 난독화 구현 \
 ',
 
-// 데이터 3법 
+// 데이터 3법
 '# 개념 : 개인정보를 데이터로 활용할 수 있도록 개인정보 보호법, 정보통신망법, 신용정보법 개정안 <br/><br/>\
 # Overview <br/>\
 <img src = "./img/Data3RuleOverview.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -2760,7 +2760,7 @@ var answer = answer.concat(
 * KPC 93회 응용 3교시 7번\
 ',
 
-// 정보유형 
+// 정보유형
 '# 용어 정의 <br/>\
 - 개인정보 : 개인 식별 가능 정보 or 다른 정보와 쉽게 결합하여 알아볼 수 있는 정보 <br/>\
 - 가명정보 : 추가정보의 사용,결합 없이는 알아볼 수 없는 정보 <br/>\
@@ -2790,8 +2790,8 @@ var answer = answer.concat(
 * 라이지움 86회 관리 3교시 3번 <br/>\
 * 120회 4교시 5번\
 ',
-  
-// 프라이버시 보호모델 
+
+// 프라이버시 보호모델
 '# 정의 : 개인 식별 요소를 제거해 비식별화 된 개인정보에 대해 연결 공격, 동질성 공격, 배경지식 공격 등을 통해 식별이 가능한 것을 방지하기 위한 보호모델 <br/><br/>\
 # 개념도 <br/>\
 <img src = "./img/PrivacyProtectionModelOverview.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -2855,7 +2855,7 @@ var answer = answer.concat(
 - 재해 및 재난 대비 안전조치 <br/><br/>\
 * 116회 응용 3교시 5번\
 ',
-   
+
 // 가명정보
 '# 정의 : 개인정보 일부 삭제, 대체 / 추가 정보 사용 결합 / 특정 개인 알아볼 수 없는 정보  <br/>\
 - 개인정보를 가명처리함으로써 원래의 상태로 복원하기 위한 추가 정보의 사용,결합 없이는 특정 개인을 알아볼 수 없는 정보 (개인정보보호법 2-1)<br/><br/>\
@@ -2898,7 +2898,7 @@ var answer = answer.concat(
 - 가명정보 안전조치 의무 : 개보법 30, 48-2 / 추가정보 별도보관 관물기 조치 (3천) <br/><br/>\
 * ITPE 8회 관리 3교시 3번\
 ',
-   
+
 // 가명처리 (ISO/IEC 20889 기준)
 '# 정의 : <br/>\
 - 개인정보의 일부를 삭제하거나 일부 또는 전부를 대체하는 등의 방법으로 추가정보가 없이는 특정 개인을 알아볼 수 없도록 처리하는 것(<font color = "red">개인정보보호법 제2조의 1의 2</font>) <br/><br/>\
@@ -2919,7 +2919,7 @@ var answer = answer.concat(
 <img src = "./img/TimeLineDataCombine.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 87회 관리 3교시 3번\
 ',
-  
+
 // 비식별수준 적정성평가
 '<img src = "./img/RenamePrivacyInfoTest.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 95회 관리 3교시 4번\
@@ -2935,8 +2935,8 @@ var answer = answer.concat(
 - Inference Attack : 다른 속성 그룹과 관련된 <font color = "red">민감한 속성</font> 추론<br/><br/>\
 * 인포에버 122회 관리 4교시 6번\
 ',
-   
-// [개인정보 비식별화]- 식별자 
+
+// [개인정보 비식별화]- 식별자
 '<img src = "./img/Identifier_0.PNG" style = "max-width:100%; height:auto;"><br/><br/>\
 # 식별자 분류 <br/>\
 1. 식별자 : Dataset에서 특정 개인을 식별할 수 있는 속성들의 전체 집합 <br/>\
@@ -2956,7 +2956,7 @@ var answer = answer.concat(
 - 적대자가 알 수 있어야 하며, 적대자가 정보주체의 지인 여부에 달려있음 <br/><br/>\
 * 라이지움 86회 관리 3교시 3번 \
 ',
-  
+
 // 식별자, 민감정보
 '# 개념 <br/>\
 <img src = "./img/ID_SA.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -2964,7 +2964,7 @@ var answer = answer.concat(
 <img src = "./img/IdentifierClassification.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 86회 관리 3교시 3번\
 ',
-    
+
 // ISMS
 '# 정의 : 정보보호관리 / 관리체계 수립,운영 / 기준 적합 인증제도 <br/>\
 - Information Security Management System <br/>\
@@ -2984,8 +2984,8 @@ var answer = answer.concat(
 * 124회 관리 4교시 4번 <br/>\
 * 119회 관리 3교시 3번\
 ',
-  
-// ISMS-P 
+
+// ISMS-P
 '# 정의 : 정보보호 적합성 증명 제도 <br/>\
 - Information Security Management System - Personal<br/>\
 - ISMS + PIMS (18.11) <br/>\
@@ -3097,7 +3097,7 @@ var answer = answer.concat(
 <img src = "./img/ISOIEC27017Around.png" style = "max-width: 100%; height: auto;"><br/><br/>\
 * 122회 3교시 2번\
 ',
-  
+
 // ISO 27001
 '# 정의 : ISMS / BP<br/>\
 - Information Security Management System <br/>\
@@ -3186,7 +3186,7 @@ var answer = answer.concat(
 * 아이리포 23회 3교시 1번<br/>\
 * 117회 컴시응 4교시 1번 \
 ',
-  
+
 // GDPR 적정성평가
 '# 개념 : 제 45조 적정성 결정에 근거한, 제 3국이 적정성수준으로 개인정보 보호조치를 확보하고 있는지 평가하는 제도 <br/><br/>\
 # 특징 <br/>\
@@ -3565,7 +3565,7 @@ var answer = answer.concat(
 * KPC 118회 합숙 4일차 1교시 3번 \
 ',
 
-// Race Condition 
+// Race Condition
 '# 정의 : 공유 자원 / 경쟁 상태 / 임시 파일 / 관리자 권한 탈취 공격 <br/>\
 - 공유 자원에 여러 개의 프로세스가 동시에 접근하기 위한 경쟁 상태에서 생성된 임시 파일을 통해 관리자 권한을 탈취하는 공격 기법 <br/><br/>\
 # 공격기법 <br/>\
@@ -3605,7 +3605,7 @@ var answer = answer.concat(
 * KPC 90회 응용 2교시 2번 <br/>\
 * ITPE 8회 관리 1교시 8번\
 ',
-  
+
 // Secure Coding
 '# 정의 : 설계 및 구현 단계 / 취약점 사전 제거 / 안전한 소프트웨어 개발 기법 <br/>\
 - 설계 및 구현 단계에서 해킹 등의 공격을 유발할 가능성이 있는 잠재적인 보안 취약점을 사전에 제거하여, 외부 공격으로부터 안전한 소프트웨어를 개발하는 기법 <br/><br/>\
@@ -3644,8 +3644,8 @@ var answer = answer.concat(
 * 114회 응용 1교시 9번 <br/>\
 * 라이지움 87회 관리 4교시 2번\
 ',
-  
-// [시큐어 코딩]- TouchPoints 기법 
+
+// [시큐어 코딩]- TouchPoints 기법
 '# 정의 : 보안관련 7가지 포인트 제시<br/>\
 - Gary McGraw - TouchPoints 기법 <br/>\
 - SW 개발시 보안과 관련된 중요 7가지 포인트를 제시하고 이를 개발 생명주기의 보안 강화 활동으로 제시 <br/><br/>\
@@ -3677,7 +3677,7 @@ var answer = answer.concat(
 <img src = "./img/TOCTOU_Code.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 125회 관리 2교시 4번\
 ',
-  
+
 // 크라임웨어
 '# 정의 : 불법 활동 조장 프로그램 <br/>\
 - 온라인상에서 불법 활동을 조장하기 위해 만들어진 컴퓨터 프로그램(TTA) <br/>\
@@ -3758,7 +3758,7 @@ var answer = answer.concat(
 * KPC 97회 응용 3교시 8번\
 ',
 
-// 클라우드 컴퓨팅 보안 
+// 클라우드 컴퓨팅 보안
 '# 정의 : 클라우드 취약점, 문제점 제거 기술 <br/>\
 -  정보의 유출과 개인정보 보호 등 클라우드 컴퓨팅 서비스를 위협하는 취약점, 문제점 제거 기술 <br/><br/>\
 # 취약점 <br/>\
@@ -3775,7 +3775,7 @@ var answer = answer.concat(
 <img src = "./img/CloudSec_2.jpg" style = "max-width:100%; height:auto;"><br/><br/>\
 <img src = "./img/CloudSec_3.png" style = "max-width:100%; height:auto;">\
 ',
-   
+
 // PETs
 '# 정의 : 프라이버시 침해 / 방어, 탐지 기술 <br/>\
 - Privacy Enhancing Technology <br/>\
@@ -3896,7 +3896,7 @@ var answer = answer.concat(
 - 무더기 폐쇄 전망 <br/><br/>\
 * 라이지움 91회 4교시 1번\
 ',
-  
+
 // HIPPA Privacy Rule
 '# 정의 : 미국 의료 정보 보호법 <br/>\
 - 미국에서 의료기관 개인정보 보호의 필요성을 느끼고 1996년에 제정하고 2003년에 발효한 법안 <br/><br/>\
@@ -3909,7 +3909,7 @@ var answer = answer.concat(
 - 식별자 : 이름, 주소, 날짜, 전화번호, 팩스, 이메일, 사회 보장 번호, 의료 기록 번호, 의료 플랜 보장 번호, 계좌번호 등 <br/>\
 - 사례 : 직업 누설, 가족관계, 임상 사건, 수신자 능력에 대한 지식, 희귀 진단 \
 ',
-  
+
 // OECD Privacy 8원칙
 '# 정의 : 개인정보 수집 및 관리에 대한 국제사회의 합의 반영한 국제기준 <br/><br/>\
 # 내용 (<font color = "red">수집 - 수정목이 / 활용 - 안공개책</font>) <br/>\
@@ -3926,7 +3926,7 @@ var answer = answer.concat(
 <img src = "./img/개인정보유출사고대응매뉴얼_4.png" style = "max-width:100%; height:auto;"><br/><br/>\
 <img src = "./img/개인정보유출사고대응매뉴얼_5.png" style = "max-width:100%; height:auto;">\
 ',
-   
+
 // 정보보호산업진흥법(15.12 시행)
 '# 정의 : 정보보호 산업 선순환 생태계 강화 법률 <br/>\
 - 정부의 정책적/법률적 지원을 통해 공기업/사기업 모두 정보보호 수요를 창출할 수 있도록 하여, 정보보호 산업 전반적으로 선순환 생태계를 강화하는 계기를 마련하기 위해 제정한 법률<br/><br/>\
@@ -4086,7 +4086,7 @@ var answer = answer.concat(
 <img src = "./img/Codesign_1.png" style = "max-width:100%; height:auto;"><br/><br/>\
 <img src = "./img/Codesign_2.png" style = "max-width:100%; height:auto;">\
 ',
-  
+
 // WPA3
 '# 정의 : 차세대 Wi-Fi 보안 프로토콜 <br/>\
 - Wi-Fi Protected Access <br/>\
@@ -4209,7 +4209,7 @@ var answer = answer.concat(
 - SDP : White List, ID 기반 동적 설정 <br/><br/>\
 * KPC 95회 1교시 2번\
 ',
-     
+
 // BEC
 '# 정의 : CEO 사칭 공격 <br/>\
 - CEO 등 고위 경영진을 사칭하여 직원에게 자금을 요청하거나 잘못된 송금을 유도하는 공격 <br/><br/>\
@@ -4231,7 +4231,7 @@ var answer = answer.concat(
 - DMARC(Domain-based Message Authentication, Reporting and Conformance) : 도메인 기반 메시지 인증/보고/검증 <br/><br/>\
 * KPC 93회 1교시 4번\
 ',
-   
+
 // Spectre
 '# 정의 : 다른 사용자 프로그램의 메모리 열람이 가능한 CPU 취약점 <br/>\
 - 프로세서로 하여금 실행해서는 안되는 코드를 실행하도록 유도해 다른 어플리케이션 메모리 공간에 존재하는 정보를 유출시킬 수 있는 CPU 취약점 <br/><br/>\
@@ -4247,7 +4247,7 @@ var answer = answer.concat(
 <img src = "./img/MeltdownSpectre.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 116회 1교시 9번\
 ',
-   
+
 // Meltdown
 '# 정의 : CPU 권한상승 공격 <br/>\
 - Intel x86 아키텍처 컴퓨터 메모리 데이터 보안의 공격으로 비순차적 명령어 처리 OoOE(Out-of-order execution) 기술을 악용하여 사용자 어플리케이션을 통해 운영체제의 시스템 메모리에 접근할 수 있는 취약점 <br/><br/>\
@@ -4275,7 +4275,7 @@ var answer = answer.concat(
 - Download & Execute Shell Code : DBD <br/><br/>\
 * 125회 응용 1교시 5번\
 ',
-  
+
 // Buffer Overflow
 '# 정의 : 버퍼 침법 / 덮어쓰기 / Return Address / 코드의 주소값 변조, Shell 획득, Dos <br/>\
 - 프로그램이 실행될 때 입력받는 값이 버퍼를 가득 채워 버퍼 이후의 공간을 침법하는 공격 <br/><br/>\
@@ -4300,7 +4300,7 @@ var answer = answer.concat(
 - NOP Sled : 스택 버퍼 맨 끝부분 쉘코드 위치, 버퍼 앞 부분에 <font color = "red">의도적으로 NOP</font>(No Operation) 기계어 연속 배치 <br/><br/>\
 * KPC 90회 응용 2교시 2번\
 ',
-  
+
 // Format String
 '# 정의 : 그대로 사용 / 메모리 접근, 쉘 실행 공격 <br/>\
 - 외부로부터 입력된 값을 검증하지 않고 입출력 함수의 포맷 스트링을 그대로 사용하여 메모리 내용을 읽거나 악성 쉘을 실행시키는 공격 <br/><br/>\
@@ -4312,8 +4312,8 @@ var answer = answer.concat(
 - 코드구현 : 포맷스트링 지정 : printf(), fprintf(), sprintf(), snprintf() 출력함수 명확히 구분 <br/>\
 - 시스템 방어 : 시스템 패치 : 컴파일단 포맷스트링 검사, 경고기능 OS 버전 패치 <br/><br/>\
 * KPC 90회 응용 2교시 2번\
-', 
-  
+',
+
 // DeepLink
 '# 정의 : 모바일 웹상에 있는 그림을 클릭할 경우 기기 내 관련 앱이나 사전에 정의된 특정 웹페이지가 실행되는 모바일 기술 <br/><br/>\
 # 취약점 <br/>\
@@ -4334,7 +4334,7 @@ var answer = answer.concat(
 <img src = "./img/DeepLinkAction4.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 87회 관리 4교시 5번\
 ',
-  
+
 // Zero Trust 보안 모델
 '# 정의 : 모든 자산 위험 요소 / 무신뢰 기반 <font color = "red">과립형</font> 경계 보안 모델 <br/>\
 - 모든 네트워크 자산을 위험 요소로 전제, 모든 데이터 모니터링, 접근 경로 통제, 액세스 권한 제어 통한 무신뢰 기반 과립형 경계 보안 모델 <br/><br/>\
@@ -4381,7 +4381,7 @@ var answer = answer.concat(
 * 122회 응용 1교시 11번<br/>\
 * 아이리포 24회 관리 1교시 11번\
 ',
-  
+
 // 재택,원격근무 정보보호 6대 실전 수칙
 '# 정의 : KISA, 과기정통부, 사용자, 보안관리자 <br/>\
 - 과학기술정보통신부에서 제시한 재택,원격근무 시 기업의 해킹 피해를 예방하기 위하여 사용자와 보안관리자가 지켜야 할 정보보호 실전 수칙 <br/><br/>\
@@ -4402,7 +4402,7 @@ var answer = answer.concat(
 - 개인정보, 기업정보 등 데이터 보안 <br/><br/>\
 * 라이지움 88회 관리 1교시 10번\
 ',
-  
+
 // CDR
 '# 정의 : Active Content / 제거, 비활성화 / 위협 봉쇄 기술 <br/>\
 - Contents Disarm & Reconstruction <br/>\
@@ -4493,7 +4493,7 @@ var answer = answer.concat(
 * ITPE 8회 관리 3교시 5번\
 ',
 
-// SOAR 
+// SOAR
 '# 정의 : 사이버 위협 대응 수준 자동 분류 / 표준화 업무 프로세스 / 차세대 보안 자동화 플랫폼 <br/>\
 - Security Orchestration Automation and Response <br/>\
 - 다양한 사이버 위협에 대해, 대응 수준을 자동으로 분류하고 표준화된 업무 프로세스에 따라 보안 업무 담당자와 솔루션이 유기적으로 협력할 수 있도록 지원하는 차세대 보안 자동화 플랫폼 <br/><br/>\
