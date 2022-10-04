@@ -1,6 +1,13 @@
 <head>
 <script src = "note_0.js"></script>
+<script type= "text/javascript" src="note_ca.js"></script>
 <script type= "text/javascript" src="note_db.js"></script>
+<script type= "text/javascript" src="note_swe.js"></script>
+<script type= "text/javascript" src="note_bs.js"></script>
+<script type= "text/javascript" src="note_nw.js"></script>
+<script type= "text/javascript" src="note_ds.js"></script>
+<script type= "text/javascript" src="note_sec.js"></script>
+<script type= "text/javascript" src="note_al.js"></script>
 <meta charset="utf-8">
 </head>
 <script type = "text/javascript">
@@ -47,7 +54,7 @@
   function drawScreen()
   {
     document.body.innerHTML = "";
-   document.write('** [All TEST] Memorization Note 1 **' + '<br /><style>span{color:red;font-weight:bold;font-size:25px;}</style><br />'); 
+    document.write('** [All TEST] Memorization Note 1 **' + '<br /><br />');
     document.write('<button id="next" onclick="next();">Next</button>' + ' ');
     document.write('<button id="answer" onclick="getAnswer();">Answer</button>' + '<br /><br />');
 
@@ -56,8 +63,8 @@
     document.write( 'Question : ' + question[current] + '<br /><br />');
   }
 
-  document.write('<head> <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" </head>');
-  document.write('** [All TEST] Memorization Note 1 **' + '<br /><style>span{color:red;font-weight:bold;font-size:25px;}</style><br />');
+  document.write('<head> <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" <meta charset="utf-8"></head>');
+  document.write('** [All TEST] Memorization Note 1 **' + '<br /><br />');
   document.write('<button id="next" onclick="next();">Next</button>');
 
 </script>
