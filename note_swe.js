@@ -1,416 +1,416 @@
 var question = question.concat(
-'<span>공</span>학 개요</span>',
-'<span>[개요]- SW 공학</span>',
-'<span>[개요]- SW 공학의 원리</span>',
-'<span>[개요]- Web 공학</span>',
-'<span>[계획단계]- 비용산정</span>',
-'<span>[계획단계][비용산정]- 본수산정</span>',
-'<span>[계획단계][비용산정]- LOC</span>',
-'<span>[계획단계][비용산정]- COCOMO</span>',
-'<span>[계획단계][비용산정]- COCOMO II</span>',
-'<span>[계획단계][비용산정]- FP</span>',
-'<span>[계획단계][FP]- 측정유형</span>',
-'<span>[계획단계][FP]- 정통법 사례</span>',
-'<span>[계획단계][비용산정]- EVM</span>',
-'<span>[계획단계][비용산정]- 델파이 기법</span>',
-'<span>[계획단계][비용산정]- 소프트웨어사업 대가산정 가이드</span>',
-'<span>[계획단계][공공빅데이터]- 공공빅데이터 분석 사업비</span>',
-'<span>[계획단계][공공빅데이터]- 공공빅데이터 업무적용 가이드</span>',
-'<span>[계획단계]- 사업수행계획서</span>',
-'<span>[계획단계]- BMT</span>',
-'<span>[계획단계][BMT]- PoC</span>',
-'<span>[계획단계][BMT]- Pilot test</span>',
-'<span>[계획단계]- 예비타당성 조사</span>',
-'<span>[분석단계]- 요구공학</span>',
-'<span>[분석단계]- 요구공학 프로세스</span>',
-'<span>[분석단계][요구공학]-SRS</span>',
-'<span>[분석단계][요구공학]- 요구사항 추적성</span>',
-'<span>[분석단계][요구공학]- 요구사항 도출</span>',
-'<span>[분석단계][요구공학]- 요구사항 수집기법</span>',
-'<span>[분석단계][요구사항]- 요구사항 상세화 실무 가이드라인</span>',
-'<span>[분석단계][요구사항]- 정형기술검토</span>',
-'<span>[분석단계]- 기술사양서</span>',
-'<span>[분석단계]- 경제성 분석기법</span>',
-'<span>[경제성 분석][타당성]- NPV</span>',
-'<span>소프트웨어 안전성 보증 프로세스</span>',
-'<span>소프트웨어 안전성 분석</span>',
-'<span>[안전성 분석]- FMEA, FTA, HAZOP</span>',
-'<span>[안전성 분석]- HAZOP</span>',
-'<span>[설계단계]- 모듈화</span>',
-'<span>[설계단계][모듈화]- 응집도</span>',
-'<span>[설계단계][모듈화]- 결합도</span>',
-'<span>[설계단계]- 소프트웨어 아키텍처</span>',
-'<span>[소프트웨어 아키텍처]- ISO/IEC/IEEE 42010</span>',
-'<span>[소프트웨어 아키텍처]- 아키텍처 평가</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 평가]- SAAM</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 평가]- ATAM</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 평가]- CBAM</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 평가]- ADR</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 평가]- ARID</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 평가]- 유틸리티 트리</span>',
-'<span>[소프트웨어 아키텍처]- 아키텍처 드라이버</span>',
-'<span>[소프트웨어 아키텍처]- 소프트웨어 아키텍처 모델, 패턴, 스타일</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 모델]- 데이터 중심형 모델</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 모델]- 클라이언트-서버 모델</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 모델]- 계층형 모델</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 모델]- MVC 모델</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 모델]- MVP 모델</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 모델]- MVVM 모델</span>',
-'<span>[소프트웨어 아키텍처][MVVM]- Vue.js</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 모델]- Pipe & Filter</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 모델]- Batch Process</span>',
-'<span>[소프트웨어 아키텍처][아키텍처 모델]- Blackboard Pattern</span>',
-'<span>[설계단계][소프트웨어 아키텍처]- 품질속성</span>',
-'<span>[설계단계][소프트웨어 아키텍처]- 품질속성 시나리오</span>',
-'<span>[설계단계][소프트웨어 아키텍처]- 아키텍처뷰</span>',
-'<span>[설계단계][소프트웨어 아키텍처]- Kruchten\'s 4 Plus 1 View</span>',
-'<span>[설계단계][소프트웨어 아키텍처]- SEI 3 View</span>',
-'<span>[설계단계]SAD</span>',
-'<span>[설계단계][SAD]- ADD (Attribute Driven Design)</span>',
-'<span>[설계단계]- UML </span>',
-'<span>[설계단계]- UML 관계</span>',
-'<span>[설계단계][UML]- UML 확장매커니즘</span>',
-'<span>[설계단계][UML]- Behavior Diagram</span>',
-'<span>[설계단계][UML][Behavior Diagram]- Activity Diagram</span>',
-'<span>[설계단계][UML][Behavior Diagram]- State Machine Diagram</span>',
-'<span>[설계단계][UML][Behavior Diagram]- Usecase Diagram</span>',
-'<span>[설계단계][UML][Interaction Diagram]- Sequence Diagram</span>',
-'<span>[설계단계][UML][Structure Diagram]- Class Diagram</span>',
-'<span>[설계단계]- Usecase Test</span>',
-'<span>[설계단계]- 모델기반 테스트</span>',
-'<span>[Service Architecture]- SOA</span>',
-'<span>[Service Architecture][SOA]- ESB</span>',
-'<span>[Service Architecture]- MSA</span>',
-'<span>[Service Architecture][MSA]- EAI</span>',
-'<span>[Service Architecture][MSA]- Service Mesh</span>',
-'<span>GraphQL</span>',
-'<span>[설계단계]- Shared Nothing 아키텍쳐</span>',
-'<span>[설계단계]- Breadcrumbs</span>',
-'<span>[구현단계]- 디자인패턴</span>',
-'<span>[구현단계][디자인패턴]- 화이트박스 재사용</span>',
-'<span>[구현단계][디자인패턴]- 블랙박스 재사용</span>',
-'<span>[구현단계][디자인패턴]- 위임</span>',
-'<span>[구현단계][디자인패턴]- 전략패턴</span>',
-'<span>[구현단계][디자인패턴]- Observer Pattern</span>',
-'<span>[구현단계][디자인패턴]- Null Object Pattern</span>',
-'<span>[구현단계][디자인패턴]- Singleton Pattern</span>',
-'<span>[구현단계]- 연산생략기법</span>',
-'<span>[구현단계]- 정형기법</span>',
-'<span>[구현단계][정형기법]- 정형명세</span>',
-'<span>[구현단계][정형기법]- Z 명세</span>',
-'<span>[구현단계][정형기법]- Petri-net</span>',
-'<span>[구현단계][정형기법]- 상태차트</span>',
-'<span>[구현단계][정형기법]- VDM</span>',
-'<span>[구현단계][정형기법]- 정형검증</span>',
-'<span>[구현단계]- Mccabe 순환복잡도(Cyclomatic Complexity) = 회전복잡도</span>',
-'<span>[구현단계][Mccabe 순환복잡도]- Halstead Metrics, 객체지향 Metrics</span>',
-'<span>[구현단계]- Spring Framework</span>',
-'<span>[구현단계]- MISRA-C, MISRA-C++</span>',
-'<span>[구현단계]- node.js</span>',
-'<span>[구현단계]- Javascript</span>',
-'<span>Java GUI</span>',
-'<span>[시험단계]- 테스트 7원칙</span>',
-'<span>[시험단계]- 테스트 유형</span>',
-'<span>[시험단계]- 테스트 절차</span>',
-'<span>[시험단계][태스트]- 단위 테스트</span>',
-'<span>[시험단계][테스트]- 통합 테스트</span>',
-'<span>[시험단계][테스트]- 시스템 테스트</span>',
-'<span>[시험단계][테스트]- 성능 테스트</span>',
-'<span>[시험단계][테스트]- TPC</span>',
-'<span>[시험단계][테스트]- SPEC</span>',
-'<span>[시험단계][테스트]- Little\'s Law</span>',
-'<span>[시험단계][테스트]- 인수 테스트</span>',
-'<span>[시험단계]- 확인/검증</span>',
-'<span>[시험단계]- 정적 테스트</span>',
-'<span>[시험단계][정적 테스트]- Peer Review</span>',
-'<span>[시험단계][정적 테스트]- Walkthrough</span>',
-'<span>[시험단계][정적 테스트]- 인스펙션</span>',
-'<span>[시험단계][정적 테스트]- 페이건(Fagan) 인스펙션</span>',
-'<span>[시험단계]- 동적 테스트</span>',
-'<span>[시험단계]- 명세기반 테스트</span>',
-'<span>[시험단계][명세기반]- 동등분할</span>',
-'<span>[시험단계][명세기반]- 경계값분석</span>',
-'<span>[시험단계][명세기반]- 원인결과그래프</span>',
-'<span>[시험단계][명세기반]- Decision Table</span>',
-'<span>[시험단계][명세기반]- 상태전이 테스트</span>',
-'<span>[시험단계][명세기반]- 페어와이즈</span>',
-'<span>[시험단계][명세기반]- 도메인 테스트</span>',
-'<span>[시험단계]- 구조기반 테스트</span>',
-'<span>[시험단계][구조기반]- 제어흐름 테스트</span>',
-'<span>[시험단계][구조기반][제어흐름]- 테스트,코드 커버리지</span>',
-'<span>[시험단계][구조기반][제어흐름]- MC/DC</span>',
-'<span>[시험단계][구조기반]- 자료흐름 테스트</span>',
-'<span>[시험단계]- 경험기반 테스트</span>',
-'<span>[시험단계][경험기반]- 탐색적 테스팅</span>',
-'<span>[시험단계][경험기반]- 테스트 차터</span>',
-'<span>[시험단계]- 테스트 하네스(Test Harness)</span>',
-'<span>[시험단계]- 테스트 더블</span>',
-'<span>[시험단계]- 테스트 자동화 도구</span>',
-'<span>[시험단계]- 정적분석도구</span>',
-'<span>[시험단계]- Record and Replay</span>',
-'<span>[시험단계]- 테스트 오라클</span>',
-'<span>[시험단계]- 회귀 테스트</span>',
-'<span>[시험단계]- 리스크기반 테스트(RBT)</span>',
-'<span>[시험단계]- 소프트웨어 보안 테스팅</span>',
-'<span>[시험단계]- A/B 테스팅</span>',
-'<span>[시험단계]- 지각 테스팅</span>',
-'<span>[시험단계]- 뮤테이션 테스트</span>',
-'<span>[시험단계]- 비버깅</span>',
-'<span>[시험단계]- IAST(Interactive Application Security Testing)</span>',
-'<span>[시험단계]- 백투백(back-to-back) 테스트</span>',
-'<span>[시험단계]- Cursory Test</span>',
-'<span>[시험단계]- 스모크(Smoke) 테스트</span>',
-'<span>[시험단계]- 새너티(Sanity) 테스트</span>',
-'<span>[시험단계]- 콘콜릭(Concolic) 테스트</span>',
-'<span>[시험단계]- 퍼즈(Fuzz) 테스트</span>',
-'<span>[시험단계]- Shift-left Testing</span>',
-'<span>[시험단계]- TMMi</span>',
-'<span>[시험단계]- ISO 29119</span>',
-'<span>[시험단계][ISO 29119]- ISO/IEC 33063</span>',
-'<span>[시험단계]- ISO/IEC 20246</span>',
-'<span>[시험단계]- TPI</span>',
-'<span>[시험단계]- TCoE</span>',
-'<span>[시험단계]- 테스팅 가이드</span>',
-'<span>[시험단계]- 테스트 케이스(IEEE 829)</span>',
-'<span>[시험단계]- Agile Test</span>',
-'<span>[시험단계]- Test 자동화 도구</span>',
-'<span>[시험단계]- BMT</span>',
-'<span>SRGM</span>',
-'<span>[운영유지보수]- 레만의 원리</span>',
-'<span>[운영유지보수]- Code Smell</span>',
-'<span>[운영유지보수]- Refactoring</span>',
-'<span>[운영유지보수]- 3R</span>',
-'<span>[운영유지보수][3R]- 역공학(저작권 측면)</span>',
-'<span>[운영유지보수][3R]- Reverse Engineering</span>',
-'<span>[운영유지보수][3R]- Re Engineering</span>',
-'<span>[운영유지보수][3R]- Re use</span>',
-'<span>[운영유지보수]- Anti-Reversing</span>',
-'<span>[운영유지보수][Anti-Reversing]- 코드가상화</span>',
-'<span>[운영유지보수]- ISO/IEC 14764</span>',
-'<span>[운영유지보수][ISO/IEC 14764]- PERT/CPM, CCM, CCPM</span>',
-'<span>[운영유지보수][ISO/IEC 14764]- 일정관리</span>',
-'<span>[운영유지보수][일정관리]- 3점 산정</span>',
-'<span>[운영유지보수][일정관리]- 일정 단축기법</span>',
-'<span>[운영유지보수]- CPM</span>',
-'<span>[운영유지보수]- CCM</span>',
-'<span>[운영유지보수]- Lehman 소프트웨어 변화</span>',
-'<span>프로젝트 관리계획서</span>',
-'<span>[관리표준][PMBOK]- 통합관리</span>',
-'<span>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">범위관리</font></span>',
-'<span>[PMBOK]-[범위관리]- <font color="blue" size=4 face="impact">형상관리</font></span>',
-'<span>[PMBOK]-[범위관리]- <font color="blue" size=4 face="impact">형상관리 베이스라인</font></span>',
-'<span>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">WBS</font></span>',
-'<span>[관리표준][PMBOK]- Gold Plating</span>',
-'<span>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">Resource Leveling</font></span>',
-'<span>[관리표준][PMBOK]- 브룩스 법칙</span>',
-'<span>[관리표준][PMBOK]- 수확 체감의 법칙</span>',
-'<span>[관리표준][PMBOK]- 범위 크립</span>',
-'<span>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">원가관리</font></span>',
-'<span>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질관리</font></span>',
-'<span>[PMBOK]- [관리표준]- SW Metrics</span>',
-'<span>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질비용</font></span>',
-'<span>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질관리QC7도구</font></span>',
-'<span>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질관리신QC7도구</font></span>',
-'<span>[관리표준][PMBOK]- 인적자원관리</span>',
-'<span>[관리표준][PMBOK]- 터크만 팀 발달 5단계</span>',
-'<span>[관리표준][PMBOK][터크만]- 동기부여이론</span>',
-'<span>[관리표준][PMBOK][터크만][동기부여]- 내용이론</span>',
-'<span>[관리표준][PMBOK][터크만][동기부여]- 과정이론</span>',
-'<span>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">프로젝트 위험</font></span>',
-'<span>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">프로젝트 위험관리</font></span>',
-'<span>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">프로젝트 위험요소</font></span>',
-'<span>[관리표준][위험관리]- <font color="blue" size=4 face="impact">정성적 위험분석</font></span>',
-'<span>[관리표준][위험관리]- <font color="blue" size=4 face="impact">정량적 위험분석</font></span>',
-'<span>[PMBOK]- [위험관리][정량적 위험분석]- <font color="blue" size=4 face="impact">민감도 분석</font></span>',
-'<span>[PMBOK]- [위험관리][정량적 위험분석]- <font color="blue" size=4 face="impact">의사결정나무 분석</font></span>',
-'<span>[PMBOK]- [위험관리][모의실험]- <font color="blue" size=4 face="impact">몬테카를로 시뮬레이션</font></span>',
-'<span>[PMBOK]- [위험관리][모의실험]- <font color="blue" size=4 face="impact">EMV</font></span>',
-'<span>[관리표준][PMBOK]- 조달관리(구매)</span>',
-'<span>[관리표준][PMBOK]- 이해관계자관리</span>',
-'<span>[관리표준][PMBOK][이해관계자]- 현저성 모델</span>',
-'<span>[관리표준][PMBOK][이해관계자]- 갈등관리</span>',
-'<span>[관리표준][PMBOK]- 자원 최적화</span>',
-'<span>[관리표준]-ISO 21500</span>',
-'<span>[관리표준]- SWEBOK</span>',
-'<span>[관리표준]- 요르돈법칙</span>',
-'<span>[품질표준]- SW 품질</span>',
-'<span>[품질표준]- SW 품질관리</span>',
-'<span>[품질표준]- SW 품질보증</span>',
-'<span>[품질표준]- SW 품질통제</span>',
-'<span>[품질표준]- 품질경영</span>',
-'<span>[품질표준][품질경영]- ISO 9001</span>',
-'<span>[품질표준]- 품질평가</span>',
-'<span>[품질표준][품질평가]- McCall 품질요소</span>',
-'<span>[품질평가][제품 품질]- ISO/IEC 9126</span>',
-'<span>[품질평가][제품 품질]- ISO 12119</span>',
-'<span>[품질평가][제품 품질]- ISO 14598</span>',
-'<span>[품질평가][제품 품질]- IEEE/ISO/IEC 25000</span>',
-'<span>[품질평가][제품 품질]- IEEE/ISO/IEC 25010</span>',
-'<span>[품질평가][프로세스 품질]- ISO 12207</span>',
-'<span>[품질평가][프로세스 품질]- ISO 15504</span>',
-'<span>[품질평가][프로세스 품질]- CMMI</span>',
-'<span>[품질평가][프로세스 품질]- CMMI V2.0</span>',
-'<span>[품질평가][프로세스 품질]- ISO/IEC 33000</span>',
-'<span>[품질평가][프로세스 품질]- ASPICE(Automotive SPICE)</span>',
-'<span>[프로세스 품질]- CAR</span>',
-'<span>[프로세스 품질]- SP 인증</span>',
-'<span>[프로세스 품질]- IEEE 1633</span>',
-'<span>[품질표준][제품 품질]- GS 인증</span>',
-'<span>[품질표준][제품 품질]- NEP 인증</span>',
-'<span>[품질표준][제품 품질]- NET 인증</span>',
-'<span>[품질표준][제품 품질]- 공개SW컴플라이언스 이슈</span>',
-'<span>[품질표준][라이선스]- Patent Map</span>',
-'<span>[품질표준][라이선스]- 기술평가표</span>',
-'<span>[품질표준][라이선스]- 프로그램 저작권, 특허권</span>',
-'<span>[품질표준][라이선스][특허]- FRAND 특허</span>',
-'<span>[품질표준][라이선스]- 지식 재산권</span>',
-'<span>[모델]- SDLC</span>',
-'<span>[모델][SDLC]- 폭포수모델(Waterfall)</span>',
-'<span>[모델][SDLC]- 프로토타입모델(Prototype) = 원형모델</span>',
-'<span>[모델][SDLC]- 나선형 모델(Spiral)</span>',
-'<span>[모델][SDLC]- 반복적개발모델 = 점증적개발모델</span>',
-'<span>[모델]- 4세대 모형</span>',
-'<span>[모델][SDLC]- RAD</span>',
-'<span>[모델][SDLC][RAD]- JAD</span>',
-'<span>원격지 개발</span>',
-'<span>[모델]- 클린룸(Clean Room) 모델</span>',
-'<span>[모델][CleanRoom]- 함수적등가성</span>',
-'<span>[모델]- V Model</span>',
-'<span>[모델][V Model]- DESS V Model</span>',
-'<span>[모델][V Model]- Multiple V Model</span>',
-'<span>[모델][V Model]- W Model</span>',
-'<span>[모델]- COMET</span>',
-'<span>[모델][SDLC]- Secure SDLC</span>',
-'<span>[모델][SDLC]- 일정중심 모형</span>',
-'<span>[모델][SDLC]- 진화적 출시 모형</span>',
-'<span>방법론</span>',
-'<span>[방법론]- SW 개발 방법론</span>',
-'<span>[방법론]- 구조적 방법론</span>',
-'<span>[방법론]- 정보공학 방법론</span>',
-'<span>[방법론][정보공학 방법론]- CRUD 매트릭스</span>',
-'<span>[방법론]- 절차지향, 객체지향 비교</span>',
-'<span>[방법론]- 객체지향 방법론</span>',
-'<span>[방법론][객체지향]- 캡슐화</span>',
-'<span>[방법론][객체지향]- 추상화</span>',
-'<span>[방법론][추상화]- 인터페이스</span>',
-'<span>[방법론][추상화]- 추상클래스</span>',
-'<span>[방법론][객체지향]- 다형성</span>',
-'<span>[방법론][객체지향]- 정보은닉</span>',
-'<span>[방법론][객체지향]- 상속</span>',
-'<span>[방법론][객체지향]- 상속 합성</span>',
-'<span>[방법론][객체지향]- 객체 모델링</span>',
-'<span>[방법론][객체지향]- SOLID</span>',
-'<span>[방법론]- 패키지 설계</span>',
-'<span>[방법론][객체지향]- Inversion of Control</span>',
-'<span>[방법론][Inversion of Control]- Dependency Lookup</span>',
-'<span>[방법론][Inversion of Control]- Dependency Injection</span>',
-'<span>[방법론][객체지향]- Overriding, Overloading</span>',
-'<span>[방법론][객체지향]- Demeter\'s Law</span>',
-'<span>[방법론]- CBD</span>',
-'<span>[방법론][CBD]- RUP</span>',
-'<span>[방법론]- Agile 방법론</span>',
-'<span>[방법론][Agile]- xp</span>',
-'<span>[방법론][Agile]- Scrum</span>',
-'<span>[방법론][Scrum]- Backfill</span>',
-'<span>[방법론][Agile]- Burn down Chart</span>',
-'<span>[방법론][Agile]- SafeScrum</span>',
-'<span>[방법론][Agile]- 회고</span>',
-'<span>[방법론][Agile]- CI</span>',
-'<span>[방법론][Agile]- CD(Continuous Delivery)</span>',
-'<span>[방법론][Agile]- CD(Continuous Deployment</span>',
-'<span>[방법론][Agile]- 제품백로그</span>',
-'<span>[방법론][Agile]- 사용자스토리</span>',
-'<span>[방법론][Agile]- 기술스토리</span>',
-'<span>[방법론][Agile]- 스토리 포인트</span>',
-'<span>[방법론]- Pair Programming</span>',
-'<span>[방법론][Agile]- Lean 방법론</span>',
-'<span>[방법론][Lean]- Lean UX</span>',
-'<span>[방법론][Agile]- Kanban 방법론</span>',
-'<span>[방법론][Agile]- Daily Build</span>',
-'<span>[방법론][Agile]- Planning Poker</span>',
-'<span>[방법론][Agile]- MetaPhor</span>',
-'<span>[방법론]- 방법론 테일러링</span>',
-'<span>[방법론]- MOM, MOA</span>',
-'<span>[방법론]- EIP</span>',
-'<span>[방법론]- TDD</span>',
-'<span>[방법론]- ATDD</span>',
-'<span>[방법론]- BDD</span>',
-'<span>[방법론]- DDD</span>',
-'<span>[방법론]- AOSE</span>',
-'<span>[방법론]- AOP</span>',
-'<span>[방법론]- SSPL</span>',
-'<span>[방법론][SSPL]- Feature</span>',
-'<span>[방법론][SSPL]- Product Line 방법론</span>',
-'<span>[방법론][SSPL]- FORM</span>',
-'<span>[방법론][SSPL]- 도메인 공학</span>',
-'<span>[방법론]- MDA</span>',
-'<span>[방법론]- MDD</span>',
-'<span>[방법론]- ASD</span>',
-'<span>[방법론]- EDA</span>',
-'<span>[방법론][Ops]- DevOps</span>',
-'<span>[방법론][Ops]- DataOps</span>',
-'<span>[방법론][Ops]- GitOps</span>',
-'<span>[방법론][Ops]- MLOps</span>',
-'<span>[방법론][Ops]- ModelOps</span>',
-'<span>[방법론][Ops]- DevSecOps</span>',
-'<span>[방법론]- 시각적 분석 (Visual Analytics)</span>',
-'<span>[방법론]- 시각화 분석 (Visualization Analysis)</span>',
-'<span>[방법론]- 데이터 시각화 (Data Visualization)</span>',
-'<span>[방법론]- 임베디드 SW</span>',
-'<span>[정책]- SW 진흥법 개정안</span>',
-'<span>[정책][SW 진흥법]- 하도급 금지</span>',
-'<span>[정책][SW 진흥법]- SW 산업 분류</span>',
-'<span>[정책]- 산업의 디지털 전환 및 지능화 촉진법</span>',
-'<span>[방법론]- UX 모델링</span>',
-'<span>[방법론][UX]- 페르소나(Persona)</span>',
-'<span>[방법론]- 임베디드 개발 방법론</span>',
-'<span>Open SEED</span>',
-'<span>BPMN(Business Process Model and Notation)</span>',
-'<span>연동계획(Rolling Wave Planning)</span>',
-'<span>SW 사업정보 저장소</span>',
-'<span>SW 사업 대가선정 가이드 (2019 개정판)</span>',
-'<span>옵저버 패턴</span>',
-'<span>PMO</span>',
-'<span>Agile PMO</span>',
-'<span>공공 PMO</span>',
-'<span>정보시스템 감리</span>',
-'<span>[감리]- 21년 개정사항</span>',
-'<span>[감리]- 감리 계획서, 보고서 작성 원칙</span>',
-'<span>[감리]- 공통감리</span>',
-'<span>[공통감리][현장감리]- 검사기준서</span>',
-'<span>[공통감리][현장감리]- 기능/비기능 요구사항 점검</span>',
-'<span>[공통감리][시정조치확인]- 시정조치 확인 보고서</span>',
-'<span>[감리]- PMO, 감리</span>',
-'<span>[감리]- 3단계 감리</span>',
-'<span>[감리]- 운영 감리</span>',
-'<span>[감리]- 유지보수 감리</span>',
-'<span>[감리]- 감리기준 감리업무 절차</span>',
-'<span>[감리]- 정보시스템 하드웨어 규모산정 지침</span>',
-'<span>[감리]- 상주감리</span>',
-'<span>[감리]- 기본점검표</span>',
-'<span>PMBOK 6th 주요개정 내용</span>',
-'<span>[PMBOK]- 지식영역별 세부 프로세스 49개</span>',
-'<span>발주 프로세스</span>',
-'<span>[발주]- 발주관리</span>',
-'<span>[발주]- RFI</span>',
-'<span>[발주]- RFP</span>',
-'<span>[발주]- 분할발주</span>',
-'<span>난독화</span>',
-'<span>함수형 언어</span>',
-'<span>로우코드</span>',
-'<span>민간투자형 SW 사업(PPP)</span>',
-'<span>정보시스템 운영 성과관리</span>',
-'<span>공공기관 사업자 선정</span>',
-'<span>[사업자 선정]- 협상 의한 계약체결</span>',
-'<span>[사업자 선정]- 낙찰자 결정방식</span>',
-'<span>Marshalling</span>',
-'<span><font color="blue" size=4 face="impact">ALM</font></span>',
-'<span>SW Visualization</span>',
-'<span>SW안전 확보 지침</span>',
-'<span>Integrated Development Equipment</span>',
-'<span>SW사업 관리감독 항목</span>',
-'<span>[SW사업]- SW개발사업 적정 사업기간 산정</span>',
-'<span>[SW사업]- 상용SW직접구매(분리발주)</span>',
+'<re>공</re>학 <bl>개</bl><gr>요</gr>',
+'<re>[개요]- SW 공학</re>',
+'<re>[개요]- SW 공학의 원리</re>',
+'<re>[개요]- Web 공학</re>',
+'<re>[계획단계]- 비용산정</re>',
+'<re>[계획단계][비용산정]- 본수산정</re>',
+'<re>[계획단계][비용산정]- LOC</re>',
+'<re>[계획단계][비용산정]- COCOMO</re>',
+'<re>[계획단계][비용산정]- COCOMO II</re>',
+'<re>[계획단계][비용산정]- FP</re>',
+'<re>[계획단계][FP]- 측정유형</re>',
+'<re>[계획단계][FP]- 정통법 사례</re>',
+'<re>[계획단계][비용산정]- EVM</re>',
+'<re>[계획단계][비용산정]- 델파이 기법</re>',
+'<re>[계획단계][비용산정]- 소프트웨어사업 대가산정 가이드</re>',
+'<re>[계획단계][공공빅데이터]- 공공빅데이터 분석 사업비</re>',
+'<re>[계획단계][공공빅데이터]- 공공빅데이터 업무적용 가이드</re>',
+'<re>[계획단계]- 사업수행계획서</re>',
+'<re>[계획단계]- BMT</re>',
+'<re>[계획단계][BMT]- PoC</re>',
+'<re>[계획단계][BMT]- Pilot test</re>',
+'<re>[계획단계]- 예비타당성 조사</re>',
+'<re>[분석단계]- 요구공학</re>',
+'<re>[분석단계]- 요구공학 프로세스</re>',
+'<re>[분석단계][요구공학]-SRS</re>',
+'<re>[분석단계][요구공학]- 요구사항 추적성</re>',
+'<re>[분석단계][요구공학]- 요구사항 도출</re>',
+'<re>[분석단계][요구공학]- 요구사항 수집기법</re>',
+'<re>[분석단계][요구사항]- 요구사항 상세화 실무 가이드라인</re>',
+'<re>[분석단계][요구사항]- 정형기술검토</re>',
+'<re>[분석단계]- 기술사양서</re>',
+'<re>[분석단계]- 경제성 분석기법</re>',
+'<re>[경제성 분석][타당성]- NPV</re>',
+'<re>소프트웨어 안전성 보증 프로세스</re>',
+'<re>소프트웨어 안전성 분석</re>',
+'<re>[안전성 분석]- FMEA, FTA, HAZOP</re>',
+'<re>[안전성 분석]- HAZOP</re>',
+'<re>[설계단계]- 모듈화</re>',
+'<re>[설계단계][모듈화]- 응집도</re>',
+'<re>[설계단계][모듈화]- 결합도</re>',
+'<re>[설계단계]- 소프트웨어 아키텍처</re>',
+'<re>[소프트웨어 아키텍처]- ISO/IEC/IEEE 42010</re>',
+'<re>[소프트웨어 아키텍처]- 아키텍처 평가</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 평가]- SAAM</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 평가]- ATAM</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 평가]- CBAM</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 평가]- ADR</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 평가]- ARID</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 평가]- 유틸리티 트리</re>',
+'<re>[소프트웨어 아키텍처]- 아키텍처 드라이버</re>',
+'<re>[소프트웨어 아키텍처]- 소프트웨어 아키텍처 모델, 패턴, 스타일</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 모델]- 데이터 중심형 모델</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 모델]- 클라이언트-서버 모델</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 모델]- 계층형 모델</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 모델]- MVC 모델</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 모델]- MVP 모델</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 모델]- MVVM 모델</re>',
+'<re>[소프트웨어 아키텍처][MVVM]- Vue.js</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 모델]- Pipe & Filter</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 모델]- Batch Process</re>',
+'<re>[소프트웨어 아키텍처][아키텍처 모델]- Blackboard Pattern</re>',
+'<re>[설계단계][소프트웨어 아키텍처]- 품질속성</re>',
+'<re>[설계단계][소프트웨어 아키텍처]- 품질속성 시나리오</re>',
+'<re>[설계단계][소프트웨어 아키텍처]- 아키텍처뷰</re>',
+'<re>[설계단계][소프트웨어 아키텍처]- Kruchten\'s 4 Plus 1 View</re>',
+'<re>[설계단계][소프트웨어 아키텍처]- SEI 3 View</re>',
+'<re>[설계단계]SAD</re>',
+'<re>[설계단계][SAD]- ADD (Attribute Driven Design)</re>',
+'<re>[설계단계]- UML </re>',
+'<re>[설계단계]- UML 관계</re>',
+'<re>[설계단계][UML]- UML 확장매커니즘</re>',
+'<re>[설계단계][UML]- Behavior Diagram</re>',
+'<re>[설계단계][UML][Behavior Diagram]- Activity Diagram</re>',
+'<re>[설계단계][UML][Behavior Diagram]- State Machine Diagram</re>',
+'<re>[설계단계][UML][Behavior Diagram]- Usecase Diagram</re>',
+'<re>[설계단계][UML][Interaction Diagram]- Sequence Diagram</re>',
+'<re>[설계단계][UML][Structure Diagram]- Class Diagram</re>',
+'<re>[설계단계]- Usecase Test</re>',
+'<re>[설계단계]- 모델기반 테스트</re>',
+'<re>[Service Architecture]- SOA</re>',
+'<re>[Service Architecture][SOA]- ESB</re>',
+'<re>[Service Architecture]- MSA</re>',
+'<re>[Service Architecture][MSA]- EAI</re>',
+'<re>[Service Architecture][MSA]- Service Mesh</re>',
+'<re>GraphQL</re>',
+'<re>[설계단계]- Shared Nothing 아키텍쳐</re>',
+'<re>[설계단계]- Breadcrumbs</re>',
+'<re>[구현단계]- 디자인패턴</re>',
+'<re>[구현단계][디자인패턴]- 화이트박스 재사용</re>',
+'<re>[구현단계][디자인패턴]- 블랙박스 재사용</re>',
+'<re>[구현단계][디자인패턴]- 위임</re>',
+'<re>[구현단계][디자인패턴]- 전략패턴</re>',
+'<re>[구현단계][디자인패턴]- Observer Pattern</re>',
+'<re>[구현단계][디자인패턴]- Null Object Pattern</re>',
+'<re>[구현단계][디자인패턴]- Singleton Pattern</re>',
+'<re>[구현단계]- 연산생략기법</re>',
+'<re>[구현단계]- 정형기법</re>',
+'<re>[구현단계][정형기법]- 정형명세</re>',
+'<re>[구현단계][정형기법]- Z 명세</re>',
+'<re>[구현단계][정형기법]- Petri-net</re>',
+'<re>[구현단계][정형기법]- 상태차트</re>',
+'<re>[구현단계][정형기법]- VDM</re>',
+'<re>[구현단계][정형기법]- 정형검증</re>',
+'<re>[구현단계]- Mccabe 순환복잡도(Cyclomatic Complexity) = 회전복잡도</re>',
+'<re>[구현단계][Mccabe 순환복잡도]- Halstead Metrics, 객체지향 Metrics</re>',
+'<re>[구현단계]- Spring Framework</re>',
+'<re>[구현단계]- MISRA-C, MISRA-C++</re>',
+'<re>[구현단계]- node.js</re>',
+'<re>[구현단계]- Javascript</re>',
+'<re>Java GUI</re>',
+'<re>[시험단계]- 테스트 7원칙</re>',
+'<re>[시험단계]- 테스트 유형</re>',
+'<re>[시험단계]- 테스트 절차</re>',
+'<re>[시험단계][태스트]- 단위 테스트</re>',
+'<re>[시험단계][테스트]- 통합 테스트</re>',
+'<re>[시험단계][테스트]- 시스템 테스트</re>',
+'<re>[시험단계][테스트]- 성능 테스트</re>',
+'<re>[시험단계][테스트]- TPC</re>',
+'<re>[시험단계][테스트]- SPEC</re>',
+'<re>[시험단계][테스트]- Little\'s Law</re>',
+'<re>[시험단계][테스트]- 인수 테스트</re>',
+'<re>[시험단계]- 확인/검증</re>',
+'<re>[시험단계]- 정적 테스트</re>',
+'<re>[시험단계][정적 테스트]- Peer Review</re>',
+'<re>[시험단계][정적 테스트]- Walkthrough</re>',
+'<re>[시험단계][정적 테스트]- 인스펙션</re>',
+'<re>[시험단계][정적 테스트]- 페이건(Fagan) 인스펙션</re>',
+'<re>[시험단계]- 동적 테스트</re>',
+'<re>[시험단계]- 명세기반 테스트</re>',
+'<re>[시험단계][명세기반]- 동등분할</re>',
+'<re>[시험단계][명세기반]- 경계값분석</re>',
+'<re>[시험단계][명세기반]- 원인결과그래프</re>',
+'<re>[시험단계][명세기반]- Decision Table</re>',
+'<re>[시험단계][명세기반]- 상태전이 테스트</re>',
+'<re>[시험단계][명세기반]- 페어와이즈</re>',
+'<re>[시험단계][명세기반]- 도메인 테스트</re>',
+'<re>[시험단계]- 구조기반 테스트</re>',
+'<re>[시험단계][구조기반]- 제어흐름 테스트</re>',
+'<re>[시험단계][구조기반][제어흐름]- 테스트,코드 커버리지</re>',
+'<re>[시험단계][구조기반][제어흐름]- MC/DC</re>',
+'<re>[시험단계][구조기반]- 자료흐름 테스트</re>',
+'<re>[시험단계]- 경험기반 테스트</re>',
+'<re>[시험단계][경험기반]- 탐색적 테스팅</re>',
+'<re>[시험단계][경험기반]- 테스트 차터</re>',
+'<re>[시험단계]- 테스트 하네스(Test Harness)</re>',
+'<re>[시험단계]- 테스트 더블</re>',
+'<re>[시험단계]- 테스트 자동화 도구</re>',
+'<re>[시험단계]- 정적분석도구</re>',
+'<re>[시험단계]- Record and Replay</re>',
+'<re>[시험단계]- 테스트 오라클</re>',
+'<re>[시험단계]- 회귀 테스트</re>',
+'<re>[시험단계]- 리스크기반 테스트(RBT)</re>',
+'<re>[시험단계]- 소프트웨어 보안 테스팅</re>',
+'<re>[시험단계]- A/B 테스팅</re>',
+'<re>[시험단계]- 지각 테스팅</re>',
+'<re>[시험단계]- 뮤테이션 테스트</re>',
+'<re>[시험단계]- 비버깅</re>',
+'<re>[시험단계]- IAST(Interactive Application Security Testing)</re>',
+'<re>[시험단계]- 백투백(back-to-back) 테스트</re>',
+'<re>[시험단계]- Cursory Test</re>',
+'<re>[시험단계]- 스모크(Smoke) 테스트</re>',
+'<re>[시험단계]- 새너티(Sanity) 테스트</re>',
+'<re>[시험단계]- 콘콜릭(Concolic) 테스트</re>',
+'<re>[시험단계]- 퍼즈(Fuzz) 테스트</re>',
+'<re>[시험단계]- Shift-left Testing</re>',
+'<re>[시험단계]- TMMi</re>',
+'<re>[시험단계]- ISO 29119</re>',
+'<re>[시험단계][ISO 29119]- ISO/IEC 33063</re>',
+'<re>[시험단계]- ISO/IEC 20246</re>',
+'<re>[시험단계]- TPI</re>',
+'<re>[시험단계]- TCoE</re>',
+'<re>[시험단계]- 테스팅 가이드</re>',
+'<re>[시험단계]- 테스트 케이스(IEEE 829)</re>',
+'<re>[시험단계]- Agile Test</re>',
+'<re>[시험단계]- Test 자동화 도구</re>',
+'<re>[시험단계]- BMT</re>',
+'<re>SRGM</re>',
+'<re>[운영유지보수]- 레만의 원리</re>',
+'<re>[운영유지보수]- Code Smell</re>',
+'<re>[운영유지보수]- Refactoring</re>',
+'<re>[운영유지보수]- 3R</re>',
+'<re>[운영유지보수][3R]- 역공학(저작권 측면)</re>',
+'<re>[운영유지보수][3R]- Reverse Engineering</re>',
+'<re>[운영유지보수][3R]- Re Engineering</re>',
+'<re>[운영유지보수][3R]- Re use</re>',
+'<re>[운영유지보수]- Anti-Reversing</re>',
+'<re>[운영유지보수][Anti-Reversing]- 코드가상화</re>',
+'<re>[운영유지보수]- ISO/IEC 14764</re>',
+'<re>[운영유지보수][ISO/IEC 14764]- PERT/CPM, CCM, CCPM</re>',
+'<re>[운영유지보수][ISO/IEC 14764]- 일정관리</re>',
+'<re>[운영유지보수][일정관리]- 3점 산정</re>',
+'<re>[운영유지보수][일정관리]- 일정 단축기법</re>',
+'<re>[운영유지보수]- CPM</re>',
+'<re>[운영유지보수]- CCM</re>',
+'<re>[운영유지보수]- Lehman 소프트웨어 변화</re>',
+'<re>프로젝트 관리계획서</re>',
+'<re>[관리표준][PMBOK]- 통합관리</re>',
+'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">범위관리</font></re>',
+'<re>[PMBOK]-[범위관리]- <font color="blue" size=4 face="impact">형상관리</font></re>',
+'<re>[PMBOK]-[범위관리]- <font color="blue" size=4 face="impact">형상관리 베이스라인</font></re>',
+'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">WBS</font></re>',
+'<re>[관리표준][PMBOK]- Gold Plating</re>',
+'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">Resource Leveling</font></re>',
+'<re>[관리표준][PMBOK]- 브룩스 법칙</re>',
+'<re>[관리표준][PMBOK]- 수확 체감의 법칙</re>',
+'<re>[관리표준][PMBOK]- 범위 크립</re>',
+'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">원가관리</font></re>',
+'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질관리</font></re>',
+'<re>[PMBOK]- [관리표준]- SW Metrics</re>',
+'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질비용</font></re>',
+'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질관리QC7도구</font></re>',
+'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질관리신QC7도구</font></re>',
+'<re>[관리표준][PMBOK]- 인적자원관리</re>',
+'<re>[관리표준][PMBOK]- 터크만 팀 발달 5단계</re>',
+'<re>[관리표준][PMBOK][터크만]- 동기부여이론</re>',
+'<re>[관리표준][PMBOK][터크만][동기부여]- 내용이론</re>',
+'<re>[관리표준][PMBOK][터크만][동기부여]- 과정이론</re>',
+'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">프로젝트 위험</font></re>',
+'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">프로젝트 위험관리</font></re>',
+'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">프로젝트 위험요소</font></re>',
+'<re>[관리표준][위험관리]- <font color="blue" size=4 face="impact">정성적 위험분석</font></re>',
+'<re>[관리표준][위험관리]- <font color="blue" size=4 face="impact">정량적 위험분석</font></re>',
+'<re>[PMBOK]- [위험관리][정량적 위험분석]- <font color="blue" size=4 face="impact">민감도 분석</font></re>',
+'<re>[PMBOK]- [위험관리][정량적 위험분석]- <font color="blue" size=4 face="impact">의사결정나무 분석</font></re>',
+'<re>[PMBOK]- [위험관리][모의실험]- <font color="blue" size=4 face="impact">몬테카를로 시뮬레이션</font></re>',
+'<re>[PMBOK]- [위험관리][모의실험]- <font color="blue" size=4 face="impact">EMV</font></re>',
+'<re>[관리표준][PMBOK]- 조달관리(구매)</re>',
+'<re>[관리표준][PMBOK]- 이해관계자관리</re>',
+'<re>[관리표준][PMBOK][이해관계자]- 현저성 모델</re>',
+'<re>[관리표준][PMBOK][이해관계자]- 갈등관리</re>',
+'<re>[관리표준][PMBOK]- 자원 최적화</re>',
+'<re>[관리표준]-ISO 21500</re>',
+'<re>[관리표준]- SWEBOK</re>',
+'<re>[관리표준]- 요르돈법칙</re>',
+'<re>[품질표준]- SW 품질</re>',
+'<re>[품질표준]- SW 품질관리</re>',
+'<re>[품질표준]- SW 품질보증</re>',
+'<re>[품질표준]- SW 품질통제</re>',
+'<re>[품질표준]- 품질경영</re>',
+'<re>[품질표준][품질경영]- ISO 9001</re>',
+'<re>[품질표준]- 품질평가</re>',
+'<re>[품질표준][품질평가]- McCall 품질요소</re>',
+'<re>[품질평가][제품 품질]- ISO/IEC 9126</re>',
+'<re>[품질평가][제품 품질]- ISO 12119</re>',
+'<re>[품질평가][제품 품질]- ISO 14598</re>',
+'<re>[품질평가][제품 품질]- IEEE/ISO/IEC 25000</re>',
+'<re>[품질평가][제품 품질]- IEEE/ISO/IEC 25010</re>',
+'<re>[품질평가][프로세스 품질]- ISO 12207</re>',
+'<re>[품질평가][프로세스 품질]- ISO 15504</re>',
+'<re>[품질평가][프로세스 품질]- CMMI</re>',
+'<re>[품질평가][프로세스 품질]- CMMI V2.0</re>',
+'<re>[품질평가][프로세스 품질]- ISO/IEC 33000</re>',
+'<re>[품질평가][프로세스 품질]- ASPICE(Automotive SPICE)</re>',
+'<re>[프로세스 품질]- CAR</re>',
+'<re>[프로세스 품질]- SP 인증</re>',
+'<re>[프로세스 품질]- IEEE 1633</re>',
+'<re>[품질표준][제품 품질]- GS 인증</re>',
+'<re>[품질표준][제품 품질]- NEP 인증</re>',
+'<re>[품질표준][제품 품질]- NET 인증</re>',
+'<re>[품질표준][제품 품질]- 공개SW컴플라이언스 이슈</re>',
+'<re>[품질표준][라이선스]- Patent Map</re>',
+'<re>[품질표준][라이선스]- 기술평가표</re>',
+'<re>[품질표준][라이선스]- 프로그램 저작권, 특허권</re>',
+'<re>[품질표준][라이선스][특허]- FRAND 특허</re>',
+'<re>[품질표준][라이선스]- 지식 재산권</re>',
+'<re>[모델]- SDLC</re>',
+'<re>[모델][SDLC]- 폭포수모델(Waterfall)</re>',
+'<re>[모델][SDLC]- 프로토타입모델(Prototype) = 원형모델</re>',
+'<re>[모델][SDLC]- 나선형 모델(Spiral)</re>',
+'<re>[모델][SDLC]- 반복적개발모델 = 점증적개발모델</re>',
+'<re>[모델]- 4세대 모형</re>',
+'<re>[모델][SDLC]- RAD</re>',
+'<re>[모델][SDLC][RAD]- JAD</re>',
+'<re>원격지 개발</re>',
+'<re>[모델]- 클린룸(Clean Room) 모델</re>',
+'<re>[모델][CleanRoom]- 함수적등가성</re>',
+'<re>[모델]- V Model</re>',
+'<re>[모델][V Model]- DESS V Model</re>',
+'<re>[모델][V Model]- Multiple V Model</re>',
+'<re>[모델][V Model]- W Model</re>',
+'<re>[모델]- COMET</re>',
+'<re>[모델][SDLC]- Secure SDLC</re>',
+'<re>[모델][SDLC]- 일정중심 모형</re>',
+'<re>[모델][SDLC]- 진화적 출시 모형</re>',
+'<re>방법론</re>',
+'<re>[방법론]- SW 개발 방법론</re>',
+'<re>[방법론]- 구조적 방법론</re>',
+'<re>[방법론]- 정보공학 방법론</re>',
+'<re>[방법론][정보공학 방법론]- CRUD 매트릭스</re>',
+'<re>[방법론]- 절차지향, 객체지향 비교</re>',
+'<re>[방법론]- 객체지향 방법론</re>',
+'<re>[방법론][객체지향]- 캡슐화</re>',
+'<re>[방법론][객체지향]- 추상화</re>',
+'<re>[방법론][추상화]- 인터페이스</re>',
+'<re>[방법론][추상화]- 추상클래스</re>',
+'<re>[방법론][객체지향]- 다형성</re>',
+'<re>[방법론][객체지향]- 정보은닉</re>',
+'<re>[방법론][객체지향]- 상속</re>',
+'<re>[방법론][객체지향]- 상속 합성</re>',
+'<re>[방법론][객체지향]- 객체 모델링</re>',
+'<re>[방법론][객체지향]- SOLID</re>',
+'<re>[방법론]- 패키지 설계</re>',
+'<re>[방법론][객체지향]- Inversion of Control</re>',
+'<re>[방법론][Inversion of Control]- Dependency Lookup</re>',
+'<re>[방법론][Inversion of Control]- Dependency Injection</re>',
+'<re>[방법론][객체지향]- Overriding, Overloading</re>',
+'<re>[방법론][객체지향]- Demeter\'s Law</re>',
+'<re>[방법론]- CBD</re>',
+'<re>[방법론][CBD]- RUP</re>',
+'<re>[방법론]- Agile 방법론</re>',
+'<re>[방법론][Agile]- xp</re>',
+'<re>[방법론][Agile]- Scrum</re>',
+'<re>[방법론][Scrum]- Backfill</re>',
+'<re>[방법론][Agile]- Burn down Chart</re>',
+'<re>[방법론][Agile]- SafeScrum</re>',
+'<re>[방법론][Agile]- 회고</re>',
+'<re>[방법론][Agile]- CI</re>',
+'<re>[방법론][Agile]- CD(Continuous Delivery)</re>',
+'<re>[방법론][Agile]- CD(Continuous Deployment</re>',
+'<re>[방법론][Agile]- 제품백로그</re>',
+'<re>[방법론][Agile]- 사용자스토리</re>',
+'<re>[방법론][Agile]- 기술스토리</re>',
+'<re>[방법론][Agile]- 스토리 포인트</re>',
+'<re>[방법론]- Pair Programming</re>',
+'<re>[방법론][Agile]- Lean 방법론</re>',
+'<re>[방법론][Lean]- Lean UX</re>',
+'<re>[방법론][Agile]- Kanban 방법론</re>',
+'<re>[방법론][Agile]- Daily Build</re>',
+'<re>[방법론][Agile]- Planning Poker</re>',
+'<re>[방법론][Agile]- MetaPhor</re>',
+'<re>[방법론]- 방법론 테일러링</re>',
+'<re>[방법론]- MOM, MOA</re>',
+'<re>[방법론]- EIP</re>',
+'<re>[방법론]- TDD</re>',
+'<re>[방법론]- ATDD</re>',
+'<re>[방법론]- BDD</re>',
+'<re>[방법론]- DDD</re>',
+'<re>[방법론]- AOSE</re>',
+'<re>[방법론]- AOP</re>',
+'<re>[방법론]- SSPL</re>',
+'<re>[방법론][SSPL]- Feature</re>',
+'<re>[방법론][SSPL]- Product Line 방법론</re>',
+'<re>[방법론][SSPL]- FORM</re>',
+'<re>[방법론][SSPL]- 도메인 공학</re>',
+'<re>[방법론]- MDA</re>',
+'<re>[방법론]- MDD</re>',
+'<re>[방법론]- ASD</re>',
+'<re>[방법론]- EDA</re>',
+'<re>[방법론][Ops]- DevOps</re>',
+'<re>[방법론][Ops]- DataOps</re>',
+'<re>[방법론][Ops]- GitOps</re>',
+'<re>[방법론][Ops]- MLOps</re>',
+'<re>[방법론][Ops]- ModelOps</re>',
+'<re>[방법론][Ops]- DevSecOps</re>',
+'<re>[방법론]- 시각적 분석 (Visual Analytics)</re>',
+'<re>[방법론]- 시각화 분석 (Visualization Analysis)</re>',
+'<re>[방법론]- 데이터 시각화 (Data Visualization)</re>',
+'<re>[방법론]- 임베디드 SW</re>',
+'<re>[정책]- SW 진흥법 개정안</re>',
+'<re>[정책][SW 진흥법]- 하도급 금지</re>',
+'<re>[정책][SW 진흥법]- SW 산업 분류</re>',
+'<re>[정책]- 산업의 디지털 전환 및 지능화 촉진법</re>',
+'<re>[방법론]- UX 모델링</re>',
+'<re>[방법론][UX]- 페르소나(Persona)</re>',
+'<re>[방법론]- 임베디드 개발 방법론</re>',
+'<re>Open SEED</re>',
+'<re>BPMN(Business Process Model and Notation)</re>',
+'<re>연동계획(Rolling Wave Planning)</re>',
+'<re>SW 사업정보 저장소</re>',
+'<re>SW 사업 대가선정 가이드 (2019 개정판)</re>',
+'<re>옵저버 패턴</re>',
+'<re>PMO</re>',
+'<re>Agile PMO</re>',
+'<re>공공 PMO</re>',
+'<re>정보시스템 감리</re>',
+'<re>[감리]- 21년 개정사항</re>',
+'<re>[감리]- 감리 계획서, 보고서 작성 원칙</re>',
+'<re>[감리]- 공통감리</re>',
+'<re>[공통감리][현장감리]- 검사기준서</re>',
+'<re>[공통감리][현장감리]- 기능/비기능 요구사항 점검</re>',
+'<re>[공통감리][시정조치확인]- 시정조치 확인 보고서</re>',
+'<re>[감리]- PMO, 감리</re>',
+'<re>[감리]- 3단계 감리</re>',
+'<re>[감리]- 운영 감리</re>',
+'<re>[감리]- 유지보수 감리</re>',
+'<re>[감리]- 감리기준 감리업무 절차</re>',
+'<re>[감리]- 정보시스템 하드웨어 규모산정 지침</re>',
+'<re>[감리]- 상주감리</re>',
+'<re>[감리]- 기본점검표</re>',
+'<re>PMBOK 6th 주요개정 내용</re>',
+'<re>[PMBOK]- 지식영역별 세부 프로세스 49개</re>',
+'<re>발주 프로세스</re>',
+'<re>[발주]- 발주관리</re>',
+'<re>[발주]- RFI</re>',
+'<re>[발주]- RFP</re>',
+'<re>[발주]- 분할발주</re>',
+'<re>난독화</re>',
+'<re>함수형 언어</re>',
+'<re>로우코드</re>',
+'<re>민간투자형 SW 사업(PPP)</re>',
+'<re>정보시스템 운영 성과관리</re>',
+'<re>공공기관 사업자 선정</re>',
+'<re>[사업자 선정]- 협상 의한 계약체결</re>',
+'<re>[사업자 선정]- 낙찰자 결정방식</re>',
+'<re>Marshalling</re>',
+'<re><font color="blue" size=4 face="impact">ALM</font></re>',
+'<re>SW Visualization</re>',
+'<re>SW안전 확보 지침</re>',
+'<re>Integrated Development Equipment</re>',
+'<re>SW사업 관리감독 항목</re>',
+'<re>[SW사업]- SW개발사업 적정 사업기간 산정</re>',
+'<re>[SW사업]- 상용SW직접구매(분리발주)</re>',
 );
 
 var answer = answer.concat(
@@ -431,7 +431,7 @@ var answer = answer.concat(
 ',
 
 // [개요]- SW 공학
-'# 정의 : 소프트웨어의 개발과 운영, 유지보수, 소멸에 대한 체계적인 접근 방법 (IEEE) <br/>\
+'# 정의 : 소프트웨어의 개발과 운영, 유지보수, 소멸에 대한 <re>체계적인 접근 방법</re> (IEEE) <br/>\
 - SW 제품 생산, SW 개발,운영,유지보수활동에 프로세스(절차),방법,도구를 적용하여 연구 개발하는 활동 <br/><br/>\
 # 특징 (<font color = "red">비복유무비복</font>)<br/>\
 - 비가시성 : 코드 내재 <br/>\
@@ -504,7 +504,7 @@ var answer = answer.concat(
 ',
 
 // 본수산정
-'# 정의 : 화면 하나 개발 위해 투입되는 공수를 본이라 칭하여 본수 이용한 비용산정 기법 <br/><br/>\
+'# 정의 : 화면 하나 개발 위해 투입되는 공수를 본이라 칭하여 본수 이용한 <re>비용산정 기법</re> <br/><br/>\
 # 특징 <br/>\
 - Bottum-up 방식 <br/>\
 - View 제공 PJT 적합 <br/>\
@@ -515,7 +515,7 @@ var answer = answer.concat(
 ',
 
 // LOC
-'# 정의 : 프로그램 코딩 Line수 이용한 비용산정 기법 <br/>\
+'# 정의 : 프로그램 코딩 Line수 이용한 <re>비용산정 기법</re> <br/>\
 - Line of Code <br/><br/>\
 # 특징 <br/>\
 - Bottum Up 방식 <br/>\
@@ -530,7 +530,7 @@ var answer = answer.concat(
 ',
 
 // COCOMO
-'# 정의 : Behem에 의해 창시된 구조적 개발 방법론에 적용가능한 LOC 기반 비용산정 모델 <br/>\
+'# 정의 : Behem에 의해 창시된 구조적 개발 방법론에 적용가능한 <re>LOC 기반 비용산정 모델</re> <br/>\
 - Constructive Cost Model <br/><br/>\
 # 특징 <br/>\
 - LOC + 계수적용 <br/>\
@@ -562,7 +562,7 @@ var answer = answer.concat(
 ',
 
 // COCOMO II
-'# 정의 : 객체지향 방법론 SW 규모산정방식, 요구사항에 따른 추가비용 계산, SW 유연성 평가가능 <br/>\
+'# 정의 : 객체지향 방법론 SW 규모산정방식, <re>요구사항에 따른 추가비용 계산, SW 유연성 평가가능</re> <br/>\
 - Constructive Cost Model II <br/><br/>\
 # 특징 <br/>\
 - PJT 진행 단게별 3가지 모델 제시 <br/>\
@@ -578,7 +578,7 @@ var answer = answer.concat(
 
 // FP
 '# 정의 : ISO 14143 / SW 규모측정 방법 / 사용자관점 / 양,질 (대가산정가이드 2020 기준) <br/>\
-- 사용자관점에서 소프트웨어의 양과 질을 동시에 고려한 소프트웨어 규모 측정방법, ISO14143<br/><br/>\
+- 사용자관점에서 소프트웨어의 <re>양과 질을 동시에 고려한 소프트웨어 규모 측정방법</re>, ISO14143<br/><br/>\
 # 특징 : 양적/질적 측면 고려, 수학적 기법, 간이법/정규법, 간이법으로 초기 사업규모 예측가능, 복잡도 산정에 중간 개입 가능 <br/><br/>\
 # 구성 <br/>\
 1. 데이터 기능 <br/>\
@@ -624,17 +624,17 @@ var answer = answer.concat(
 
 // EVM
 '# 정의 : 원가관리기법 / 일정, 비용 / 동일 화폐가치 환산 <br/>\
-- 계획대비 실적을 확인하는 기법으로 프로젝트의 일정과 비용이 단위를 동일한 화폐가치로 환산하여 통합관점에서 성과측정을 하고자하는 원가관리 기법 <br/><br/>\
+- 계획대비 실적을 확인하는 기법으로 프로젝트의 일정과 비용이 단위를 동일한 화폐가치로 환산하여 통합관점에서 성과측정을 하고자하는 <re>원가관리 기법</re> <br/><br/>\
 <img src = "./img/EVM.png" style = "max-width:100%; height:auto;">\
 ',
 
 // 델파이 기법
-'# 정의 : 의견 불일치시 타협통한 중재안 도출하고 조정자에 의해 편견 분위기 배제하여 무기명, 반복 재산정 통한 전문가 집단의 의견합의를 유도하는 방법 \
+'# 정의 : 의견 불일치시 타협통한 중재안 도출하고 조정자에 의해 편견 분위기 배제하여 무기명, 반복 재산정 통한 <re>전문가 집단의 의견합의를 유도하는 방법</re> \
 ',
 
 // SW 대가산정 가이드
 '# 정의 : 적정대가 산정 기준 가이드 / SW 사업추진 / 예산,발주,계약 <br/>\
-- SW의 기획, 구현, 운영 등 수명주기 전 단계에 대한 사업을 추진함에 있어 예산수립, 사업발주, 계약시 적정대가를 산정하기 위한 기준 제시한 가이드 <br/><br/>\
+- SW의 기획, 구현, 운영 등 수명주기 전 단계에 대한 사업을 추진함에 있어 예산수립, 사업발주, 계약시 <re>적정대가를 산정하기 위한 기준 제시한 가이드</re> <br/><br/>\
 # 암기 <br/>\
 - 소산법 22조 <br/>\
 - ISO 12207 <br/>\
@@ -752,7 +752,7 @@ var answer = answer.concat(
 ',
 
 // BMT
-'# 정의 : 일반적인 성능 테스트와는 달리 비교 대상을 두고 하드웨어나 소프트웨어의 성능을 비교 분석하여 평가하는 최적 제품 선정 위한 방법 <br/><br/>\
+'# 정의 : 일반적인 성능 테스트와는 달리 <re>비교 대상을 두고 하드웨어나 소프트웨어의 성능을 비교 분석하여 평가</re>하는 최적 제품 선정 위한 방법 <br/><br/>\
 # 절차 <br/>\
 - REP, 참여업체 접수 <br/>\
 - 평가항목, 방법선정 <br/>\
@@ -762,7 +762,7 @@ var answer = answer.concat(
 ',
 
 // POC
-'# 정의 : ERP 도입이전 / 업무 프로세스 적합 검증 프로세스 <br/>\
+'# 정의 : ERP 도입이전 / <re>업무 프로세스 적합 검증 프로세스</re> <br/>\
 - Proof of Concept <br/>\
 - ERP 도입전 RFP이전 단계에서 제안사의 ERP 시스템이 발주사 업무프로세스에 적합한지 요건, 항목을 검증하는 프로세스 <br/><br/>\
 # 특징 <br/>\
@@ -780,7 +780,7 @@ var answer = answer.concat(
 ',
 
 // Pilot test
-'# 정의 : 운영환경과 유사한 시험환경에서 시스템을 부분적으로 사용하여 각 부분적 시스템이 어느 정도 까지 견딜 수 있는지를 확인하는 시험 <br/><br/>\
+'# 정의 : 운영환경과 유사한 시험환경에서 시스템을 부분적으로 사용하여 <re>각 부분적 시스템이 어느 정도 까지 견딜 수 있는지</re>를 확인하는 시험 <br/><br/>\
 # 절차 <br/>\
 - 일정계획 <br/>\
 - Pilot 수행 <br/>\
@@ -789,7 +789,7 @@ var answer = answer.concat(
 ',
 
 // 예비타당성 조사
-'# 정의 : 국가 재정법 제38조 및 같은 법 시행령 제13조의 규정에 따라 대규모 신규 사업에 대한 편성 및 기금 운용 계획을 수립하기 위하여 기획재정부장관 주관으로 실시하는 사전적인 타당성 검증, 평가 제도 <br/><br/>\
+'# 정의 : 국가 재정법 제38조 및 같은 법 시행령 제13조의 규정에 따라 <re>대규모 신규 사업에 대한 편성 및 기금 운용 계획을 수립하기 위하여</re> 기획재정부장관 주관으로 실시하는 사전적인 타당성 검증, 평가 제도 <br/><br/>\
 # 필요성 <br/>\
 - 경제적 측면 : 예산낭비 최소화 <br/>\
 - 기술적 측면 : 사업 리스크 완화, 사업 취소 방지 <br/>\
@@ -813,7 +813,7 @@ var answer = answer.concat(
 ',
 
 // 요구공학
-'# 정의 : SW 사용자의 기능적/비기능적 요구사항을 체계적으로 수집,<strong><span style="color: #ff0000;">추</span></strong>출,<strong><span style="color: #ff0000;">분</span></strong>석,<strong><span style="color: #ff0000;">명</span></strong>세화,<span style="color: #ff0000;"><strong>검</strong></span>증,<span style="color: #ff0000;"><strong>변</strong></span>경관리하는 절차를 수행하는 공학기법 <br/><br/>\
+'# 정의 : SW 사용자의 기능적/비기능적 요구사항을 체계적으로 수집,<strong><re style="color: #ff0000;">추</re></strong>출,<strong><re style="color: #ff0000;">분</re></strong>석,<strong><re style="color: #ff0000;">명</re></strong>세화,<re style="color: #ff0000;"><strong>검</strong></re>증,<re style="color: #ff0000;"><strong>변</strong></re>경관리하는 절차를 수행하는 공학기법 <br/><br/>\
 # 특징 <br/>\
 - 추적성 제공 : 요구사항 추적표, 단계적 산출물 추적하여 관리 <br/>\
 - 범위기준선 제공 : 범위 정의, WBS 작성하여 기준선 제공 <br/>\
@@ -840,7 +840,7 @@ var answer = answer.concat(
 ',
 
 // SRS
-'# 정의 : 요구사항 도출 및 분석 결과를 명세화한 공식 문서 <br/><br/>\
+'# 정의 : <re>요구사항 도출 및 분석 결과를 명세화</re>한 공식 문서 <br/><br/>\
 # 원칙 <br/>\
 - Specific <br/>\
 - Measurable <br/>\
@@ -889,7 +889,7 @@ var answer = answer.concat(
 
 // 요구사항도출
 '# 정의 : 요구,제약사항 파악 활동 <br/>\
-- 문제의 해결 또는 목적 달성을 위하여 사용자에 의해 요구되거나, 표준이나 명세등을 만족하기 위하여 시스템이 가져야 하는 서비스 또는 제약사항(명시적,묵시적)을 파악하기 위한 활동 <br/><br/>\
+- 문제의 해결 또는 목적 달성을 위하여 사용자에 의해 요구되거나, 표준이나 명세등을 만족하기 위하여 <re>시스템이 가져야 하는 서비스 또는 제약사항(명시적,묵시적)을 파악</re>하기 위한 활동 <br/><br/>\
 # 기법 : 요구사항의 크기/복잡도, 도메인, 포함된 인원으로 기법 선정 <br/>\
 - 인터뷰 : Analyst driven <br/>\
 - 설문 : Analyst-Observer driven <br/>\
@@ -958,7 +958,7 @@ var answer = answer.concat(
 // 정형기술검토
 '# 정의 : 요구사항 / 표준, 방식, 관리 / 검토 활동<br/>\
 - Formal Techinical Review <br/>\
-- 소프트웨어 개발 요구사항과 일치하는지 미리 정의된 표준에 따라 표현되었는지, 균일한 방식으로 개발되고 있는지, 철저한 관리가 이루어지고 있는지 검토하는 활동 <br/><br/>\
+- <re>소프트웨어 개발 요구사항과 일치하는지</re> 미리 정의된 표준에 따라 표현되었는지, 균일한 방식으로 개발되고 있는지, 철저한 관리가 이루어지고 있는지 검토하는 활동 <br/><br/>\
 # 종류 <br/>\
 1. Peer Review <br/>\
 - 개념 : 동료 상호 검토 활동 <br/>\
@@ -973,7 +973,7 @@ var answer = answer.concat(
 ',
 
 // 기술사양서
-'# 정의 : 운용상 특정한 기능이 있는 품목에 대한 실질적 설계의 개발과 생산 과정을 위하여 기초가 되는 기술적인 소요를 적절한 용어로 상술한 문서 <br/><br/>\
+'# 정의 : <re>운용상 특정한 기능이 있는 품목에 대한 실질적 설계의 개발과 생산</re> 과정을 위하여 기초가 되는 기술적인 소요를 적절한 용어로 상술한 문서 <br/><br/>\
 # 구성요소 <br/>\
 - 구매와 관련된 제반 사항 공유 <br/>\
 - 용역 발주시 환경, 제약조건 명시 <br/>\
@@ -984,7 +984,7 @@ var answer = answer.concat(
 
 // 경제성 분석기법
 '# 정의 : 규모, 경험, 범위 <br/>\
-- 비용과 편익을 측정하고 이에 따라 경제성 수익을 계산함으로써 그 타당성 여부를 결정하는 분석방식 <br/><br/>\
+- 비용과 편익을 측정하고 이에 따라 <re>경제성 수익을 계산</re>함으로써 그 타당성 여부를 결정하는 분석방식 <br/><br/>\
 # 유형 <br/>\
 1. 타당성 분석 <br/>\
 - BCR(Benefit Cost Ratio) : 비용 편익 비율 (수익/비율) <br/>\
@@ -1001,7 +1001,7 @@ var answer = answer.concat(
 // NPV
 '# 정의 : 수익율 할인 <br/>\
 - Net Present Value <br/>\
-- 순현금흐름을 적절 수익율로 할인하는 기법 <br/><br/>\
+- <re>순현금흐름</re>을 <re>적절 수익율로 할인</re>하는 기법 <br/><br/>\
 # 계산방법 <br/>\
 <img src = "./img/NPV_Formal.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 88회 관리 2교시 5번\
@@ -1009,7 +1009,7 @@ var answer = answer.concat(
 
 // 안전성 보증 프로세스
 '# 개념 : 안전성 분석, 개발 프로세스 확인, 시각화 절차 <br/>\
-- SW 개발시 안전성 분석, 개발 프로세스 Verification, 시각화 절차를 기준으로 SW 안전성을 보증하는 프로세스 <br/><br/>\
+- SW 개발시 안전성 분석, 개발 프로세스 Verification, 시각화 절차를 기준으로 <re>SW 안전성을 보증하는 프로세스</re> <br/><br/>\
 # 절차 <br/>\
 1. 안전성 분석 <br/>\
 - 사고원인 모델링 : Chain of Event, STAMP <br/>\
@@ -1057,14 +1057,14 @@ var answer = answer.concat(
 
 // FMEA, FTA, HAZOP
 '# 개념 <br/>\
-- FMEA(Failure Mode and Effects Analysis) : 고장모드 예방<br/>\
-- HAZOP(Hazard and Operatbility Analysis) : 모듈 당 안전 직접적 영향 분석 <br/>\
-- FTA(Fault Tree Analysis) : 근본원인을 중심, TopDown으로 도출하는 Fault Tree 구성 <br/><br/>\
-# FMEA : 고장 발생의 원인 및 중대 사고에 영향 미치는 직접적인 원인 서브시스템이나 컴포넌트 잠재적 고장 유형 분석 기법 <br/>\
+- FMEA(Failure Mode and Effects Analysis) : <re>고장모드</re> 예방<br/>\
+- HAZOP(Hazard and Operatbility Analysis) : <re>모듈 당 안전</re> 직접적 영향 분석 <br/>\
+- FTA(Fault Tree Analysis) : <re>근본원인을 중심, TopDown으로 도출</re>하는 Fault Tree 구성 <br/><br/>\
+# FMEA : 고장 발생의 원인 및 중대 사고에 영향 미치는 직접적인 원인 서브시스템이나 컴포넌트 <re>잠재적 고장 유형 분석 기법</re> <br/>\
 - 시스템 영향 정량적 분석 : 심각도 / 발생도 / 검출도, 고장으로 인한 시스템 영향 <br/>\
 - 우선순위(RPN) 부여 : 분석결과 따라 우선순위 부여하여 대응방안 수립 <br/>\
 - 식별, 정의, 제거 : 고장, 문제, 오류 사용자단 도착전 찾고, 정의, 제거 <br/><br/>\
-# FTA : 특정 사고에 대한 연역적 해석 통한 사건 사고의 원인 파악, 설비결함, 작업 실수등 발견 및 분석 하는 기법 <br/>\
+# FTA : 특정 사고에 대한 <re>연역적 해석 통한 사건 사고의 원인 파악</re>, 설비결함, 작업 실수등 발견 및 분석 하는 기법 <br/>\
 - Scope 정의 : 소프트웨어 논리적 기능적 인터페이스 구조 확인 <br/>\
 - 위험 식별 : 결함 트리 구성 위한 취상위 위험, 근본 원인 결정 <br/>\
 - 결함트리 작성 : 고장에 대한 논리적 연결 <br/>\
@@ -1080,7 +1080,7 @@ var answer = answer.concat(
 // HAZOP
 '# 정의 : 전문가 모여 / 공정변수 / 가이드 워드 / 이탈원인 / 영향 분석 / 안전성 분석기법 <br/>\
 - HAZard and OPerability analysis <br/>\
-- 대상에 관련된 전문가들이 모여 공정변수와 가이드워드의 조합을 통해 이탈의 원인 및 영향을 분석하는 안전성 분석기법 <br/><br/>\
+- 대상에 관련된 전문가들이 모여 <re>공정변수와 가이드워드의 조합</re>을 통해 이탈의 원인 및 영향을 분석하는 안전성 분석기법 <br/><br/>\
 # 유형 <br/>\
 - 프로세스 HAZOP : 공장 시설, 프로세스 시스템 평가 <br/>\
 - 휴먼 HAZOP : 특화된 HAZOPs 한 계열, 기술적 실패 보다 인적 에러 더 집중 <br/>\
@@ -1102,7 +1102,7 @@ var answer = answer.concat(
 
 // 모듈화
 '# 정의 : SW 설계, 구현 기법 / 기능 분할 / 추상화 / 성능 / 유지보수 <br/>\
-- SW 개발에 있어 기능을 분할하고 추상화하여 소프트웨어의 성능을 향상시키고 유지보수를 효과적으로 하기 위한 SW 설계 및 구현 기법<br/><br/>\
+- SW 개발에 있어 기능을 분할하고 추상화하여 소프트웨어의 성능을 향상시키고 유지보수를 효과적으로 하기 위한 <re>SW 설계 및 구현 기법</re><br/><br/>\
 # 암기 <br/>\
 - 설계 : 모컴서 <br/>\
 - 구현 : 메전인컴펑 <br/><br/>\
@@ -1126,7 +1126,7 @@ var answer = answer.concat(
 '# 정의 : 모듈 내 / 목적 수행 요소 / 연관성 정도 <br/>\
 - Cohesion <br/>\
 - SRP, ISP <br/>\
-- 어느 한 모듈이 하나의 목적을 수행하는 요소들 간의 연관성의 정도(척도) <br/><br/>\
+- 어느 한 모듈이 <re>하나의 목적을 수행하는 요소들 간의 연관성의 정도</re>(척도) <br/><br/>\
 # 유형 : 응집도는 높을수록 좋음 (<font color = "red">우논시절통순기</font>)<br/>\
 - 우연 : 목적없이 여러 기능을 한 모듈로 구성(낮음) <br/>\
 - 논리 : 동일범주의 기능을 한 모듈로 구성 (switch case a:b:)<br/>\
@@ -1141,7 +1141,7 @@ var answer = answer.concat(
 '# 정의 : 모듈간 / 의존관계 정도 <br/>\
 - Coupling <br/>\
 - OCP, LSP, DIP <br/>\
-- 어느 한 모듈의 다른 모듈에 의존관계를 가지는 정도(척도) <br/><br/>\
+- 어느 한 모듈의 <re>다른 모듈에 의존관계</re>를 가지는 정도(척도) <br/><br/>\
 # 유형 : 결합도는 낮을 수록 좋음 (<font color = "red">자스제외공내</font>)<br/>\
 - 자료 : 모듈간 단순 매개변수 전달 (낮음) (void loca(int a);) <br/>\
 - 스탬프 : 모듈간 자료구조 전달 (funtion(struct A))) <br/>\
@@ -1155,7 +1155,7 @@ var answer = answer.concat(
 
 // 소프트웨어 아키텍처
 '# 정의 : 프로그램/시스템 컴포넌트, 컴포넌트 / 상호관계 구조 / 설계 지침 원리 <br/>\
-- 프로그램/시스템 컴포넌트, 컴포넌트 간의 상호관계 구조이며 이들을 설계하기 위한 지침과 원리 <br/><br/>\
+- 프로그램/시스템 컴포넌트, <re>컴포넌트 간의 상호관계 구조</re>이며 이들을 설계하기 위한 지침과 원리 <br/><br/>\
 # 특징 <br/>\
 - 비즈니스 측면 : 변화 민첩성, 비용 절감, 표준화 <br/>\
 - 기술적 측면 : 의사소통 수단, 간략성, 관점(Aspect) 모형 <br/><br/>\
@@ -1180,7 +1180,7 @@ var answer = answer.concat(
 
 // ISO/IEC/IEEE 42010
 '# 정의 : 아키텍처 설명 / 요구사항, 표준 용어 정의 / 요소간 관계 표준 메타 모델 <br/>\
-- 시스템, 소프트웨어 및 엔터프라이즈 아키텍처 설명에 대한 요구사항/표준 용어 정의 요소간 관계 표준 메타 모델 <br/><br/>\
+- 시스템, 소프트웨어 및 엔터프라이즈 <re>아키텍처 설명</re>에 대한 요구사항/표준 용어 정의 요소간 <re>관계 표준 메타 모델</re> <br/><br/>\
 # 개념도 <br/>\
 <img src = "./img/ISOIECIEEE42010Model.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 중요성 <br/>\
@@ -1227,7 +1227,7 @@ var answer = answer.concat(
 // SAAM
 '# 정의 : 최초 정리 평가 방법 <br/>\
 - Software Architecture Analysis Method <br/>\
-- 최초로 정리된 평가방법, 다양한 수정가능성들의 관점에서 아키텍처 분석 <br/><br/>\
+- <re>최초로 정리된 평가방법, 다양한 수정가능성들의 관점</re>에서 아키텍처 분석 <br/><br/>\
 # 특징 : 변경용이성, 기능성 <br/><br/>\
 # 절차 (<font color = "red">개아분간상종</font>)<br/>\
 1. 시나리오 개발 <br/>\
@@ -1241,7 +1241,7 @@ var answer = answer.concat(
 // ATAM
 '# 정의 : 품질 속성 관계 분석 도구 <br/>\
 - Architecture Trade-Off Analysis Method <br/>\
-- 아키텍처가 품질속성을 만족하는지 판단할 뿐 아니라 어떻게 상충하면서 상호작용하는지를 분석하는 아키텍처 평가방법 <br/><br/>\
+- 아키텍처가 품질속성을 만족하는지 판단할 뿐 아니라 어떻게 상충하면서 <re>상호작용하는지를 분석</re>하는 아키텍처 평가방법 <br/><br/>\
 # 특징 : 품질속성 Trade Off <br/>\
 - 가용성, 보안성, 성능, 사용성, 변경가능성, 시험가능성 <br/><br/>\
 # 절차 <br/>\
@@ -1261,7 +1261,7 @@ var answer = answer.concat(
 // CBAM
 '# 정의 : 비용, 일정 관계 파악, 전략적 비용 측정 <br/>\
 - Cost Benefit Analysis Method <br/>\
-- ATAM 에서 부족한 경제적 평가 부분을 보강한 프로세스 <br/>\
+- ATAM 에서 부족한 <re>경제적 평가 부분을 보강</re>한 프로세스 <br/>\
 - 비용과 일정간의 관계를 파악하여 아키텍처 전략적 비용 측정 <br/><br/>\
 # 절차 (<font color = "red">결효이선</font>)<br/>\
 1. 시나리오 결정 <br/>\
@@ -1273,7 +1273,7 @@ var answer = answer.concat(
 // ADR
 '# 정의 : 검토자 실습 문제 풀이 / 응집도 높은 상세 평가 (사용하고 있는 모듈, 컴포넌트) <br/>\
 - Architectural Design Review <br/>\
-- 검토자의 실습문제 풀이에 기초한 SW 아키텍처 평가 기법, 아키텍처간의 응집도가 높은 상세 평가에 적용 <br/><br/>\
+- <re>검토자의 실습문제 풀이에 기초</re>한 SW 아키텍처 평가 기법, 아키텍처간의 응집도가 높은 상세 평가에 적용 <br/><br/>\
 # 특징 <br/>\
 - SW 품질과 상세 설계 적합성 검증 <br/>\
 - 모듈/컴포넌트 상세 설계 검토 <br/>\
@@ -1281,7 +1281,7 @@ var answer = answer.concat(
 ',
 
 // ARID
-'# 정의 : 완성되지 않은 부분 초기 평가 <br/>\
+'# 정의 : <re>완성되지 않은 부분 초기 평가</re> <br/>\
 - Active Reviews for Intermediate Designs <br/>\
 - <font color = "red">완성되지 않은 부분(설계 진행 부분)</font> 아키텍처를 아키텍처 설계 초기에 평가하는 방법 <br/><br/>\
 # 특징 <br/>\
@@ -1290,7 +1290,7 @@ var answer = answer.concat(
 ',
 
 // 유틸리티 트리
-'# 정의 : 하향식 품질속성 도출기법 <br/>\
+'# 정의 : <re>하향식 품질속성 도출</re>기법 <br/>\
 - 일반적인 문제에서 특정 상황으로 접근하며 품질속성 목표파악/속성 간 우선순위 결정을 지원하는 품질속성 시나리오 도출기법 <br/>\
 - ATAM 기반 SW 아키텍처 평가 방법에서 비기능적 품질 속성 간 중요도, 영향도 등을 파악하기 위한 트리 <br/><br/>\
 # 목적 <br/>\
@@ -1309,7 +1309,7 @@ var answer = answer.concat(
 ',
 
 // 아키텍처 드라이버
-'# 정의 : 요구사항 속성 중 / 아키텍처 구성에 영향 / 항목, 요구사항 <br/>\
+'# 정의 : <re>요구사항 속성 중 / 아키텍처 구성에 영향 / 항목, 요구사항</re> <br/>\
 - 소프트웨어 요구사항을 수행하는 기능적, 품질적, 성능에 영향을 주는 속성, 서비스 요구사항 중에서, 아키텍처 구성에 영향을 주는 항목 혹은 요구사항 <br/><br/>\
 # 구성요소 <br/>\
 <img src = "./img/SoftwareArchitectureDriver.png" style = "max-width:100%; height:auto;"><br/>\
@@ -5936,7 +5936,7 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 //ModelOps
 '# 정의 :<font color = "red">기계학습 모델 / 학재관학/ 생명주기 관리 방법론</font> <br/>\
 -기계 학습 모델의 학습,재현,버전관리,배포,재학습까지의 모델생명주기를 관리하는 기계 학습 모델관리 방법론<br/><br/>\
-*<span style="color:red;font:solid;text-decoration:underline red">모델링</span> : 모든 모델의 수명주기를 조율하고 AI의 롤아웃 및 유지 관리를 효과적으로 자동화하고 지속적으로 향상<br/>\
+*<re style="color:red;font:solid;text-decoration:underline red">모델링</re> : 모든 모델의 수명주기를 조율하고 AI의 롤아웃 및 유지 관리를 효과적으로 자동화하고 지속적으로 향상<br/>\
 *<font size="4" color="red" face="bold">운영</font> : 소프트웨어 엔지니어 또는 데이터 과학자와 IT 간의 사일로를 제거<br/><br/>\
 *도입단계:<br/>\
 1) 현재상황파악<br/>\
