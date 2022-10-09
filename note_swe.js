@@ -3328,33 +3328,38 @@ var answer = answer.concat(
 
 // Refactoring
 '# 정의 : 내부 구조 개선 기법 <br/>\
-- 소프트웨어의 기능은 변경하지 않고 내부 구조를 개선하여 가독성, 성능, 로직개선을 수행하는 품질 향상 기법 <br/><br/>\
-# 절차 <br/>\
+- 소프트웨어의 <re>기능은 변경하지 않고 내부 구조를 개선</re>하여 가독성, 성능, 로직개선을 수행하는 <re>품질 향상 기법</re> <br/><br/>\
+# <gr>절차</gr> <br/>\
 <img src = "./img/Refactoring_1.png" style = "max-width:100%; height:auto;"><br/><br/>\
-1. 소규모 변경 : 단일 리펙토링 <br/>\
-2. 코드가 전부 잘 작동되는지 테스트 <br/>\
-3. 전체가 잘 작동하면 다음 리펙토링 단계 전진 <br/>\
-4. 작동하지 않으면 문제를 해결하고 리펙토링 한 것을 undo 하여 시스템이 작동되도록 유지 <br/><br/>\
-# 주요기법 <br/>\
-1. 클래스의 역할 명확화 <br/>\
-- Extract Class / Method : 명확한 단위 분리<br/>\
-- Push Down Method : 일부만 관련된 경우 이동<br/><br/>\
-2. 커플링 최소화 <br/>\
-- Move Method : 결합도 높은 경우 이동<br/>\
-- Move Attribute : 결합도 높은 경우 이동<br/><br/>\
-3. 접근제어 <br/>\
-- Self Encapsulated Field : 참조시 접근 제어<br/><br/>\
-4. 조건 단순화 <br/>\
-- Decompose Condition : 작은 조건식으로 분해<br/>\
-- Remove Parameter : 파라미터 제거 조건 단순화<br/><br/>\
-5. 가독성 향상 <br/>\
-- Replace Temp with Query : 임시변수를 메소드 호출로 대체<br/>\
-- Rename Method : 메소드 명칭 명확화<br/><br/>\
-6. 기타 <br/>\
-- Inline Method : 호출하는 곳에 메소드의 몸체를 넣고 메소드를 삭제<br/>\
-- Subtitute Algorithm : 메서드의 몸체를 새로운 알고리즘으로 교체<br/><br/>\
-* 라이지움 78회 3교시 1번\
+1. <gr>소규모 변경</gr> : 단일 리펙토링 <br/>\
+2. <gr>코드</gr>가 전부 잘 작동되는지 <gr>테스트</gr> <br/>\
+3. 전체가 <gr>잘 작동</gr>하면 <gr>다음 리펙토링</gr> 단계 전진 <br/>\
+4. <gr>작동하지 않으면</gr> 문제를 해결하고 리펙토링 한 것을 <gr>undo</gr> 하여 시스템이 작동되도록 유지 <br/><br/>\
+# <re>주요기법</re> <br/>\
+1. <bl>클래스의 역할 명확</bl>화 <br/>\
+- <bl>Extract</bl> Class / Method : 명확한 단위 분리<br/>\
+- <bl>Push Down</bl> Method : 일부만 관련된 경우 이동<br/><br/>\
+2. <bl>커플링 최소</bl>화 <br/>\
+- <bl>Move Method</bl> : 결합도 높은 경우 이동<br/>\
+- <bl>Move Attribute</bl> : 결합도 높은 경우 이동<br/><br/>\
+3. <bl>접근제어</bl> <br/>\
+- <bl>Self Encapsulated Field</bl> : 참조시 접근 제어<br/><br/>\
+4. <bl>조건 단순</bl>화 <br/>\
+- <bl>Decompose Condition</bl> : 작은 조건식으로 분해<br/>\
+- <bl>Remove Parameter</bl> : 파라미터 제거 조건 단순화<br/><br/>\
+5. <bl>가독성 향상</bl> <br/>\
+- <bl>Replace Temp with Query</bl> : 임시변수를 메소드 호출로 대체<br/>\
+- <bl>Rename Method</bl> : 메소드 명칭 명확화<br/><br/>\
+6. <bl>기타</bl> <br/>\
+- <bl>Inline Method</bl> : 호출하는 곳에 메소드의 몸체를 넣고 메소드를 삭제<br/>\
+- <bl>Subtitute Algorithm</bl> : 메서드의 몸체를 새로운 알고리즘으로 교체<br/><br/>\
+* 라이지움 78회 3교시 1번<br/><br/>\
+* <gr>고려사항</gr> : <br/>\
+<bl>단계적리펙토링</bl>(디자인패턴중심접근), <bl>테스트중심</bl>(Side Effect), <bl>백업</bl>, <bl>Tool사용</bl>(리팩토링 Tool 이용 Structure 관점 견지)<br/>\
+* 성공적 리펙토링 방법 : <br/>\
+<bl>단계적</bl>(처음은 구조와 상관없는 부분으로 시작), <bl>릴리즈 카운트다운시 리팩토링 X</bl>, <bl>코딩 표준안</bl> 사용, <bl>재활용</bl><br/>\
 ',
+
 
 // 3R
 '# 정의 : S/W 생산성 극대화 기법 (Reverse Engineering, Re-engineering, Re-use) <br/>\
