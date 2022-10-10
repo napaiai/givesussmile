@@ -196,35 +196,35 @@ var question = question.concat(
 '<re>[운영유지보수]- Lehman 소프트웨어 변화</re>',
 '<re>프로젝트 관리계획서</re>',
 '<re>[관리표준][PMBOK]- 통합관리</re>',
-'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">범위관리</font></re>',
-'<re>[PMBOK]-[범위관리]- <font color="blue" size=4 face="impact">형상관리</font></re>',
-'<re>[PMBOK]-[범위관리]- <font color="blue" size=4 face="impact">형상관리 베이스라인</font></re>',
-'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">WBS</font></re>',
+'<re>[관리표준][PMBOK]- 범위관리</re>',
+'<re>[PMBOK]-[범위관리]- 형상관리</re>',
+'<re>[PMBOK]-[범위관리]- 형상관리 베이스라인</re>',
+'(128관,1-1)<gr>[관리표준][PMBOK]- WBS</gr>',
 '<re>[관리표준][PMBOK]- Gold Plating</re>',
-'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">Resource Leveling</font></re>',
+'<re>[관리표준][PMBOK]- Resource Leveling</re>',
 '<re>[관리표준][PMBOK]- 브룩스 법칙</re>',
 '<re>[관리표준][PMBOK]- 수확 체감의 법칙</re>',
 '<re>[관리표준][PMBOK]- 범위 크립</re>',
-'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">원가관리</font></re>',
-'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질관리</font></re>',
+'<re>[관리표준][PMBOK]- 원가관리</re>',
+'<re>[관리표준][PMBOK]- 품질관리</re>',
 '<re>[PMBOK]- [관리표준]- SW Metrics</re>',
-'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질비용</font></re>',
-'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질관리QC7도구</font></re>',
-'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">품질관리신QC7도구</font></re>',
+'<re>[관리표준][PMBOK]- 품질비용</re>',
+'<re>[관리표준][PMBOK]- 품질관리QC7도구</re>',
+'<re>[관리표준][PMBOK]- 품질관리신QC7도구</re>',
 '<re>[관리표준][PMBOK]- 인적자원관리</re>',
 '<re>[관리표준][PMBOK]- 터크만 팀 발달 5단계</re>',
 '<re>[관리표준][PMBOK][터크만]- 동기부여이론</re>',
 '<re>[관리표준][PMBOK][터크만][동기부여]- 내용이론</re>',
 '<re>[관리표준][PMBOK][터크만][동기부여]- 과정이론</re>',
-'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">프로젝트 위험</font></re>',
-'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">프로젝트 위험관리</font></re>',
-'<re>[관리표준][PMBOK]- <font color="blue" size=4 face="impact">프로젝트 위험요소</font></re>',
-'<re>[관리표준][위험관리]- <font color="blue" size=4 face="impact">정성적 위험분석</font></re>',
-'<re>[관리표준][위험관리]- <font color="blue" size=4 face="impact">정량적 위험분석</font></re>',
-'<re>[PMBOK]- [위험관리][정량적 위험분석]- <font color="blue" size=4 face="impact">민감도 분석</font></re>',
-'<re>[PMBOK]- [위험관리][정량적 위험분석]- <font color="blue" size=4 face="impact">의사결정나무 분석</font></re>',
-'<re>[PMBOK]- [위험관리][모의실험]- <font color="blue" size=4 face="impact">몬테카를로 시뮬레이션</font></re>',
-'<re>[PMBOK]- [위험관리][모의실험]- <font color="blue" size=4 face="impact">EMV</font></re>',
+'<re>[관리표준][PMBOK]- 프로젝트 위험</re>',
+'<re>[관리표준][PMBOK]- 프로젝트 위험관리</re>',
+'<re>[관리표준][PMBOK]- 프로젝트 위험요소</re>',
+'<re>[관리표준][위험관리]- 정성적 위험분석</re>',
+'<re>[관리표준][위험관리]- 정량적 위험분석</re>',
+'<re>[PMBOK]- [위험관리][정량적 위험분석]- 민감도 분석</re>',
+'<re>[PMBOK]- [위험관리][정량적 위험분석]- 의사결정나무 분석</re>',
+'<re>[PMBOK]- [위험관리][모의실험]- 몬테카를로 시뮬레이션</re>',
+'<re>[PMBOK]- [위험관리][모의실험]- EMV</re>',
 '<re>[관리표준][PMBOK]- 조달관리(구매)</re>',
 '<re>[관리표준][PMBOK]- 이해관계자관리</re>',
 '<re>[관리표준][PMBOK][이해관계자]- 현저성 모델</re>',
@@ -404,7 +404,7 @@ var question = question.concat(
 '<re>[사업자 선정]- 협상 의한 계약체결</re>',
 '<re>[사업자 선정]- 낙찰자 결정방식</re>',
 '<re>Marshalling</re>',
-'<re><font color="blue" size=4 face="impact">ALM</font></re>',
+'<re>ALM</re>',
 '<re>SW Visualization</re>',
 '<re>SW안전 확보 지침</re>',
 '<re>Integrated Development Equipment</re>',
@@ -433,7 +433,7 @@ var answer = answer.concat(
 // [개요]- SW 공학
 '# 정의 : 소프트웨어의 개발과 운영, 유지보수, 소멸에 대한 <re>체계적인 접근 방법</re> (IEEE) <br/>\
 - SW 제품 생산, SW 개발,운영,유지보수활동에 프로세스(절차),방법,도구를 적용하여 연구 개발하는 활동 <br/><br/>\
-# <bl>특징</bl> (<font color = "red">비복유무비복</font>)<br/>\
+# <bl>특징</bl> (비복유무비복)<br/>\
 - 비가시성 : 코드 내재 <br/>\
 - 복잡성 : 개발 과정 복잡, 난해 <br/>\
 - 유연성 : 항상 수정이 가능 <br/>\
@@ -441,12 +441,12 @@ var answer = answer.concat(
 - 비마모성 : 외부 환경 의한 마모가 아닌 품질 저하 <br/>\
 - 복제가능 : 간단한 방법으로 복제 가능 <br/><br/>\
 # 배경 : SW 위기 -> 수요에 대한 공급 능력 미비신화, 예산초과 및 일정지연, 품질저하 <br/><br/>\
-# <bl>발전 원리</bl> (<font color = "red">자품공표</font>)<br/>\
+# <bl>발전 원리</bl> (자품공표)<br/>\
 - 자동화 도구 : Case, UML, Repository <br/>\
 - 품질 보증 체계 : ITIL, CMMi, SPICE <br/>\
 - 공학적접근 : 방법론 <br/>\
 - 표준화 : ITA/EA SW Data 표준화 <br/>\
-<font color = "red"> 규모, 품질과 생산성, 일관성과 재현성, 변경 </font><br/><br/>\
+ 규모, 품질과 생산성, 일관성과 재현성, 변경 <br/><br/>\
 # <bl>구성(도언기원)</bl> : 도구,언어,기법,원리 <br/><br/>\
 # <bl>주제(방도프패)</bl> <br/>\
 1. 방법 : 제작 사용 기법 및 절차 <br/>\
@@ -464,9 +464,9 @@ var answer = answer.concat(
 - 경제성 생산 : 요구사항 관리 ,프로젝트 관리 <br/>\
 - 수행능력 개선 : 요구사항 관리, SDLC <br/>\
 - 생산성 향상 : 요구사항 관리, 모듈화, 패턴화 기법 <br/>\
-<font color = "red">* 높은 품질과 생산성, 일관성 > 일관된 품질을 일관된 생산성으로 만들기(QCD, 품질, 비용, 납기)</font><br/><br/>\
+* 높은 품질과 생산성, 일관성 > 일관된 품질을 일관된 생산성으로 만들기(QCD, 품질, 비용, 납기)<br/><br/>\
 # 좋은 소프트웨어 조건 : 기신사효유이 (ISO 9120) <br/><br/>\
-# <bl>영향 요인</bl>(<font color = "red">프프엔지</font>) <br/>\
+# <bl>영향 요인</bl>(프프엔지) <br/>\
 - 프로젝트 : 계획 수립, 관리 통제 / RFP 명확화, PMBOK 7 <br/>\
 - 프로세스 : 프로세스 개선, 통제 / DevOps, CI/CD, 형상관리 베이스라인 <br/>\
 - 엔지니어링 : SW 대가 산정, 비용 절감 / SRS 명확화, 재사용 OSS <br/>\
@@ -587,7 +587,7 @@ var answer = answer.concat(
 2. 트랜잭션 기능 <br/>\
 - 기능유형 : EI, EO, EQ <br/>\
 - 복잡도 및 기여도 : DET, FTR(Table 수) <br/><br/>\
-# 개발비 산정절차 / 산출물 (<font color = "red">사개보직소</font>)<br/>\
+# 개발비 산정절차 / 산출물 (사개보직소)<br/>\
 <img src = "./img/FP_Process.png" style = "max-width:100%; height:auto;"><br/>\
 - 사전준비 : 업무, 요구사항 정의, 규모(FP), 산정방법(정통,간이) 결정 / 규모 산정 방법 <br/>\
 - 개발대상 SW 기능점수 산정 : 기능 식별, 복잡도 고려 산정 / 개발대상 SW 기능점수 <br/>\
@@ -598,9 +598,9 @@ var answer = answer.concat(
 # 보정원가 계수 <br/>\
 1. 개발 규모 <br/>\
 - 규모 보정계수 : 0.4057 x (loge(기능점수) - 7.1978)^2 + 0.8878 <br/>\
--> <font color = "red">500</font>FP 미만시 <font color = "red">1.2800</font>, <font color = "red">3,000</font>FP 초과시 <font color = "red">1.1530</font> 적용 <br/><br/>\
-2. 애플리케이션 복잡도 (<font color = "red">연성운보</font>)<br/>\
-- 연계복잡성 수준 : 연계 기관당 관리의 복잡성 (<font color = "red">1~2 연계 기관 0.94</font>)<br/>\
+-> 500FP 미만시 1.2800, 3,000FP 초과시 1.1530 적용 <br/><br/>\
+2. 애플리케이션 복잡도 (연성운보)<br/>\
+- 연계복잡성 수준 : 연계 기관당 관리의 복잡성 (1~2 연계 기관 0.94)<br/>\
 - 성능요구 수준 : 응답시간 또는 처리율에 대한 사용자 요구수준 <br/>\
 - 운영환경 호환성 : 응용SW의 설치 운영 환경의 상이한 정도 <br/>\
 - 보안성 수준 : 시큐어코딩, 웹취약점점검, 암호화점검, 개인정보보호 등 요구 수준 <br/><br/>\
@@ -1030,9 +1030,9 @@ var answer = answer.concat(
 
 // 소프트웨어 안전성 분석
 '# 정의 : 안전성 만족 확인 활동 / 안전 필수 시스템 개발시 <br/>\
-- <font color = "red">Fool Proof, Fail Safe</font><br/>\
+- Fool Proof, Fail Safe<br/>\
 - 안전 필수 시스템 개발시 시스템이 만족해야 할 안전성을 만족하는지 확인하는 활동<br/>\
-<font color = "red">* SW 안전성 : ISO/IEC GUIDE 51, 수용할 수 없는 위험이 없는 상태 </font><br/><br/>\
+* SW 안전성 : ISO/IEC GUIDE 51, 수용할 수 없는 위험이 없는 상태 <br/><br/>\
 # 안전성 분석 절차 (IEC 61508) <br/>\
 <img src = "./img/SSA_Order.png", style = "max-width:100%; height:auto;"><br/><br/>\
 <img src = "./img/SSA_1.png", style = "max-width:100%; height:auto;"><br/><br/>\
@@ -1051,7 +1051,7 @@ var answer = answer.concat(
 4. 산출물 검토 단계 <br/>\
 - 명세서 검증 : DFD, DD, Mini-Spec <br/>\
 - 디자인 검증 : 전문가 참여, 브레인 스토밍 / 라이팅 <br/>\
-<font color = "red">* DFD(Data Flow Diagram) </font><br/><br/>\
+* DFD(Data Flow Diagram) <br/><br/>\
 * 119회 관리 4교시 4번\
 ',
 
@@ -1127,7 +1127,7 @@ var answer = answer.concat(
 - Cohesion <br/>\
 - SRP, ISP <br/>\
 - 어느 한 모듈이 <re>하나의 목적을 수행하는 요소들 간의 연관성의 정도</re>(척도) <br/><br/>\
-# 유형 : 응집도는 높을수록 좋음 (<font color = "red">우논시절통순기</font>)<br/>\
+# 유형 : 응집도는 높을수록 좋음 (우논시절통순기)<br/>\
 - <gr>우</gr>연 : <gr>목적없이 여러 기능</gr>을 한 모듈로 구성(낮음) <br/>\
 - <gr>논</gr>리 : <gr>동일범주의 기능</gr>을 한 모듈로 구성 (<bl>switch case a:b:</bl>)<br/>\
 - <gr>시</gr>간 : <gr>동일시점</gr>의 기능을 한 모듈로 구성 (<bl>init()</bl>) <br/>\
@@ -1142,7 +1142,7 @@ var answer = answer.concat(
 - Coupling <br/>\
 - OCP, LSP, DIP <br/>\
 - 어느 한 모듈의 <re>다른 모듈에 의존관계</re>를 가지는 정도(척도) <br/><br/>\
-# 유형 : 결합도는 낮을 수록 좋음 (<font color = "red">자스제외공내</font>)<br/>\
+# 유형 : 결합도는 낮을 수록 좋음 (자스제외공내)<br/>\
 - <gr>자</gr>료 : 모듈간 <gr>단순 매개변수</gr> 전달 (낮음) (<bl>void loca(int a);</bl>) <br/>\
 - <gr>스</gr>탬프 : 모듈간 <gr>자료구조</gr> 전달 (<bl>funtion(struct A))</bl>) <br/>\
 - <gr>제</gr>어 : <gr>컨트롤 데이터</gr>를 매개변수로 사용 (<bl>if(a==1)</bl>) <br/>\
@@ -1216,7 +1216,7 @@ var answer = answer.concat(
 '# 정의 : 요구 충족 여부 / 아키텍처 수준 평가 절차 <br/>\
 - 제시된 소프트웨어 아키텍처가 개발될 소프트웨어에 대해서 요구되는 품질 특성을 충족시킬 수 있는지 아키텍처 수준에서 평가하는 절차 <br/><br/>\
 # 배경 : 1(설계) : 10(개발) : 100(유지보수) <br/><br/>\
-# 유형(<font color = "red">시시수경</font>) <br/>\
+# 유형(시시수경) <br/>\
 - 시나리오 기반 : 미리 정의된 Profile 의존 평가 (ATAM, SAAM, CBAM) <br/>\
 - 시뮬레이션 기반 : BMT <br/>\
 - 수학적 기반 : 기준 모델 수치화 평가 <br/>\
@@ -1229,7 +1229,7 @@ var answer = answer.concat(
 - Software Architecture Analysis Method <br/>\
 - <re>최초로 정리된 평가방법, 다양한 수정가능성들의 관점</re>에서 아키텍처 분석 <br/><br/>\
 # 특징 : 변경용이성, 기능성 <br/><br/>\
-# 절차 (<font color = "red">개아분간상종</font>)<br/>\
+# 절차 (개아분간상종)<br/>\
 1. 시나리오 개발 <br/>\
 2. 아키텍처 설명 <br/>\
 3. 시나리오 분류와 우선순위 결정 <br/>\
@@ -1245,14 +1245,14 @@ var answer = answer.concat(
 # 특징 : 품질속성 Trade Off <br/>\
 - 가용성, 보안성, 성능, 사용성, 변경가능성, 시험가능성 <br/><br/>\
 # 절차 <br/>\
-1. 1차 평가 (<font color = "red">A동소식품분</font>)<br/>\
+1. 1차 평가 (A동소식품분)<br/>\
 - ATAM 소개 <br/>\
 - 비즈니스 동인 소개 <br/>\
 - 아키텍처 소개 <br/>\
 - 아키텍처 접근법 식별 <br/>\
 - 품질속성 유틸리티 트리 작성 <br/>\
 - 아키텍처 접근법 분석 <br/><br/>\
-2. 2차 평가 (<font color = "red">브아결</font>)<br/>\
+2. 2차 평가 (브아결)<br/>\
 - 브레인 스토밍과 시나리오 우선순위 결정 <br/>\
 - 아키텍처 접근법 분석 반복 <br/>\
 - 결과 발표 \
@@ -1263,7 +1263,7 @@ var answer = answer.concat(
 - Cost Benefit Analysis Method <br/>\
 - ATAM 에서 부족한 <re>경제적 평가 부분을 보강</re>한 프로세스 <br/>\
 - 비용과 일정간의 관계를 파악하여 아키텍처 전략적 비용 측정 <br/><br/>\
-# 절차 (<font color = "red">결효이선</font>)<br/>\
+# 절차 (결효이선)<br/>\
 1. 시나리오 결정 <br/>\
 2. 효용-반응값 곡선 작성 <br/>\
 3. 아키턱체 접근법 전체 이익 계산 <br/>\
@@ -1283,7 +1283,7 @@ var answer = answer.concat(
 // ARID
 '# 정의 : <re>완성되지 않은 부분 초기 평가</re> <br/>\
 - Active Reviews for Intermediate Designs <br/>\
-- <font color = "red">완성되지 않은 부분(설계 진행 부분)</font> 아키텍처를 아키텍처 설계 초기에 평가하는 방법 <br/><br/>\
+- 완성되지 않은 부분(설계 진행 부분) 아키텍처를 아키텍처 설계 초기에 평가하는 방법 <br/><br/>\
 # 특징 <br/>\
 - 특정부분 품질요소 집중 <br/>\
 - ADR + ATAM \
@@ -1767,9 +1767,9 @@ var answer = answer.concat(
 - WSDL : 웹 서비스 기술언어 (서비스 제공장소, 메시지 포맷, 프로토콜 기재) <br/>\
 - UDDI :  웹 서비스 관련 정보 공개, 탐색 위한 표준 <br/>\
 - 메시지 : XML / SOAP 메시지, publish, bind, find 지원 메시지 컨텐츠 묘사 <br/>\
-<font color = "red">* SOAP : Simple Object Access Protocol <br/>\
+* SOAP : Simple Object Access Protocol <br/>\
 * WSDL : Web Services Description Language <br/>\
-* UDDI : Universal Description, Discovery and Integration </font><br/><br/>\
+* UDDI : Universal Description, Discovery and Integration <br/><br/>\
 # 특징 <br/>\
 - 목적 : 비즈니스 로직 재사용, 민첩성 확보 <br/>\
 - 조직 : 조직, 서비스 연관 관계 없음 <br/>\
@@ -1789,11 +1789,11 @@ var answer = answer.concat(
 - SOAP(XML/HTTP) Web Service 기술 이용, 내/외부 정보시스템 통합,관리, 사용 지원하는 SOA 지원 미들웨어 플랫폼 솔루션 <br/><br/>\
 # 개념도 <br/>\
 <img src = "./img/ESB.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 기술요소 (<font color = "red">ISRE</font>)<br/>\
-- Interaction Link : 상호 메시지 <font color = "red">저장 및 복원</font> 기술 / 전송환경, 큐관리, 모니터링 <br/>\
-- SOAP : 서비스 통합 및 연결을 위한 <font color = "red">통신 표준화</font> 기술 / 서비스 요청 및 호출, 경로설정 <br/>\
-- Runner 기술 : 실행정보 교환 및 공통 환경 위한 <font color = "red">경로 설정</font> 기술 / 실행 환경 필요 정보 전달 <br/>\
-- ESB 패턴 : 일정 패턴 기반 <font color = "red">솔루션 전개</font> 기술 / 기반 솔루션 설계 및 개발 적용 <br/><br/>\
+# 기술요소 (ISRE)<br/>\
+- Interaction Link : 상호 메시지 저장 및 복원 기술 / 전송환경, 큐관리, 모니터링 <br/>\
+- SOAP : 서비스 통합 및 연결을 위한 통신 표준화 기술 / 서비스 요청 및 호출, 경로설정 <br/>\
+- Runner 기술 : 실행정보 교환 및 공통 환경 위한 경로 설정 기술 / 실행 환경 필요 정보 전달 <br/>\
+- ESB 패턴 : 일정 패턴 기반 솔루션 전개 기술 / 기반 솔루션 설계 및 개발 적용 <br/><br/>\
 * KPC 92회 관리 3교시 2번\
 ',
 
@@ -2371,12 +2371,12 @@ var answer = answer.concat(
 - Concurrent User : 동시 사용자 수 <br/>\
 - Active User : 활성 사용자 수 <br/><br/>\
 # 유형<br/>\
-1. 방법 (<font color = "red">루스티가</font>) <br/>\
+1. 방법 (루스티가) <br/>\
 - 루프백 : 업무별 병목지점 <br/>\
 - 스파이크 : 임계 측정 목표 <br/>\
 - 티어 테스트 : 구간별 병목 <br/>\
 - 가용성 : 업무처리의 가용성 측정 <br/><br/>\
-2. 목적 (<font color = "red">단복임확</font>)<br/>\
+2. 목적 (단복임확)<br/>\
 - 단위성능 <br/>\
 - 복합성능 : 가중치 적용 <br/>\
 - 임계성능 : 임계도달 <br/>\
@@ -3110,11 +3110,11 @@ var answer = answer.concat(
 - 시스템 동작 모니터링 : 문제 발생시 로그 수집 <br/>\
 - 분류 및 해결 : 문제 발생 항목 점검, 원인 분석 및 코드 수정 <br/><br/>\
 # 테스팅 기법 <br/>\
-- 블랙박스 퍼징 : <font color = "red">내부 분석 x</font> 무작위 입력값 <br/>\
-- 화이트 박스 퍼징 : <font color = "red">소스 코드</font> 기반 분석, 입력값 산출 <br/>\
-- 그레이 박스 퍼징 : 내부 구조 <font color = "red">일부</font>만 알고 입력값 산출 <br/><br/>\
+- 블랙박스 퍼징 : 내부 분석 x 무작위 입력값 <br/>\
+- 화이트 박스 퍼징 : 소스 코드 기반 분석, 입력값 산출 <br/>\
+- 그레이 박스 퍼징 : 내부 구조 일부만 알고 입력값 산출 <br/><br/>\
 # 데이터 변조 방식 <br/>\
-- 뮤테이션 기반 퍼징 : 기존 입력값, 임의 <font color = "red">대체, 삭제, 추가</font> <br/>\
+- 뮤테이션 기반 퍼징 : 기존 입력값, 임의 대체, 삭제, 추가 <br/>\
 - 제너레이션 퍼징 : 파일 포맷, 프로토콜 스펙 분석, 취약 공격 <br/><br/>\
 # 고려사항 : 종료 조건 생성, 취약점 분석 능력, 풍부한 프로토콜 및 프로그램 지시<br/><br/>\
 * ITPE 7회 관리 4교시 2번\
@@ -3252,7 +3252,7 @@ var answer = answer.concat(
 # 적용대상, 제외 기준 <br/>\
 - 적용대상 : 분리발주 대상 SW 5천만원 이상 <br/>\
 - 제외기준 : 5천만원 미만 / 조달청 구매 / 발주 기관장 판단 TTA 기관 의장 협의 <br/><br/>\
-# 구성요소 (<font color = "red">참발수심</font>)<br/>\
+# 구성요소 (참발수심)<br/>\
 - BMT 참여 업체 <br/>\
 - 발주처 <br/>\
 - BMT 수행 기관 <br/>\
@@ -3611,7 +3611,7 @@ var answer = answer.concat(
 # 종류 <br/>\
 - 제품범위(산출물 위주)<br/>\
 - 프로젝트범위(지정기능 결과물) <br/><br/>\
-# 절차 (<font color = "red">계요정W검통</font>)<br/>\
+# 절차 (계요정W검통)<br/>\
 - 계획 수립 : 범위관리 계획서 작성 <br/>\
 - 요구사항수집 : 이해관계자 니즈, 요구사항 결정 <br/>\
 - 범위정의 : 상세 범위, 목표인수 기준 결정 <br/>\
@@ -3637,8 +3637,8 @@ var answer = answer.concat(
 - 형상항목 : 프로젝트에서 공식적으로 정의된 관리 대상 <br/>\
 - 형상물 : 형상항목의 실제 대상 컨텐츠 <br/>\
 - 형상버전 : 기준선 설정 이후 일어난 변경 기록 <br/>\
-- <font color="blue" size=4 face="impact">CCB</font>(Configuration Control Board) <br/><br/>\
-# 절차 (<font color = "red">식통감기</font>) <br/>\
+- CCB(Configuration Control Board) <br/><br/>\
+# 절차 (식통감기) <br/>\
 - 준비 : 형상항목 식별, 통제, 평가 수행 방안 수립 <br/>\
 - <bl>식</bl>별 : 형상 관리 대상 구분, Numbering / 소스코드 목록, 기준선, 관리체계 <br/>\
 - <bl>통</bl>제 : SW Baseline 반영 통제 / 변경 요청서, 검토,승인서, 변경 보고서 <br/>\
@@ -3680,9 +3680,10 @@ var answer = answer.concat(
 - 유용성 법칙 : 세분화 <br/>\
 - 연동기획 : Rolling Waver Planning 가까운 미래만 상세히 작성 <br/>\
 - 100% Rule <br/><br/>\
-# 사례 (<font color = "red">프단작패소</font>)<br/>\
+# 사례 (프단작패소)<br/>\
 <img src = "./img/WBS_Example.png" style = "max-width:100%; height:auto;"><br/><br/>\
-* 라이지움 87회 관리 1교시 7번\
+* 라이지움 87회 관리 1교시 7번<br/><br/>\
+* 관리 128회 1교시 :WBS(Work Breakdown Structure) 에 대하여 설명하시오.<br/>\
 ',
 
 // Gold Plating
@@ -3759,22 +3760,22 @@ var answer = answer.concat(
 '# 정의 : 품질보증, 통제 수행 절차 <br/>\
 - 품질 정책, 목표 책임사항을 결정하여 품질보증, 통제를 수행하는 절차 <br/><br/>\
 # 구성 <br/>\
-- <font color="blue" size=4 face="impact">품질 계획</font>(QM) : 품질계획 관리 <br/>\
-- <font color="blue" size=4 face="impact">품질 통제</font>(QC) : 변경요청 <br/>\
-- <font color="blue" size=4 face="impact">품질 보증</font>(QA) : 품질통제측정치, 변경요청<br/><br/>\
-# 도구 (<font color = "red">7벤실 브명흐 친우)</font>)<br/>\
-- <font color="blue" size=4 face="impact">7</font>QC Tools : 기본 품질도구 <br/>\
-- <font color="blue" size=4 face="impact">벤</font>치마킹 : 품질목표 수준 설정시 <br/>\
-- <font color="blue" size=4 face="impact">실</font>험 설계법 : 제품에 영향 요인 분석시 <br/>\
-- <font color="blue" size=4 face="impact">브</font>레인스토밍 : 문제해결 의견 모집시 <br/>\
-- <font color="blue" size=4 face="impact">명</font>목 집단법 : 간섭 없이 우선순위 정할때 <br/>\
-- <font color="blue" size=4 face="impact">흐</font>름도 : 프로세스 개선점 도출시 <br/>\
-- <font color="blue" size=4 face="impact">친</font>화도 : 브레인스톰이 아이디어 그룹핑 <br/>\
-- <font color="blue" size=4 face="impact">우</font>선순위 매트릭스 : 여러 대안 체계적 평가시 <br/><br/>\
-# 절차 (<font color = "red">계보통</font>)<br/>\
-- <font color="blue" size=4 face="impact">계</font>획 수립 <br/>\
-- <font color="blue" size=4 face="impact">보</font>증 수행 <br/>\
-- <font color="blue" size=4 face="impact">통</font>제 수행 \
+- 품질 계획(QM) : 품질계획 관리 <br/>\
+- 품질 통제(QC) : 변경요청 <br/>\
+- 품질 보증(QA) : 품질통제측정치, 변경요청<br/><br/>\
+# 도구 (7벤실 브명흐 친우))<br/>\
+- 7QC Tools : 기본 품질도구 <br/>\
+- 벤치마킹 : 품질목표 수준 설정시 <br/>\
+- 실험 설계법 : 제품에 영향 요인 분석시 <br/>\
+- 브레인스토밍 : 문제해결 의견 모집시 <br/>\
+- 명목 집단법 : 간섭 없이 우선순위 정할때 <br/>\
+- 흐름도 : 프로세스 개선점 도출시 <br/>\
+- 친화도 : 브레인스톰이 아이디어 그룹핑 <br/>\
+- 우선순위 매트릭스 : 여러 대안 체계적 평가시 <br/><br/>\
+# 절차 (계보통)<br/>\
+- 계획 수립 <br/>\
+- 보증 수행 <br/>\
+- 통제 수행 \
 ',
 
 // SW Metrics
@@ -3784,7 +3785,7 @@ var answer = answer.concat(
 - Product : Size(LoC, FP), Complexity(McCabe 회전복잡도) <br/>\
 - Process : 프로세스 준수율, 품질 실패 비용율 <br/>\
 - Project : 공정진도 준수율, 예산 준수율 <br/><br/>\
-# 측정 프로세스 (<font color = "red">요식수계분검</font>)<br/>\
+# 측정 프로세스 (요식수계분검)<br/>\
 - 품질 요구사항 설정 : 품질 요구사항, 품질 매트릭 기본 구조 <br/>\
 - 식별 : 매트릭 집합, 매트릭 명세서 <br/>\
 - 자료수집 : 자료항목 명세서, 비용효과 분석 <br/>\
@@ -3798,8 +3799,8 @@ var answer = answer.concat(
 '# 정의 : 품질 실현 발생 비용 <br/>\
 - 요구된 품질을 실현하기 위한 원가, 품질활동 수행을 위해 발생하는 비용 <br/><br/>\
 # 구성요소 <br/>\
-- <font color="blue" size=4 face="impact">적합</font>비용 : <font color="blue" size=4 face="impact">예</font>방비용, <font color="blue" size=4 face="impact">평</font>가비용 <br/>\
-- <font color="red" size=4 face="impact">부적합</font>비용 : <font color="red" size=4 face="impact">내</font>부 실패, <font color="red" size=4 face="impact">외</font>부 실패 <br/>\
+- 적합비용 : 예방비용, 평가비용 <br/>\
+- <font color="red" size=4 face="impact">부적합비용 : <font color="red" size=4 face="impact">내부 실패, <font color="red" size=4 face="impact">외부 실패 <br/>\
 - 총비용 : 통제비용 + 통제실패비용 <br/>\
 - 적절 품질비용 : 수용가능 품질수준 확보수준 확보할 수 있는 비용 \
 ',
@@ -3807,7 +3808,7 @@ var answer = answer.concat(
 // 품질관리QC7도구
 '# 정의 : 데이터의 기초적인 정리 방법 <br/>\
 - 적은 데이터로부터 가능한 한 신뢰성이 높은 정보를 얻는데 가장 유효한 수단으로서 품질의 개발, 개선, 관리의 재활동에 대한 유용한 도구로, 데이터의 기초적인 정리방법으로 널리 쓰이며, 품질관리를 하는데 있어서 가장 필수적인 통계적 방법 <br/><br/>\
-# 구성 (<font color = "red">인산관히파체층</font>)<br/>\
+# 구성 (인산관히파체층)<br/>\
 P 인과관계도 : 특성요인도-원인규명 <br/>\
 P 산점도 : 영향을 주는 2개 인과관계 <br/>\
 P 관리도 : 공정수준 유지 관리 <br/>\
@@ -3844,7 +3845,7 @@ P 히스토그램 : Data 분포 <br/>\
 // 터크만 팀 발달 5단계
 '# 정의 : 그룹 개발 모델 <br/>\
 - 조직이 성장하고 도전에 대응하고 문제의식을 갖고 해결책을 찾으며 작업계획을 세우고 결과를 전달하기 위해 필요한 5가지 단계를 표현한 그룹개발 모델 <br/><br/>\
-# 사이클 (<font color = "red">형격규성해 탐준형실휴</font>)<br/>\
+# 사이클 (형격규성해 탐준형실휴)<br/>\
 - 형성기(탐색) <br/>\
 - 격동기(준비) <br/>\
 - 규범기(형성) <br/>\
@@ -3907,18 +3908,18 @@ P 히스토그램 : Data 분포 <br/>\
 - <re>기회는 극대화</re>하고 <re>위험은 최소화</re>하여 프로젝트의 성공 가능성을 높이는 일련의 관리 활동 <br/>\
 - 프로젝트 위험관리는 정성적 분석과 정량적 분석방법이 있으며, 효과 측면에서 정량적 분석기법이 현업에서 많이 활용됨 <br/><br/>\
 <img src = "./img/위험관리.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 절차 (<font color = "red">계식성량대(계실)감</font>) <br/>\
+# 절차 (계식성량대(계실)감) <br/>\
 <img src = "./img/위험관리_0.png" style = "max-width:100%; height:auto;"><br/><br/>\
 <img src = "./img/위험관리_1.png" style = "max-width:100%; height:auto;"><br/><br/>\
 <img src = "./img/RiskAdminProcess.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 대응방안 (<font color = "red">적극 -> 소극</font>)<br/>\
-1. <re>부정적</re> 위험 대응 (<font color = "red">회전완수</font>)<br/>\
+# 대응방안 (적극 -> 소극)<br/>\
+1. <re>부정적</re> 위험 대응 (회전완수)<br/>\
 - 에스컬레이션 : PM 권한 밖 / 보고 <br/>\
 - <re>회</re>피</ : 프로젝트 목표, 위험의 영향권 고립, 변경 / 중단, 계획 변경<br/>\
 - <re>전</re>가 : 제3자 책임이동 / 보험, 조달 프로세스 <br/>\
 - <re>완</re>화 : 수용가능까지 낮춤 / (병행)테스트, 단순 프로세스, 재배치 <br/>\
 - <re>수</re>용 : 위험 제거, 전략 수립 불가 / 능동, 수동 수용 <br/><br/>\
-2. <bl>긍정적</bl> 위험 대응 (<font color = "red">활공강수</font>)+<br/>\
+2. <bl>긍정적</bl> 위험 대응 (활공강수)+<br/>\
 - 에스컬레이션 : PM 권한 밖 / 보고 <br/>\
 - <bl>활</bl>용 : 리스크 선택 / 자원 투입 <br/>\
 - <bl>공</bl>유 : 제3자 기회 / 제휴 <br/>\
@@ -3961,19 +3962,19 @@ P 히스토그램 : Data 분포 <br/>\
 // 정성적 위험분석
 '# 정의 : 발생확률, 영향, 특징 평가 / 우선순위 결정 프로세스 <br/>\
 - 위험 발생확률과 영향, 특징 평가하여 대응과 분석 위한 개별 프로젝트 <re>위험 우선순위 결정하는 프로세스</re> <br/><br/>\
-# 기법 (<font color = "red">수분표대기</font>)<br/>\
+# 기법 (수분표대기)<br/>\
 1. 수집 <br/>\
 - 인터뷰 : 기밀 보장 <br/><br/>\
-2. 분석 (<font color = "red">영품기</font>) <br/>\
+2. 분석 (영품기) <br/>\
 - 위험 확률 및 영향력 평가 : 프로젝트 목표 영향 평가 <br/>\
 - 데이터 품질 평가 : 정확성, 품질, 신뢰성, 무결성 검토 <br/>\
 - 기타 위험 모수 평가 : 긴급성, 가까움, 전략적 영향 우선순위 고려 <br/><br/>\
-3. 데이터 표현 (<font color = "red">영계</font>) <br/>\
+3. 데이터 표현 (영계) <br/>\
 - PI 매트릭스 : 확률,영향 등급화 <br/>\
 - 계층적 차트 : 3개 모수 표현 버블 차트 <br/><br/>\
 4. 대인 <br/>\
 - 촉진 : 분석 효과 촉진, 편견 원인 식별, 충돌 해결 <br/><br/>\
-5. 기타기법 (<font color = "red">전유미</font>) <br/>\
+5. 기타기법 (전유미) <br/>\
 - 전문가 판단 : PI 평가, 위치 결정 <br/>\
 - 위험 유형 분류 : 비슷 리스크, RBS 이용 분류 <br/>\
 - 미팅 : 정성적 위험 워크샵 \
@@ -3983,7 +3984,7 @@ P 히스토그램 : Data 분포 <br/>\
 '# 정량적 <br/>\
 1. 수집 <br/>\
 - 인터뷰 <br/><br/>\
-2. 분석 (<font color = "red">영민의모</font>) <br/>\
+2. 분석 (영민의모) <br/>\
 - 영향도 분석 : 위험 요인, 원인 결과 미치는 관계 도표 표현 <br/>\
 - 민감도 분석 : 특정 기준값 변화 영향 <br/>\
 - 의사결정나무 분석 : 도표화, 소집단 분류, Root, Parent, Child Node<br/>\
@@ -3996,7 +3997,7 @@ P 히스토그램 : Data 분포 <br/>\
 - 불확실성 표현 <br/>\
 - 전문가 판단 <br/><br/>\
 <img src = "./img/영민의모.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 정량적 위험분석 용어 (<font color = "red">노SAA</font>)<br/>\
+# 정량적 위험분석 용어 (노SAA)<br/>\
 - 노출계수(Exposure Factor) : 침해 발생시 손실 비율 / % 표현 <br/>\
 - SLE(Single Loss Expectancy) : 한번의 침해로 발생한 손실 / 자산가치 * 노출 계수 <br/>\
 - ARO(Annualized Rate of Occurrence) : 연간 발생율 / 0.0(발생x), 1.0(1년에 한번) <br/>\
@@ -4006,7 +4007,7 @@ P 히스토그램 : Data 분포 <br/>\
 ',
 
 // [PMBOK 5th edition]- 민감도 분석 <br/>\
-'# 정의 : <font color="blue" size=4 face="impact">평가 방법 / 불확실성 / 목표 영향</font> <br/>\
+'# 정의 : 평가 방법 / 불확실성 / 목표 영향 <br/>\
 - Sensativity Analysis <br/>\
 - 프로젝트 요소의 <re>불확실성이 검토 대상 목표에 미칠 영향력</re>을 평가하는 방식 <br/><br/>\
 # 예시 <br/>\
@@ -4015,7 +4016,7 @@ P 히스토그램 : Data 분포 <br/>\
 ',
 
 // 의사결정나무 분석
-'# 정의 : <font color="blue" size=4 face="impact">도표화 / 분류, 예측 / 정량적 분석 기법 </font><br/>\
+'# 정의 : 도표화 / 분류, 예측 / 정량적 분석 기법 <br/>\
 - 의사결정 규칙을 도표화하여 관심대상이 되는 집단을 몇 개의 소집단으로 분류하거나 예측을 수행하는 정량적 분석 기법 <br/><br/>\
 # 특징 <br/>\
 - Tree 형태 규칙 표현, 쉽게 이해 되고 활용 가능 <br/>\
@@ -4026,7 +4027,7 @@ P 히스토그램 : Data 분포 <br/>\
 ',
 
 // 몬테카를로 시뮬레이션
-'# 정의 : <font color="blue" size=4 face="impact">확률모형 모수, 변수 반복적 대입 / 확률 변수 분포 산정</font> <br/>\
+'# 정의 : 확률모형 모수, 변수 반복적 대입 / 확률 변수 분포 산정 <br/>\
 - 특정 변수를 예측하기 위해 확률모형의 모수나 변수에 대해 <re>반복적으로 여러 수치를 대입</re>하여 <re>확률 변수의 분포</re>를 산정하는 기법 <br/>\
 - 일련의 난수를 반복적으로 생성하여 계산 가능한 함수의 값을 확률적으로 계산하는 알고리즘 <br/><br/>\
 # 절차 <br/>\
@@ -4153,19 +4154,19 @@ P 히스토그램 : Data 분포 <br/>\
 - 쉬운 Top-Down 접근방법 제공 <br/>\
 - 인증, 자격증 교과 과정 위한 기법 제공 <br/><br/>\
 # 구성 <br/>\
-1. 개발 (<font color = "red">요설개테유</font>)<br/>\
+1. 개발 (요설개테유)<br/>\
 - SW 요구사항 <br/>\
 - SW 설계 <br/>\
 - SW 개발 <br/>\
 - SW 테스트 <br/>\
 - SW 유지보수 <br/><br/>\
-2. 관리 (<font color = "red">형공프도품</font>)<br/>\
+2. 관리 (형공프도품)<br/>\
 - SW 형상관리 <br/>\
 - SW 공학관리 <br/>\
 - SW 공학프로세스 <br/>\
 - SW 공학도구와 방법 <br/>\
 - SW 품질 <br/><br/>\
-3. 신규기반 (<font color = "red">전경컴수공)</font><br/>\
+3. 신규기반 (전경컴수공)<br/>\
 + SW 전문가 실천 <br/>\
 + SW 경제학 <br/>\
 + SW 컴퓨팅 기반 <br/>\
@@ -4188,8 +4189,8 @@ P 히스토그램 : Data 분포 <br/>\
 '# 정의 : Software Quality <br/>\
 - 주어진 요구사항을 만족시키는 소프트웨어 제품의 특성과 생산성 <br/><br/>\
 # 표준 모델 <br/>\
-- 제품품질 : ISO <font color="blue" size=4 face="impact">9126</font>, ISO <font color="blue" size=4 face="impact">14598</font>, ISO <font color="blue" size=4 face="impact">12119</font>, ISO 9001, 9002, ISO 25000<br/>\
-- SW 프로세스 품질 : ISO <font color="red" size=4 face="impact">12207</font>, <font color="red" size=4 face="impact">CMMI</font>, <font color="red" size=4 face="impact">SPICE </font><br/>\
+- 제품품질 : ISO 9126, ISO 14598, ISO 12119, ISO 9001, 9002, ISO 25000<br/>\
+- SW 프로세스 품질 : ISO <font color="red" size=4 face="impact">12207, <font color="red" size=4 face="impact">CMMI, <font color="red" size=4 face="impact">SPICE <br/>\
 - 품질경영 : 6 시그마, ISO 9000 \
 ',
 
@@ -4270,8 +4271,8 @@ P 히스토그램 : Data 분포 <br/>\
 - 사용자관점에서 품질 특성을 정의하고 객관적 측정을 위한 품질 평가 매트릭스 제공하는 국제 표준 <br/><br/>\
 # 구성 <br/>\
 - 품질모델(9126-1) : 주특성(기신사효유이), 부특성 <br/>\
-<font color = "red">-> 기능 : 기능성, 유용성, 호환성, 보안성 <br/>\
--> 비기능 : 신뢰성, 사용성, 효율성, 이식성 </font><br/>\
+-> 기능 : 기능성, 유용성, 호환성, 보안성 <br/>\
+-> 비기능 : 신뢰성, 사용성, 효율성, 이식성 <br/>\
 - 외부메트릭(9126-2) : 외부적 성질(시험,운영,관찰가능) <br/>\
 - 내부 메트릭(9126-3) : 내부적 성질(설계,코드 산출물 측정) <br/>\
 - 사용메트릭(9126-4) : 실제 사용자 환경, 제품 효과 측정 정량적 <br/><br/>\
@@ -4279,7 +4280,7 @@ P 히스토그램 : Data 분포 <br/>\
 ',
 
 // ISO 12119
-'# 정의 : 품질 요구사항, 시험에 대한 국제 표준 / <font color = "red">패키지</font> 형태 <br/>\
+'# 정의 : 품질 요구사항, 시험에 대한 국제 표준 / 패키지 형태 <br/>\
 - 정보기술 및 소프트웨어 패키지 형태의 제품에 대한 품질 요구사항 및 시험에 대한 국제 표준<br/><br/>\
 # 대상 <br/>\
 - 1단계 : 패키지SW <br/>\
@@ -4299,7 +4300,7 @@ P 히스토그램 : Data 분포 <br/>\
 '# 정의 : 프로세스 표준 / ISO 9126 사용 / 절차, 기본사항, 평가 프로세스<br/>\
 - ISO 9126의 사용을 위한 절차와 기본 사항 및 소프트웨어 평가 프로세스에 대한 표준<br/><br/>\
 # 특징 : 반복성, 재사용성, 공정성, 객관성 <br/><br/>\
-# 구성 (<font color = "red">일기개구평평</font>) <br/>\
+# 구성 (일기개구평평) <br/>\
 - ISO 14598-1 : 일반 사항 (ISO 25040) <br/>\
 - ISO 14598-2 : 기획 및 관리 (ISO 25001) <br/>\
 - ISO 14598-3 : 개발자를 위한 프로세스 (ISO 25042) <br/>\
@@ -4319,7 +4320,7 @@ P 히스토그램 : Data 분포 <br/>\
 - ISO 12119 : 패키지 SW 품질 표준 <br/>\
 - ISO 14598 : SW 품질평가 표준 <br/>\
 - ISO 15288 : 시스템 엔지니어링 프로세스 표준 <br/><br/>\
-# 구성 (<font color = "red">관모메요가</font>) <br/>\
+# 구성 (관모메요가) <br/>\
 - 2500n : 품질관리 - 25000(가이드라인), 250001(14598-2(계획/관리)) <br/>\
 - 2501n : 품질모델 - 25010(제품품질모델 9126-1), 25012(데이터 품질모델)<br/>\
 - 2502n : 품질측정 - 25020(매트릭 참조 모델), 25021(품질 측정요소), 25022(내부 매트릭 9126-3), 25023(외부 메트릭 9126-2), 25024(사용중 품질 9126-4)<br/>\
@@ -4336,14 +4337,14 @@ P 히스토그램 : Data 분포 <br/>\
 - 사용자 관점 : 개발자 관점이 아닌 사용자 관점 <br/>\
 - ISO 9126 개선 : 보안성과 호환성이 추가, 준수성 항목 전체 제외 <br/><br/>\
 # 암기 <br/>\
-- <font color = "red">기타정성</font> : 타당성 / 정확성 / 성숙도 <br/>\
-- <font color = "red">신복 가결성</font> : 복구 용이성 / 가용성 / 결함 수용성 / 성숙성 <br/>\
-- <font color = "red">사해 인류 접근LO</font> : 이해성 / 인터페이스 / 사용자 오류보호 / 접근성 / Learnability / Operation <br/>\
-- <font color = "red">효자시기</font> : 자원 활용성 / 시간 효율성 / 기억 용량 <br/>\
-- <font color = "red">유분수 재모시</font> : 분석성 / 수정 가능성 / 재사용성 / 모듈성 / 시험가능성 <br/>\
-- <font color = "red">이환설치</font> : 환경 적응성 / 설치 용이성 / 치환성 <br/>\
-- <font color = "red">보책 기무부인</font> : 책임성 / 인증성 / 기밀성 / 무결성 / 부인방지 <br/>\
-- <font color = "red">호 공존운용</font> : 상호 공존성 / 상호 운용성 <br/><br/>\
+- 기타정성 : 타당성 / 정확성 / 성숙도 <br/>\
+- 신복 가결성 : 복구 용이성 / 가용성 / 결함 수용성 / 성숙성 <br/>\
+- 사해 인류 접근LO : 이해성 / 인터페이스 / 사용자 오류보호 / 접근성 / Learnability / Operation <br/>\
+- 효자시기 : 자원 활용성 / 시간 효율성 / 기억 용량 <br/>\
+- 유분수 재모시 : 분석성 / 수정 가능성 / 재사용성 / 모듈성 / 시험가능성 <br/>\
+- 이환설치 : 환경 적응성 / 설치 용이성 / 치환성 <br/>\
+- 보책 기무부인 : 책임성 / 인증성 / 기밀성 / 무결성 / 부인방지 <br/>\
+- 호 공존운용 : 상호 공존성 / 상호 운용성 <br/><br/>\
 # 품질 특성 <br/>\
 1. 내부, 외부 품질 <br/>\
 - 기능 적합성 : 기능 성숙도, 기능 정확성, 기능 타당성 <br/>\
@@ -4425,7 +4426,7 @@ P 히스토그램 : Data 분포 <br/>\
 - 예비심사(문서위주) <br/>\
 - 본심사(문서,인터뷰,실제활동) <br/><br/>\
 # 수행절차 : 평가준비 > 평가수행 > 평가결과보고 <br/><br/>\
-# 성숙도 (<font color = "red">IMDMO, IPMDMO</font>)<br/>\
+# 성숙도 (IMDMO, IPMDMO)<br/>\
 <img src = "./img/CMMI_Level.png" style = "max-width:100%; hegiht:auto;"><br/><br/>\
 * 125회 응용 3교시 3번 <br/>\
 * 라이지움 87회 관리 2교시 1번\
@@ -4433,10 +4434,10 @@ P 히스토그램 : Data 분포 <br/>\
 
 // CMMI V2.0
 '# 정의 : DevOps, Agile을 반영한 기업 성숙도 평가모델 <br/>\
-- 소프트웨어, 제품 및 서비스 개발 조직의 공정 및 관리 능력을 향상시키고, <font color = "red">생산성과 효율적 행동을 장려</font>할 수 있도록 고안된 프로세스이자 모델 <br/><br/>\
+- 소프트웨어, 제품 및 서비스 개발 조직의 공정 및 관리 능력을 향상시키고, 생산성과 효율적 행동을 장려할 수 있도록 고안된 프로세스이자 모델 <br/><br/>\
 # Overview <br/>\
 <img src = "./img/CMMI2Overview.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 구성도 (<font color = "red">PC, Model (PA G P)</font>) <br/>\
+# 구성도 (PC, Model (PA G P)) <br/>\
 <img src = "./img/CMMI_Model.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 구성요소 <br/>\
 1. Model <br/>\
@@ -4481,7 +4482,7 @@ P 히스토그램 : Data 분포 <br/>\
 
 // ISO/IEC 33000
 '# 정의 : 프로세스 능력 평가를 위한 프로세스 심사모델의 구성을 전체 Framework를 제공하는 ISO 국제 표준 <br/><br/>\
-# 구성 (<font color = "red">평측모 / 요 / 문공공프성 / 가 / 1 2 3 4 10 20 30 40 60 80 14 </font>)<br/>\
+# 구성 (평측모 / 요 / 문공공프성 / 가 / 1 2 3 4 10 20 30 40 60 80 14 )<br/>\
 <img src = "./img/ISOIEC33000Overview.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 프로세스 수준 모델 <br/>\
 <img src = "./img/ISOIEC33000Model.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -4501,13 +4502,13 @@ P 히스토그램 : Data 분포 <br/>\
 5. Optimizing : 프로세스의 지속적 개선<br/><br/>\
 # 참조 모델 (ISO 12207) <br/>\
 <img src = "./img/ASPICE.png" style = "max-width:100%; height:auto;"><br/>\
-1. 기본적 생명주기(<font color = "red">ASE</font>) : <br/>\
+1. 기본적 생명주기(ASE) : <br/>\
 - Acquisition : 고객이 제품 및 서비스 획득 프로세스 <br/>\
 - Supply : 공급업체가 제품 및 서비스 제안, 인도 프로세스 <br/>\
 - Engineering : 고객의 요구사항 관리, 제품, 시스템 명세, 유지 관리 프로세스 <br/><br/>\
-2. 지원 생명주기(<font color = "red">S</font>) <br/>\
+2. 지원 생명주기(S) <br/>\
 - Support : 다른 프로세스 지원 구성 <br/><br/>\
-3. 조직 생명주기(<font color = "red">MIR</font>) <br/>\
+3. 조직 생명주기(MIR) <br/>\
 - Management : 프로젝트 관리자가 이행 활동 포함 프로세스 <br/>\
 - Improvement : 조직단위 수행되는 프로세스 정의, 전개, 심사, 개선 위한 프로세스 <br/>\
 - Reuse : 조직의 재사용 프로그램 체계적 활용 프로세스 <br/><br/>\
@@ -4637,7 +4638,7 @@ P 히스토그램 : Data 분포 <br/>\
 2. 기술부분 <br/>\
 - 시스템 요구사항 : 요구 규격 충족, 인터페이스 및 확장 가능 여부 <br/>\
 - 기능 요구사항 : 기능 요구,기대,제약사항 충족정도 <br/>\
-- 보안 요구사항 : <font color = "red">충족정도, 적정성, 구체성</font> <br/>\
+- 보안 요구사항 : 충족정도, 적정성, 구체성 <br/>\
 - 데이터 요구사항 : 데이터 전환 계획, 검증 방법, 오류 처리 <br/><br/>\
 3. 관리부분 <br/>\
 - 관리방법론 : 일정, 사업, 위험, 보안, 산출물 관리 <br/>\
@@ -4667,7 +4668,7 @@ P 히스토그램 : Data 분포 <br/>\
 - 반독점 행위 제재 <br/><br/>\
 # 표준 특허와의 관계 <br/>\
 <img src = "./img/FRAND_Patent.png" style = "max-width:100%; height:auto;"><br/>\
-<font color = "red">* 특허 Hold-Up : 특허권자 과도한 협상력 </font><br/><br/>\
+* 특허 Hold-Up : 특허권자 과도한 협상력 <br/><br/>\
 # 3원칙 <br/>\
 - FAIR : 라이선싱 조건, 반독과점/반경쟁법으로부터 나온 원칙 <br/>\
 - Reasonable : 라인선스 비용, 여러 라이선스 패키지 중 합리적 요율 적용 <br/>\
@@ -5020,7 +5021,7 @@ P 히스토그램 : Data 분포 <br/>\
 - 다형성 : 동적바인딩 <br/>\
 - 정보은닉 : 메시지 전달 (Getter, Setter) <br/>\
 - 상속성 : 개발 편리성 <br/><br/>\
-# 절차 (<font color = "red">요-객동기-시객구-테패평</font>) <br/>\
+# 절차 (요-객동기-시객구-테패평) <br/>\
 <img src = "./img/객체지향방법론_2.png" style = "max-width:100%; height:auto;">\
 ',
 
@@ -5124,7 +5125,7 @@ P 히스토그램 : Data 분포 <br/>\
 ',
 
 // 패키지 설계원리
-'# 종류 (<font color = "red">RCAS</font>)<br/>\
+'# 종류 (RCAS)<br/>\
 1. REP <br/>\
 - Reuse / Release Equivalency Principle <br/>\
 - 재사용되는 요소 = 릴리즈(배포) 요소, 패키지 단위 <br/><br/>\
@@ -5269,7 +5270,7 @@ P 히스토그램 : Data 분포 <br/>\
 // Agile 방법론
 '# 정의 : 사람 중심 효율적 시스템 개발 방법론 / 유연성 / 신속성<br/>\
 - 절차보다는 사람이 중심이 되어 변화에 유연하고 신속하게 적응하면서 효율적으로 시스템을 개발할 수 있는 방법론<br/><br/>\
-# Agile 개발 SW 선언 (<font color = "red">공계문계 개변동고</font>)<br/>\
+# Agile 개발 SW 선언 (공계문계 개변동고)<br/>\
 <img src = "./img/Agile_1.png" style = "max-width:100%; hegiht:auto;">\
 ',
 
@@ -5279,13 +5280,13 @@ P 히스토그램 : Data 분포 <br/>\
 - 의사소통과 TDD를 기반으로 짧은 개발 주기를 통해 소프트웨어를 생산하는 Agile 개발 프로세스의 대표적 개발 방법론 <br/><br/>\
 # Overview <br/>\
 <img src = "./img/XPOverview.png" style = "max-width:100%; hegiht:auto;"><br/><br/>\
-# 핵심 가치 (<font color = "red">용단커피존</font>) <br/>\
+# 핵심 가치 (용단커피존) <br/>\
 - 용기(Courage) : 요구사항 능동대처 <br/>\
 - 단순성(Simplicity) : 부가 기능 배제 <br/>\
 - 의사소통(Communication) : 이해관계자 <br/>\
 - 피드백(Feed Back) : 빠른 피드백, 일처리 <br/>\
 - 존중(Respect) : 상호간 존중 <br/><br/>\
-# 단계 (<font color = "red">유릴사스</font>)<br/>\
+# 단계 (유릴사스)<br/>\
 <img src = "./img/XP.png" style = "max-width:100%; hegiht:auto;"><br/>\
 - User story : 요구사항 수집 <br/>\
 - Release Planning : 전체 배포 계획 <br/>\
@@ -5518,9 +5519,9 @@ P 히스토그램 : Data 분포 <br/>\
 '# 정의 : 낭비 줄이는 개발 방법론 / 빠른 프로토타입 제작 / 신속한 고객 피드백 / CI / 신속 회피 <br/>\
 - 빠른 프로토타입 제작과, 신속한 고객 피드백 및 CI를 통해 시장에 대한 잘못된 가정을 신속히 검증 및 회피하여 낭비를 줄이는 개발방법론 <br/><br/>\
 # 암기 <br/>\
-# 낭비 (<font color = "red">운과대재과결움기</font>)<br/>\
+# 낭비 (운과대재과결움기)<br/>\
 - 운반, 과잉생산, 대기, 재고, 과잉처리, 결합, 움직임, 기술<br/><br/>\
-# 원칙(<font color = "red">낭배늦팀빠통전</font>) <br/>\
+# 원칙(낭배늦팀빠통전) <br/>\
 - 낭비의 재고 : 낭비 찾기, 가치 흐름도<br/>\
 - 배움 증폭 : 피드백, 반복 동기화, 집합기반 개발<br/>\
 - 늦은 결정 : 대안적 사고, 마지막 순간, 의사결정<br/>\
@@ -5561,7 +5562,7 @@ P 히스토그램 : Data 분포 <br/>\
 - 워크플로 가시화 : 일을 잘게 분할->backlog <br/>\
 - WP 제한 : 동시진행 가능 항목제한 <br/>\
 - 플로우의 측정 및 최적화 : 완료 평균시간, Cycle Time <br/><br/>\
-<font color = "red">* 매우 적은 규칙을 갖고 있는 방법이기에 다른 방법론 특히 스크럼과 함께사용 : TDD, CI도 함께 사용</font>\
+* 매우 적은 규칙을 갖고 있는 방법이기에 다른 방법론 특히 스크럼과 함께사용 : TDD, CI도 함께 사용\
 ',
 
 // Daily Build
@@ -5640,7 +5641,7 @@ P 히스토그램 : Data 분포 <br/>\
 // ATDD
 '# 정의 : TDD테스트 확장 개발 방법론 <br/>\
 - Acceptance Test Driven Development <br/>\
-- 소스 품질을 점검하는 TDD에서의 테스트를 더 확장하여 <font color = "red">전체 시스템 관점</font>에서의 품질을 검증하는 애자일 개발 방법론 <br/><br/>\
+- 소스 품질을 점검하는 TDD에서의 테스트를 더 확장하여 전체 시스템 관점에서의 품질을 검증하는 애자일 개발 방법론 <br/><br/>\
 # 프로세스 <br/>\
 - 사용자 스토리 작성 <br/>\
 - 인수(시스템) Testcase <br/>\
@@ -5651,7 +5652,7 @@ P 히스토그램 : Data 분포 <br/>\
 // BDD
 '# 정의 : TDD + DDD / SW 개발 방법 <br/>\
 - TDD에 DDD(Domain Driven Design)의 스타일(유비쿼터스 언어, 임베디드 도메인 전용 언어 등)을 적용하여 탄생한 SW개발 방법 <br/>\
-- 사용자의 스토리로부터 요구사항을 식별, 충족시키는 <font color = "red">Outside-in TDD</font>라고도 함 <br/><br/>\
+- 사용자의 스토리로부터 요구사항을 식별, 충족시키는 Outside-in TDD라고도 함 <br/><br/>\
 # Keyword : Outside-in, DDD, 유비쿼터스 언어, User Story, 시나리오 <br/><br/>\
 # 프로세스 <br/>\
 1. 행위 표현 스토리 작성 <br/>\
@@ -5671,13 +5672,13 @@ P 히스토그램 : Data 분포 <br/>\
 // DDD
 '# 정의 : 도메인 초점 / 모델 / 설계 개발 방법론 <br/>\
 - 도메인에 초점을 맞추어 도메인을 잘 표현한 모델을 만들고 모델이 최종 SW 개발에 까지 기여하도록 하는 설계(개발) 방법론 <br/><br/>\
-# 주요구성 (<font color = "red">매서공유씨</font>)<br/>\
+# 주요구성 (매서공유씨)<br/>\
 - Main Model : 구축하고자 하는 도메인의 요구사항을 유비쿼터스 언어를 통해 일관성있게 표현 <br/>\
 - Sub Model : 독립적인 업무단위, 프로젝트 팀 단위 로 메인 모델을 구체화하기 위해 분할 <br/>\
 - 공유커널 : 도메인 중심의 공유 업무, 횡단 관심사의 공통로직 등을 별도의 공유 커널로 분리 <br/>\
 - 유비쿼터스 언어 : Usecase, BPM등의 도메인에 대해 통일된 언어로 의사소통할 수 있는 언어 체계 <br/>\
 - CI : 지속적 통합, 공유커널의 변경시 발생할 수 있는 의존성 문제를 파악 및 대응하기 위한 지속적 통합 <br/><br/>\
-# 기본 구성요소 (<font color = "red">EVARS</font>)<br/>\
+# 기본 구성요소 (EVARS)<br/>\
 - Entity : 고유 식별값 / Employee <br/>\
 - Value Object : 데이터 표현(고유x) / Address<br/>\
 - Aggregate : 관련 객체 묶음 / 주문-고객-상품<br/>\
@@ -5921,7 +5922,7 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 // MLOps
 '# 정의 : Meachine Laerning + DevOps <br/>\
 - 데이터 과학 및 <bl>기계 학습의 솔루션 개발</bl>과 <bl>DevOps 기반의 전주기 운영통합</bl> 문화 기술 인프라 개념 결합 <br/><br/>\
-# 특징 (<font color = "red">오기예수</font>)<br/>\
+# 특징 (오기예수)<br/>\
 - ML 프로젝트 오해 : ML 프로젝트에서 모델링(Coding)은 비율상 작은 범위 <br/>\
 - 기술 부채 발생 : 모델 개발 과도 집중 <br/>\
 - 예측 불가능성 : 학습, 생산데이터 일치성 예측 불가 <br/>\
@@ -5942,7 +5943,7 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 '# 정의 :<bl>기계학습</bl> 모델 / <bl>학재관학</bl>/ <re>생명주기 관리 방법론</re><br/>\
 -기계 학습 모델의 학습,재현,버전관리,배포,재학습까지의 모델생명주기를 관리하는 기계 학습 모델관리 방법론<br/><br/>\
 *<re style="color:red;font:solid;text-decoration:underline red">모델링</re> : 모든 모델의 수명주기를 조율하고 AI의 롤아웃 및 유지 관리를 효과적으로 자동화하고 지속적으로 향상<br/>\
-*<font size="4" color="red" face="bold">운영</font> : 소프트웨어 엔지니어 또는 데이터 과학자와 IT 간의 사일로를 제거<br/><br/>\
+*<font size="4" color="red" face="bold">운영 : 소프트웨어 엔지니어 또는 데이터 과학자와 IT 간의 사일로를 제거<br/><br/>\
 *도입단계:<br/>\
 1) 현재상황파악<br/>\
 2) 변화의 촉진<br/>\
@@ -6057,10 +6058,10 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 
 // 하도급 금지
 '# 근거 : SW 산업 진흥법 제 20조의 3 <br/><br/>\
-# 주요 내용 (<font color = "red">하재사</font>)<br/>\
-- 하도급 제한 : 사업금액의 <font color = "red">50% 초과</font> 하여 하도급 금지 <br/>\
-- 재 하도급 금지 : 하도급 받은 SW 사업자의 <font color = "red">재하도급</font> 금지 <br/>\
-- 하도급 사전 승인 : 사업비 일정비율 초과하는 경우 <font color = "red">공동 수급체</font>로 참여유도 <br/><br/>\
+# 주요 내용 (하재사)<br/>\
+- 하도급 제한 : 사업금액의 50% 초과 하여 하도급 금지 <br/>\
+- 재 하도급 금지 : 하도급 받은 SW 사업자의 재하도급 금지 <br/>\
+- 하도급 사전 승인 : 사업비 일정비율 초과하는 경우 공동 수급체로 참여유도 <br/><br/>\
 # 한계점 <br/>\
 - 하도급 제한, 재 하도급 금지 : 민간 사업비 적용, 민간 실태 파악 불가능 <br/>\
 - 하도급 사전 승인 : 탈법상황 발생, 근로환경 관점 부재 <br/>\
@@ -6090,11 +6091,11 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 // [정책]- 산업의 디지털 전환 및 지능화 촉진법
 '#개요 : 산업현장 축적데이터 기반 생산 효율 강화, 권리 통한 신산업 진출<br/><br/>\
 #법안 상세내용<br/>\
-1. 산업데이터 활성화로 <font color = "red">디지털전환 및 지능화 촉진</font> > 국가경제발전 이바지<br/>\
-2. 산업데이터와 지능정보기술 <font color = "red">새로운 부가가치 창출</font> > 산업 디지털 전환<br/>\
-9. 산업데이터 신규 생성자에게 <font color = "red">사용/수익권리 부여</font> > 권리침해방지를 위한 보호원칙제시<br/>\
-10. 산업부 장관은 산업데이터 <font color = "red">생성, 활용 환경 보장</font> / 지원<br/>\
-11,12. 산업데이터 활용지원 <font color = "red">전문회사 등록 의무 부여</font> 지원사항 규정/<font color = "red">표준화</font><br/><br/>\
+1. 산업데이터 활성화로 디지털전환 및 지능화 촉진 > 국가경제발전 이바지<br/>\
+2. 산업데이터와 지능정보기술 새로운 부가가치 창출 > 산업 디지털 전환<br/>\
+9. 산업데이터 신규 생성자에게 사용/수익권리 부여 > 권리침해방지를 위한 보호원칙제시<br/>\
+10. 산업부 장관은 산업데이터 생성, 활용 환경 보장 / 지원<br/>\
+11,12. 산업데이터 활용지원 전문회사 등록 의무 부여 지원사항 규정/표준화<br/><br/>\
 #대응전략<br/>\
 (정책적측면) 산업데이터 국제표준화, 산업데이터 활용지원 정부지원 강화, 산업데이터 활용 Best Practice 발굴<br/>\
 (기술적측면) 산업데이터+신기술(AI, 빅데이터, 마이닝 활용), 데이터품질관리 정량화(인공지능 데이터 품질관리 참조) \
@@ -6181,7 +6182,7 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 // 연동계획
 '# 정의 : 반복적 계획 기법 / 점진적 상세화 / 가까운시기 상세 / 미래 작업 상위 수준 계획 <br/>\
 - 프로젝트의 특성 중 하나인 점진적 상세화(Progressive elaboration)와 비슷한 특징을 지닌 개념으로 가까운 시기에 완료할 작업은 상세히 계획하고, 미래의 작업은 상위 수준에서 계획하는 반복적인 계획 기법<br/><br/>\
-# 절차 (<font color = "red">마분W관실</font>)<br/>\
+# 절차 (마분W관실)<br/>\
 - 1단계 : <bl>마스터 플랜</bl> 계획 <br/>\
 - 2단계 : <bl>분류 수준</bl> 계획 <br/>\
 - 3단계 : <bl>WBS 단위</bl> 계획 <br/>\
@@ -6236,13 +6237,13 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 - Project Management Office <br/>\
 - 성공적인 프로젝트 수행을 위해 프로젝트의 자원, 인력, 일정 등을 체계적으로 관리하기 위해 조직된 프로젝트 전담 관리 조직 <br/><br/>\
 # 구성요소 <br/>\
-1. 관리적 측면 (<font color = "red">전재일고형</font>)<br/>\
+1. 관리적 측면 (전재일고형)<br/>\
 - 전문 PM : 전체 프로젝트 진행 관리 <br/>\
 - 재무 관리자 <br/>\
 - 일정 관리자 <br/>\
 - 고객인수 담당자 <br/>\
 - 형상 관리자 <br/><br/>\
-2. 기술적 측면 (<font color = "red">품개형</font>)<br/>\
+2. 기술적 측면 (품개형)<br/>\
 - 품질 관리자 <br/>\
 - 개발기술 담당자 : 전문 Skill, Architecture <br/>\
 - 형상관리 위원회<br/><br/>\
@@ -6294,9 +6295,9 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 '# 정의 : 3자 관점의 검증활동 <br/>\
 - 프로젝트의 품질 향상 목적 <br/>\
 - 감리발주기관 및 피감리인의 이해관계로부터 독립된자가 제3자적 관점에서 정보시스템의 효율성을 향상시키고 안전성을 확보하기 종합적으로 점검하고 문제점을 개선하도록 하는 활동 <br/><br/>\
-# 감리대상 (전자정부법 57조) (<font color = "red">대공5필</font>) <br/>\
-- 의무감리 : 사업비 <font color = "red">5</font>억이상, <font color = "red">대</font>국민 서비스, 민원 업무, <font color = "red">공</font>통 구현 / 시행령 71-1,2 <br/>\
-- 기관장 판단 : EA, ISP, SE, OP 등에 감리 시행 <font color = "red">필</font>요성 인정되는 경우 <br/><br/>\
+# 감리대상 (전자정부법 57조) (대공5필) <br/>\
+- 의무감리 : 사업비 5억이상, 대국민 서비스, 민원 업무, 공통 구현 / 시행령 71-1,2 <br/>\
+- 기관장 판단 : EA, ISP, SE, OP 등에 감리 시행 필요성 인정되는 경우 <br/><br/>\
 # 감리프레임워크 (시영관) <br/>\
 - 감리시점 : ITA, ISP, SD, DB, OP, MA <br/>\
 - 감리영역(세품사) : 세부사항, 품질보증활동, 사업관리 <br/>\
@@ -6325,7 +6326,7 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 ',
 
 // 21년 개정사항
-'# 정보시스템 감리기준 고시 개정 사항 (<font color = "red">대제외</font>)<br/>\
+'# 정보시스템 감리기준 고시 개정 사항 (대제외)<br/>\
 <img src = "./img/Audit21Upgrade.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 개정사항, 별지서식 수정 (절명항수보) <br/>\
 - 감리수행 절차 변경 : 예현시 / 정보개발 사업(요설종-각 단계별 예현시) <br/>\
@@ -6337,7 +6338,7 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 ',
 
 // 감리 계획서, 보고서 작성 원칙
-'# 작성 원칙 (<font color = "red">유간논명 완정객적준</font>) <br/>\
+'# 작성 원칙 (유간논명 완정객적준) <br/>\
 - 유용성 : 목적 달성 정보제공 <br/>\
 - 간결성 : 간략 표현 <br/>\
 - 논리성 : 점검 결과 ~ 종합 의견 서로 연결 <br/>\
@@ -6443,19 +6444,19 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 // 운영 감리
 '# 정의 : 개발 완료 후 / 유지보수 제외 / 정상적 운영<br/>\
 - 개발 완료 후 인도된 정보시스템에 대해 유지보수를 제외한 운영기획 및 관리, 모니터링, 테스트, 사용자 지원을 포함한 정보시스템의 정상적 운영에 필요한 제반 활동 <br/><br/>\
-# 점검 분야 (<font color = "red>개인</font>)<br/>\
-- 개발 소프트웨어(<font color = "red">릴테장</font>) : 릴리즈 및 배포, 테스트 지원, 장애 <br/>\
-- 인프라(<font color = "red">관보연용</font>) : 서비스 수준  관리, 서비스 보고, 서비스 연속성, 용량 <br/><br/>\
+# 점검 분야 (<font color = "red>개인)<br/>\
+- 개발 소프트웨어(릴테장) : 릴리즈 및 배포, 테스트 지원, 장애 <br/>\
+- 인프라(관보연용) : 서비스 수준  관리, 서비스 보고, 서비스 연속성, 용량 <br/><br/>\
 * KPC 92회 2교시 1번\
 ',
 
 // 유지보수 감리
 '# 정의 : 개발, 구축 완료 후 / 추가사항 / 개선 <br/>\
 - 정보시스템 개발, 구축 완료 후 기능변경, 추가, 보완, 폐기, 사용방법의 개선, 문서보완 등의 정보시스템 개선에 필요한 제반 활동 <br/><br/>\
-# 점검 분야 (<font color = "red">개상인</font>)<br/>\
-- 개발 소프트웨어(<font color = "red">모장지성</font>) : 모니터링, 장애처리, 사용자 지원, 성능관리 <br/>\
-- 상용 소프트웨어(<font color = "red">유표업일</font>) : 유지보수 계획, 표준 및 절차, 업그레이트 및 패치, 일상지원 <br/>\
-- 인프라(<font color = "red">OH예긴</font>) : OS 업그레이드 및 패치, HW 업그레이드, 예방점검, 긴급/장애처리 <br/><br/>\
+# 점검 분야 (개상인)<br/>\
+- 개발 소프트웨어(모장지성) : 모니터링, 장애처리, 사용자 지원, 성능관리 <br/>\
+- 상용 소프트웨어(유표업일) : 유지보수 계획, 표준 및 절차, 업그레이트 및 패치, 일상지원 <br/>\
+- 인프라(OH예긴) : OS 업그레이드 및 패치, HW 업그레이드, 예방점검, 긴급/장애처리 <br/><br/>\
 * KPC 92회 2교시 1번\
 ',
 
@@ -6887,7 +6888,7 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 
 // SW Visualization
 '# 정의 : 프로세스 관리 목적 / 시각화 문서화 / SW 개발 품질관리 수행 방법 <br/>\
-- 소스코드와 개발 프로세스를 관리하는 것을 목적으로 하고, <font color = "red">시각화</font>와 <font color = "red">문서화</font>를 그 방안으로 하여 SW 개발 품질관리를 수행하는 전략 <br/><br/>\
+- 소스코드와 개발 프로세스를 관리하는 것을 목적으로 하고, 시각화와 문서화를 그 방안으로 하여 SW 개발 품질관리를 수행하는 전략 <br/><br/>\
 <a href = "./doc/SWV.pdf">참고문헌</a><br/><br/>\
 # Process <br/>\
 <img src = "./img/SWV_Overview.png" style = "max-width:100%; height:auto;"><br/>\
@@ -6967,7 +6968,7 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 # 로드맵 <br/>\
 <img src = "./img/SW_2021.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # SW 진흥법 소관 항목 <br/>\
-<font color = "blue">1. 과업심의 위원회</font> <br/>\
+<font color = "blue">1. 과업심의 위원회 <br/>\
 - 개요 : 소프트웨어 과업 내용 확정 및 변경 따른 금액,기간 조정 심의, 계약 반영 <br/>\
 - 법적근거 : 50조 <br/>\
 - 적용대상 : 국가기관 등이 발주하는 소프트웨어 사업 <br/>\
@@ -6985,7 +6986,7 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 4. 하도급 제한 <br/>\
 - 개요 : 하도급 대해 사업금액 50% 초과 제한, 재하도급 금지, 발주기관 승인 <br/>\
 - 법적근거 : 51조 <br/><br/>\
-<font color = "blue">5. SW사업 작업장소(원격개발)</font> <br/>\
+<font color = "blue">5. SW사업 작업장소(원격개발) <br/>\
 - 개요 : 원격개발 활성화, 유연한 근무 환경 조성, 공급자 제시 장소 우선 검토 <br/>\
 - 법적근거 : 49조 3항 <br/>\
 - 유의사항 : 장소, 설비, 환경, 비용 명확 협의 / 무상 제공 간주 <br/><br/>\
@@ -7010,7 +7011,7 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 10. 협상에 의한 계약 방식 적용 <br/>\
 - 개요 : 협상에 의한 계약 체결방식 or 경쟁적 대화 의한 체결방식 우선 적용 <br/>\
 - 법적근거 : 49조 1항 <br/><br/>\
-<font color = "blue">11. 기술능력 평가비중(90%) 도입 </font><br/>\
+<font color = "blue">11. 기술능력 평가비중(90%) 도입 <br/>\
 - 개요 : 제안서 평가시 종합 평가, 기술 평가 비율 90% <br/>\
 - 법적근거 : 행정기관 및 공공기관 정보시스템 구축 운영지침 제 18조 <br/>\
 - 유의사항 : 세부평가기준 지정가능, 80:20 적용 경우 HW비중 50% 이상, 내부 규정 명시 <br/><br/>\
@@ -7024,16 +7025,16 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 - 법적근거 : 52조 <br/>\
 - 적용대상 : 총사업예산 20억원 이상 소프트웨어 개발사업 <br/>\
 - 유의사항 : 저작권법 침해 의한 기술협상 등 과정 활용 지양, 발주기관 자유 활용 가능 <br/><br/>\
-<font color = "blue">14. 요구사항 상세화</font> <br/>\
+<font color = "blue">14. 요구사항 상세화 <br/>\
 - 개요 : 제안요청서 세부적 요구사항 명확 정하여 명시,공개 <br/>\
 - 적용대상 : SW개발 사업, 시스템운용환경 구축사업, 유지관리 사업, ISP <br/>\
 - 도출과정 : 비즈니스 > 사용자 > SW 요구사항 > SW 요구사항 명세 <br/><br/>\
-<font color = "bleu">15. SW 사업 적정 사업기간 산정</font> <br/>\
+<font color = "bleu">15. SW 사업 적정 사업기간 산정 <br/>\
 - 개요 : 사업수행에 필요한 적정 사업기간 산정 <br/>\
 - 법적근거 : 45조 <br/>\
 - 적용대상 : SW개발과 관련된 과업이 포함된 사업 <br/>\
 - 적용예외 : ISP, BPR(업무재설계), 운영유지관리, 시스템 운영 환경구축 등 SW 개발 미포함 사업 <br/><br/>\
-<font color = "blue">16. 투입인력 요구 및 관리 금지 </font><br/>\
+<font color = "blue">16. 투입인력 요구 및 관리 금지 <br/>\
 - 개요 : 기능점수 or SLA 방식 산정 한 경우 투입 인력 사항 요구,관리 불가 <br/>\
 - 법적근거 : 소프트웨어사업 계약 및 관리감독에 관한 지침 제 11조 3항 <br/>\
 - 적용대상 : SW 개발비, 재개발비 사업대가 FP방식 or SLA 방식 산정 사업 <br/>\
@@ -7043,7 +7044,7 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 - 법적근거 : 43조 <br/>\
 - 적용대상 : SW 기획, 구축, 유지보수, 정보화사업 등 공공SW사업 <br/>\
 - 적용예외 : 상용소프트웨어구매,설치 및 유지관리, 국가안보,치안,외교, 민간투자형 SW사업, 단일 기관 내부사용 목적, DB구축, 단순 유지 관리 사업 <br/><br/>\
-<font color = "blue">18. 소프트웨어사업정보 제출 </font><br/>\
+<font color = "blue">18. 소프트웨어사업정보 제출 <br/>\
 - 개요 : SW사업 실적 데이터 축적, SW사업정보 저장소 운영 통한 예산수립, 대가산정 참고 제공 <br/>\
 - 법적근거 : 46조 <br/>\
 - 적용대상 : SW 개발 및 재개발 사업, 유지보수 및 운영 사업 <br/><br/>\
@@ -7064,7 +7065,7 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 4. SW 개발사업 + SW 유지관리, 운영 사업 <br/>\
 - SW 유지관리, 운영 사업에 포함된 소규모 개발 사업 : 별도 산정 불필요 <br/>\
 - SW 개발 사업 완료 이후 유지관리,운영 사업 : 개발 사업기간 + 유지관리,운영 사업기간 <br/><br/>\
-# 절차 (<font color = "red">FP / 사업기초 자료 / 유사사업 자료 / 기타 특이사항 </font>)<br/>\
+# 절차 (FP / 사업기초 자료 / 유사사업 자료 / 기타 특이사항 )<br/>\
 1. 사전준비 <br/>\
 - FP 산정 : 대상업무, 요구사항 상세화, FP(정통,간이법) 결정 <br/>\
 - 사업기초자료 수집 : 위원간 편차 목표(15% 이내) <br/>\
@@ -7075,8 +7076,8 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 - 위원회 구성 세부사항 : 외부인력 과반수 이상, 성별고려 위촉(조교수, 5급 공무원 or 상응 공공기관, SWE 6년 경력, 학식 경험, 국가기관장 인정) <br/><br/>\
 3. 위원별 산정서 작성 (검토 후 위원별 제출) <br/>\
 - 기능점수 산정표를 활용한 산정서 작성 : FP, 1인 생산성, 기간, 인력 산정법 타당성 <br/>\
-- 사업기초자료를 활용한 산정서 작성 : 사업 설명, <font color = "red">이해 논의</font>, 기간 추정 <br/>\
-- 유사사업자료를 활용한 산정서 작성 : 사업 설명, 논의, <font color = "red">차이분석</font>, 기간 추정<br/>\
+- 사업기초자료를 활용한 산정서 작성 : 사업 설명, 이해 논의, 기간 추정 <br/>\
+- 유사사업자료를 활용한 산정서 작성 : 사업 설명, 논의, 차이분석, 기간 추정<br/>\
 - 기타 특이사항 산정서 작성 : 영향 미치는 특이사항 <br/><br/>\
 4. 의견교환 및 조정 <br/>\
 - 기능점수 산정표 기반 사업기간 의견교환 및 조정 : 위원별 동일 확인 <br/>\
@@ -7123,7 +7124,7 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 - 조달청 종합 쇼핑몰 등록 SW 포함된 경우(5천만원 미만 포함) <br/>\
 - 동일 SW 다량 구매 5천만원 초과 하는 경우 (5천만원 이상 소프트웨어로 간주) <br/>\
 - SW 품질 인증(GS), CC, NEP, NET 및 국정원 검증/지정 SW가 포함된 경우 <br/><br/>\
-# 예외대상 (<font color = "red">비지효</font>)<br/>\
+# 예외대상 (비지효)<br/>\
 - 현저한 비용상승 초래 : 토압 불가능, 비용상승 초래 <br/>\
 - 현저한 기간 지연 : 사업기간 내 완성 불가 <br/>\
 - 비효율적 판단 : 행정업무 증가 외 직접 구매 공급 비효율적 판단 <br/><br/>\

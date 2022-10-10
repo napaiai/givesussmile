@@ -40,7 +40,7 @@ var question = question.concat(
 '<re>[성과관리 방법]- BSC</re>',
 '<re>[성과관리 방법]- BSC 전략맵</re>',
 '<re>[성과관리 방법]-IT-BSC</re>',
-'<re>[경영전략]-[투자관리]-[투자효과분석]-IT-ROI</re>',
+'(128관,1-2)<gr>[경영전략]-[투자관리]-[투자효과분석]-IT-ROI</gr>',
 '<re>ESG 경영</re>',
 '<re>[성과관리 방법]- MBO</re>',
 '<re>[성과관리 방법]- OKR</re>',
