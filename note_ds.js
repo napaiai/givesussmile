@@ -305,7 +305,7 @@ var answer = answer.concat(
 - 스스로 인지하고 발전하는 IT 인프라인 하드 인프라와 교육, 안전, 복지 등 시민의 삶을 윤택하게 하는 IT, 비IT를 망라한 각종 서비스인 소프트 인프라가 조화를 이루어 모든 시민이 지능형 서비스를 이용할 수 있도록 설계된 신개념 도시<br/><br/>\
 # 통합 플랫폼 <br/>\
 <img src = "./img/SmartCityPortalPlatform.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 서비스 유형 (<font color = "red">교생환경안에</font>)<br/>\
+# 서비스 유형 (교생환경안에)<br/>\
 1. 교통 <br/>\
 - 스마트 파킹 <br/>\
 - V2I 자율주행차 운영 고도화 <br/>\
@@ -332,7 +332,7 @@ var answer = answer.concat(
 - 빌딩 통합 에너지 관리 <br/>\
 - 스마트 그리드 <br/>\
 - 전기차 충전 인프라 <br/><br/>\
-# 5대 기술 (<font color = "red">폴횡버공드</font>)<br/>\
+# 5대 기술 (폴횡버공드)<br/>\
 - 스마트 폴 : 가로등, 폐쇄회로와 센서를 통합한 지주 <br/>\
 - 스마트 횡단보도 : 사고예방을 위해 보행자와 운전자에게 안전 정보를 보내는 서비스 <br/>\
 - 스마트 버스 정류장 : 운행 정보 제공, 폭염,혹한 상황 편리성 지원 <br/>\
@@ -340,7 +340,7 @@ var answer = answer.concat(
 - 자율항행 드론 : 도시 현황 모니터링, 재해 예방, 물류 지원 서비스 <br/><br/>\
 # 챌린지 사업, 정책 변화 <br/>\
 <img src = "./img/KoreaSmartChallenge.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 활성화 모델 (<font color = "red">오봄봇보</font>)<br/>\
+# 활성화 모델 (오봄봇보)<br/>\
 - OBM(Open Business Model) : 모든 사업자와 함께 구축 <br/>\
 - BOM(Build Operate Manage) : 구축,유지,제공 계약 월단위 지불 <br/>\
 - BOT(Build Operate Transfer) : 아웃소싱 후 직접 유지관리 <br/>\
@@ -369,15 +369,15 @@ var answer = answer.concat(
 - 개요 : 이해관계자들게 정보 제공 <br/><br/>\
 # 대응기술 <br/>\
 1. 관리적 <br/>\
-- 보안 대응 체계 : 보안 오케스트레이션, <font color = "red">SOAR(자동화 및 복구)</font> <br/>\
+- 보안 대응 체계 : 보안 오케스트레이션, SOAR(자동화 및 복구) <br/>\
 - 취약점 패치 : 패치 관리, 서버 안전 인증 <br/><br/>\
 2. 물리적 <br/>\
-- 안전한 부팅 : 펌웨어 유효성 검사, <font color = "red">UEFI</font> 적용 <br/>\
+- 안전한 부팅 : 펌웨어 유효성 검사, UEFI 적용 <br/>\
 - 안전한 통신 : BlueTooth(4.2), Zigbee(CCM 128Bit 이상), Wifi(WPA2) <br/><br/>\
 3. 기술적 <br/>\
 - 인증 및 접근 제어 : 격리 프로세스, 경량화 IoT 장비(패시브 형태 사용) <br/>\
-- 데이터 보호 : CRC(x), <font color = "red">SHA-2이상</font> 권장 <br/>\
-- <font color = "red">블록체인</font> : 데이터 통합 관리 \
+- 데이터 보호 : CRC(x), SHA-2이상 권장 <br/>\
+- 블록체인 : 데이터 통합 관리 \
 ',
 
 // 지능형 CCTV
@@ -390,7 +390,7 @@ var answer = answer.concat(
 # 전망 <br/>\
 - 범죄 수사를 위한 증거 차원을 넘어 범죄 징후 사전 예측 수준으로 발전 <br/>\
 - 빅데이터 기술과 연계하여 범죄 예측 모델로 활용 <br/><br/>\
-# 기술 종류 (<font color ="red">대차범</font>)<br/>\
+# 기술 종류 (대차범)<br/>\
 1. 대인 영상 기술 <br/>\
 - 얼굴 인식 기술 : 딥러닝, GAN(Generative Adverserial Network) 활용 얼굴인식 기술 (인간개입x)<br/>\
 - 사람 재식별 기술 : 촬영된 영상 통한 자동 분석 기술 <br/>\
@@ -483,17 +483,17 @@ var answer = answer.concat(
 - 고객 참여 : 소비 정보 통합, 전력망 설계 / 분산전원(DER) 관리 <br/>\
 - 전력 마켓 : 전력 요구 거래 및 스마트 미터 <br/><br/>\
 # 기술요소 <br/>\
-1. 전력 운영 측면 (<font color = "red">운-ESD / A-계반관 / H- ZP / D-DA</font>) <br/>\
-- 운영(ESD) : <font color = "red">E</font>MS(급전종합자동화 설비), <font color = "red">S</font>CADA(원격감시제어설비), <font color = "red">D</font>AS(배전 자동화 시스템) <br/>\
-- AMI(계반관)  : 지능형 <font color = "red">계</font>량, 수요 <font color = "red">반</font>응기기, 지능형 <font color = "red">관</font>리 <br/>\
-- HAN(ZP) : <font color = "red">Z</font>igbee, <font color = "red">P</font>LC(Power Line Communication) <br/>\
-- DR(Demand Response)(DA) : <font color = "red">D</font>SEM(수요측 에너지 관리), <font color = "red">A</font>FDD(자동화된 오류검출과 진단) <br/>\
-<font color = "red">* EMS : Energy Management System <br/>\
+1. 전력 운영 측면 (운-ESD / A-계반관 / H- ZP / D-DA) <br/>\
+- 운영(ESD) : EMS(급전종합자동화 설비), SCADA(원격감시제어설비), DAS(배전 자동화 시스템) <br/>\
+- AMI(계반관)  : 지능형 계량, 수요 반응기기, 지능형 관리 <br/>\
+- HAN(ZP) : Zigbee, PLC(Power Line Communication) <br/>\
+- DR(Demand Response)(DA) : DSEM(수요측 에너지 관리), AFDD(자동화된 오류검출과 진단) <br/>\
+* EMS : Energy Management System <br/>\
 * SCADA : Supervisory Control And Data Acquisiton <br/>\
 * DAS : Distribution Automation System <br/>\
 * DSEM : Demand Side Energy Management <br/>\
-* AFDD : Automated Fault Detection and Diagnotics </font><br/><br/>\
-2. 보안 및 지능화 측면 (<font color = "red">보자충</font>)<br/>\
+* AFDD : Automated Fault Detection and Diagnotics <br/><br/>\
+2. 보안 및 지능화 측면 (보자충)<br/>\
 - 보안 매커니즘 : 암호화, 인증/접근통제, 침해탐지/대응/복구, DoS 탐지 <br/>\
 - 자가치유 매커니즘 : 센서 네트워크, 자가치유 알고리즘 <br/>\
 - 신재생 에너지 연계 및 충전 기술 : 대용량 배터리 재충전, 전력 공급 장치 <br/><br/>\
@@ -508,7 +508,7 @@ var answer = answer.concat(
 - 에너지를 효율적으로 관리할 수 있는 시스템 및 서비스로, 소비자에게 실시간으로 에너지 사용량에 대한 정보가 제공되어 소비자 스스로 혹은 자동화된 기기 제어를 통해 에너지 사용을 제어하는 인프라 <br/><br/>\
 # 구성도 <br/>\
 <img src = "./img/AMI.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 구성요소 (<font color = "red">HNWU</font>)<br/>\
+# 구성요소 (HNWU)<br/>\
 1. 상위 시스템 <br/>\
 - MDMS (Meter Data Management System) : 미터링 데이터 관리 <br/>\
 - CIS (Customer Information System) : 고객이 관리와 과금의 주체가 되는 시스템 <br/><br/>\
@@ -611,7 +611,7 @@ var answer = answer.concat(
 - DCS : 연속 공정 제어 용도 / 지리적 제한 현장 (대규모) <br/>\
 - PLC : 불연속 공정 제어 용도 / 지리적 제한 현장 (소규모)<br/>\
 - ESD : 공장 안전 보장 / 위험 시설 지역에 사용 <br/><br/>\
-# ICS Framework (ISA-99 Perdue 모형) (<font color = "red">EBIMABP</font>)<br/>\
+# ICS Framework (ISA-99 Perdue 모형) (EBIMABP)<br/>\
 <img src = "./img/ISA-99.png" style = "max-width:100%; height:auto;"><br/>\
 - 5 : Enterprise <br/>\
 - 4 : Business Planning, Logistics <br/>\
@@ -620,9 +620,9 @@ var answer = answer.concat(
 - 2 : Area Supervisory <br/>\
 - 1 : Basic Control <br/>\
 - 0 : Process <br/><br/>\
-<font color = "red">* HMI(Human Machine Interface) : 사용자, 시스템간 통신 대시보드 <br/>\
+* HMI(Human Machine Interface) : 사용자, 시스템간 통신 대시보드 <br/>\
 * PLC(Programmable Logic Controller) : 시퀀스 제어 + 수치 연산 제어장치 <br/>\
-* RTU(Remote Terminal Unit) : 공정에 설치된 센서와 직접 연결장치</font><br/><br/>\
+* RTU(Remote Terminal Unit) : 공정에 설치된 센서와 직접 연결장치<br/><br/>\
 # 관련 표준, 문서 <br/>\
 - IEC 62443 : 산업 네트워크 및 시스템 보안 <br/>\
 - NIST CSF : 사이버보안 프레임 워크 <br/>\
@@ -634,8 +634,8 @@ var answer = answer.concat(
 // Purdue Model
 '# 정의 : ISA-99 / PERA / ICS 보안 참조 모델 <br/>\
 - ISA-99에서 제정한 PERA에서 발생된 6개 계층으로 구성된 보안 아키텍처 구조 기반의 ICS 보안 참조 모델 <br/>\
-<font color = "red">* ISA : International Society of Automation <br/>\
-* PERA : Purde Enterprise Reference Architecture </font><br/><br/>\
+* ISA : International Society of Automation <br/>\
+* PERA : Purde Enterprise Reference Architecture <br/><br/>\
 # 등장배경 <br/>\
 - ICS 사이버 공격 증가 : 미국 콜로니얼 파이프라인 랜섬웨어 공격 <br/>\
 - 스마트팩토리 확산 : 전통 OT망 전용 프로토콜 -> IT 망 연계 <br/><br/>\
@@ -644,29 +644,29 @@ var answer = answer.concat(
 - NW 계층 기반 : 제조 IT, OT 망 기반 모델 <br/><br/>\
 # 계층 <br/>\
 <img src = "./img/PurdueModel.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 계층별 특징 (<font color = "red">PBSM I BE</font>)<br/>\
-0. Process <font color = "red">Zone</font> : Sensor, Actuator, Pump, Robot <br/>\
-1. Basic Control <font color = "red">Zone</font> : Batch Control, Distribute Control, Continuous Process <br/>\
-2. Area Supervisory Control <font color = "red">Zone</font> : HMI, EWS 모니터링 및 관리 <br/>\
+# 계층별 특징 (PBSM I BE)<br/>\
+0. Process Zone : Sensor, Actuator, Pump, Robot <br/>\
+1. Basic Control Zone : Batch Control, Distribute Control, Continuous Process <br/>\
+2. Area Supervisory Control Zone : HMI, EWS 모니터링 및 관리 <br/>\
 3. Site Manufacturing Operation and Control : 시설 전체 제어, 모니터링, Domain Controller Server, Web Proxy Server, DB Server <br/>\
 IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
-4. Site Business Planning and Logistics <font color = "red">Network</font> : 생산정보 통계 보고, 주문 등 비즈니스 데이터 ICS/OT 시스템 분배 <br/>\
-5. Enterprise <font color = "red">Network</font> : ICS 네트워크와 연결 기반 공장 설비 상태, 재고, 수요 파악, 비즈니스 결정 필요한 데이터 제공 영역 <br/>\
-<font color = "red">* EWS : Engineering Workstation <br/>\
-* IDMZ : Industrial Demilitarized Zone </font><br/><br/>\
+4. Site Business Planning and Logistics Network : 생산정보 통계 보고, 주문 등 비즈니스 데이터 ICS/OT 시스템 분배 <br/>\
+5. Enterprise Network : ICS 네트워크와 연결 기반 공장 설비 상태, 재고, 수요 파악, 비즈니스 결정 필요한 데이터 제공 영역 <br/>\
+* EWS : Engineering Workstation <br/>\
+* IDMZ : Industrial Demilitarized Zone <br/><br/>\
 * 125회 관리 4교시 6번\
 ',
 
 // Smart Factory
 '# 정의 : 자동화 + 지능화 공장 <br/>\
 - ICT 기술을 기반으로 제조 전 과정을 자동화, 지능화하여, 최소의 비용 및 시간으로 제품을 생산하는 미래형 공장 <br/>\
-<font color = "red">* 고객 맞춤 : Mass Customization, 비스포크 </font><br/><br/>\
+* 고객 맞춤 : Mass Customization, 비스포크 <br/><br/>\
 <img src = "./img/SmartFactory.png" style = "max-width:100%; height:auto;"><br/>\
 <img src = "./img/ISA95.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 특징 <br/>\
 - 4M + 1E 디지털화 : Man, Machinery, Material, Method + Environment <br/>\
 - IT, OT, AT 결합 <br/><br/>\
-# 기술요소 (<font color = "red">현운제사</font>)<br/>\
+# 기술요소 (현운제사)<br/>\
 1. 공장/현장 자동화 관리 <br/>\
 - PLC : 프로그램을 통한 외부장치 자동제어 및 감시 <br/>\
 - HMI : PLC등 제어 유닛 단위로 감시, 제어 기기 <br/><br/>\
@@ -684,7 +684,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - Cloud Based App : 클라우드 기반 데이터 처리 및 분석 통한 공정 설계 실행 <br/>\
 - AI : 머신러닝, 딥러닝 등을 통한 데이터 수집,학습,분석 <br/>\
 - Big Data : NoSQL, Hadoop, Spark, Storm 활용 데이터 처리 <br/><br/>\
-# 한국형 스마트팩토리 5단계 수준 (<font color = "red">자최제모점</font>) <br/>\
+# 한국형 스마트팩토리 5단계 수준 (자최제모점) <br/>\
 5. 고도화(자율운영) : 전구간 자율 진행 / 인공지능, AR/VR, CPS <br/>\
 4. 중간2(최적화) : 시뮬레이션 통한 사전 대응 / 센서 제어기, 최적화 도구 <br/>\
 3. 중간1(제어) : 수집된 정보 분석, 제어 / 센서, 분석도구 <br/>\
@@ -718,7 +718,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - Manufacturing Execution System <br/>\
 - Manufacturing Enterprise Solutions Association <br/>\
 - ERP만으로 제조현장 관리 한계로 인해 등장한 MES의 표준 기능 제시 목록 <br/><br/>\
-# 목록 (<font color = "red">자운생문 데인품공 설제성</font>)<br/>\
+# 목록 (자운생문 데인품공 설제성)<br/>\
 1. 자원할당과 상황(Resource Allocation and Status) <br/>\
 2. 운영/상세일정 계획(Detail Scheduling) <br/>\
 3. 생산단위별 반송(Dispatching Production Units) <br/>\
@@ -740,20 +740,20 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - International Society of Automation <br/>\
 - ERP와 MES 등의 시스템 통합 운영위한 인터페이스와 객체 모델 제시, 용어 정의한 MES 참조모델 표준 <br/><br/>\
 <img src = "./img/ISA95ISA88.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# Framework (<font color = "red">BPL MOM MS SM PP</font>)<br/>\
+# Framework (BPL MOM MS SM PP)<br/>\
 <img src = "./img/ISA95Framework.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 구성 (<font color = "red">용속운속운운</font>) <br/>\
-- Part 1 : <font color = "red">Level 4, Level 3</font> Interface, ERP,MES <font color = "red">용어 정의, 기본 모형 제시</font> <br/>\
-- Part 2 : <font color = "red">Part 1</font>에서 제시된 ERP MES간 표준화 정보흐름 표현 위한 <font color = "red">객체 모형과 속성 제시</font> <br/>\
-- Part 3 : <font color = "red">Level 3</font>의 제조 <font color = "red">운영활동 정의</font> <br/>\
-- Part 4 : <font color = "red">Part 3</font>에서 제시된 제조 운영활동 관련된 <font color = "red">객체 모형, 속성 제시</font> <br/>\
-- Part 5 : <font color = "red">생산</font> 자동화 시스템, <font color = "red">사무</font>지원 활동간 <font color = "red">운영활동 정의</font> <br/>\
-- Part 6 : <font color = "red">제조 공정</font>간 <font color = "red">운영</font> <br/><br/>\
-# 제조 운영관리 모형 (<font color = "red">생설품재</font>)<br/>\
-- 생산관리 : 원자재, 에너지, 장비, 인력 이용, 제품 <font color = "red">생산 일련 활동</font> <br/>\
-- 설비관리 : 장비 <font color = "red">사용가능</font> 상태 유지 활동 <br/>\
-- 품질관리 : 품질 <font color = "red">측정, 보고</font> 일련 활동 <br/>\
-- 재고관리 : 작업장에서 <font color = "red">장비 및 자재</font>의 이동 관련 활동 <br/><br/>\
+# 구성 (용속운속운운) <br/>\
+- Part 1 : Level 4, Level 3 Interface, ERP,MES 용어 정의, 기본 모형 제시 <br/>\
+- Part 2 : Part 1에서 제시된 ERP MES간 표준화 정보흐름 표현 위한 객체 모형과 속성 제시 <br/>\
+- Part 3 : Level 3의 제조 운영활동 정의 <br/>\
+- Part 4 : Part 3에서 제시된 제조 운영활동 관련된 객체 모형, 속성 제시 <br/>\
+- Part 5 : 생산 자동화 시스템, 사무지원 활동간 운영활동 정의 <br/>\
+- Part 6 : 제조 공정간 운영 <br/><br/>\
+# 제조 운영관리 모형 (생설품재)<br/>\
+- 생산관리 : 원자재, 에너지, 장비, 인력 이용, 제품 생산 일련 활동 <br/>\
+- 설비관리 : 장비 사용가능 상태 유지 활동 <br/>\
+- 품질관리 : 품질 측정, 보고 일련 활동 <br/>\
+- 재고관리 : 작업장에서 장비 및 자재의 이동 관련 활동 <br/><br/>\
 # MES 구축시 ISA-95 역할 <br/>\
 - 표준 제공 : 시스템 통합 인터페이스 표준 제공 <br/>\
 - 모듈 정의 : MES 구성 모듈의 정의 <br/>\
@@ -844,7 +844,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 '# 정의 : 통신 신호 사용 / RTU / 원격 감시,제어 시스템 <br/>\
 - Supervisiory Control And Data Acquisition <br/>\
 - 원자력, 전력, 가스 시설등의 원격지 플랜트 생산공정 정보를 중앙에서 감시,제어,관리 하는 시스템 <br/><br/>\
-# 구성요소 - Perdue 모형 (<font color = "red">EBIMABP</font>)<br/>\
+# 구성요소 - Perdue 모형 (EBIMABP)<br/>\
 - 5 : Enterprise <br/>\
 - 4 : Business Planning, Logistics <br/>\
 - 3.5 : Industrial DMZ <br/>\
@@ -852,10 +852,10 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - 2 : Area Supervisory <br/>\
 - 1 : Basic Control <br/>\
 - 0 : Process <br/><br/>\
-<font color = "red">* HMI(Human Machine Interface) : 사용자, 시스템간 통신 대시보드 <br/>\
+* HMI(Human Machine Interface) : 사용자, 시스템간 통신 대시보드 <br/>\
 * PLC(Programmable Logic Controller) : 시퀀스 제어 + 수치 연산 제어장치 <br/>\
-* RTU(Remote Terminal Unit) : 공정에 설치된 센서와 직접 연결장치</font><br/><br/>\
-# 기능 (<font color = "red">지누경감</font>)<br/>\
+* RTU(Remote Terminal Unit) : 공정에 설치된 센서와 직접 연결장치<br/><br/>\
+# 기능 (지누경감)<br/>\
 - 지시/표시 : PLCs가 수집한 상태정보를 수신/기록/표시 <br/>\
 - 누산기능 : 정보를 용도에 맞게 계산 <br/>\
 - 경보기능 : 상태변화에 따라 알람 <br/>\
@@ -979,10 +979,10 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 
 // oneM2M Mobious Platform
 '# 개념 : IoT 공동 서비스 플랫폼 개발 Defacto <br/>\
-- <font color = "red">파편화</font> 플랫폼 개발 구조 통합, 공유하기 위한 사실상 표준화 단체 및 표준 규격 <br/><br/>\
+- 파편화 플랫폼 개발 구조 통합, 공유하기 위한 사실상 표준화 단체 및 표준 규격 <br/><br/>\
 # 아키텍처 <br/>\
 <img src = "./img/oneM2MStructure.png", style = "max-width:100%; height:auto;"><br/><br/>\
-# 구성요소 (<font color = "red">ACN</font>)<br/>\
+# 구성요소 (ACN)<br/>\
 - AE(Application Entity) : Application 계층 M2M 응용 프로그램 서비스 로직 구현 <br/>\
 - CSE(Common Services Entity) : 다양한 AE들이 공통적으로 사용할 수 있는 세트 모듈화 <br/>\
 - NSE(Network Services Entity) : 네트워크 서비스 제공(장치 관리, 위치 서비스, 장치 트리거링) \
@@ -991,7 +991,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 // OCF
 '# 개념 : CoAP 이용 / 상호제어 플랫폼 기술 <br/>\
 - Open Connectivity Foundation <br/>\
-- IoT 서비스 구현시 경량형 <font color = "red">CoAP</font> 프로토콜로 사물인터넷 장치들을 연결하여 장치에 존재하는 자원들을 상호제어 할 수 있게 하는 표준 플랫폼 기술 <br/><br/>\
+- IoT 서비스 구현시 경량형 CoAP 프로토콜로 사물인터넷 장치들을 연결하여 장치에 존재하는 자원들을 상호제어 할 수 있게 하는 표준 플랫폼 기술 <br/><br/>\
 # 특징 <br/>\
 - 유무선 연결기술 유연 탑재 가능 프레임워크 <br/>\
 - 스마트 홈, 자동차, 물류, 헬스케어 등 특화 <br/><br/>\
@@ -1013,7 +1013,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 # 아키텍처 <br/>\
 <img src = "./img/OPCUAFramework.png", style = "max-width:100%; height:auto;"><br/>\
 - Session : 사용자 인증, 권한 확인 <br/>\
-- Secure Channel : 무결성, 기밀성 보장, </font color = "red">X.509 v3</font> 사용 <br/>\
+- Secure Channel : 무결성, 기밀성 보장, X.509 v3 사용 <br/>\
 - Transport : 소켓 연결, 에러 복구 및 서비스 거부 공역 방어 <br/><br/>\
 # 통신보안 <br/>\
 1. 연결 성립 <br/>\
@@ -1058,12 +1058,12 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 // 자율주행 자동차
 '# 정의 : 최첨단 자동차 / 상황인식 / 정보파악 / 기계제어 / 스스로 주행 <br/>\
 - 센서를 통한 상황인식, 전자제어장치 등에서 그 상황에 대한 정보를 파악,판단 기계장치들을 제어,스스로 주어진 목적지까지 주행하는 기능을 가진 최첨단 자동차 <br/>\
-<font color = "red">- 운전자 또는 승객의 조작 없이 자동차 스스로 운행이 가능한 자동차 (자동차 관리법 제2조 제1호의 3) </font><br/><br/>\
+- 운전자 또는 승객의 조작 없이 자동차 스스로 운행이 가능한 자동차 (자동차 관리법 제2조 제1호의 3) <br/><br/>\
 # Overview <br/>\
 <img src = "./img/SelfDrivingOverview.png" style = "max-width:100%; height:auto;"><br/><br/>\
 <img src = "./img/SelfDriving.png" style = "max-width:100%; height:auto;"><br/>\
-<font color = "red">* HMI : Human Machine Interface <br/>\
-* MDM : Mobile Device Management </font><br/><br/>\
+* HMI : Human Machine Interface <br/>\
+* MDM : Mobile Device Management <br/><br/>\
 # 기술요소 <br/>\
 1. 상황인지 <br/>\
 - 내외부상황인지 : Ultrasonic Wave, 스마트 카메라, 레이더, 라이다 <br/>\
@@ -1078,7 +1078,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - 차량제어/제동/조향 : ABS, ESC, MDPS, Actuator, MCU, DCU <br/><br/>\
 # 보안 표준 <br/>\
 - IEEE 1609.2, IEEE 26262, CAMP VSC3, AUTO SAR <br/><br/>\
-# Level (<font color = "red">비운부 조고완</font>)<br/>\
+# Level (비운부 조고완)<br/>\
 <img src = "./img/AutomationCarLevel.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * LIN(Local Interconnect Network) : 차량용 LAN Protocol <br/>\
 * MOST(Media Oriented Systems Transort) : 자동차 산업 최적화 고속 멀티미디어 네트워크 기술 <br/>\
@@ -1171,10 +1171,10 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 ',
 
 // [자율주행자동차]- LDM
-'# 정의 : 동적 공간 데이터 저장소 / <font color = "red">ISO/TR 17424:2015</font><br/>\
+'# 정의 : 동적 공간 데이터 저장소 / ISO/TR 17424:2015<br/>\
 - Local Dynamic Map <br/>\
 - 정보수집의 대상 범위내에 있는 고정 물체 또는 이동 물체에 관한 정적, 일시적, 동적 정보를 모두 관리할 수 있는 동적 공간 데이터 저장소 <br/><br/>\
-# 구성도 (<font color = "red">정밀 일시 일시 정적 / 동적 동적 정적 정적</font>)<br/>\
+# 구성도 (정밀 일시 일시 정적 / 동적 동적 정적 정적)<br/>\
 <img src = "./img/LDM_1.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 기술요소 <br/>\
 - 서비스 구성요소 : LDM 객체, LDM 인터페이스 <br/>\
@@ -1231,7 +1231,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 '# 정의 : 전자기파 / 물체 인식 기술 <br/>\
 - Radio Detection and Ranging <br/>\
 - 마이크로파(극 초단파)정도의 전자기파를 물체에 반사시킨 후 반사 결과를 인식하여 물체와의 거리, 방향, 고도를 측정하는 기술 <br/><br/>\
-# 구성도(<font color = "red">송통신수</font>) <br/>\
+# 구성도(송통신수) <br/>\
 <img src = "./img/RADAR.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 구성요소 <br/>\
 - 송신기 : 레이다 신호 생성, 증폭 기능 수행 <br/>\
@@ -1330,9 +1330,9 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 // 데이터 거버넌스
 '# 전략 <br/>\
 <img src = "./img/DataGovernanceStragety.png" style = "max-width:100%; height:auto;"><br/>\
-- 전략, 실행계획 수립 : <font color = "red">목표</font> 수립, <font color = "red">개방,유통</font> 활성화 <br/>\
-- 거버넌스 확립 : <font color = "red">국가</font> 거버넌스 체계, <font color = "red">생산,공유,활용</font> 체계 개선, <font color = "red">역량</font> 강화 <br/>\
-- 법 제도 정비 : <font color = "red">법령</font> 정비, 법률 <font color = "red">연계성</font> 확보 <br/><br/>\
+- 전략, 실행계획 수립 : 목표 수립, 개방,유통 활성화 <br/>\
+- 거버넌스 확립 : 국가 거버넌스 체계, 생산,공유,활용 체계 개선, 역량 강화 <br/>\
+- 법 제도 정비 : 법령 정비, 법률 연계성 확보 <br/><br/>\
 # 법안 <br/>\
 1. 개념 :  2020.11.25. EU 집행위에서 제안된 EU 전역의 민간-민간, 민간-공공 데이터 공유 체계 강화, 시장 형상 촉진 목적 법안 <br/><br/>\
 2. 내용 <br/>\
@@ -1356,10 +1356,10 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 <hr width = "100%" color = "blue"  noshade/>\
 [ 한국판 뉴딜 2.0 ] <br/>\
 # Overview <br/>\
-<font color = "red"> - Digital NewDeal : D비초S <br/>\
+ - Digital NewDeal : D비초S <br/>\
 - Green NewDeal : 탄도저녹 <br/>\
 - Human NewDeal : 사고청격 <br/>\
-- 지역균형 NewDeal : 재민제 </font><br/><br/>\
+- 지역균형 NewDeal : 재민제 <br/><br/>\
 <img src = "./img/KNewDeal2Overview.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 주요 변경점 <br/>\
 1. Digital NewDeal <br/>\
@@ -1403,9 +1403,9 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 # 구축 목표  <br/>\
 - 데이터 수집/활용 <br/>\
 - 공공 데이터 개방/연계 <br/><br/>\
-# 주요내용 (<font color = "red">수축활인</font>)<br/>\
+# 주요내용 (수축활인)<br/>\
 <img src = "./img/DataDamStructure.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 7대 주요사업 (<font color = "red">학플 가바X 플바</font>)<br/>\
+# 7대 주요사업 (학플 가바X 플바)<br/>\
 1. 데이터 축적/가공 <br/>\
 - AI 학습용 데이터 구축 : 양질의 학습용 데이터 구축, 개방, 활용 <br/>\
 - 분야별 빅데이터 플랫폼 추가 구축 : 주요 분야별 빅데이터 수집, 유통, 거래 플랫폼 구축 및 육성 <br/><br/>\
@@ -1417,10 +1417,10 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - 클라우드 플래그십 프로젝트 : 클라우드 인프라 중심 연합, 세계 수준 클라우드 서비스 협력 개발 육성 사업 <br/>\
 - 클라우드 이용 바우처 : 국내 중소기업 위해 컨설팅,전환비용,클라우드 서비스 이용료 지원 사업 <br/><br/>\
 # 클라우드 플래그십 프로젝트 <br/>\
-- 금융 : 기존 시스템 <font color = "red">클라우드 전환</font>, <font color = "red">비대면 금융거래</font> 활용 서비스<br/>\
-- 제조 : 전자의 데이터 <font color = "red">AI 기반 생산공정</font>(설계->계획->가공->검수)<br/>\
-- 물류 : 항만 연계 물류 사업, 무인 자동화, <font color = "red">재난 예방 지능형 클라우드</font><br/>\
-- 에너지 : 건물 설비 <font color = "red">에너지 사용</font> 분석,진단,예측,제어 <font color = "red">클라우드</font><br/><br/>\
+- 금융 : 기존 시스템 클라우드 전환, 비대면 금융거래 활용 서비스<br/>\
+- 제조 : 전자의 데이터 AI 기반 생산공정(설계->계획->가공->검수)<br/>\
+- 물류 : 항만 연계 물류 사업, 무인 자동화, 재난 예방 지능형 클라우드<br/>\
+- 에너지 : 건물 설비 에너지 사용 분석,진단,예측,제어 클라우드<br/><br/>\
 # 후속 조치 사항 <br/>\
 - 데이터 표준화 및 품질 관리 : 가이드 라인 <br/>\
 - 디지털 전문 계약 제도 도입 : 디지털 서비스 전문위 <br/>\
@@ -1442,7 +1442,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 
 // SoC 디지털화
 '# 정의 : 사회 간접 자원에 첨단기술을 더해 국민의 안전과 편의를 높이기 위한 디지털 트랜스포메이션 <br/><br/>\
-# 주요내용(<font color = "red">실디스</font>) <br/>\
+# 주요내용(실디스) <br/>\
 - 실시간 모니터링 : 교량, 사면 IoT 상시계측, 하천관리 CCTV, 철로 고장 감지 <br/>\
 - 디지털 트윈 : 터널 원격제어 시스템, 스마트 홍수 관리 시스템 <br/>\
 - 스마트 운영 기법 : 안전한 교통망/ 스마트 공항,철도, 톨링, K-city(4레벨 이상 자율차 시험환경) <br/><br/>\
@@ -1455,7 +1455,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 # 등장배경 : 4차 산업 역기능 해소 <br/><br/>\
 # 개정안 주요사항 (2020.12.10. 시행)<br/>\
 <img src = "./img/SmartInfoRule.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 상세내용 (<font color = "red">목공서기역이</font>)<br/>\
+# 상세내용 (목공서기역이)<br/>\
 1. 개요 <br/>\
 - 1장(목적 및 용어 정의) : 정책사항 규정, 지능 정보화 정의 <br/><br/>\
 2. 기술 <br/>\
@@ -1503,7 +1503,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 '# 정의 : 전자 간판<br/>\
 - 네트워크에 접속된 디스플레이 전자적 기구 원격제어 다양한 정보시스템 <br/><br/>\
 # 특징 : 네트워크기반 양방향 서비스, 인터렉티브, 고화질<br/><br/>\
-# 기술 (<font color = "red">컨-포관전 단-재S</font>)<br/>\
+# 기술 (컨-포관전 단-재S)<br/>\
 1. 콘텐츠 <br/>\
 - 콘텐츠 포맷 기술 : JPEG, MPEG-1/2/4, PNG, FLASH <br/>\
 - 콘텐츠 관리 기술 : PlayLog, XML <br/>\
@@ -1511,22 +1511,22 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 2. 단말 <br/>\
 - 콘텐츠 재생 기술 : JPEG, MPEG-1/2/4, SVG <br/>\
 - SW기반 : 멀티미디어 FW 기반 제작 <br/><br/>\
-# 비교 : <font color = "red">OOH</font>(Out Of Home, 옥외광고물) 제어방식, 컨텐츠, 제공서비스, 타겟 마케팅, 업데이트, 상호작용 <br/><br/>\
+# 비교 : OOH(Out Of Home, 옥외광고물) 제어방식, 컨텐츠, 제공서비스, 타겟 마케팅, 업데이트, 상호작용 <br/><br/>\
 <img src = "./img/DS_2_1.PNG" style = "max-width: 100%; height: auto;"><br/><br/>\
 ',
 
 // [디지털사이니지]- 오픈 스크린
 '# 정의 : 사용자 환경정보 기반 / 스크린 협업 / 개인형 맞춤형 컨텐츠 / 디지털 사이니지 방식 <br/>\
 - 사용자의 특성 및 움직임, 주변환경변화등 복합적인 상황정보 기반으로 스크린들이 서로 협업하여 개인 맞춤형 컨텐츠를 연속적으로 제공하는 디지털 사이니지 방식 <br/><br/>\
-# 진화(<font color = "red">디텔오</font>) <br/>\
+# 진화(디텔오) <br/>\
 - 디지털 미디어 : 불특정 다수<br/>\
 - 텔레 스크린(Tele-Screen) : 양방향 인터렉션(현재) <br/>\
 - 오픈 스크린 : 스크린들이 협업 , 맞춤형 컨텐츠 제공 (미래)<br/><br/>\
-# 기술(<font color = "red">공이비</font>) <br/>\
+# 기술(공이비) <br/>\
 - 공간 복합 상황 인지 기술 : 위치추적, 움직임 식별<br/>\
 - 이종 오픈스크린 협업 기술 : 동적 스크린 그룹제어, 컨텐츠 매쉬업 기술<br/>\
 - 비정형 오픈 스크린 재현 : 컨텐츠 추출, 비정형 스크린 분배 <br/><br/>\
-# 오픈 스크린 플랫폼(ETRI) (<font color = "red">광인.스생.스게</font>) <br/>\
+# 오픈 스크린 플랫폼(ETRI) (광인.스생.스게) <br/>\
 - 광역 상황 정보 인지 시스템 : 움직임 식별 및 전송<br/>\
 - 스마트 미디어 생성 시스템 : 추천 컨텐츠 정보 획득, 컨텐츠 메쉬업<br/>\
 - 스마트 미디어 제공 시스템 : 메쉬업 컨텐츠 분배, 재현 동기화 <br/><br/>\
@@ -1576,7 +1576,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 // ISO 14971
 '# 정의 : 의료기기 사용 관련 위험 관리 요구사항 국제 표준 <br/>\
 - 의료기기 사용에 관련된 위험을 관리하기 위해 체계적으로 적용하여야 할 경험, 통찰 및 판단의 체계를 제조업체에게 제공하기 위한 요구사항을 포함한 국제 표준 <br/><br/>\
-# 구성요소 (<font color = "red">범용요분 평통잔보생</font>) <br/>\
+# 구성요소 (범용요분 평통잔보생) <br/>\
 1. 적용 범위 : 체외진단용 포함, 수명주기 전기간 등 <br/>\
 2. 용어 및 정의 : 위해, 위해요인, 수명주기, 의료기기 <br/>\
 3. 위험 관리 대한 요구사항 : 프로세스, 관리 책임, 직원 적격성, 위험관리 계획, 위험관리 파일 <br/>\
@@ -1665,7 +1665,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 
 // 기능성 게임
 '# 정의 : 순기능 확장 게임 <br/>\
-- 기존의 게임이 가지고 있던 단순한 재미 요소 이외에, <font color = "red">교육, 학습, 훈련, 치료</font> 등의 특별한 목적을 접목시켜 게임이 가지는 순기능을 더욱 확장시킨 형태의 게임 (TTA)<br/><br/>\
+- 기존의 게임이 가지고 있던 단순한 재미 요소 이외에, 교육, 학습, 훈련, 치료 등의 특별한 목적을 접목시켜 게임이 가지는 순기능을 더욱 확장시킨 형태의 게임 (TTA)<br/><br/>\
 # 특징 : 재미, 효과, 과정중시 <br/><br/>\
 # 적용 : 의료, 스포츠(Wii), 교육(에듀게임, 한매타자), 교통(안전), 환경보호, 군사(워게임)\
 ',
@@ -1680,9 +1680,9 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - Infra : 스트리밍, P2P <br/>\
 - 플랫폼(3) : GPOS, HTML5, 모바일 웹 <br/>\
 - 보안(4) : CAS, DCAS, 워터마킹, 핑거프린팅 <br/>\
-<font color = "red">* GPOS(General Purpose OS) : 주로 스마트폰에 탑재되는 모바일 플랫폼 <br/>\
+* GPOS(General Purpose OS) : 주로 스마트폰에 탑재되는 모바일 플랫폼 <br/>\
 * CAS : Contents Access Security <br/>\
-* DCAS : Downloadable CAS </font><br/><br/>\
+* DCAS : Downloadable CAS <br/><br/>\
 # 서비스 유형 <br/>\
 - Contetns Aggregator : 컨텐츠 제공자와 NW사업자 사이 컨텐츠 패키징 <br/>\
 - 저작권관리 결제 및 과금등 수행 <br/>\
@@ -1879,10 +1879,10 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - AA : 직접적 특정 정보 칩에 보내 공개키 복호화 통해 비교, 복제 여부 체크 판독 기술 <br/>\
 - BAC : 여권 저장 데이터 불법적 Read 방지 통신 기술 <br/>\
 - EAC : 복제 방지 및 직접,간접 접근 통제 기술 <br/>\
-<font color = "red">* PA : Passive Authentication <br/>\
+* PA : Passive Authentication <br/>\
 * AA : Active Autnetication <br/>\
 * BAC : Basic Access Control <br/>\
-* EAC : Extended Access Control </font>\
+* EAC : Extended Access Control \
 ',
 
 // 비대면 실명 인증
@@ -2028,7 +2028,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 '# 정의 : 전자 금융거래 / 탐지, 차단 시스템 <br/>\
 - Fraud Detection System <br/>\
 - 전자 금융거래에서 사용되는 단말기 정보,접속정보,거래내용 등을 종합적으로 분석, 의심거래를 탐지하고 이상 금융거래를 차단하는 시스템 <br/><br/>\
-# 주요기능(<font color = "red">수분대감</font>) <br/>\
+# 주요기능(수분대감) <br/>\
 <img src = "./img/FDS_Function.png" style = "max-width:100%; hegiht:auto;"><br/><br/>\
 # 판정방식 유형 <br/>\
 <img src = "./img/FDS_Type.png" style = "max-width:100%; hegiht:auto;"><br/><br/>\
@@ -2038,7 +2038,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 // 마이데이터 산업
 '# 개념 : 전송요구권 행사 / 분산 / 통합조회 서비스 제공 산업 <br/>\
 - My Data 산업 : (본인신용정보관리업); 고객의 전송요구권 행사에 따라 분산되어 있는 개인신용정보를 제공받아 해당 고객에게 통합조회 서비스를 제공하는 산업 <br/><br/>\
-(<font color = "red">마이데이터 산업 : 부수(정.데), 겸용(자.금)</font>)<br/>\
+(마이데이터 산업 : 부수(정.데), 겸용(자.금))<br/>\
 <img src = "./img/MyDataConcept.png" style = "max-width:100%; hegiht:auto;"><br/><br/>\
 # 주체별 역할, 처리흐름 <br/>\
 <img src = "./img/MyDataSpecification.png" style = "max-width:100%; hegiht:auto;"><br/><br/>\
@@ -2048,29 +2048,29 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - 마이데이터 사업자 : 핀테크 사업자 <br/>\
 - 마이데이터 종합포털 : 마이데이터 지원센터 제공 웹 서비스 <br/>\
 - 통합 인증기관 : 다수 정보제공자 공통 인증수단 <br/><br/>\
-# 제공범위 (<font color = "red">여보카전</font>)<br/>\
+# 제공범위 (여보카전)<br/>\
 - 여,수신, 금융투자 : 예,적금 대출<br/>\
 - 보험 : 가입상품, 대출<br/>\
 - 카드 : 월 이용 정보 <br/>\
 - 전자 금융 : 선불 발행정보, 거래내역 <br/><br/>\
-# 마이데이터 지원센터 역할 (<font color = "red">참정민정마</font>)<br/>\
+# 마이데이터 지원센터 역할 (참정민정마)<br/>\
 - 참여기관 관리 <br/>\
 - 정보항목 선정 및 표준화 <br/>\
 - 민원,분쟁사항 관리 <br/>\
 - 정기 협의체 운영 : 의견 조율<br/>\
 - 마이데이터 종합포털 운영 <br/><br/>\
-# 가이드 구성 (<font color = "red">산전지 절서본보</font>) <br/>\
+# 가이드 구성 (산전지 절서본보) <br/>\
 <img src = "./img/MyDataGuideline.png" style = "max-width:100%; hegiht:auto;"><br/><br/>\
 * 120회 2교시 2번\
 ',
 
 // 마이데이터 본허가 취득
-'# 취득 요건 (<font color = "red">자사대물</font>)<br/>\
+'# 취득 요건 (자사대물)<br/>\
 - 자본금 요건 : 최소 자본금 5억원 이상 <br/>\
 - 사업계획 타당성 요건 : 수입, 지출, 전망 타당성, 조직구조, 관리운용체계 추진 적합성 <br/>\
 - 대주주 적격성 요건 : 대주주 출자능력, 재무건전성, 사회적 신용 <br/>\
 - 물적 요건 : 시스템 구성 적정성, 보안체제 적정성 <br/>\
-<font color = "red">* 1차 28개서 본허가 획득</font><br/><br/>\
+* 1차 28개서 본허가 획득<br/><br/>\
 # 현황 <br/>\
 1. 은행권<br/>\
 - 현황 : 고도화, 표준 API, 수집/서비스 플랫폼, 데이터 뱅크 전환 <br/>\
@@ -2330,8 +2330,8 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - NFC : 저전력 데이터 무선 통신 <br/>\
 - MST : 마그네틱 카드 자기장 기술 <br/>\
 - 비콘 : 소지 자체가 본인에 대한 증명 및 결제 가능 기술 <br/>\
-<font color = "red">* NFC : Near Field Communication <br/>\
-* MST : Magnetic Secure Transmission </font>\
+* NFC : Near Field Communication <br/>\
+* MST : Magnetic Secure Transmission \
 ',
 
 // 데이터 주권 이슈
@@ -2582,7 +2582,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - 전자정부웹사이트품질관리지침 <br/>\
 - 전자정부법 제 16조, 19조, 23조, 50조 <br/>\
 - 모바일 애플리케이션 서비스 제공자가 장애인과 고령자 등 접근성을 보장하기 위해 어플리케이션 제작시 지켜야할 사항을 규정한 지침 <br/><br/>\
-# 원리 및 지침 (<font color = "red">인운이견</font>)<br/>\
+# 원리 및 지침 (인운이견)<br/>\
 1. 인식 용이성 <br/>\
 - 대체 텍스트 제공 <br/>\
 - 멀티미디어 대체 수단 제공 : 자막, 원고, 수화 <br/>\
@@ -2606,21 +2606,21 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 // Responsive Web Design
 '# 정의 : 사용자 디바이스 / 해상도, 화면 / 자동 변환 기술 <br/>\
 - 사용자의 다양한 디바이스 환경에 따라 해상도나 화면이 최적화된 환경으로 자동 변환되는 기술 <br/><br/>\
-# 패턴 (<font color = "red">유열배미오</font>)<br/>\
+# 패턴 (유열배미오)<br/>\
 1. 유동형 (Mostly Fluid) <br/>\
-- <font color = "red">가변형 그리드</font>로 구성, 단순히 컨텐츠 폭 맞추는 방법 <br/>\
+- 가변형 그리드로 구성, 단순히 컨텐츠 폭 맞추는 방법 <br/>\
 <img src = "./img/RWD_MostlyFluid.png" style = "max-width:100%; height:auto;"><br/><br/>\
 2. 열 끌어놓기 (Column Drop) <br/>\
-- 화면폭 좁아져, 표현 힘들 경우, <font color = "red">하단 수직 배열</font> <br/>\
+- 화면폭 좁아져, 표현 힘들 경우, 하단 수직 배열 <br/>\
 <img src = "./img/RWD_ColumnDrop.png" style = "max-width:100%; height:auto;"><br/><br/>\
 3. 배치 이동(Layout Shifter) <br/>\
-- <font color = "red">스크린 마다</font> 다른 형태 사용 <br/>\
+- 스크린 마다 다른 형태 사용 <br/>\
 <img src = "./img/RWD_LayoutShifter.png" style = "max-width:100%; height:auto;"><br/><br/>\
 4. 미세 조정(Tiny Tweaks) <br/>\
-- 글꼴, 이미지 크기조정, <font color = "red">미세조정</font> 발생 <br/>\
+- 글꼴, 이미지 크기조정, 미세조정 발생 <br/>\
 <img src = "./img/RWD_TinyTweaks.png" style = "max-width:100%; height:auto;"><br/><br/>\
 5. 오프 캔버스(Off-Canvas) <br/>\
-- <font color = "red">필요할 때</font> 노출 패턴 <br/>\
+- 필요할 때 노출 패턴 <br/>\
 <img src = "./img/OffCanvas.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 124회 관리 1교시 5번\
 ',
@@ -2630,21 +2630,21 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - 미리 정해진 몇 가지 화면 크기를 기준으로 두고 비율에 맞춰 페이지를 구성하는 방식 <br/><br/>\
 # 개념도 <br/>\
 <img src = "./img/AWD_Overview.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 기술요소 (<font color = "red">유크점반아</font>)<br/>\
+# 기술요소 (유크점반아)<br/>\
 1. 유동형 테이블(Fluid Table) <br/>\
-- 기기 <font color = "red">종류 따라</font> 열 재구성 <br/>\
+- 기기 종류 따라 열 재구성 <br/>\
 <img src = "./img/AWD_FluidTable.png" style = "max-width:100%; height:auto;"><br/><br/>\
 2. 크로스 탭 그리드(Cross Tab) <br/>\
-- <font color = "red">행,열 반대</font> 표현 방식 <br/>\
+- 행,열 반대 표현 방식 <br/>\
 <img src = "./img/AWD_CrossTab.png" style = "max-width:100%; height:auto;"><br/><br/>\
 3. 점진적 컬럼 숨김 그리드(Progressive Hide Grid) <br/>\
-- <font color = "red">중요성</font> 떨어지는 컬럼 숨기는 기술 <br/>\
+- 중요성 떨어지는 컬럼 숨기는 기술 <br/>\
 <img src = "./img/AWD_ProgressiveHideGrid.png" style = "max-width:100%; height:auto;"><br/><br/>\
 4. 반응형 스크롤 그리드(Responsive Scroll Grid) <br/>\
-- <font color = "red">중요 컬럼 고정</font>, 가로 스크롤 생김 기술 <br/>\
+- 중요 컬럼 고정, 가로 스크롤 생김 기술 <br/>\
 <img src = "./img/AWD_ResponsiveScrollGrid.png" style = "max-width:100%; height:auto;"><br/><br/>\
 5. 아코디언 탭(Accordian Tab) <br/>\
-- 탭 컨텐츠 사용시, 화면 사이즈 무관하게 각각 <font color = "red">개별 탭</font> 선택하여 컨텐츠 전환 <br/>\
+- 탭 컨텐츠 사용시, 화면 사이즈 무관하게 각각 개별 탭 선택하여 컨텐츠 전환 <br/>\
 <img src = "./img/AWD_AccordianTab.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 적용 사례 <br/>\
 <img src = "./img/AWD_Example.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -2909,16 +2909,16 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 # 구성도 <br/>\
 <img src = "./img/Kubernetes.png" style = "max-width:100%; hegiht:auto;"><br/><br/>\
 # 구성요소 <br/>\
-1. Master Node(<font color = "red">ASCE</font>) : 노드관리, 스케줄링, 활동 조율<br/>\
+1. Master Node(ASCE) : 노드관리, 스케줄링, 활동 조율<br/>\
 - API Server : Master Node와 통신 <br/>\
 - Scheduler : Pod 적절한 노드 서버에 할당 <br/>\
 - Controller Manager : 노드 관리자 <br/>\
 - etcd : 클러스터 구성 파일 <br/><br/>\
-2. Work Node(<font color = "red">PKK</font>) : 쿠버네티스 클러스터 내 워커 머신으로써 동작하는 물리적인 컴퓨터 시스템 <br/>\
+2. Work Node(PKK) : 쿠버네티스 클러스터 내 워커 머신으로써 동작하는 물리적인 컴퓨터 시스템 <br/>\
 - Pod : 가장기본적인 배포단위 <br/>\
 - Kubelet : 마스터 API와 통신하는 Agent <br/>\
 - Kube-Proxy : 컨테이너 간 네트워킹 및 로드 밸런싱 - IPVS(IP Virtual Server) <br/><br/>\
-# 주요기능 (<font color = "red">로롤배자듀스오토앤</font>) <br/>\
+# 주요기능 (로롤배자듀스오토앤) <br/>\
 - 로드밸런싱 : POD에게 고유한 IP 주소와 POD 집합에 대한 단일 DNS 명 부여 / Service<br/>\
 - 자동화된 롤아웃, 롤백 : 애플리케이션 모니터링, 동시 종료 않도록 보장 / Deployment <br/>\
 - 배치 실행 : CI 워크로드 관리, 실패한 컨테이너 교체 / Deployment <br/>\
@@ -3100,9 +3100,9 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 # 결정 방법 <br/>\
 - High demanded rate : 안전 관련 기능 대한 사용이 계속적으로 발생시 적용 (ex: 센서) <br/>\
 - Low demand rate : 사용빈도수 대략 년 1회 미만시 (ex: 에어백) <br/><br/>\
-1. 정량적 (<font color = "red">-9 ~ -1</font>) <br/>\
+1. 정량적 (-9 ~ -1) <br/>\
 <img src = "./img/SIL.png", style = "max-width:100%; height:auto;"><br/><br/>\
-2. 정성적 (<font color = "red">결빈회사 CFPW </font>) <br/>\
+2. 정성적 (결빈회사 CFPW ) <br/>\
 <img src = "./img/SIL_Qualitative.png", style = "max-width:100%; height:auto;"><br/><br/>\
 <img src = "./img/SIL_QualitativeExample.png", style = "max-width:100%; height:auto;"><br/><br/>\
 * 123회 응용 1교시 13번\
@@ -3112,9 +3112,9 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 '# 정의 : 차량 안전성 보전 등급 <br/>\
 - 전기전자 장치안전 표준(IEC 61508)의 안전성보전등급(SIL) 개념을 자동차 제품 특성에 맞게 개선한 차량의 안전성 보전등급 <br/><br/>\
 # ASIL 결정 3요소 <br/>\
-- S(Severity) : 잠재적 재난, 위험에 대한 <font color = "red">심각도</font> <br/>\
-- E(Exposure) : 위험 및 재난의 <font color = "red">노출 가능성</font> <br/>\
-- C(Controllability) : 재난 <font color = "red">통제 가능성</font> 등급 <br/><br/>\
+- S(Severity) : 잠재적 재난, 위험에 대한 심각도 <br/>\
+- E(Exposure) : 위험 및 재난의 노출 가능성 <br/>\
+- C(Controllability) : 재난 통제 가능성 등급 <br/><br/>\
 # ASIL 세부 등급 정의 <br/>\
 <img src = "./img/ASIL_Grade.png", style = "max-width:100%; height:auto;"><br/>\
 * ASIL 등급 높을 수록 사고 피해 정도 심함 <br/><br/>\
@@ -3602,9 +3602,9 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - 제재목록 스크리닝 : 위험인물, 주요리스트 등 가능성 검색 <br/>\
 - 의심거래보고(STR) : 의심스러운 금융거래 보고 제도 <br/>\
 - 고액현금거래보고(CTR) : 일정 거래액 초과 현금 거래 보고 제도 <br/>\
-<font color = "red">\
+\
 * STR : Suspicious Transaction Report <br/>\
-* CTR : Currency Transaction Report <br/><br/></font>\
+* CTR : Currency Transaction Report <br/><br/>\
 * 122회 관리 1교시 10번 \
 ',
 
@@ -3637,7 +3637,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 
 // Smart Contract
 '# 정의 : 컴퓨터 언어로 저장된 계약 / 분산원장 시스템 / 자동 체결<br/>\
-- 분산원장시스템(Distributed ledger system)과 같은 컴퓨터 시스템에 의하여 자동으로 체결될 수 있는 <font color = "red">기존 법률적 언어대신 컴퓨터 언어</font>로 저장된 계약<br/>\
+- 분산원장시스템(Distributed ledger system)과 같은 컴퓨터 시스템에 의하여 자동으로 체결될 수 있는 기존 법률적 언어대신 컴퓨터 언어로 저장된 계약<br/>\
 - 블록체인을 통해 일정 조건을 만족시키면 거래가 자동으로 실행되도록 프로그램된계약<br/><br/>\
 # 특징 <br/>\
 1. 계약 측면 <br/>\
@@ -3647,7 +3647,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - 탈중앙화 <br/>\
 - 코드 실행 <br/>\
 - 튜링 완전성 <br/><br/>\
-# 원칙 (<font color = "red">관검사강</font>)<br/>\
+# 원칙 (관검사강)<br/>\
 - 관측 가능성 : 계약 이행 관찰, 성과 입증 <br/>\
 - 검증 가능성 : 위반시 확인 <br/>\
 - 사생활 보호 : 당사자에게만 분배 <br/>\
@@ -3723,7 +3723,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 // 하이퍼레저 패브릭
 '# 정의 : 개발 위한 허가형 프라이빗 플랫폼 <br/>\
 - IBM 제공하는 모듈형 아키텍처로서, 블록체인 솔루션 및 어플리케이션을 개발하기 위한 허가형 프라이빗 플랫폼 <br/>\
-<font color = "red">* 하이퍼레저 프로젝트 : 리눅스 재단에서 주도하는 엔터프라이즈용 블록체인 오픈소스 프로젝트 </font><br/><br/>\
+* 하이퍼레저 프로젝트 : 리눅스 재단에서 주도하는 엔터프라이즈용 블록체인 오픈소스 프로젝트 <br/><br/>\
 # 특징 : Private / 일반 Language / 병렬 처리 / 교체 가능한 합의 프로토콜 사용 가능 (SOLO, Kafka, PBFT) <br/><br/>\
 # 구성도 <br/>\
 <img src = "./img/HyperledgerFabric.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -3752,17 +3752,17 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 '# 정의 : 실물 명목화폐 대체 보완 / 중앙은행 / 전자형태 발행 / 법정지위를 갖는 디지털화된 명목화폐 <br/>\
 - Central Bank Digital Currency <br/>\
 - 실물 명목화폐를 대체하거나 보완하기 위해 중앙은행이 전자적 형태로 발행하는 법정지위를 갖는 디지털화된 명목화폐 <br/><br/>\
-# 구현방식 (<font color = "red">단분</font>)<br/>\
-- <font color = "red">단</font>일 원장 : 중앙 은행 <br/>\
-- <font color = "red">분</font>산 원장 : 합의자 <br/><br/>\
-# 운영방식 (<font color = "red">단분직간</font>)<br/>\
+# 구현방식 (단분)<br/>\
+- 단일 원장 : 중앙 은행 <br/>\
+- 분산 원장 : 합의자 <br/><br/>\
+# 운영방식 (단분직간)<br/>\
 1. 단일 원장 <br/>\
 - 직접 운영 : 중앙은행 <br/>\
 - 간접 운영 : 은행 등 위탁 <br/><br/>\
 2. 허가형 분산 원장 <br/>\
 - 직접 운영 : 중앙 은행 <br/>\
 - 간접 운영 : 은행 등 위탁 <br/><br/>\
-# 기술 평가 요건 (<font color = "red">복호이익확보</font>)<br/>\
+# 기술 평가 요건 (복호이익확보)<br/>\
 1. 가용성 <br/>\
 - 복원력 : 무중단, 중단 최소화 <br/>\
 - 이자지급 가능성 : 이자지급, 마이너스 금리 부과 가능 <br/>\
@@ -3863,7 +3863,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 // 클라우드 컴퓨팅
 '# 정의 : 정보 자원 필요한 만큼 사용 / 확장성 지원 / 사용한 만큼 지불 / 컴퓨팅 기술 <br/>\
 - 서비스 이용자가 정보 자원(SW, Platform, Storage, Server, NW 등)을 필요한 만큼 빌려서 사용하고, 서비스 부하에 따라서 실시간 확장성(Scalability)을 지원 받으며, 필요한 순간에 접속하여, 사용한 만큼 비용을 지불하는 서비스로 공유된 컴퓨팅 자원이 신속히 제공되고, 회수되는 컴퓨팅 <br/><br/>\
-# 특징 (NIST) (<font color = "red">OBRRM</font>) <br/>\
+# 특징 (NIST) (OBRRM) <br/>\
 - On-demand Self-Service : 자동 이용 가능 / Manage Console, Service Catalog <br/>\
 - Broad network Access : 이기종 클라이언트, NW 접근 / Mobile, Tablet, PC <br/>\
 - Resource Pooling : 여러 사용자, 위치 관계 없이 제공 / Multi tenant, Location Transparency <br/>\
@@ -3873,10 +3873,10 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 1. 분산 처리 <br/>\
 - 분산 데이터 저장 : HBASE, Hadoop, CODA, HyperTable <br/>\
 - 분산 컴퓨팅 : Kafka, Map Reduce, L/B, MPI, PVM <br/>\
-<font color = "red">* CODA(Context Oriented Directed Associations) : 가상 인체모델 <br/>\
+* CODA(Context Oriented Directed Associations) : 가상 인체모델 <br/>\
 * Hyper Table :  데이터베이스 관리시스템 구현 오픈소스 소프트웨어 프로젝트 <br/>\
 * MPI : 메시지 전달 인터페이스 <br/>\
-* PVM : Pararrel Virtual Machine </font><br/><br/>\
+* PVM : Pararrel Virtual Machine <br/><br/>\
 2. 가상화 <br/>\
 - 가상화 : Container, 하이퍼바이저, SDx, VLAN, SAN, NAS <br/>\
 - 서버구성 : 그리드, 쿠버네티스, 오케스트레이션, 오토스케일링 <br/><br/>\
@@ -3901,7 +3901,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 # 방법론 <br/>\
 - 구현환경 : Hybrid Cloud, Multi cloud <br/>\
 - 구현절차 : 빅뱅방식, 점진적 방식 <br/><br/>\
-# 절차 (<font color = "red">목환방백이</font>) <br/>\
+# 절차 (목환방백이) <br/>\
 - 전환 목적 수립 : Biz 전략, 목표수집, 디지털 전환, Agile <br/>\
 - 전환 환경 선정 : Hybrid, Multi cloud 선정 / IT Alignment <br/>\
 - 전환 방식 선정 : Bigbang 방식, 점진적 방식 / 서비스 유형 <br/>\
@@ -3918,7 +3918,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 ',
 
 // IaaS, PaaS, SaaS
-'# 개념도 (<font color = "red">adr mov ssn</font>)<br/>\
+'# 개념도 (adr mov ssn)<br/>\
 <img src = "./img/CloudType.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # IaaS(Host) <br/>\
 1. 아키텍처 <br/>\
@@ -3941,7 +3941,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 1. 서비스 아키텍처 <br/>\
 - 서비스 운영관리 : 구독, 관리 Portal, Helpdesk <br/>\
 - Multi Tenancy  : App Management, Billing/Metering, Platform API, Security Management, Common Utility <br/>\
-<font color = "red">* Tenant : 소프트웨어 인스턴스에 대해 공통이 되는 특정 접근 권한을 공유하는 사용자 </font><br/><br/>\
+* Tenant : 소프트웨어 인스턴스에 대해 공통이 되는 특정 접근 권한을 공유하는 사용자 <br/><br/>\
 2. 특징 <br/>\
 - 물리자원 최소화 <br/>\
 - Time to market : 소프트웨어의 즉시 사용 가능 <br/>\
@@ -3974,7 +3974,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 2. Configuration <br/>\
 - Chef : 레시피 기반 멱등성 제공 <br/>\
 - Ansible : 운영환경 설정 파일로 관리 <br/>\
-<font color = "red">* 멱등성 : 재차 연산 결과 동일</font><br/><br/>\
+* 멱등성 : 재차 연산 결과 동일<br/><br/>\
 3. Bootstrap <br/>\
 - Docker : App 구동 설정/파일 관리 <br/>\
 - Vagrant : VM 리소스, 스크립트 수행 <br/><br/>\
@@ -4004,7 +4004,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 '# 정의 : 오픈 소스 기반 / 개발환경, 모니터링, 오토스케일링, 마켓플레이스 / 개방형 클라우드 플랫폼 <br/>\
 - 오픈소스 기반의 클라우드 서비스 개발환경과 통합 모니터링 환경, 오토스케일링, 마켓플레이스 제공 등의 기능이 추가된 개방형 클라우드 플랫폼 <br/><br/>\
 # 특징 : 오픈소스 기반, 아파치 라이선스 2.0 기반, Kubernetes, Cloud Foundry <br/><br/>\
-# 변천사(<font color = "red">스링펜로라 기운데쿠모오마</font>) <br/>\
+# 변천사(스링펜로라 기운데쿠모오마) <br/>\
 <img src = "./img/PaaSTA.png" style = "max-width:100%; height:auto;"><br/>\
 <img src = "./img/PaaSTA_Version.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 구성도 <br/>\
@@ -4036,7 +4036,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 ',
 
 // 클라우드 환경 보안이슈
-'# 가트너에서 제시한 클라우드 환경의 보안이슈 (<font color = "red">특규입격복사장</font>)<br/>\
+'# 가트너에서 제시한 클라우드 환경의 보안이슈 (특규입격복사장)<br/>\
 - 특별 사용자 접근 관리 : 특권, 일반 사용자 분리 <br/>\
 - 규정 준수성 : 외부 평가 및 감사, 점검 체계 <br/>\
 - 데이터의 입지 : 위치, 환경, 법적 이슈등 <br/>\
@@ -4065,28 +4065,28 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 
 // [클라우드 컴퓨팅]- 클라우드 보안인증제
 '# 정의 : 클라우드 안전 이용 지원 제도 <br/>\
-- 클라우드 서비스 제공자가 제공하는 서비스에 대해 <font color="red">클라우드 컴퓨팅 발전 및 이용자 보호에 관한 법률 제23조 2항</font>에 따라 정보보호 기준의 준수여부 확인을 인증기관에 요청하는 경우 인증기관이 평가, 인증하여 이용자들이 안심하고 클라우드 서비스를 이용하도록 지원하는 제도 <br/><br/>\
+- 클라우드 서비스 제공자가 제공하는 서비스에 대해 클라우드 컴퓨팅 발전 및 이용자 보호에 관한 법률 제23조 2항에 따라 정보보호 기준의 준수여부 확인을 인증기관에 요청하는 경우 인증기관이 평가, 인증하여 이용자들이 안심하고 클라우드 서비스를 이용하도록 지원하는 제도 <br/><br/>\
 # 근거 <br/>\
 - 클라우드 컴퓨팅 발전 및 이용자 보호에 관한 법률 제5조 <br/>\
 - 클라우드 컴퓨팅 서비스 정보보호에 관한 기준 미래부 고시 제7조 (2016-41호) <br/><br/>\
-# 인증대상 : <font color="red">클발법 제20조</font>에 따라 공공기관의 업무를 위해 클라우드 컴퓨팅 서비스를 제공하는 사업자 <br/><br/>\
+# 인증대상 : 클발법 제20조에 따라 공공기관의 업무를 위해 클라우드 컴퓨팅 서비스를 제공하는 사업자 <br/><br/>\
 # 인증평가 종류 <br/>\
 <img src = "./img/PublicCloudType.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 조직 (<font color = "red">정평인기</font>)<br/>\
-- 정책기관(과기정통부) : <font color = "red">정책 수립</font>, 평가/인증 기관 <font color = "red">지정 및 감독</font> <br/>\
-- 평가인증기관(KISA) : 평가인증 <font color = "red">기준,지침 개발</font> / 통합 인증 업무 <br/>\
-- 인증위원회(KISA) : 평가결과 인증 심의, 평가취소 타당성 심의 <font color = "red">의결</font> <br/>\
-- 기술자문기관(국보연) : 보안<font color = "red">기준</font> 마련 / 안전성 강화 <font color = "red">대책 수립</font> <br/><br/>\
+# 조직 (정평인기)<br/>\
+- 정책기관(과기정통부) : 정책 수립, 평가/인증 기관 지정 및 감독 <br/>\
+- 평가인증기관(KISA) : 평가인증 기준,지침 개발 / 통합 인증 업무 <br/>\
+- 인증위원회(KISA) : 평가결과 인증 심의, 평가취소 타당성 심의 의결 <br/>\
+- 기술자문기관(국보연) : 보안기준 마련 / 안전성 강화 대책 수립 <br/><br/>\
 # 인증 기준 <br/>\
 - 관리적 보호조치 : 정,조,인,자,공,사 / ISO 27001, DR, BCP <br/>\
 - 물리적 보호조치 : 보안 구역, 물리 접근제어, 장비 반출입, 정보처리 시설 보호 / 생체인증, Beacon <br/>\
 - 기술적 보호조치 : 가상화 보안, 접근 통제, 네트워크 보안, 데이터 보안 / CASB, SecaaS, CVE <br/>\
-- 공공기관용 추가 보호조치 : 장비 <font color = "red">안정성</font>, 물리 위치 <font color = "red">분리</font>, 검증필 <font color = "red">암호화</font> 기술 제공 / GS인증, 성능평가, CC 인증 <br/><br/>\
+- 공공기관용 추가 보호조치 : 장비 안정성, 물리 위치 분리, 검증필 암호화 기술 제공 / GS인증, 성능평가, CC 인증 <br/><br/>\
 # 인증 절차 <br/>\
 - 준비 단계 : 사전 컨설팅, 평가,인증 계약 체결 <br/>\
 - 평가 단계 : 서면/현장평가, 보완조치 <br/>\
-- 인증 단계 : <font color = "red">인증위원회</font> 개최, 인증서 발급 및 취득 <br/>\
-- 사후 관리 : 사후,갱신평가(<font color = "red">연1</font>), 사후관리(<font color = "red">분기</font>) <br/><br/>\
+- 인증 단계 : 인증위원회 개최, 인증서 발급 및 취득 <br/>\
+- 사후 관리 : 사후,갱신평가(연1), 사후관리(분기) <br/><br/>\
 * 120회 관리 3교시 6번\
 ',
 
@@ -4101,12 +4101,12 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - IaaS + SaaS -> DaaS(서비스형 데스크톱) <br/>\
 - 기존인증 : IaaS, SaaS, SaaS 간편인증 <br/>\
 - 추가인증 : 2020.11. DaaS 분야 인증 추가 <br/><br/>\
-# DaaS 분야 보안인증 범위 (<font color = "red">하파네관 백유개가서</font>)<br/>\
+# DaaS 분야 보안인증 범위 (하파네관 백유개가서)<br/>\
 <img src = "./img/DaaSArea.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # DaaS 분야 인증기준 <br/>\
 - 관리 / 물리 / 기술 / 공공기관용 추가 보호조치 <br/>\
-<font color = "red">* 14개 분야 110개 통제 항목 <br/>\
-* ISO/IEC 27017 내용 비슷 </font><br/><br/>\
+* 14개 분야 110개 통제 항목 <br/>\
+* ISO/IEC 27017 내용 비슷 <br/><br/>\
 * 라이지움 90회 1교시 3번 <br/>\
 * ITPE 6회 관리 1교시 2번\
 ',
@@ -4115,12 +4115,12 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 '# 개념 : 과기부장관 / 공공기관 클라우드 활성화 / 디지털 서비스 / 심사 선정 이용 촉진 제도 <br/>\
 - 과기부장관이 공공기관이 민간클라우드 컴퓨팅 도입 및 이용을 활성화하기 위해 디지털 서비스에 대해 사전 심사를 선정 및 이용을 촉진하는 제도  <br/><br/>\
 # 법적 개정 : 클컴법, 국가계약법, 조달사업법 시행령 <br/><br/>\
-# 개정안 주요내용 (<font color = "red">수정심카</font>)<br/>\
+# 개정안 주요내용 (수정심카)<br/>\
 - 수의 계약 허용(계약법) : 심사위원회에서 사전 선정 디지털서비스 대해 체결 허용 <br/>\
 - 정의 신설(클발법) : 서비스(통신,소프트웨어), 지원 서비스(매니지드, 컨설팅, 운영관리, 마이그레이션), 융합 서비스(가상화, 분산처리, 배치 관리 자동화) <br/>\
 - 심사위원회 신설(클컴법) : 관계부처(과기정통부, 기재부, 행안부, 조달청) 구성, 서비스 부합여부 심사 <br/>\
 - 카탈로그 계약 신설(조달법) : 기능, 특징, 가격 카탈로그 <br/><br/>\
-# 구성요소 (<font color = "red">점심카</font>)<br/>\
+# 구성요소 (점심카)<br/>\
 - 디지털 서비스 : 클라우드 컴퓨팅 서비스, 지원서비스, 융합 서비스 <br/>\
 - 디지털 서비스 점검반 : 민간 전문가, 검토 결과 보고서 <br/>\
 - 디지털 서비스 심사위원회 : 관계부처 공무원 및 민간 전문가 <br/>\
@@ -4268,11 +4268,11 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - 탄력성 : 최소 비용, BCP(RTO/RPO)<br/>\
 - 다양성 : 최적 도구(Shadow IT 예방), Polyglot 환경(Cross Compiler) <br/><br/>\
 # 구성요소 <br/>\
-- Public Cloud : 다양한 클라우드 환경에서 <font color = "red">변화하는 가상 장치</font>가 조직과 연결 <br/>\
-- Private Cloud : <font color = "red">서비스 오케스트레이션</font>과 함께 작동하는 분석, SDN 및 운영 관리 <br/>\
-- End to End Connectivity : 안전한 이더넷 코어 <font color = "red">스위치</font> 및 <font color = "red">무선 액세스</font> <br/>\
-- Data Center : <font color = "red">Spine-Leaf</font> 및 DCI 라우팅, 스위칭, 보안 및 관리를 기반으로 구축 <br/>\
-- Campus and branch : <font color = "red">SD-Wan</font> 라우팅, <font color = "red">SD-Branch</font> 보안으로 액세스 <br/><br/>\
+- Public Cloud : 다양한 클라우드 환경에서 변화하는 가상 장치가 조직과 연결 <br/>\
+- Private Cloud : 서비스 오케스트레이션과 함께 작동하는 분석, SDN 및 운영 관리 <br/>\
+- End to End Connectivity : 안전한 이더넷 코어 스위치 및 무선 액세스 <br/>\
+- Data Center : Spine-Leaf 및 DCI 라우팅, 스위칭, 보안 및 관리를 기반으로 구축 <br/>\
+- Campus and branch : SD-Wan 라우팅, SD-Branch 보안으로 액세스 <br/><br/>\
 # 기술요소 <br/>\
 1. 컴퓨팅 자원 활용 <br/>\
 - 인프라 연동 : 단일 API, 인프라 연동 드라이버, 자원 관리, Scaleout <br/>\
@@ -4316,7 +4316,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - MSA, 컨테이너화된 서비스, 분산 관리 및 오케스트레이션으로 구성된 클라우드 기반 애플리케이션 <br/><br/>\
 # 성숙도 모델 <br/>\
 <img src = "./img/CNMM.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 아키텍처 (<font color = "red">DORPI</font>)<br/>\
+# 아키텍처 (DORPI)<br/>\
 <img src = "./img/CloudNativeApplicationArcitecture.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 기존 Application 비교 <br/>\
 <img src = "./img/LegacyCloudNativeApplicationCompare.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -4324,23 +4324,23 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 ',
 
 // 12 Factors
-'# 정의 : 클라우드 네이티브 애플리케이션 개발방법론 / <font color = "red">헤로쿠 기업</font><br/>\
+'# 정의 : 클라우드 네이티브 애플리케이션 개발방법론 / 헤로쿠 기업<br/>\
 - 클라우드 플랫폼 모델 사용하는 기업들의 개발, 운영, 확장등을 관찰, 작성한 개발 방법론 <br/><br/>\
-# 상세 내용 (<font color = "red">코종설B 빌무포동 폐환로관</font>)<br/>\
-- 코드 베이스 : 1개 코드 베이스(<font color = "red">Git,SVN</font>), 동일 코드 <font color = "red">배포</font> / Non-neogitable <br/>\
-- 종속성 : App 필요 라이브러리 <font color = "red">Dependency Manifest</font> 파일(Genfile, POM) <font color = "red">명시적 사용</font> / High <br/>\
-- 설정 : 코드로부터 <font color = "red">분리된 공간</font> 저장 (Sprint Cloud config) / Medium <br/>\
-- Backend Service : Config에 백엔드 서비스 URL 저장, <font color = "red">연결된 리소스 취급</font> / High <br/>\
-- Build, Release, Run : <font color = "red">Build > Release > Run</font> 단계 배포, 각 단계 분리 / Conceptual <br/>\
-- 무상태 프로세스 : App, 하나 이상 프로세스 실행, 해당 프로세스 메모리 파일 <font color = "red">공유 불가</font> / High <br/>\
-- PortBinding : 배포된 App 타 App <font color = "red">접근 가능</font>, 포트 바인딩 통한 서비스 공개 / Medium <br/>\
-- 동시성 : App <font color = "red">수평 확장</font> 가능 및 Process 의한 동시성 향상 가능 / Low <br/>\
-- 폐기가능 : 빠른 시작, 종료 통한 <font color = "red">안정성 극대화</font> / Medium <br/>\
-- 환경 일치 : 개발, 스테이징, 프로덕션 <font color = "red">환경 일치 유지</font> / Medium <br/>\
-- 로그 : <font color = "red">Stream 취급</font>, 별도 저장소 보관 / Low <br/>\
-- 관리 프로세스 : <font color = "red">관리/유지보수</font> Release, <font color = "red">Admin 코드</font> App 코드 / High <br/><br/>\
-<font color = "red">* 포트바인딩 : 응용 계층(소켓), 전송 계층(TCP) <br/>\
-* 무상태 프로세스 : 격리 </font><br/><br/>\
+# 상세 내용 (코종설B 빌무포동 폐환로관)<br/>\
+- 코드 베이스 : 1개 코드 베이스(Git,SVN), 동일 코드 배포 / Non-neogitable <br/>\
+- 종속성 : App 필요 라이브러리 Dependency Manifest 파일(Genfile, POM) 명시적 사용 / High <br/>\
+- 설정 : 코드로부터 분리된 공간 저장 (Sprint Cloud config) / Medium <br/>\
+- Backend Service : Config에 백엔드 서비스 URL 저장, 연결된 리소스 취급 / High <br/>\
+- Build, Release, Run : Build > Release > Run 단계 배포, 각 단계 분리 / Conceptual <br/>\
+- 무상태 프로세스 : App, 하나 이상 프로세스 실행, 해당 프로세스 메모리 파일 공유 불가 / High <br/>\
+- PortBinding : 배포된 App 타 App 접근 가능, 포트 바인딩 통한 서비스 공개 / Medium <br/>\
+- 동시성 : App 수평 확장 가능 및 Process 의한 동시성 향상 가능 / Low <br/>\
+- 폐기가능 : 빠른 시작, 종료 통한 안정성 극대화 / Medium <br/>\
+- 환경 일치 : 개발, 스테이징, 프로덕션 환경 일치 유지 / Medium <br/>\
+- 로그 : Stream 취급, 별도 저장소 보관 / Low <br/>\
+- 관리 프로세스 : 관리/유지보수 Release, Admin 코드 App 코드 / High <br/><br/>\
+* 포트바인딩 : 응용 계층(소켓), 전송 계층(TCP) <br/>\
+* 무상태 프로세스 : 격리 <br/><br/>\
 * 15 Factors : API 우선, 관측, 인증과 권한 추가 \
 ',
 
@@ -4487,7 +4487,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 '# 정의 : 공공-민간 클라우드 <br/>\
 - Public-Private-Partnership <br/>\
 - 정부, 지자체, 공공기관 내부에 민간 클라우드를 임차 및 구축하는 방식 <br/><br/>\
-# 특징 (<font color = "red">신비보품</font>) <br/>\
+# 특징 (신비보품) <br/>\
 - 신속한 구축 : 일체형 클라우드 인프라 구성 <br/>\
 - 비용절감 : 구축대비 매몰비용 최소화 <br/>\
 - 보안유지 : 기관 고유 보안정책 준수, 기관 보안환경하 운영 <br/>\
@@ -4544,7 +4544,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - 분석 : 데이터 마이닝(비정형, 의심거래), 머신러닝(예측, 실시간 감시) <br/>\
 - 활용 : 시각적 분석 <br/>\
 - 보안/Infra : 바이오 인증, 블록체인, 클라우드, 로보틱스(IT 프로세스 제어 자동화) <br/><br/>\
-# 활용분야 (<font color = "red">데위감신내컴</font>) <br/>\
+# 활용분야 (데위감신내컴) <br/>\
 - 데이터 관리 : 실시간 프로세싱, 클라우드 컴퓨팅<br/>\
 - 위험 분석 및 예측 : 머신러닝, 로보틱스<br/>\
 - 실시간 거래 감시 : FDS<br/>\
@@ -4601,7 +4601,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - 장기적 속성 : 신기술 대체 어려움 <br/>\
 - 자본집약 성격 : 자본 진입 장벽 높음 <br/>\
 - 불투명 시장 : 각각 시장 특성 상이 <br/><br/>\
-# 산업 분야(<font color = "red">임관개조</font>) <br/>\
+# 산업 분야(임관개조) <br/>\
 - 중개 및 임대 : 정보 기반 데이터 분석, 중개 / 매물 검색, 공유 주택 <br/>\
 - 부동산 관리 : IoT, 센서 기술 기반 건물 관리 / 스마트 홈, 임차인 관리, 기물 수선 <br/>\
 - 프로젝트 개발 : 3D 분야 기술 개발 과정 이용 / 3D 설계 <br/>\
@@ -4817,15 +4817,15 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 // Data Catalogs
 '# 정의 : 데이터 관리, 검색도구 결합 / 메타데이터 모음 <br/>\
 - 데이터 관리 및 검색 도구가 결합된 메타데이터 모음으로, 기업 또는 기관이 보유한 데이터 자산의 효율적, 효과적 사용을 위해 사용 가능한 데이터 인벤토리를 제공하는 데이터 관리 플랫폼 <br/><br/>\
-# 구성요소 (<font color = "red">PSPS/작검라사</font>)<br/>\
-- People : 데이터 관련 <font color = "red">작업자 설명</font> 메타데이터 <br/>\
-- Search : 태그 및 키워드 지원으로 데이터 <font color = "red">검색이 가능</font>한 메타데이터 <br/>\
-- Processing : 데이터 소스에 대한 <font color = "red">라이센싱 제약조건</font>에 대한 메타데이터 <br/>\
-- Suppliers : 데이터 <font color = "red">라이프 사이클</font>에 대한 메타데이터 <br/><br/>\
+# 구성요소 (PSPS/작검라사)<br/>\
+- People : 데이터 관련 작업자 설명 메타데이터 <br/>\
+- Search : 태그 및 키워드 지원으로 데이터 검색이 가능한 메타데이터 <br/>\
+- Processing : 데이터 소스에 대한 라이센싱 제약조건에 대한 메타데이터 <br/>\
+- Suppliers : 데이터 라이프 사이클에 대한 메타데이터 <br/><br/>\
 # 주요기능 <br/>\
-- 데이터 세트 <font color = "red">검색</font> : 자연어, 연관어 검색 <br/>\
-- 데이터 품질 <font color = "red">정보 제공</font> : 데이터 집합 뷰 제공 <br/>\
-- 데이터 <font color = "red">액세스</font> : 데이터 공유, REST API <br/><br/>\
+- 데이터 세트 검색 : 자연어, 연관어 검색 <br/>\
+- 데이터 품질 정보 제공 : 데이터 집합 뷰 제공 <br/>\
+- 데이터 액세스 : 데이터 공유, REST API <br/><br/>\
 # 데이터 카탈로그 활용 이점 <br/>\
 - 데이터 효율 향상 <br/>\
 - 향상된 데이터 Context 제공 <br/>\
@@ -5015,18 +5015,18 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 
 // 디지털 트윈
 '# 정의 : 디지털 복제 / 동적 시뮬레이션 / 가상 모델 기술<br/>\
-- <font color = "red">ISO 23247 (제조업 Digital Twin 표준)</font><br/>\
+- ISO 23247 (제조업 Digital Twin 표준)<br/>\
 - 비즈니스 관점 : 물리적 객체 대한 디지털 복제 / 동적 성질 묘사 가상의 모델 <br/>\
 - 기술적 관점 : 물리적 사물 및 시스템의 동적 S/W 모델 / 센싱데이터 / 상태파악 / 변화 대응 / 운영 개선 / 가치부가 <br/><br/>\
 # 개념도 <br/>\
 <img src = "./img/DigitalTwin.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 모델(<font color = "red">모관모연자</font>) <br/>\
+# 모델(모관모연자) <br/>\
 - 모사 DTW : 물리대상 디지털트윈 복제 <br/>\
 - 관제 DTW : 모니터링 및 관계분석 제어 <br/>\
 - 모의 DTW : 물리대상 최적화 <br/>\
 + 연합 DTWs : 상호연계 디지털 트윈 재구성 <br/>\
 + 자율 DTWs : 자율적 문제점 인지, 해결, 최적화 <br/><br/>\
-# 기술요소(<font color = "red">3분가연운</font>) <br/>\
+# 기술요소(3분가연운) <br/>\
 - 3D 모델링 : Unreal, Unity, 3,6-DOF, Sensor, 자동인식기술, AI, Simulation Modeling <br/>\
 - 분석 : 3D환경 및 알고리즘 분석, 빅데이터 분석 <br/>\
 - 가시화 : AR, VR, MR, XR, Infographics <br/>\
@@ -5066,7 +5066,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - Back End : Event Router, BaaS <br/><br/>\
 # 한계점 및 고려사항 <br/>\
 - 한계점 : 낮은 성능, 고성능 부적합, 모니터링/디버깅 제한 <br/>\
-- 고려사항 : ROI 가치 두고 <font color = "red">그로스해킹 기반</font> 신기술 개발, 시장 개척등 활용 <br/><br/>\
+- 고려사항 : ROI 가치 두고 그로스해킹 기반 신기술 개발, 시장 개척등 활용 <br/><br/>\
 * 아이리포 24회 관리 3교시 5번<br/>\
 * 아이리포 23회 1교시 7번\
 ',
@@ -5255,11 +5255,11 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 '# 정의 : 공개 소프트웨어 적용 / 라이프 사이클 단계별 / 제시 절차 및 체계 <br/>\
 - 공개 소프트웨어를 안전하게 사용,적용 및 배포하기 위해 필요한 사항을 다양한 관점에서 활용할 수 있도록 소프트웨어 라이프 사이클 단계별로 제시한 절차 및 체계 <br/><br/>\
 # 프레임워크 <br/>\
-<font color = "red">- 정 : 컨정조 <br/>\
+- 정 : 컨정조 <br/>\
 - 획 : 요조분평 <br/>\
 - 적 : 계설개패시배 <br/>\
 - 운 : 설운유기커 <br/>\
-- 관 : 컴교모 </font><br/><br/>\
+- 관 : 컴교모 <br/><br/>\
 <img src = "./img/OSS_Governance_Framework.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 고려사항 <br/>\
 - 비즈니스 전략 : OSS 자원 집중도, 경쟁 여부, 전략 수립 <br/>\
@@ -5350,15 +5350,15 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 '# VR<br/>\
 - 특징 : 100% 가상<br/>\
 - 기술 : 가상현실 구현 기술<br/>\
-- 정의 : 100% 가상 이미지를 사용하여 가상 공간상 <font color = "red">리얼리티 구축 기술</font><br/><br/>\
+- 정의 : 100% 가상 이미지를 사용하여 가상 공간상 리얼리티 구축 기술<br/><br/>\
 # AR<br/>\
 - 특징 : 현실 + 가상 이미지<br/>\
 - 기술 : 정보 인식 구현 기술<br/>\
-- 정의 : 현실에 가상이미지를 겹쳐, <font color = "red">새로운 정보 인식 구현 기술</font><br/><br/>\
+- 정의 : 현실에 가상이미지를 겹쳐, 새로운 정보 인식 구현 기술<br/><br/>\
 # MR<br/>\
 - 특징 : 현실 + 가상 영상<br/>\
 - 기술 : 현실, 가상 융합 리얼리티 구축 기술<br/>\
-- 정의 : 가상 영상을 현실에 겹쳐, <font color = "red">상호 융합 리얼리티 구축 기술</font><br/><br/>\
+- 정의 : 가상 영상을 현실에 겹쳐, 상호 융합 리얼리티 구축 기술<br/><br/>\
 # SR <br/>\
 - 사람의 인지과정을 왜곡시켜 가상 세계에서의 경험을 실제인 것처럼 인식하게 하는 기술 <br/><br/>\
 # 공통기술 <br/>\
@@ -5577,7 +5577,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - 정보통신 : AI, Big Data, CPS, IoB <br/>\
 - 뇌,바이오 : 뉴로모픽 칩, 바이오 칩, 인공장기 <br/>\
 - 로봇, 제조 : 근력 증강 로봇, 3D 프린팅 <br/><br/>\
-<font color = "red">* 한국전자통신연구원(ETRI), 한국과학기술기획평가원(KISTEP) 2/23 18개 서비스 제시 </font><br/><br/>\
+* 한국전자통신연구원(ETRI), 한국과학기술기획평가원(KISTEP) 2/23 18개 서비스 제시 <br/><br/>\
 * 124회 관리 1교시 4번\
 ',
 
@@ -5700,20 +5700,20 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 # 보호기술 <br/>\
 - 환경 제공 : 민감한 데이터 처리, 분석할 수 있는 신뢰성 환경 <br/>\
 - 분산 수행 : Decentralize 방식으로 처리 및 분석 <br/>\
-- 암호화 : 처리 또는 분석 <font color="red">전에</font> 데이터와 알고리즘 암호화 \
+- 암호화 : 처리 또는 분석 전에 데이터와 알고리즘 암호화 \
 ',
 
 // 분산 클라우드
 '# 정의 : 퍼블릭 클라우드 / 다른 물리 위치 배포 / 운영, 거버넌스, 업데이트, 제공업체 책임 / 클라우드 모델 <br/>\
 - Distributed Cloud <br/>\
 - 퍼블릭 클라우드 서비스를 서로 다른 물리적 위치에 배포하는 반면 서비스의 운영, 거버넌스, 업데이트 및 진화는 원래 퍼블릭 클라우드 제공 업체의 책임지는 클라우드 모델 <br/><br/>\
-# 유형 (<font color = "red">온아메파글</font>)<br/>\
+# 유형 (온아메파글)<br/>\
 - 온프레미스 퍼블릭 클라우드 : 기업/기관 사이트 내 구축되는 퍼블릭 클라우드 <br/>\
 - IoT 엣지 클라우드 : 엣지 디바이스들을 위한 클라우드 <br/>\
 - 메트로 지역 커뮤니티 클라우드 : 도시, 광역도시 지역 내 고객 대상 클라우드 <br/>\
 - 5G 모바일 엣지 클라우드 : 통신사 네트워크 내에서 제공되는 클라우드 <br/>\
 - 글로벌 네트워크 엣지 클라우드 : 네트워크 인프라의 라우터, 기지국, 허브 같은 곳에서 제공 클라우드 <br/><br/>\
-# 구성도 (<font color = "red">코리에</font>)<br/>\
+# 구성도 (코리에)<br/>\
 <img src = "./img/DistributedCloudStructure.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 구성요소 <br/>\
 1. 코어 계층 <br/>\
@@ -5866,13 +5866,13 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 '# 정의 : 지역사회 문제 해결 / 사회 구성원 / SW, ICT 기술 / 해결 / 사회문제 연구소<br/>\
 - Solution in Our Society Lab <br/>\
 - 지역사회 문제해결을 위해 사회 구성원들이 모여 SW, ICT 기술로 해결 방법을 마련하는 사회문제 연구소 <br/><br/>\
-# 프로세스 (<font color = "red">조개구실공사</font>)<br/>\
-- 조직화 : 혁신조직, 자원확보, <font color = "red">가치와 목표</font> <br/>\
-- 개념화 : 문제발굴, <font color = "red">공감</font>, 문제 정의 <br/>\
-- 구체화 : 아이디에이션, <font color = "red">프로토타입</font> <br/>\
-- 실체화 : 공동창조, <font color = "red">컨셉 디자인</font> <br/>\
-- 공유화 : <font color = "red">실증 및 확산</font>, 데이터 관리 <br/>\
-- 사업화 : <font color = "red">비즈니스 모델</font>, 지원 프로그램 <br/><br/>\
+# 프로세스 (조개구실공사)<br/>\
+- 조직화 : 혁신조직, 자원확보, 가치와 목표 <br/>\
+- 개념화 : 문제발굴, 공감, 문제 정의 <br/>\
+- 구체화 : 아이디에이션, 프로토타입 <br/>\
+- 실체화 : 공동창조, 컨셉 디자인 <br/>\
+- 공유화 : 실증 및 확산, 데이터 관리 <br/>\
+- 사업화 : 비즈니스 모델, 지원 프로그램 <br/><br/>\
 # 조성 현황 <br/>\
 - 인천 : 아동안전 <br/>\
 - 대전 : 시민생활 안전(노인,장애인,악취) <br/>\

@@ -164,7 +164,7 @@ var answer = answer.concat(
 - 한번에 처리되어야 할 하나 또는 둘 이상의 일련의 작업단위로써 데이터베이스에서 행해지는 작업의 논리적 단위 (Logical Unit of Work) <br/><br/>\
 # 내용 <br/>\
 - 보장기법 : ACID <br/>\
-- 상태전이도(<font color = "red">활부완실철</font>) : Active, Partial Committed, Failed, Committed, Aborted <br/>\
+- 상태전이도(활부완실철) : Active, Partial Committed, Failed, Committed, Aborted <br/>\
 - 병행제어 기법 : 갱읽모연 / 락타낙다 <br/><br/>\
 # MSA 에서 Transaction 처리기법 <br/>\
 - 2 Phase  Commit : Prepare, Commit 두 단계 커밋 / 분산 트랜잭션 지원 DB 만 사용 <br/>\
@@ -400,8 +400,8 @@ var answer = answer.concat(
 
 // Phantom Conflict
 '# 정의 : 가상 튜플에 의한 충돌 <br/>\
-- 두 개 이상의 트랜잭션이 실제 데이터베이스에 저장되어 있는 튜플이 아니라, <font color = "red">데이터베이스에 삽입되려고 하는 가상의 튜플</font>, 즉 팬텀 튜플에 의해 트랜잭션이 충돌되어 <font color = "red">일관성/무결성</font>이 보장되지 않는 현상 <br/><br/>\
-# 영향 (<font color = "red">없있 있없</font>)<br/>\
+- 두 개 이상의 트랜잭션이 실제 데이터베이스에 저장되어 있는 튜플이 아니라, 데이터베이스에 삽입되려고 하는 가상의 튜플, 즉 팬텀 튜플에 의해 트랜잭션이 충돌되어 일관성/무결성이 보장되지 않는 현상 <br/><br/>\
+# 영향 (없있 있없)<br/>\
 - 읽기 : 다른 Tx 삽입 / 없었던 행 출현 <br/>\
 - 쓰기 : 다른 Tx 삭제 / 행 사라짐 <br/><br/>\
 # 해결방법 <br/>\
@@ -416,7 +416,7 @@ var answer = answer.concat(
 - 트랜잭션 접근시 여러 버전 타임스탬프 비교, 직렬가능성 보장 적절한 버전 선택 접근 기법 <br/><br/>\
 # 구현방식 <br/>\
 1. MGA(Multi Generation Architecture) <br/>\
-- 개념 : 기존 데이터 두고, 새로운 버전 추가 / <font color = "red">PostgreSQL</font><br/>\
+- 개념 : 기존 데이터 두고, 새로운 버전 추가 / PostgreSQL<br/>\
 - 특징 : 기존 데이터 잔존, 주기적 VACUUM, 물리적 위치 변경 <br/>\
 - Perssimistic Lock 사용, PostgreSQL, SQL Server, InterBase 사용 <br/>\
 <img src = "./img/MVCC_MGA.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -489,17 +489,17 @@ var answer = answer.concat(
 '<img src = "./img/회복기법_4.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 지연갱신 <br/>\
 - 트랜잭션의 부분 완료 상태에선 변경 내용을 로그 파일에만 저장 <br/>\
-- <font color = "red">커밋</font>이 발생하기 전까지 데이터베이스에 기록하지 않음 <br/>\
-- 중간에 장애가 생기더라도 데이터 베이스 기록되지 않았으므로 <font color = "red">UNDO 필요 없음</font> <br/><br/>\
+- 커밋이 발생하기 전까지 데이터베이스에 기록하지 않음 <br/>\
+- 중간에 장애가 생기더라도 데이터 베이스 기록되지 않았으므로 UNDO 필요 없음 <br/><br/>\
 # 즉시갱신 <br/>\
-- 트랜잭션 수행 도중에도 변경 내용을 <font color = "red">즉시</font> 데이터베이스에 기록 <br/>\
-- 커밋 발생 이전의 갱신은 원자성이 보장되지 않는 미완료 갱신이므로 <font color = "red">UNDO 필요</font>\
+- 트랜잭션 수행 도중에도 변경 내용을 즉시 데이터베이스에 기록 <br/>\
+- 커밋 발생 이전의 갱신은 원자성이 보장되지 않는 미완료 갱신이므로 UNDO 필요\
 ',
 
 // 그림자 페이지
 '<img src = "./img/ShadowPaging.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 특징 <br/>\
-- <font color = "red">메모리상</font> Current Page Table과 동일한 Shadow Page Table 생성 <br/>\
+- 메모리상 Current Page Table과 동일한 Shadow Page Table 생성 <br/>\
 - Tx 성공할 경우 Shadow Page Table 삭제 <br/>\
 - Tx 실패할 경우 Shadow Page Table을 Current Page Table 로 복사 \
 ',
@@ -525,13 +525,13 @@ var answer = answer.concat(
 - 메모리 버퍼에 저장한 페이지가 언제 디스크에 기록될 것인가를 명시하는 데이터 버퍼관리 정책<br/><br/>\
 # 내용 <br/>\
 1. DIRTY Page <br/>\
-- STEAL : DIRTY Page <font color = "red">해제</font>(LRU), UNDO 필요 <br/>\
-- NO STEAL :  DIRTY Page <font color = "red">유지</font>, 충분 버퍼 필요 <br/><br/>\
+- STEAL : DIRTY Page 해제(LRU), UNDO 필요 <br/>\
+- NO STEAL :  DIRTY Page 유지, 충분 버퍼 필요 <br/><br/>\
 2. Commit <br/>\
-- FORCE : <font color = "red">모든</font> 페이지 즉시 Commit, 성능 저하 <br/>\
-- NO FORCE : <font color = "red">일부</font> 페이지 Commit, REDO 필요 <br/><br/>\
-<font color = "red">* NO STEAL/FORCE 정책 : 구현 Good 성능 Bad <br/>\
-* STEAL/NO FORCE 정책 : 성능 Good</font>\
+- FORCE : 모든 페이지 즉시 Commit, 성능 저하 <br/>\
+- NO FORCE : 일부 페이지 Commit, REDO 필요 <br/><br/>\
+* NO STEAL/FORCE 정책 : 구현 Good 성능 Bad <br/>\
+* STEAL/NO FORCE 정책 : 성능 Good\
 ',
 
 // ARIES
@@ -550,7 +550,7 @@ var answer = answer.concat(
 - LSN : 로그 대한 고유 식별 번호 / 복구 목적 로그 관리 <br/>\
 - Repeating History : 장애 이전 상태 추적, REDO 활용 / 장애 직전 중지 Tx 취소 <br/>\
 - UNDO Logging : UNDO 상황 로그 기록, 반복처리 회피 / LSN 활용 <br/>\
-<font color = "red">* Database Logging : Update, Commit, Abort, End, Rollback 행위, 결과 기록</font><br/><br/>\
+* Database Logging : Update, Commit, Abort, End, Rollback 행위, 결과 기록<br/><br/>\
 # 복구 단계 설명 <br/>\
 <img src = "./img/AriesFlow.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 96회 관리 4교시 3번\
@@ -581,13 +581,13 @@ var answer = answer.concat(
 4. 보상 트랜잭션 : 피봇 실패시 이전 단계 변경분 Undo <br/>\
 -> 주문 서비스 Rollback 시 cancelOrder() 트랜잭션 실행 <br/><br/>\
 # MSA 환경 Isolation 보장 방안 <br/>\
-1. Semantic Lock : <font color = "red">Application 수준 Lock</font> 통한 참조제어 <br/>\
+1. Semantic Lock : Application 수준 Lock 통한 참조제어 <br/>\
 - 생성시 Pending, 완료시 Approve 상태값 관리 <br/>\
 - 승인된 데이터만 참조 <br/><br/>\
-2. ReRead Value : <font color = "red">최신 정보</font> 확인 통한 Lost Update 방지 <br/>\
+2. ReRead Value : 최신 정보 확인 통한 Lost Update 방지 <br/>\
 - 데이터 쓰기 전 변경 여부 확인 <br/>\
 - 변경시 쓰기 작업 중단, 트랜잭션 재시작 <br/><br/>\
-3. Commutative Update : <font color = "red">업데이트 교환적 설계</font> 통한 Lost Update 방지 <br/>\
+3. Commutative Update : 업데이트 교환적 설계 통한 Lost Update 방지 <br/>\
 - dedit(), credit(), 업데이트 및 롤백을 상호 교환 작업으로 구성 <br/><br/>\
 # 종류 <br/>\
 - Choreography-Based Saga <br/>\
@@ -597,7 +597,7 @@ var answer = answer.concat(
 
 // Choreography-Based Saga
 '# 정의 : Local Tx / 완료 Event 발생 방식 <br/>\
-- <font color = "red">자신이 보유한</font> 서비스내 Local 트랜잭선을 관리하며, 트랜잭션이 종료되면 완료 Event 발생하는 방식 <br/><br/>\
+- 자신이 보유한 서비스내 Local 트랜잭선을 관리하며, 트랜잭션이 종료되면 완료 Event 발생하는 방식 <br/><br/>\
 # 성공 <br/>\
 <img src = "./img/ChoreographySuccess.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 실패 <br/>\
@@ -612,7 +612,7 @@ var answer = answer.concat(
 
 // Orchestration-Based Saga
 '# 정의 : Saga 인스턴스(Manager) / 별도 존재 방식 <br/>\
-- 트랜잭션 처리를 위한 <font color = "red">Saga 인스턴스(Manager)</font>가 별도 존재하는 방식 <br/><br/>\
+- 트랜잭션 처리를 위한 Saga 인스턴스(Manager)가 별도 존재하는 방식 <br/><br/>\
 # 성공 <br/>\
 <img src = "./img/OrchestrationBasedSagaSuccess.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 실패 <br/>\
@@ -633,9 +633,9 @@ var answer = answer.concat(
 - 시스템 오동작 : 의사결정시 지연, 오류 발생 <br/><br/>\
 # 예시 및 유형 <br/>\
 <img src = "./img/DBAnormalyExample.png" style = "max-width:100%; height:auto;"><br/>\
-- 삽입 이상 : 학번 1003 삽입 / <font color = "red">누락</font> 발생 <br/>\
-- 삭제 이상 : 학번 1002 삭제 / <font color = "red">손실</font> 발생 <br/>\
-- 수정 이상 : 학번 1004 변경 / <font color = "red">모순</font> 발생 <br/><br/>\
+- 삽입 이상 : 학번 1003 삽입 / 누락 발생 <br/>\
+- 삭제 이상 : 학번 1002 삭제 / 손실 발생 <br/>\
+- 수정 이상 : 학번 1004 변경 / 모순 발생 <br/><br/>\
 # 해결방안 : 정규화 <br/><br/>\
 * 라이지움 90회 응용 1교시 13번 \
 ',
@@ -647,7 +647,7 @@ var answer = answer.concat(
 # 특징 <br/>\
 - 제1정규형 ~ 제5정규형, BCNF가 실무적으로 활용되며 나머지는 연구용<br/>\
 - 정규화는 논리적 설계 단계에서 수행 <br/><br/>\
-# 원칙(<font color = "red">무중분</font>) : 무손실분해, 중복성감소, 분리원칙 <br/><br/>\
+# 원칙(무중분) : 무손실분해, 중복성감소, 분리원칙 <br/><br/>\
 <img src="./img/DB_4.PNG" style = "max-width:100%; height:auto;"><br/>\
 # 종류 <br/>\
 <img src = "./img/DBNormalization.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -740,7 +740,7 @@ var answer = answer.concat(
 // 다차원 모델링
 '# 정의 : DW 요소 기술 / 대용량 / 빠른 성능 / 분석 <br/>\
 - 대용량 데이터를 다양한 관점에서 빠른 성능으로 분석하기 위한 DW 요소기술 <br/><br/>\
-# 구성요소 (<font color = "red">사차속계</font>)<br/><br/>\
+# 구성요소 (사차속계)<br/><br/>\
 1. 사실 <br/>\
 - Fact <br/>\
 - 사용자가 가장 먼저 조회하는 테이블 <br/>\
@@ -807,7 +807,7 @@ var answer = answer.concat(
 // 중심성 이론
 '# 정의 : 그래프, SNS / Vertex, Node / 상대적 중요성 척도 <br/>\
 - 그래프 이론에서 중심성이란 그래프 혹은 사회 연결망에서 꼭짓점(vertex) 혹은 노드(node)의 상대적 중요성을 나타내는 척도 <br/><br/>\
-# 유형 (<font color = "red">연근매고조카페</font>)<br/>\
+# 유형 (연근매고조카페)<br/>\
 1. 연결 중심성(Degree Centrality)<br/>\
 - 개념 : 특정 노드에 연결된 모든 Edge의 개수 합 <br/>\
 - 중심성 지표의 완전한 신뢰할 수 없음 <br/>\
@@ -932,7 +932,7 @@ var answer = answer.concat(
 // DQM
 '# 데이터 품질관리 정의 : 기대 만족 / 데이터 관리 및 개선 활동 <br/>\
 - 기관이나 조직 내외부의 정보시스템 및 DB 사용자의 기대를 만족시키기 위해 지속적으로 수행하는 데이터 관리 및 개선 활동 <br/><br/>\
-# 데이터 품질관리 프레임워크 (<font color = "red">값구관 - 표모관업 개논물뷰 표모관활 </font>)<br/>\
+# 데이터 품질관리 프레임워크 (값구관 - 표모관업 개논물뷰 표모관활 )<br/>\
 - 정의 : 데이터 품질관리의 대상이 되는 구성요소와 요소들 간의 관계를 정의한 데이터 품질관리의 기본 개념틀 <br/>\
 <img src = "./img/DQ_Framework.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 데이터 관리 <br/>\
@@ -966,15 +966,15 @@ var answer = answer.concat(
 // ISO 11179
 '# 개념 : 공유, 교환 지원 / 의미, 구문, 표현 표준화 / 메타데이터 명명, 식별, 관리 표준 <br/>\
 - 데이터 공유, 교환을 지원하고 데이터의 의미, 구문, 표현을 표준화하기 위해 메타데이터의 명명, 식별, 관리를 위한 메타데이터 관리 표준 <br/><br/>\
-# 구성 (<font color ="red">프분모기정식등세</font>)<br/>\
-- 프레임워크(ISO/IEC 11179-1) : 메타데이터 관리 <font color ="red">개념, 구성요소</font> <br/>\
-- 분류(ISO/IEC 11179-2) : 분류체계 관리 위한 <font color ="red">개념 모델</font> <br/>\
-- 메타모델(ISO/IEC 11179-3) : <font color ="red">공유데이터 관리</font> 위한 메타모델 <br/>\
-- 기본 속성(ISO/IEC 11179-30) : 설명 <font color ="red">기본 특성</font>, 메타데이터 레지스트리 지정 <br/>\
-- 데이터 정의 규칙(ISO/IEC 11179-4) : <font color ="red">상세 데이터</font> 정의 규칙 지침 제공 <br/>\
-- 명명과 식별자(ISO/IEC 11179-5) : 명명 규칙, 식별자 <font color ="red">부여 원칙, 지침</font> <br/>\
-- 등록자(ISO/IEC 11179-6) : 등록자 통한 데이터 요소 <font color ="red">등록, 검증,인증</font> 통한 데이터 표준화 지원 <br/>\
-- 데이터 세트(ISO/IEC 11179-7) : 메타 데이터 <font color ="red">등록</font> 위한 메타 <font color ="red">모델</font> 제시 \
+# 구성 (프분모기정식등세)<br/>\
+- 프레임워크(ISO/IEC 11179-1) : 메타데이터 관리 개념, 구성요소 <br/>\
+- 분류(ISO/IEC 11179-2) : 분류체계 관리 위한 개념 모델 <br/>\
+- 메타모델(ISO/IEC 11179-3) : 공유데이터 관리 위한 메타모델 <br/>\
+- 기본 속성(ISO/IEC 11179-30) : 설명 기본 특성, 메타데이터 레지스트리 지정 <br/>\
+- 데이터 정의 규칙(ISO/IEC 11179-4) : 상세 데이터 정의 규칙 지침 제공 <br/>\
+- 명명과 식별자(ISO/IEC 11179-5) : 명명 규칙, 식별자 부여 원칙, 지침 <br/>\
+- 등록자(ISO/IEC 11179-6) : 등록자 통한 데이터 요소 등록, 검증,인증 통한 데이터 표준화 지원 <br/>\
+- 데이터 세트(ISO/IEC 11179-7) : 메타 데이터 등록 위한 메타 모델 제시 \
 ',
 
 // TTAK.KO-10.0555
@@ -993,7 +993,7 @@ var answer = answer.concat(
 '# 정의 : 동명이의어 / 데이터 요소 매핑 표준 <br/>\
 - Metadata Mapping Procedure <br/>\
 - 동일한 의미의 다른 이름 가지는 데이터 요소들에 대해 매핑하기 위한 표준 <br/><br/>\
-# 구성 (<font color = "red">데값메온</font>)<br/>\
+# 구성 (데값메온)<br/>\
 - Part3 : 데이터 요소 표준화 <br/>\
 - Part4 : 값 영역 표준화 <br/>\
 - Part5 : 메타데이터의 의미적 일, 매핑절차 표준화 <br/>\
@@ -1095,12 +1095,12 @@ var answer = answer.concat(
 - 삭제 : 하위 노드 중복 MBR 중복 가능 삭제 <br/>\
 - 탐색 : 근접 이웃 영역 순차 탐색 <br/><br/>\
 2. R+ Tree <br/>\
-- 개념 : 중간노드 MBR <font color = "red">중복 제거</font>, 하위노드 중복허용 R트리 변형 구조 <br/>\
+- 개념 : 중간노드 MBR 중복 제거, 하위노드 중복허용 R트리 변형 구조 <br/>\
 - 삽입 : MBR 중복제거 하위 중복 허용 <br/>\
 - 삭제 : 중보 구성, 서브트리 재구성 필요 <br/>\
 - 탐색 : 중복 제거 최소 영역 검색 <br/><br/>\
 3. R* Tree <br/>\
-- 개념 : R트리 <font color = "red">삽입,삭제</font> 알고리즘 개선 영역 효율 적용 R트리 변형 구조 <br/>\
+- 개념 : R트리 삽입,삭제 알고리즘 개선 영역 효율 적용 R트리 변형 구조 <br/>\
 - 삽입 : 최소 면적, 메모리 효율 저장 <br/>\
 - 삭제 : 최소공간, 2차 휴리스틱 적용 <br/>\
 - 탐색 : 최적 영역, 메모리 효율 검색 <br/><br/>\
@@ -1110,13 +1110,13 @@ var answer = answer.concat(
 ',
 
 // 인덱스 구조
-'# B-Tree : <font color = "red">균등한 응답속도</font> 유지를 위하여 Leaf Level의 좌우 균형을 유지하는 트리 <br/><br/>\
-# B+Tree : <font color = "red">링크드 리스트</font>, Leaf에 모든 값 정렬 <br/><br/>\
-# B*Tree : <font color = "red">2/3 split</font> overhead 감소 <br/><br/>\
-# R-Tree : 사각형 영역안에 객체가 완전히 포함되도록 하는 <font color = "red">MBR(Minimum Bounding Region 최소경계사각형)에</font> 기반한 인덱싱 기법 <br/><br/>\
-# R+Tree : R-Tree에서 노드간의 <font color = "red">중첩 영역 제거</font>, k-d-B트리의 특징 접목, 겹침 없음 <br/><br/>\
-# R*Tree : R-Tree에서의 <font color = "red">삽입, 삭제 알고리즘을 개선</font>, 성능 개선 <br/><br/>\
-# T-Tree : <font color = "red">AVL-Tree와 B-Tree의 장점</font>을 모아 메모리상에서 최적의 성능을 유지할 수 있도록 한 트리 (AVL-Tree + B-Tree; Min/Max)<br/><br/>\
+'# B-Tree : 균등한 응답속도 유지를 위하여 Leaf Level의 좌우 균형을 유지하는 트리 <br/><br/>\
+# B+Tree : 링크드 리스트, Leaf에 모든 값 정렬 <br/><br/>\
+# B*Tree : 2/3 split overhead 감소 <br/><br/>\
+# R-Tree : 사각형 영역안에 객체가 완전히 포함되도록 하는 MBR(Minimum Bounding Region 최소경계사각형)에 기반한 인덱싱 기법 <br/><br/>\
+# R+Tree : R-Tree에서 노드간의 중첩 영역 제거, k-d-B트리의 특징 접목, 겹침 없음 <br/><br/>\
+# R*Tree : R-Tree에서의 삽입, 삭제 알고리즘을 개선, 성능 개선 <br/><br/>\
+# T-Tree : AVL-Tree와 B-Tree의 장점을 모아 메모리상에서 최적의 성능을 유지할 수 있도록 한 트리 (AVL-Tree + B-Tree; Min/Max)<br/><br/>\
 <img src = "./img/인덱스구조1.png" style = "max-width:100%; height: auto;"><br/><br/>\
 <img src = "./img/인덱스구조2.png" style = "max-width:100%; height: auto;"><br/><br/>\
 <img src = "./img/인덱스구조3.png" style = "max-width:100%; height: auto;"><br/><br/>\
@@ -1136,7 +1136,7 @@ var answer = answer.concat(
 - Hilbert Cell : 공간의 차수가 1인 경우의 Hilbert 곡선 <br/>\
 - Hiblert Gene : 이전 차수 곡선 통한 다음 차수 생성 정보 <br/>\
 - GPGPU : 일반 연산 가능 설계 GPU <br/><br/>\
-# 절차 (<font color = "red">힐로리상</font>) <br/>\
+# 절차 (힐로리상) <br/>\
 - 힐버트 값 계산 <br/>\
 - 오름 차순 정렬 <br/>\
 - 리프 노드 계산 <br/>\
@@ -1218,7 +1218,7 @@ var answer = answer.concat(
 // 디지털 리터러시
 '# 정의 : 데이터 활용 능력 / 목적, 의미, 이해, 해석, 활용 <br/>\
 - Data 와 Literacy 의 합성어로, 데이터를 목적에 맞게 생성하고, 데이터의 숨겨진 의미를 올바르게 이해 및 해석하여 적절하게 활용하는 능력<br/><br/>\
-# 6영역 (<font color = "red">연비창디의기</font>)<br/>\
+# 6영역 (연비창디의기)<br/>\
 - 연구 및 정보 <br/>\
 - 비판적 사고력 <br/>\
 - 창의성 및 혁신성 <br/>\
@@ -1232,60 +1232,60 @@ var answer = answer.concat(
 // Join
 '# 정의 : 테이블, 데이터베이스 연결 / 데이터 검색 방법 <br/>\
 - 두개 이상의 테이블이나 데이터베이스를 연결하여 데이터를 검색하는 방법 <br/><br/>\
-# 논리적 조인 (<font color = "red">내외크셀</font>)<br/>\
+# 논리적 조인 (내외크셀)<br/>\
 1. Inner Join (교집합) <br/><br/>\
 SELECT A.NAME, B.AGE <br/>\
 FROM TABLE_A A TABLE_B B <br/>\
-WHERE A.NO_EMP <font color = "red">=</font> B.NO_EMP <br/>\
-AND   A.DEPT   <font color = "red">=</font> B.DEPT   <br/><br/>\
+WHERE A.NO_EMP = B.NO_EMP <br/>\
+AND   A.DEPT   = B.DEPT   <br/><br/>\
 2. Left Outer Join (A) <br/><br/>\
 SELECT A.NAME, B.AGE <br/>\
 FROM TABLE_A A TABLE_B B <br/>\
-WHERE A.NO_EMP<font color = "red">(+)</font> = B.NO_EMP <br/>\
+WHERE A.NO_EMP(+) = B.NO_EMP <br/>\
 AND   A.DEPT   = B.DEPT   <br/><br/>\
 3. Full Outer Join (A+B) <br/><br/>\
 SELECT A.NAME, B.AGE <br/>\
 FROM TABLE_A A TABLE_B B <br/>\
-WHERE A.NO_EMP<font color = "red">(+)</font> = B.NO_EMP<font color = "red">(+)</font> <br/>\
+WHERE A.NO_EMP(+) = B.NO_EMP(+) <br/>\
 AND   A.DEPT   = B.DEPT   <br/><br/>\
 4. Cross Join <br/>\
 - 모든 경우의 수 표현 <br/>\
 - 결과값 수 N*M <br/>\
 <img src = "./img/Join_1.PNG" style = "max-width:100%; height:auto;"><br/><br/>\
 SELECT A.NAME, B.AGE <br/>\
-FROM <font color = "red">EX_TABLE A, JOIN_TABLE B</font> <br/><br/>\
+FROM EX_TABLE A, JOIN_TABLE B <br/><br/>\
 5. Self Join <br/>\
 - 자기 자신과 조인 <br/>\
 - 하나의 테이블 여러번 복사 <br/>\
 - 자신이 가지고 있는 칼럼 다양하게 변형시켜 활용할 때 사용 <br/>\
 <img src = "./img/Join_2.PNG" style = "max-width:100%; height:auto;"><br/><br/>\
 SELECT A.NAME, B.AGE <br/>\
-FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B <br/><br/>\
-# 물리적 조인 (<font color = "red">네소해카인</font>)<br/>\
+FROM TABLE_A A, TABLE_A B <br/><br/>\
+# 물리적 조인 (네소해카인)<br/>\
 - SQL문 사용하지 않음<br/>\
 - SQL문에서 요청하는 논리 조인을 옵티마이저가 자료 통계나 규칙에 맞게 가져오는 방법 <br/>\
 - 내부에서 일어나는 조인 <br/><br/>\
 1. Nested Loop Join <br/>\
 <img src = "./img/NestedRoopJoin.png" style = "max-width:100%; height:auto;"><br/>\
-- <font color = "red">가장 많이 사용</font>하는 기본 조인 방식 <br/>\
-- 선수행 범위가 중요, <font color = "red">후 수행 랜덤 엑세스</font> <br/>\
+- 가장 많이 사용하는 기본 조인 방식 <br/>\
+- 선수행 범위가 중요, 후 수행 랜덤 엑세스 <br/>\
 - 장점 : 좀은 범위 처리 유리 <br/>\
 - 단점 : Random Access 위주 <br/><br/>\
 2. Sort Merge Join <br/>\
 <img src = "./img/SortMergeJoin.png" style = "max-width:100%; height:auto;"><br/>\
-- <font color = "red">정렬 후</font> 조인 수행 방식 <br/>\
+- 정렬 후 조인 수행 방식 <br/>\
 - 장점 : 조인 대상 범위 넓을 시, 효율 <br/>\
 - 단점 : 연결고리 인덱스 미 존재 <br/><br/>\
 3. Hash Join <br/>\
 <img src = "./img/HashJoin.png" style = "max-width:100%; height:auto;"><br/>\
-- <font color = "red">해시함수</font> 기법 활용한 조인 방식 <br/>\
+- 해시함수 기법 활용한 조인 방식 <br/>\
 - 장점 : 대용량 처리시 랜덤액세스, 정렬부담 해결 <br/>\
 - 단점 : CBO 에서만 가능 <br/><br/>\
 4. Cartesion Join <br/>\
-- 전체 x 전체 또는 <font color = "red">M:M</font> 조인 방식 <br/>\
-- 일반적으로 <font color = "red">조인 순서 잘못된</font> 경우 발생 <br/><br/>\
+- 전체 x 전체 또는 M:M 조인 방식 <br/>\
+- 일반적으로 조인 순서 잘못된 경우 발생 <br/><br/>\
 5. Index Join <br/>\
-- <font color = "red">인덱스 존재</font>시 인덱스간 해시 조인을 통해 액세스 하는 기법\
+- 인덱스 존재시 인덱스간 해시 조인을 통해 액세스 하는 기법\
 ',
 
 // Hint
@@ -1320,17 +1320,17 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 # 필요성 <br/>\
 - 데이터 운영 : 데이터 불일치, 의미파악 지연 <br/>\
 - 데이터 처리 : 데이터 통합 어려움, 정보시스템 변경 및 유지보수 곤란 <br/><br/>\
-# 데이터 <font color = "red">표</font>준 (용단도코)<br/>\
+# 데이터 표준 (용단도코)<br/>\
 - 표준 용어 : 업무적으로 사용하는 용어 정의 표준 <br/>\
 - 표준 단어 : 일관된 단어 사용 (한글,영어) <br/>\
 - 표준 도메인 : 칼럼에 대한 성질 (문자형,숫자형) <br/>\
 - 표준 코드 : 특정 도메인 값 미리 정의 <br/><br/>\
-# <font color = "red">조</font>직 구성 <br/>\
+# 조직 구성 <br/>\
 - 업무 담당자 : 표준 신규 및 변경 요청, 데이터 관리자 지시 내용 적용 <br/>\
 - 데이터베이스 관리자 : 테스트 및 검증, 사용자 반영 결과 통보 <br/>\
 - 데이터 관리자 : 메타 DB 표준 등록, 변경 표준 배포 <br/>\
 - 전사 데이터 관리자 : 전사 관점 가이드 자문 및 제시 <br/><br/>\
-# 데이터 표준화 <font color = "red">절</font>차 (수정확관)<br/>\
+# 데이터 표준화 절차 (수정확관)<br/>\
 - 요구사항 수집 : 개별 시스템 표준 수집<br/>\
 - 정의 : 표준화 원칙 정의<br/>\
 - 확정 : 데이터 표준 검토 및 확정 <br/>\
@@ -1377,7 +1377,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - SQL을 가장 빠르고 효율적으로 수행할 최적의 처리경로를 생성해주는 DBMS 내부의 핵심엔진 <br/>\
 - 사용자가 구조화된 질의언어로 결과집합을 요구하면, 이를 생성하는데 필요한 처리경로는 DBMS에 내장된 옵티마이저가 자동으로 생성 <br/>\
 - 실행계획 : 옵티마이저가 생성한 SQL 처리 경로<br/><br/>\
-# 개념도 (<font color = "red">PODS</font>)<br/>\
+# 개념도 (PODS)<br/>\
 <img src = "./img/DB_Optimizer.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 구성요소 <br/>\
 1. Parser : 개별 요소 분석, Syntax Check <br/><br/>\
@@ -1470,12 +1470,12 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 <img src = "./img/Chen.png" style = "max-width:100%; height:auto;"><br/><br/>\
 - Barker : IE표기법과 유사한 표기법, Oracle에서 Case Method로 채택하여 사용 <br/>\
 <img src = "./img/Barker.png" style = "max-width:100%; height:auto;"><br/>\
-<font color = "red">* # : PK / * : Mandatory / o : Optional </font><br/><br/>\
+* # : PK / * : Mandatory / o : Optional <br/><br/>\
 * 122회 4교시 5번\
 ',
 
 // 관계형 데이터 모델
-'(<font color = "red">릴튜속식카</font>)<br/>\
+'(릴튜속식카)<br/>\
 <img src = "./img/RelationDataModel.png" style = "max-width:100%; height:auto;">\
 ',
 
@@ -1483,12 +1483,12 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 '# 정의 : ER 모델 / 관계성 분실 현상<br/>\
 - ER 모델 상 관계가 연결되지만, 실제 관계 설정이 되지 않는 관계성 분실 현상 <br/><br/>\
 # 종류 <br/>\
-1. 부채꼴 함정 (<font color = "red">단교학 11</font>)<br/>\
-- 개념 : <font color = "red">모호</font>한 현상 <br/>\
+1. 부채꼴 함정 (단교학 11)<br/>\
+- 개념 : 모호한 현상 <br/>\
 - 예시 <br/>\
 <img src = "./img/SectorformTrap.png" style = "max-width:100%; height:auto;"><br/><br/>\
-2. 균열 함정 (<font color = "red">교학학 N1</font>)<br/>\
-- 개념 : <font color = "red">미존재</font> 현상 <br/>\
+2. 균열 함정 (교학학 N1)<br/>\
+- 개념 : 미존재 현상 <br/>\
 - 예시 <br/>\
 <img src = "./img/CrashTrap.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * KPC 90회 응용 1교시 11번\
@@ -1520,11 +1520,11 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 '# 정의 : 고용량, 비정형, 효율처리 / 분산 DBMS <br/>\
 - RDBMS 한계를 벗어나, 고용량의 비정형 데이터를 효율적으로 처리할 수 있는 구조와 유연성을 가진 분산 DBMS <br/><br/>\
 # 모델 구조 <br/>\
-- Key/Value Store : <font color = "red">Unique, API</font> 접근(Put(key,value), Value :=get(key)) / Redis, Dynamo <br/>\
-- Column Family Store : Column Value <font color = "red">묶음</font> / Cassandra, HBase <br/>\
-- Document Store : Type Document, <font color = "red">XML, JSON</font> / CouchDB, MongoDB <br/>\
-- Graph Store : <font color = "red">Node, Vertex, Edge</font>, 시맨틱, 온톨로지 / Neo4J, AllegroGraph <br/><br/>\
-# 데이터 모델링 절차(<font color = "red">도쿼패기후하</font>) <br/>\
+- Key/Value Store : Unique, API 접근(Put(key,value), Value :=get(key)) / Redis, Dynamo <br/>\
+- Column Family Store : Column Value 묶음 / Cassandra, HBase <br/>\
+- Document Store : Type Document, XML, JSON / CouchDB, MongoDB <br/>\
+- Graph Store : Node, Vertex, Edge, 시맨틱, 온톨로지 / Neo4J, AllegroGraph <br/><br/>\
+# 데이터 모델링 절차(도쿼패기후하) <br/>\
 1. 도메인 모델 파악 : 개체 파악, 분석, ERD 도식화 <br/>\
 2. 쿼리 결과 디자인 : 데이터 출력 내용 기반 디자인 <br/>\
 3. 패턴 이용 데이터 모델링 : Put/Get 형태로 NoSQL내 테이블로 재정의 <br/>\
@@ -1582,19 +1582,19 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 ',
 
 // NoSQL 데이터 모델링 패턴
-'# 데이터 모델링 패턴(<font color = "red">CGH - DAA CIA TAM</font>) <br/>\
+'# 데이터 모델링 패턴(CGH - DAA CIA TAM) <br/>\
 1 Conceptual Techniques <br/>\
-- Denormalization : 같은 데이터 <font color = "red">중복</font>해서 저장 <br/>\
-- Aggregation : <font color = "red">Schema-less</font> 이용, 데이터 모델 합성 가능 <br/>\
-- Application Side Join : <font color = "red">N:M관계 Join</font> 필요하므로, Application Level 구현 <br/><br/>\
+- Denormalization : 같은 데이터 중복해서 저장 <br/>\
+- Aggregation : Schema-less 이용, 데이터 모델 합성 가능 <br/>\
+- Application Side Join : N:M관계 Join 필요하므로, Application Level 구현 <br/><br/>\
 2. General Modeling Techniques <br/>\
-- Composite Key Index : <font color = "red">결합키</font> 구성, <font color = "red">다중키</font> 구성 <br/>\
-- Index Table : <font color = "red">Key-Value Store Index</font> 활용, 직관적 모델링 패턴 <br/>\
-- Atomic Aggregates : <font color = "red">Entity</font> -> <font color = "red">Key-Value</font> 저장 -> 원자적 업데이트 <br/><br/>\
+- Composite Key Index : 결합키 구성, 다중키 구성 <br/>\
+- Index Table : Key-Value Store Index 활용, 직관적 모델링 패턴 <br/>\
+- Atomic Aggregates : Entity -> Key-Value 저장 -> 원자적 업데이트 <br/><br/>\
 3. Hierachy Modeling Techniques <br/>\
-- Tree Aggregation : Tree, <font color = "red">임의 Graph</font> <br/>\
-- Adjacent List : <font color = "red">Linked List</font> 자료구조 <br/>\
-- Materialized Path : Root에서 현재 노드까지 <font color = "red">전체 경로</font>를 Key로 저장 <br/><br/>\
+- Tree Aggregation : Tree, 임의 Graph <br/>\
+- Adjacent List : Linked List 자료구조 <br/>\
+- Materialized Path : Root에서 현재 노드까지 전체 경로를 Key로 저장 <br/><br/>\
 * 라이지움 87회 응용 2교시 6번\
 ',
 
@@ -1654,12 +1654,12 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 가용성과 성능을 중시하는 분산 시스템의 NoSQL 특성 <br/><br/>\
 # BASE 속성 <br/>\
 1. BAsically Availabe <br/>\
-- 데이터는 <font color = "red">항상 접근</font> 가능 <br/>\
-- <font color = "red">다수 스토리지</font>에 복사본 저장 <br/><br/>\
+- 데이터는 항상 접근 가능 <br/>\
+- 다수 스토리지에 복사본 저장 <br/><br/>\
 2. Soft-State <br/>\
-- 노드의 상태는 <font color = "red">외부</font>에서 전송된 정보를 통해 상태 결정 <br/><br/>\
+- 노드의 상태는 외부에서 전송된 정보를 통해 상태 결정 <br/><br/>\
 3. Eventually Consistency <br/>\
-- 일정 <font color = "red">시간 경과</font>시 데이터의 일관성 유지되는 속성 <br/><br/>\
+- 일정 시간 경과시 데이터의 일관성 유지되는 속성 <br/><br/>\
 # BASE ACID 비교 <br/>\
 <img src = "./img/BASEACID.png" style = "max-width: 100%; height: auto;">\
 ',
@@ -1710,8 +1710,8 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 분산 환경에서 빅데이터를 저장하고 처리할 수 있는 자바 기반의 오픈소스 프레임 워크 <br/><br/>\
 # 버전 <br/>\
 - Hadoop V1.0(2011) : 병렬 처리, 분산 저장 아키텍처 <br/>\
-- Hadoop V2.0(2012) : Job Tracker Bottle Neck 개선 위해 <font color = "red">YARN</font> 도입 <br/>\
-- Hadoop V3.0(2017) : <font color = "red">Eraser Coding</font> 도입 / HDFS 데이터 저장 효율성 증가 <br/><br/>\
+- Hadoop V2.0(2012) : Job Tracker Bottle Neck 개선 위해 YARN 도입 <br/>\
+- Hadoop V3.0(2017) : Eraser Coding 도입 / HDFS 데이터 저장 효율성 증가 <br/><br/>\
 <img src = "./img/HDFS_Arcitecture.png" style = "max-width: 100%; height: auto;"><br/><br/>\
 # 구성요소 <br/>\
 1. 운영요소 <br/>\
@@ -1799,11 +1799,11 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 
 // BigData 분석 방법론
 '# 정의 : 계층적 프로세스 모델\
-- <font color = "red">Phase-Task-Step</font>의 3계층으로 구성된 <font color = "red">계층적 프로세스 모델</font> <br/>\
+- Phase-Task-Step의 3계층으로 구성된 계층적 프로세스 모델 <br/>\
 - 비즈니스 도메인과 문제점을 인식하고 비즈니스 요구사항과 데이터 분석에 필요한 원천 데이터 확보하고 분석 수행 <br/><br/>\
-# 프로세스 (<font color = "red">PPADD</font>)<br/>\
+# 프로세스 (PPADD)<br/>\
 <img src = "./img/BigData분석방법론프로세스.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 빅데이터 분석 활용 기법 (<font color = "red">플도기</font>)<br/>\
+# 빅데이터 분석 활용 기법 (플도기)<br/>\
 - 플랫폼 : 빅데이터 분석 플랫폼 HW / SW 구축 <br/>\
 - 분석도구 : R언어, BigQuery, Presto <br/>\
 - 분석기법 : 통계적분석(상관/회귀/분산), 데이터 마이닝, 텍스트 마이닝 <br/><br/>\
@@ -1814,7 +1814,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 '# 정의 : W3C 주도 / 상호 운용 용이 / 카탈로그 표준 모델, 어휘 집합(Ontology) <br/>\
 - Data Category Vocabulary <br/>\
 - W3C가 주도하여 웹에 게시된 데이터 카탈로그 간의 상호 운용이 용이하도록 설계된 카탈로그 표준 모델과 데이터 속성을 표현하는 어휘의 집합(Ontology) <br/><br/>\
-# 구성요소 (<font color = "red">리셋서디카</font>)<br/>\
+# 구성요소 (리셋서디카)<br/>\
 - Resource : 공통 속성 <br/>\
 - Data Set : Resource 클래스 상속, 정보 <br/>\
 - Data Service : Resource 클래스 상속, 속성 정보<br/>\
@@ -1836,7 +1836,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 사회 전반 데이터 활용가치 인식 향상 <br/><br/>\
 # 절차 <br/>\
 - 수요예측 > 상품기획 > 공정효율화 > 사후관리 <br/><br/>\
-# 추진체계 (<font color = "red">주전평수참</font>)<br/>\
+# 추진체계 (주전평수참)<br/>\
 <img src = "./img/DataFlagshipHireachy.png" style = "max-width:100%; height:auto;"><br/>\
 - 주무부처 : 과제추진전략 및 기본계획 수립 <br/>\
 - 전담기관 : 과제 세부계획 수립 및 추진 <br/>\
@@ -1897,17 +1897,17 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 '# 정의 : 입력 데이터 처리 오류 / 특정범위 벗어난 값 <br/>\
 - Outlier <br/>\
 - 입력오류, 데이터 처리오류 등으로 특정 범위에서 벗어난 데이터 값 <br/><br/>\
-# 검출 (<font color = "red">VLNDC</font>)<br/>\
-- Variance : <font color = "red">정규분포표</font> 2.5% 이하 <br/>\
-- Likelihood : <font color = "red">베이즈 정리</font> 의해 세트 가지는 두가지 샘플(정상, 이상) <font color = "red">발생 확률 판별</font> <br/>\
-- NN(Nearest Neighbor) : 모든 <font color = "red">데이터 쌍</font>의 거리 계산 검증 <br/>\
-- Densitiy : 밀도에서 가장 <font color = "red">먼</font> 데이터 검출 <br/>\
-- Clustering : 여러 클러스터 구분, 클러스터 사이 <font color = "red">먼</font> 경우 이상값 판별 <br/><br/>\
-# 처리 (<font color = "red">상표절극</font>)<br/>\
-- 하한/상한값 대체 : <font color = "red">결정 후</font> 이상치 대체 <br/>\
-- 표준편차 대체 : <font color = "red">평균</font>의 표준편차로 대체 <br/>\
-- 절대편차 대체 : <font color = "red">중위수</font> 로부터 n편차 큰 값 <br/>\
-- 극 백분위수 대체 : <font color = "red">상위</font> p번째 백분위수보다 큰 값<br/><br/>\
+# 검출 (VLNDC)<br/>\
+- Variance : 정규분포표 2.5% 이하 <br/>\
+- Likelihood : 베이즈 정리 의해 세트 가지는 두가지 샘플(정상, 이상) 발생 확률 판별 <br/>\
+- NN(Nearest Neighbor) : 모든 데이터 쌍의 거리 계산 검증 <br/>\
+- Densitiy : 밀도에서 가장 먼 데이터 검출 <br/>\
+- Clustering : 여러 클러스터 구분, 클러스터 사이 먼 경우 이상값 판별 <br/><br/>\
+# 처리 (상표절극)<br/>\
+- 하한/상한값 대체 : 결정 후 이상치 대체 <br/>\
+- 표준편차 대체 : 평균의 표준편차로 대체 <br/>\
+- 절대편차 대체 : 중위수 로부터 n편차 큰 값 <br/>\
+- 극 백분위수 대체 : 상위 p번째 백분위수보다 큰 값<br/><br/>\
 * ITPE 합숙 124회 1일차 관리 1교시 9번\
 ',
 
@@ -1925,7 +1925,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 정보 구조화 : 수집 및 탐색, 분류 및 배열 <br/>\
 - 정보 시각화 : 시간, 분포, 공간, 관계, 비교 <br/>\
 - 정보 시각 표현 : 디자인 기본 원리, 인터랙션 디자인 <br/><br/>\
-# 정보 시각화 유형 (<font color = "red">시분공관비</font>)<br/>\
+# 정보 시각화 유형 (시분공관비)<br/>\
 <img src = "./img/InformationVisualizationType.png" style = "max-width:100%; height:auto;">\
 ',
 
@@ -1959,7 +1959,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 목적 : 샘플링 오차 제거 <br/>\
 - 절차 : 신뢰성 검토 > 정밀도 검토 > 정확성 검토 <br/>\
 - 고려사항 : Error, Bias Trade Off 관계 <br/><br/>\
-# 주요기법 (<font color = "red">심시스클멀</font>) <br/>\
+# 주요기법 (심시스클멀) <br/>\
 - Simple Random Sampling : 임의 추출(복원, 비복원) <br/>\
 - Systematic Sampling : 시간, 공간적 일정 간격(매 5번째 추출) <br/>\
 - Stratified Random Sampling : 각 계층 원소 임의 추출(성별, 연령대별) <br/>\
@@ -2056,10 +2056,10 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 
 // 통계 관련 데이터
 '# 통계 관련 데이터 종류 (원마매메)<br/>\
-- 원본 데이터 : 조사오류 등이 걸러지기 <font color = "red">이전</font> 단계의 개별 자료 <br/>\
-- 마이크로 데이터 : 입력된 통계조사 자료의 <font color = "red">오류를 수정</font>한 자료 <br/>\
-- 매크로 데이터 : 마이크로데이터를 <font color = "red">임의의 기준</font>에 따라 집계한 자료 <br/>\
-- 메타데이터 : 조사표, 코드집 등 데이터의 특성을 <font color = "red">이해</font>하는데 필요한 모든 자료 <br/><br/>\
+- 원본 데이터 : 조사오류 등이 걸러지기 이전 단계의 개별 자료 <br/>\
+- 마이크로 데이터 : 입력된 통계조사 자료의 오류를 수정한 자료 <br/>\
+- 매크로 데이터 : 마이크로데이터를 임의의 기준에 따라 집계한 자료 <br/>\
+- 메타데이터 : 조사표, 코드집 등 데이터의 특성을 이해하는데 필요한 모든 자료 <br/><br/>\
 # 통계 데이터 노출 위험 <br/>\
 1. 마이크로데이터 노출 위험 <br/>\
 - 신원 파악 : 알려진 모집단 개체와 특정한 마이크로데이터 레코드와의 관계 <br/>\
@@ -2096,7 +2096,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 ',
 
 // 데이터 분석 전처리
-'# 개념 : 데이터를 특정 <font color = "red">분석 목적</font>에 맞게 분석 가능한 상태로 만드는 것 <br/><br/>\
+'# 개념 : 데이터를 특정 분석 목적에 맞게 분석 가능한 상태로 만드는 것 <br/><br/>\
 # 종류 : 정제(Cleansing), 누가치 대체(missing vlaue imputation), 날짜 파싱 <br/><br/>\
 # 데이터 다루는 목적 따른 기법 분류 <br/>\
 1. 기술 통계 (Descriptive Statistics) <br/>\
@@ -2141,7 +2141,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 # 특징 <br/>\
 - 방법 : 데이터 비교, 가설검증, 미래결과 예측 <br/>\
 - 결과 : 확률 통한 이벤트의 발생 가능성 설명 <br/><br/>\
-# 사용기술 (<font color = "red">점구가차관</font>)<br/>\
+# 사용기술 (점구가차관)<br/>\
 - 점추정(Point Estimation) : 적률법, 최대가능도추정법, 최소제곱법 <br/>\
 - 구간추정(Interval Estimation) : 표준정규분포, t분포 <br/>\
 - 가설검정 : 귀무가설, 대립가설 통한 추론 <br/>\
@@ -2170,11 +2170,11 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 '# 정의 : Outlier <br/>\
 - 아주 작은 or 큰 값 <br/>\
 - 통계적 자료분석의 결과를 왜곡시키거나, 자료 분석의 적절성을 위협하는 변수값 또는 사례 <br/>\
-- (<font color = "red">기술 통계학</font>) : <font color = "red">분포 집중경향치</font>의 값을 왜곡시키거나, <font color = "red">상관계수 추정치의 값</font>을 왜곡시키는 개체 또는 변수 값 <br/>\
-- (<font color = "red">추론 통계학</font>) : <font color = "red">모수추정치의 값</font>을 왜곡시키는 개체 또는 변수의 값 <br/><br/>\
+- (기술 통계학) : 분포 집중경향치의 값을 왜곡시키거나, 상관계수 추정치의 값을 왜곡시키는 개체 또는 변수 값 <br/>\
+- (추론 통계학) : 모수추정치의 값을 왜곡시키는 개체 또는 변수의 값 <br/><br/>\
 # 유형 <br/>\
-- 비합리적 특이정보 : <font color = "red">입력 오류등 자료의 오염</font>으로 인해 발생한 이상치 <br/>\
-- 합리적 특이정보 : <font color = "red">정확하게 측정</font>되었으나 다른 자료들과 전혀 다른 경향이나 특성을 보이는 이상치 <br/><br/>\
+- 비합리적 특이정보 : 입력 오류등 자료의 오염으로 인해 발생한 이상치 <br/>\
+- 합리적 특이정보 : 정확하게 측정되었으나 다른 자료들과 전혀 다른 경향이나 특성을 보이는 이상치 <br/><br/>\
 # 왜도(Skewness), 첨도(Kurtosis) <br/>\
 <img src = "./img/SkewnessKurtosis.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # Percentile을 이용한 검출 방법 <br/>\
@@ -2243,7 +2243,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 ',
 
 // 회귀 분석
-'# 정의 : 독립, 종속 변수간 <font color = "red">관련성</font> / <font color = "red">함수적 관계 통계적 추정</font> / 종속(1) / 변화 따른 <font color = "red">예측</font> <br/>\
+'# 정의 : 독립, 종속 변수간 관련성 / 함수적 관계 통계적 추정 / 종속(1) / 변화 따른 예측 <br/>\
 - 독립변수들과 종속변수 간에 존재하는 관련성을 분석하기 위하여, 관측된 자료에서 이들 간의 함수적 관계를 통계적으로 추정하는 방법 <br/><br/>\
 # 목적 <br/>\
 - 예측 : 종속 변수 값 예측 <br/>\
@@ -2273,7 +2273,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 전진 선택법 : 절편부터 시작, 주요 변수부터 추가 / 변수가 많은 경우 유용 <br/>\
 - 후진 제거법 : 영향이 적은 변수부터 제거 / 전체 변수들 정보 이용 <br/>\
 - 단계 선택법 : 전진 선택 변수 추가, 후진 제거법 수행 / 전진, 후진 장점 취합 <br/><br/>\
-<font color = "red">* 다중공선성 문제 : 회귀분석에서 독립변수들 간에 강한 상관 관계가 나타나는 문제 </font><br/><br/>\
+* 다중공선성 문제 : 회귀분석에서 독립변수들 간에 강한 상관 관계가 나타나는 문제 <br/><br/>\
 * 123회 관리 2교시 4번\
 ',
 
@@ -2304,7 +2304,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 다중 상관 분석 : 2개 이상 변수간 관계 강도 측정 <br/><br/>\
 2. 계수 <br/>\
 - 피어슨 상관계수 : cov(X,Y) / Sigma(x)Sigma(y) <br/>\
-<font color = "red"> * Cov : 공분산(선형 관계 나타내는 값 - 양음) </font><br/>\
+ * Cov : 공분산(선형 관계 나타내는 값 - 양음) <br/>\
 * Sigma : 표준 편차 <br/><br/>\
 # 회귀분석, 상관분석 비교 <br/>\
 <img src = "./img/RegressionCorelationCompare.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -2319,7 +2319,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 # 구성요소 <br/>\
 - 고유 벡터 : 데이터의 분포를 나타내는 선 <br/>\
 - 고유 값 : 고유벡터에 대한 데이터의 분산 <br/><br/>\
-# 절차 (<font color = "red">공고항편차</font>)<br/>\
+# 절차 (공고항편차)<br/>\
 <img src = "./img/DeminsionDecreseProcess.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 123회 관리 2교시 4번\
 ',
@@ -2339,10 +2339,10 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 # 종류 <br/>\
 - 계량적 MDS : 데이터 구간 척도, 비율 척도인 경우 사용 <br/>\
 - 비계량적 MDS : 데이터가 순서척도인 경우 활용<br/>\
-<font color = "red">\
+\
 * 구간척도(interval Scale) : 숫자 간의 간격이 산술적 의미 (덧셈 허용, 곱셈 비허용) <br/>\
 * 서열척도(Ordinal Scale) : 개체간의 서열 관계 의미 (1등, 2등, 3등) <br/><br/>\
-</font>\
+\
 # 절차 <br/>\
 <img src = "./img/MultidimensionalScalingProcess.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 활용 사례 <br/>\
@@ -2363,7 +2363,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 초기 군집수 K 결정 : 초기 군집수 K의 결정이 어려움 <br/><br/>\
 # 매커니즘 <br/>\
 <img src = "./img/ClusteringMechanism.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 절차 (<font color = "red">거절수평</font>)<br/>\
+# 절차 (거절수평)<br/>\
 - 거리측도 선택 : 유사성 판단 / 유클리디안 거리 <br/>\
 - 절차 선택 : 계층, 비계층 / 단일, K-Means <br/>\
 - 군집의 수 결정 : 계층, 비계층 / 결합 거리, 분산합계 <br/>\
@@ -2386,10 +2386,10 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 // 계층적 군집분석
 '# 정의 : 작은 군집으로 출발해 군집을 병행하는 방법 <br/><br/>\
 # 종류 <br/>\
-- 최단 연결법 : 가장 <font color = "red">가까이</font> 있는 두 관측치 사이의 거리 기반 군집 형성 <br/>\
-- 최장 연결법 : 가장 <font color = "red">멀리</font> 떨어진 두 관측치 사이의 거리 기반 군집 형성 <br/>\
-- 중심 연결법 : 두 군집의 <font color = "red">중심간의 거리</font>를 측정하여 군집 형성 <br/>\
-- 와드 연결법 : 군집내의 <font color = "red">오차제곱합</font>에 기초하여 군집 형성 <br/><br/>\
+- 최단 연결법 : 가장 가까이 있는 두 관측치 사이의 거리 기반 군집 형성 <br/>\
+- 최장 연결법 : 가장 멀리 떨어진 두 관측치 사이의 거리 기반 군집 형성 <br/>\
+- 중심 연결법 : 두 군집의 중심간의 거리를 측정하여 군집 형성 <br/>\
+- 와드 연결법 : 군집내의 오차제곱합에 기초하여 군집 형성 <br/><br/>\
 # 거리 정의 <br/>\
 <img src = "./img/HireachyClusterAnalyzeDistance.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 라이지움 87회 관리 3교시 4번\
@@ -2429,16 +2429,16 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 장점 : 탐색적기법(이해하기 쉬움), 강력한 비목적성 분석기법, 편리한 분석 데이터 형태(데이터 변환x), 계산의 용이성(간단한 계산) <br/>\
 - 단점 : 계산과정(품목수에 따라 복잡), 적절한 품목 결정(세분화, 의미없는 결과 도출 가능), 품목 비율차이(적은 거래량, 제외 쉬움) <br/><br/>\
 # 평가척도 <br/>\
-1. 지지도(Support) : <font color="red">전체 거래 품목 A,B가 동시에 포함될 확률</font>, 두 품목의 동시구매가 얼마나 자주 일어나는지를 분석 <br/>\
+1. 지지도(Support) : 전체 거래 품목 A,B가 동시에 포함될 확률, 두 품목의 동시구매가 얼마나 자주 일어나는지를 분석 <br/>\
 - Support = P(A∩B) = (AB동시/전체거래) = (A거래수 * B거래수) / 전체거래수<br/><br/>\
-2. 신뢰도(Confidence) : A->B 연관규칙에서, <font color="red">품목 A포함 거래중 A,B 동시 포함 거래 확률</font> -> 두 품목간 연관성의 강도를 분석 <br/>\
+2. 신뢰도(Confidence) : A->B 연관규칙에서, 품목 A포함 거래중 A,B 동시 포함 거래 확률 -> 두 품목간 연관성의 강도를 분석 <br/>\
 - Confidence = P(B|A) = 지지도/P(A) = P(A∩B)/P(A)<br/><br/>\
-3. 향상도(Lift) : A->B 연관규칙에서, <font color="red">임의의 B가 구매되는 경우 대비, A와 관계되어 구매되는 비율</font> => A와 B의 상관관계 분석 <br/>\
+3. 향상도(Lift) : A->B 연관규칙에서, 임의의 B가 구매되는 경우 대비, A와 관계되어 구매되는 비율 => A와 B의 상관관계 분석 <br/>\
 - 향상도 = 1 (독립적 관계) : A,B 구매시 상호 연관 없음 <br/>\
 - 향상도 > 1 (양의 상관 관계) : A 구매시 B 구매 예상 <br/>\
 - 향상도 < 1 (음의 상관 관계) : A 구매시 B 구매 감소 <br/>\
 - Lift =  P(B|A)/P(B) = 신뢰도/P(B) = (P(A∩B)/P(A))/P(B)<br/><br/>\
-* <font color="red">지지도 신뢰도 향상도 : 빈도 / 연관성 / 상관관계 </font><br/><br/>\
+* 지지도 신뢰도 향상도 : 빈도 / 연관성 / 상관관계 <br/><br/>\
 # 관련 알고리즘 <br/>\
 - Apriori Algorithm : 항목집합 줄이기 <br/>\
 - DHP Algorithm : Transaction 줄이기 <br/>\
@@ -2471,7 +2471,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 ',
 
 // 타당도
-'# 정의 : 측정의 정확성(개념+방법) (FDC) / <font color = "red">타내신조</font><br/>\
+'# 정의 : 측정의 정확성(개념+방법) (FDC) / 타내신조<br/>\
 - 측정 도구가 실제로 측정하고자 하는 개념을 측정하고 있는 문제와 그 개념이 정확하게 측정되고 있는가 두 요소 포함 정도 <br/><br/>\
 # 저해요인 <br/>\
 - 성숙 효과 : 시간의 흐름별 변화 <br/>\
@@ -2549,9 +2549,9 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 기각/채택 판단 : |t| < 임계치 (채택) <br/><br/>\
 # 수식 <br/>\
 1. 유의수준 Z 분포값 <br/>\
-- P(Z<=1.645) = 0.95 (<font color = "red">일반</font>)<br/>\
+- P(Z<=1.645) = 0.95 (일반)<br/>\
 - P(Z<=1.96) = 0.975 <br/>\
-- P(Z<=2.326) = 0.99 (<font color = "red">연구</font>)<br/>\
+- P(Z<=2.326) = 0.99 (연구)<br/>\
 - P(Z<=2.576) = 0.995 <br/><br/>\
 2. 측정 Z Value <br/>\
 <img src = "./img/StatisticalHypothesisCalc.png" style = "max-width:100%; hegiht:auto;"><br/><br/>\
@@ -2601,7 +2601,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 5. Modeling : 알고리즘 선정 및 적용하여 마이닝 수행, 지도학습 알고리즘(의사결정, 신경망), 자율학습(연관성, 군집) <br/>\
 6. Reporting : 결과 분석/ 평가, 반복수행 여부 결정 <br/>\
 7. FeedBack <br/><br/>\
-# 적용 기술 (<font color = "red">AS분데특신의</font>)<br/>\
+# 적용 기술 (AS분데특신의)<br/>\
 - 연관성 규칙(Association) : 여러개 트랜잭션중 동시 발생 연관 관계 발견 <br/>\
 - 연속성 규칙(Sequence) : 개별 트랜잭션 이력 데이터 시계열 분석, 향후 발생가능성 예측 <br/>\
 - 분류(Classification) : 이미 알려진 특정 그룹 특징 부여, 분류 맞게 구분 <br/>\
@@ -2710,13 +2710,13 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 1. 백터 기반 <br/>\
 - LSA(Latent Semantic-Analysis) : 고차원 데이터 공간에 대해 축 변경해 새로운 축을 찾아내는 가변량 통계 분석 방법 <br/><br/>\
 2. 확률 기반 <br/>\
-- pLSA(Probailistic LSA) : 데이터셋과 선별된 토픽 K간의 가장 잘 맵핑되는 토픽과 단어, 단어와 문서간의 <font color = "red">조합 찾는 방법</font>, 기존 LSA를 확률적 접근 <br/>\
-- LDA(Latent Dirichlet Allocation) : 주어진 문서 대해 각 문서에 <font color = "red">어떤 주제</font>들이 존재하는지에 대한 확률 모형\
+- pLSA(Probailistic LSA) : 데이터셋과 선별된 토픽 K간의 가장 잘 맵핑되는 토픽과 단어, 단어와 문서간의 조합 찾는 방법, 기존 LSA를 확률적 접근 <br/>\
+- LDA(Latent Dirichlet Allocation) : 주어진 문서 대해 각 문서에 어떤 주제들이 존재하는지에 대한 확률 모형\
 ',
 
 // Opinion Mining
 '# 정의 : Web 컨텐츠 Text / 의견, 성향 분석 / 마이닝 기법 <br/>\
-- Web 컨텐츠의 Text에 나타난 사람들의 의견, 성향등의 주관적인 <font color = "red">평판, 경향, 감성</font> 분석하는 자연어 처리 기술 <br/><br/>\
+- Web 컨텐츠의 Text에 나타난 사람들의 의견, 성향등의 주관적인 평판, 경향, 감성 분석하는 자연어 처리 기술 <br/><br/>\
 # 특징 <br/>\
 1. 문장추출 : 팩트와 의견 문장 구분 <br/>\
 2. 극성분류 : 의견이 들어간 문장을 긍정과 부정으로 구분 <br/>\
@@ -2825,7 +2825,7 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 '# 정의 : 데이터의 가용성 및 성능 향상을 위한 디스크 중복구조 <br/>\
 - Redundant Array of Independent Disks <br/>\
 - 다수의 디스크에 데이터를 중복으로 결합하여 가용성과 성능을 향상시키는 저장장치 기술 <br/><br/>\
-# 암기 (<font color = "red">스미비바단분이</font>)<br/>\
+# 암기 (스미비바단분이)<br/>\
 <img src = "./img/BasicRAID.png" style = "max-width:100%; height:auto;"><br/>\
 <img src = "./img/NestedRAID.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 상세 <br/>\
@@ -2845,15 +2845,15 @@ FROM <font color = "red">TABLE_A</font> A, <font color = "red">TABLE_A</font> B 
 - 벤더 중립적 데이터 관리 방법 및 원칙 설명 <br/>\
 - 데이터관리 범위 명확화 <br/><br/>\
 # 구성 <br/>\
-1. 데이터 관리 (<font color = "red">프거아</font>) <br/>\
+1. 데이터 관리 (프거아) <br/>\
 - 프랙티스 <br/>\
 - 거버넌스 <br/>\
 - 아키텍처 관리 <br/><br/>\
-2. 데이터 개발 (<font color = "red">모보D</font>) <br/>\
+2. 데이터 개발 (모보D) <br/>\
 - 모델링, 설계, 통합 <br/>\
 - 보안 <br/>\
 - DW / BI(Business Inteligence) <br/><br/>\
-3. 데이터 관리와 통제(<font color = "red">저문메품</font>)<br/>\
+3. 데이터 관리와 통제(저문메품)<br/>\
 - 데이터 저장, 운영 <br/>\
 - 문서, 컨텐츠 관리 <br/>\
 - 메타 데이터 관리 <br/>\
