@@ -115,7 +115,7 @@ var answer = answer.concat(
 - 비용, 접근성, 품질 <br/>\
 - 비전, 목표, 전략, Item <br/>\
 - Need < Approach < Benefit < Competition <br/>\
-- 국가 발전(<font color = "red">경산인) : 경쟁력 조기 확보, 산업 육성, 특허 확보, 전문 인력 양성 <br/><br/>\
+- 국가 발전(경산인) : 경쟁력 조기 확보, 산업 육성, 특허 확보, 전문 인력 양성 <br/><br/>\
 # 유형별 그룹핑 <br/>\
 - 정책문제 : PEST(Political, Economic, Technological, Social), GRC(Governance, Risk, Compliance) <br/>\
 - 사회문제 : 인기조프 <br/>\
@@ -212,7 +212,7 @@ var answer = answer.concat(
 '# 정의 : 사용자 공급자간 서비스 명시 문서<br/>\
 - Service Level Agreement <br/>\
 - 정보시스템 사용자 공급자 간 서비스 수준을 정량적으로 측정하여 상호 동의한 일정수준의 서비스를 명시한 문서<br/><br/>\
-# 구성 (<font color = "red">WMOMR) <br/>\
+# 구성 (WMOMR) <br/>\
 - SOW(Satement of Work) : 서비스 별 상세항목 업무 기술서 / 서비스, 대상 항목<br/>\
 - SLM(Service Level Metrics) : 서비스 수준 파악하기 위한 성과 지표 / 시스템 가동률 최소 98% <br/>\
 - SLO(Service Level Objectives) : 서비스 수준 관리지표별 목표치, 최소치 / 가용성 유지 99% <br/>\
@@ -266,7 +266,7 @@ var answer = answer.concat(
 # 적용 방법 <br/>\
 - PDCA 개선 <br/>\
 - ITIL에서는 RACI 모델 제시 <br/>\
-<font color = "red">\
+\
 * Responsibility : 실무자 <br/>\
 * Accountability : 의사 결정권자 <br/>\
 * Consulted : 업무수행 조언자 <br/>\
@@ -296,7 +296,7 @@ var answer = answer.concat(
 '# 정의 : 프로세스 관리 활동 / 고객 신뢰 증진 및 서비스 향상 <br/>\
 - Service Level Management <br/>\
 - 고객과 합의된 품질 수준의 서비스가 제공되는 것을 보장함으로써 고객신뢰 증진 및 서비스 수준향상을 위한 프로세스 관리활동 <br/><br/>\
-# 구성 (<font color = "red">SUSMPR) <br/>\
+# 구성 (SUSMPR) <br/>\
 - Service Catalog : SLA, OLA <br/>\
 - UC : Underpinning Contract 외부 협력업체간 계약 <br/>\
 - Service Quality : 서비스 수준 보장 위한 모든 내용 기술 <br/>\
@@ -324,7 +324,7 @@ var answer = answer.concat(
 - 단점 : 비용증가 가능성, 우수인력 상실, 공급업체 종속 가능성, 통제력 상실, 보안유지 어려움 <br/><br/>\
 # 형태 1 <br/>\
 <img src = "./img/OutSourcingType.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 형태 2(<font color = "red">토셀자코) <br/>\
+# 형태 2(토셀자코) <br/>\
 1. Total Outsourcing <br/>\
 - 정의 : IT 기능 전체 Single Vendor 위탁 <br/>\
 - 장점 : 업무 효율성 증대, 책임소재 명확 <br/>\
@@ -372,8 +372,8 @@ var answer = answer.concat(
 
 // 문제 관리
 '# 정의 : 장애 근본 원인 해결 / 재발 방지 / 사전 예방적 <br/>\
-- 문제 : 하나 이상의 인시던트에 내재된 장애 원인이 <font color = "red">밝혀지지 않은 상태 <br/>\
-- 문제관리 : 문제의 근본 원인을 해결함과 동시에 그러한 문제들이 <font color = "red">재발되지 않도록 하는 활동 <br/><br/>\
+- 문제 : 하나 이상의 인시던트에 내재된 장애 원인이 밝혀지지 않은 상태 <br/>\
+- 문제관리 : 문제의 근본 원인을 해결함과 동시에 그러한 문제들이 재발되지 않도록 하는 활동 <br/><br/>\
 # 절차 <br/>\
 - 문제 식별 및 기록 : 장애관리에서 이관된 문제 처리 요청 접수 <br/>\
 - 분류 및 우선순위 : 사건 유형, 특성, SLA 따라 문제 유형 분류 <br/>\
@@ -443,13 +443,13 @@ var answer = answer.concat(
 3. 4.0(2019) <br/>\
 - 내용 : 서비스 가치 체계 도입, Practice 중심 IT 관리 <br/>\
 - 효과 : 클라우드 환경 운영절차 강화 <br/><br/>\
-# ITILv4.0 SVS(Service Value System) (<font color = "red">GGSPC)<br/>\
+# ITILv4.0 SVS(Service Value System) (GGSPC)<br/>\
 <img src = "./img/ITILv4SVS.png" style = "max-width:100%; height:auto;"><br/>\
-- Guiding Principles : ITIL <font color = "red">가치 수혜 위한 7원칙 <br/>\
-- Governance : <font color = "red">지시/모니터링/평가 통한 조직체계 관리 구성 <br/>\
-- Service Value Chain : <font color = "red">계참설획수개 <br/>\
-- Practices : 34가지 <font color = "red">일반, 서비스, 기술 관리 프랙티스 <br/>\
-- Continual Improvement : ITSM 성공 위한 <font color = "red">지속적 개선 적용 <br/><br/>\
+- Guiding Principles : ITIL 가치 수혜 위한 7원칙 <br/>\
+- Governance : 지시/모니터링/평가 통한 조직체계 관리 구성 <br/>\
+- Service Value Chain : 계참설획수개 <br/>\
+- Practices : 34가지 일반, 서비스, 기술 관리 프랙티스 <br/>\
+- Continual Improvement : ITSM 성공 위한 지속적 개선 적용 <br/><br/>\
 # ITILv4.0 SVC(Service Value Chain) <br/>\
 <img src = "./img/ITILv4SVC.png" style = "max-width:100%; height:auto;"><br/>\
 1. Plan <br/>\
@@ -470,7 +470,7 @@ var answer = answer.concat(
 6. Delivger / Support <br/>\
 - 내용 : 기대치 따라 전달/지원 보장 <br/>\
 - 사례 : IT Asset Management - IT 자산 수명 주기 계획 및 관리, 가치 극대화 <br/><br/>\
-# 3.0, 4.0 비교 (<font color = "red"> * 전설전운지 / 계참설획수개, 조정파가 )<br/>\
+# 3.0, 4.0 비교 ( * 전설전운지 / 계참설획수개, 조정파가 )<br/>\
 <img src = "./img/ITIL.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * ITPE 6회 관리 2교시 5번\
 ',
@@ -478,7 +478,7 @@ var answer = answer.concat(
 // SKMS
 '# 정의 : ITIL 3.0 CMDB 대체 시스템 <br/>\
 - Service Knowledge Management System <br/>\
-- IT 서비스 구성관리를 포함한 수집 및 처리된 지식을 기반으로 하는 IT 서비스에 대한 <font color = "red">조직의 의사결정 촉진 관리 시스템 <br/><br/>\
+- IT 서비스 구성관리를 포함한 수집 및 처리된 지식을 기반으로 하는 IT 서비스에 대한 조직의 의사결정 촉진 관리 시스템 <br/><br/>\
 # 구성 (P,KP,II,DI)<br/>\
 - Presentation <br/>\
 - Knowledge Processing <br/>\
@@ -489,7 +489,7 @@ var answer = answer.concat(
 // Enterprise Arcithecture
 '# 정의 : 목표 달성 / IT, 비즈니스 관계 / 청사진 <br/>\
 - 조직의 전략적인 목표 및 정보자원 관리 목표를 달성하기 위하여 기업의 IT와 비즈니스 관계를 총괄하여 설명하는 청사진 <br/><br/>\
-# 구성도 (<font color = "red">BADT)<br/>\
+# 구성도 (BADT)<br/>\
 <img src = "./img/EA_Structure.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 구성요소 <br/>\
 - IT Governance : IT 통제력, 기업 비즈니스 Goal Alignment / Control, Compliance, Alignment <br/>\
@@ -537,16 +537,16 @@ var answer = answer.concat(
 - 절차 정립 : 계획 단계 내실화 / ISP 수립 이후 예산 요구 <br/>\
 - 투자 관리 : 투자관리 효율화 / 기재부 검토 강화 <br/>\
 - 예산 산정 : 정보화예산 편성,집행 내실화 / 수립단계별 준수 사항, ISP 기본 요건 규정 <br/><br/>\
-# 절차 (<font color = "red">환현정목통) + RFP <br/>\
+# 절차 (환현정목통) + RFP <br/>\
 1. 환경분석 <br/>\
 - 경영, 법,제도, IT / 분석서 <br/><br/>\
-2. 현황분석(As-Is) (<font color = "red">업I벤차이개)<br/>\
+2. 현황분석(As-Is) (업I벤차이개)<br/>\
 - 업무현황, IT현황, 벤치마킹, 차이, 이슈통합 및 개선과제 / 분석서 <br/><br/>\
 3. 정보화 비전 및 전략 수립 <br/>\
 - 정보화 전략 정의서 <br/><br/>\
-4. 목표모델 설계(To-Be) (<font color = "red">상업시데기)<br/>\
+4. 목표모델 설계(To-Be) (상업시데기)<br/>\
 - 개선과제 상세화, 업무프로세스, 정보시스템 구조, 데이터 구조, 기술 및 보안 구조 / 설계서 <br/><br/>\
-5. 통합 이행 계획(<font color = "red">계획, 사업비, 효과) <br/>\
+5. 통합 이행 계획(계획, 사업비, 효과) <br/>\
 - 통합 이행계획 수립, 총사업비 산출, 효과 분석 / 통합 이행 계획 수립서 <br/><br/>\
 # ISP 추진 및 검토 절차 <br/>\
 <img src = "./img/ISP_Flow.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -572,7 +572,7 @@ var answer = answer.concat(
 - ISP 수행범위 한계점 해결 : 대상 시스템 구체화 <br/>\
 - 부적절 발주 관행 해결 : RFP 효율화 <br/>\
 - 요구사항 명확화 : 기능/비기능 및 기술 요구사항 <br/><br/>\
-# 수행활동 (<font color = "red">착방분정수) <br/>\
+# 수행활동 (착방분정수) <br/>\
 1. 프로젝트 착수 및 참여자 결정 <br/>\
 - 프로젝트 수행 조직 편성 : 경영진 지원조직 확립 활동 수행 <br/>\
 - 프로젝트 계획 수립 : 수행 및 의사소통 계획 검토 <br/><br/>\
@@ -869,7 +869,7 @@ var answer = answer.concat(
 # 목적 <br/>\
 - 이해 당사자 가치 제공, 요구 정의 하기 위한 지식체계 <br/>\
 - 요구사항 따른 솔루션 추천, 50개 분석기법 <br/><br/>\
-# 구성 (<font color = "red">모추관분정평) <br/>\
+# 구성 (모추관분정평) <br/>\
 - BA 계획 모니터링 : 활동, 이해 관계자 참여 정의 <br/>\
 - 추출과 협업 : 요구사항 추출, 협업 체계 <br/>\
 - 요구사항 생명주기 관리 : 요구사항 유지보수, 추적, 개선 <br/>\
@@ -889,14 +889,14 @@ var answer = answer.concat(
 - 의사소통 : 비전, 전략 명확한 인식, 보상 연결 <br/>\
 - 계획 및 목표 설정 : 이니셔티브 정렬, 자원 배분 연계 <br/>\
 - 전략적 피드백과 학습 : 제공 학습, 학습 촉진 <br/><br/>\
-# 구성요소 (<font color = "red">PC SKT I) <br/>\
+# 구성요소 (PC SKT I) <br/>\
 - Prospective : 재무, 고객, 프로세스, 학습과 성장 <br/>\
 - CSF : 비전, 전략 성공 관리 요소 <br/>\
 - Strategy Map : BSC상 CSF간 인과관계, 조직 가치 창출 방법 <br/>\
 - KPI : CSF의 수준과 성공 여부 측정 및 관리 방법 표현 지표 <br/>\
 - Target : 각 KPI 기간별 목표 수준 수치화 표현 <br/>\
 - Initiative : 기간별 KPI 목표 달성 위한 구체적인 활동 <br/><br/>\
-# 관점 (<font color = "red">재고내학)<br/>\
+# 관점 (재고내학)<br/>\
 <img src = "./img/BSC.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 대상, KPI <br/>\
 <img src = "./img/BSC_KPI.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -928,7 +928,7 @@ var answer = answer.concat(
 // IT-BSC
 '# 정의 : IT Paradox / BSC 융합 / IT 성과 측정도구 <br/>\
 - IT생산성 paradox를 해결하기 위해 경영 BSC개념을 융합하여 개발한 IT 성과측정도구 <br/><br/>\
-# 관점 (<font color = "red">기사운미) <br/>\
+# 관점 (기사운미) <br/>\
 <img src = "./img/IT-BSC.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 비교 <br/>\
 <img src = "./img/BSC_IT-BSC.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -1019,13 +1019,13 @@ IT-ROI 체계는 IT 프로젝트에 대한 사전, 중간, 사후평가를 수�
 1. 구성요소 <br/>\
 - Objectives : Mission 달성 이전 자신이 정하는 목표 <br/>\
 - Key Result : Objective 달성 판단 지표 <br/><br/>\
-2. 프로세스 (<font color = "red">범미마모핵)<br/>\
+2. 프로세스 (범미마모핵)<br/>\
 - 범위 설정 : OKR 대상 팀, 적용 범위 <br/>\
 - 미션 설정 : OKR 적용 팀, 수행해야 할 미션 <br/>\
 - 마일스톤 설정 : 1개월 or 3개월 단위 마일스톤 지정 <br/>\
 - 모델 작성 : 목표, 핵심결과 지표 정하기 위한 모델 작성 <br/>\
 - 핵심 지표 결정 : 구체적 수치 목표 지정, Key Results 로 정의 <br/>\
-<font color = "red">* SMART : Specific, Measurable, Achievable, Relevant, Time-bound <br/><br/>\
+* SMART : Specific, Measurable, Achievable, Relevant, Time-bound <br/><br/>\
 # OKR, KPI 비교 <br/>\
 <img src = "./img/OKR_KPI_Compare.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * ITPE 합숙 124회 4일차 2교시 2번 <br/>\
@@ -1050,14 +1050,14 @@ IT-ROI 체계는 IT 프로젝트에 대한 사전, 중간, 사후평가를 수�
 ',
 
 // 악마의 강
-'# 정의 : 아이디어 부재 / <font color = "red">연구단계 머무름 현상 <br/>\
+'# 정의 : 아이디어 부재 / 연구단계 머무름 현상 <br/>\
 - 성공위주의 평가 정책과 R&D(연구개발) 단계에서의 아이디어 부재로 기술사업화 과정에서 개발(초기)단계로 넘어가지 못하고 연구단계에 머무르는 현상<br/><br/>\
 # 암기 : 마음캐다 <br/><br/>\
 # 대응 : 인벤션/아이디어 사이클, 인벤션 캐피탈\
 ',
 
 // 죽음의 계곡
-'# 정의 : <font color = "red">상업화 어려움 현상 <br/>\
+'# 정의 : 상업화 어려움 현상 <br/>\
 - 연구개발에 성공한 기술이 자금 부족으로 3년이 지나도 상업화 하지 못하여 어려움을 겪는 현상(통상 3~7년차)<br/><br/>\
 # 원인 : Biz Model 구체화 과정중 자금난, Product 판로 확보의 진입난, CAPEX/OPEX 측면 <br/><br/>\
 # 사례 : 김기사 App -> 다음카카오 인수 <br/><br/>\
@@ -1066,7 +1066,7 @@ IT-ROI 체계는 IT 프로젝트에 대한 사전, 중간, 사후평가를 수�
 ',
 
 // 다윈의 바다
-'# 정의 : <font color = "red">경쟁 어려움 현상 <br/>\
+'# 정의 : 경쟁 어려움 현상 <br/>\
 - 성공적으로 상업화에 성공하여 출시된 상품이 타사 상품과 치열한 경쟁에 밀려 어려움을 겪는 현상 <br/><br/>\
 # 방안 : 벤처 마케팅 사이클, 벤처 캐피탈\
 ',
@@ -1079,7 +1079,7 @@ IT-ROI 체계는 IT 프로젝트에 대한 사전, 중간, 사후평가를 수�
 - Growth Hacking<br/>\
 - 제품 또는 서비스의 중요한 지표를 지속적으로 파악 및 분석하여, 사용자의 흐름을 최적화하고, 많은 유저를 확보하는 전략적 마케팅 기법 <br/><br/>\
 # 특징 : 제품/서비스 지향, 성장지향, 가설과 검증 <br/><br/>\
-# 단계(<font color = "red">AARRR) <br/>\
+# 단계(AARRR) <br/>\
 <img src = "./img/GrowthHacking.png" style = "max-width:100%; height:auto;"><br/>\
 - Acquisition : 인지-SEO,PR,캠페인SEM,콘테스트 <br/>\
 - Activation : 촉진-UI/UX, A/B 테스트 <br/>\
@@ -1091,7 +1091,7 @@ IT-ROI 체계는 IT 프로젝트에 대한 사전, 중간, 사후평가를 수�
 - 검토 : 팀 전체, 테스트 대상 검토 <br/>\
 - 우선순위 결정 : Impact, Confidence, Ease <br/>\
 - 테스트 : 책임자 할당, 테스트, 결과 공유 <br/><br/>\
-# 분석 방법론 (<font color = "red">웹퍼설AC) <br/>\
+# 분석 방법론 (웹퍼설AC) <br/>\
 - 웹 사이트 분석 : 구글, 애널리틱스, 오즈 <br/>\
 - 퍼넬측정 : 주요 단계별 잔류 사용자 측정 <br/>\
 - 사용자 설문조사 : 서베이 콩키, 퀼라루 <br/>\
@@ -1113,8 +1113,8 @@ IT-ROI 체계는 IT 프로젝트에 대한 사전, 중간, 사후평가를 수�
 
 // 시빅 해킹
 '# 정의 : 시민 주도 정보 개선 활동 <br/>\
-- Biz : <font color = "red">시민들이 신속하고 창의적으로 협업하여 <font color = "red">공공의 문제를 해결하고 도시를 더 살기 좋은 곳으로 만들기 위한 <font color = "red">운동 <br/>\
-- IT : 다양한 <font color = "red">시민들이 모여 디지털 기술을 활용해 <font color = "red">정부가 해결하지 못하는 공공의 문제를 풀어내자는 <font color = "red">사회운동 <br/><br/>\
+- Biz : 시민들이 신속하고 창의적으로 협업하여 공공의 문제를 해결하고 도시를 더 살기 좋은 곳으로 만들기 위한 운동 <br/>\
+- IT : 다양한 시민들이 모여 디지털 기술을 활용해 정부가 해결하지 못하는 공공의 문제를 풀어내자는 사회운동 <br/><br/>\
 # 개념도 <br/>\
 <img src = "./img/CivicHackingOverview.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 참여주체 <br/>\
@@ -1134,7 +1134,7 @@ IT-ROI 체계는 IT 프로젝트에 대한 사전, 중간, 사후평가를 수�
 
 // 메이커 운동
 '# 정의 : 자작 취미 산업영역 확장 / 공유, 발전 흐름 <br/>\
-- 스스로 필요한 것을 만드는 사람들인 메이커가 기존의 <font color = "red">자작 취미생활과 달리 컴퓨터, 인터넷, 디지털 생산도구를 이용해서 <font color = "red">산업 영역까지 아우르는 특징을 지닌, 만드는 법을 공유하고 발전시키는 흐름<br/><br/>\
+- 스스로 필요한 것을 만드는 사람들인 메이커가 기존의 자작 취미생활과 달리 컴퓨터, 인터넷, 디지털 생산도구를 이용해서 산업 영역까지 아우르는 특징을 지닌, 만드는 법을 공유하고 발전시키는 흐름<br/><br/>\
 # Keyword : 3D 프린터, OSH, 커뮤니티, 클라우드 공장, 클라우드 펀딩, 벤처액셀레러이터 <br/><br/>\
 # 메이커 운동선언(만나주변배후도놀참) <br/>\
 - 만들라 <br/>\
@@ -1153,7 +1153,7 @@ IT-ROI 체계는 IT 프로젝트에 대한 사전, 중간, 사후평가를 수�
 
 // 메이거 스페이스
 '# 정의 : 즉석 작업 공간 <br/>\
-- 3D 모델 파일과 다양한 재료들로 소비자가 원하는 사물을 <font color = "red">즉석에서 만들어(printing)낼 수 있는 작업 공간',
+- 3D 모델 파일과 다양한 재료들로 소비자가 원하는 사물을 즉석에서 만들어(printing)낼 수 있는 작업 공간',
 
 // 인터넷 거버넌스
 '# 정의 <br/>\
@@ -1161,7 +1161,7 @@ IT-ROI 체계는 IT 프로젝트에 대한 사전, 중간, 사후평가를 수�
 -> 인터넷 인프라, 교류, 내용에 관한 사회적 행위자들의 기대, 관행, 상호작용이 이루어 지도록 해주는 집단적 규칙, 절차 및 프로그램 <br/><br/>\
 - 처방적(Prescriptive) : 국제기구 포괄 대표성, 균형 / 갖추도록 하는 체제 <br/>\
 -> 다자주의적(multilateral)이며, 투명하고 민주적인 제도로서 각국 정부, 민간 영역과 시민사회, 국제기구를 포괄하는 대표성과 균형을 갖추도록 하는 체제 <br/><br/>\
-- 인터넷 거버넌스는 기술적 차원의 발전에 힘입어 진행된 복잡한 관리문제를 해결하기 위해 지속적으로 논의 되고 있는 <font color = "red">글로벌 차원의 정치적 관리 매커니즘<br/><br/>\
+- 인터넷 거버넌스는 기술적 차원의 발전에 힘입어 진행된 복잡한 관리문제를 해결하기 위해 지속적으로 논의 되고 있는 글로벌 차원의 정치적 관리 매커니즘<br/><br/>\
 # 핵심 기능 <br/>\
 - 기술표준 : ex)NW프로토콜, SW개발, 데이터 포맷 <br/>\
 - 자원 배분 및 할당 : ex)도메인 네임,IP주소 <br/>\
@@ -1186,7 +1186,7 @@ IT-ROI 체계는 IT 프로젝트에 대한 사전, 중간, 사후평가를 수�
 - 분석 데이터 : 충분성, 신뢰성, 적시성 <br/>\
 - 분석 문화 : 데이터 공유 및 협업 문화 <br/>\
 - IT 인프라 : EAI, ETL등 데이터 유통 체계 <br/>\
-<font color = "red">* EAI : Enterprise Application Integration <br/>\
+* EAI : Enterprise Application Integration <br/>\
 * ETL : Extract, Transformation, Load <br/><br/>\
 # 분석 성숙도 모델(도용산적) <br/>\
 - 도입 단계 : 분석 시작, 환경 시스템 구축 <br/>\
@@ -1290,13 +1290,13 @@ IT-ROI 체계는 IT 프로젝트에 대한 사전, 중간, 사후평가를 수�
 - 재해, 재난, 테러등 예기치 못한 이위기로 업무 중단 위험이 발생한 경우 최단 시간 내 핵심 업무를 복구하기 위한 최상의 시행안과 목표를 설정하기 위한 표준 <br/><br/>\
 # 주요 내용 (조리계지운성개) <br/>\
 [1~3 공통 내용] <br/>\
-P(4) 조직의 상황 : BCM 관리 <font color = "red">상황<br/>\
-P(5) 리더십 : <font color = "red">경영진 방침 <br/>\
-P(6) 계획수립 : 업무 연속성 <font color = "red">목적 제시<br/>\
-P(7) 지원 : 정보의 <font color = "red">문서화<br/>\
-D(8) 운영 : 운영<font color = "red">계획 수립 및 <font color = "red">통제 관리 <br/>\
-C(9) 성과평가 : <font color = "red">감시,측정,분석<br/>\
-A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
+P(4) 조직의 상황 : BCM 관리 상황<br/>\
+P(5) 리더십 : 경영진 방침 <br/>\
+P(6) 계획수립 : 업무 연속성 목적 제시<br/>\
+P(7) 지원 : 정보의 문서화<br/>\
+D(8) 운영 : 운영계획 수립 및 통제 관리 <br/>\
+C(9) 성과평가 : 감시,측정,분석<br/>\
+A(10) 개선 : 부적합 시정조치, 개선 <br/>\
 <img src = "./img/BCMS_1.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # Time Graph <br/>\
 <img src = "./img/BCMS_2.png" style = "max-width:100%; height:auto;"><br/><br/>\
@@ -1359,8 +1359,8 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 // TOC
 '# 정의 : 제약 사항 관리 / 경영혁신 기법 <br/>\
 - Theory Of Constraints <br/>\
-- <font color = "red">엘릿 골드렛 박사가 개발한 목적(Goal)달성을 방해하는 제약 사항을 관리하여, 시스템이 목적을 달성할 수 있도록 하는 경영혁신 기법<br/>\
-- 기업 전략을 방해하는 제약사항을 발견하여 이를 제거하기 위한 기법으로 시스템의 목적 달성을 저해하는 제약조건(<font color = "red">병목)을 찾아내 극복하기 위한 시스템 개선방법<br/><br/>\
+- 엘릿 골드렛 박사가 개발한 목적(Goal)달성을 방해하는 제약 사항을 관리하여, 시스템이 목적을 달성할 수 있도록 하는 경영혁신 기법<br/>\
+- 기업 전략을 방해하는 제약사항을 발견하여 이를 제거하기 위한 기법으로 시스템의 목적 달성을 저해하는 제약조건(병목)을 찾아내 극복하기 위한 시스템 개선방법<br/><br/>\
 # 특징 <br/>\
 - 전체 최적화 <br/>\
 - 제약사항 고려 <br/>\
@@ -1421,7 +1421,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 
 // 옴니채널
 '# 정의 : 다중 유기적 결합 / 일관 경험 제공 서비스 <br/>\
-- 온라인, 오프라인, 모바일등의 다양한 경로를 넘나들며 상품을 검색하고 구매할 수 있도록 여러 개(Multi)의 쇼핑채널을 소비자 중심의 전체(Omni) 관점에서 빈틈 없이 유기적으로 결합해 <font color = "red">일관된 경험을 제공 서비스<br/><br/>\
+- 온라인, 오프라인, 모바일등의 다양한 경로를 넘나들며 상품을 검색하고 구매할 수 있도록 여러 개(Multi)의 쇼핑채널을 소비자 중심의 전체(Omni) 관점에서 빈틈 없이 유기적으로 결합해 일관된 경험을 제공 서비스<br/><br/>\
 - Anytime, Anywhere, Anydevices <br/><br/>\
 # 종류 : 쇼루밍, 역쇼루밍, 모루밍 <br/><br/>\
 # 유통 채널 : 싱글, 멀티, 크로스, 옴니 <br/><br/>\
@@ -1503,7 +1503,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 - Bullwhip Effect <br/>\
 - 공급망상에서 시장의 수요 정보가 유통업체를 거쳐 공급업체로 움직이면서 왜곡이 발생하여 공급업체들이 과잉 또는 과소 생산하는 현상<br/>\
 - 수요자의 수요변동에 대한 반응이 소매상, 도매상, 제조업자, 부품업자 등 공급망을 거슬러 올라갈 수록 크게 확대되는 현상 <br/><br/>\
-# 원인 (<font color = "red">예시가공)<br/>\
+# 원인 (예시가공)<br/>\
 - 수요예측 불일치 : 수요예측 과거주문 기초, 안전재고 위한 생산량 확보 / 가수요 촉발 <br/>\
 - 주문 시차와 수량 차이 : 고객 일관된 주문, 일정시차 두고 대량 주문 발생 / 판매랑, 주문량 차이 발생 <br/>\
 - 가격변동 예측 오류 : 소매상 과재고, 실수요 패턴 감지 불가 / 기업, 고객 수요 예측 실패 <br/>\
@@ -1522,7 +1522,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 - Forecasting  정확성 향상 <br/>\
 - 적시생산 적시공급 <br/>\
 - 재고감소 <br/><br/>\
-# 유형 (<font color = "red">파PE) <br/>\
+# 유형 (파PE) <br/>\
 - 거래 파트너 Hub형 : Retailer가 생산 계획을 받아 Sync / WallMart <br/>\
 - P2P형 : 생산자, Retailer 양쪽 중심 / 3PL <br/>\
 - 거래 Exchange형 : 제3자의 커뮤니티 사이트 이용 / e-market Place <br/><br/>\
@@ -1575,7 +1575,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 - 사회기반 시설 사업 : 공항, 철도, 환경, 항만 사업 <br/>\
 - 민간투자형 SW사업 : 서울시 스마트 교통카드 시스템, 안산시 U-City <br/>\
 - 과기정통부 장관 고시 공공사업 : 코레일 교통카드 정산 SW <br/>\
-<font color = "red">* SW 진흥법 48조 3항 6호 추가 발의 - 개인정보,위치정보, 사생활 영향 추가 [국가 기관장 권한] <br/><br/>\
+* SW 진흥법 48조 3항 6호 추가 발의 - 개인정보,위치정보, 사생활 영향 추가 [국가 기관장 권한] <br/><br/>\
 # 문제점 <br/>\
 1. 발주자 <br/>\
 - 대형 공공정보화 사업 발주시 잦은 유찰 : 단독응찰, 무응찰, 선정 지연 <br/>\
@@ -1610,8 +1610,8 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 
 // Nudge 이론
 '# 정의 : 유연한 방식 선택 설계 이론<br/>\
-- <font color = "red">심리학과 <font color = "red">행동경제학 분야의 용어로, 상대방의 행동을 변화시키는 유연한 방식의 선택 설계 이론 <br/><br/>\
-# 원리 (<font color = "red">D실매체피인)<br/>\
+- 심리학과 행동경제학 분야의 용어로, 상대방의 행동을 변화시키는 유연한 방식의 선택 설계 이론 <br/><br/>\
+# 원리 (D실매체피인)<br/>\
 1. Default <br/>\
 - 내용 : 사람들은 많은 노력이 필요하지 않는 선택을 하는 경향이 있기 때문에 디폴트옵션을 선택하는 경우가 많음 <br/>\
 - 사례 : 대부분 사람들은 프로그램을 설치할 때 커스터마이징 옵션을 사용하지 않고 프로그램에서 제시하는 베이직 옵션을 선택 <br/><br/>\
@@ -1652,7 +1652,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 // 마세라티 문제
 '# 정의 : 과도 몰입 문제 현상 <br/>\
 - 현재 구매 능력이 없음에도 고가의 마세라티 차량 모델과 색상을 고민하는 바와 같이, 현실적으로 발생할 확률이 희박한 상황을 가정하여 기술적 요소에 과도하게 몰입하는 문제 현상. <br/>\
-- <font color = "red">엔지니어만 있는 스타트업에서 발생하는 <font color = "red">기술편향을 비유하며 유사 개념으로 <font color = "red">“보트 네이밍” 존재',
+- 엔지니어만 있는 스타트업에서 발생하는 기술편향을 비유하며 유사 개념으로 “보트 네이밍” 존재',
 
 // IT 투자 관리
 '# 정의 : 추정 / 판정 / 분석 활동 <br/>\
@@ -1685,8 +1685,8 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 # 평가 체계 Framework <br/>\
 <img src = "./img/IT_InvestFramework.png" style = "max-width:100%; height:auto;"><br/>\
 1. 평가 유형 <br/>\
-- 사전협의/정보화 사업 : <font color = "red">중복투자, 상호연계 여부 관리 / 신규, 계속사업 <br/>\
-- 운영성과 : 시스템 <font color = "red">효율적 운영 성과 측정 / 3년 이상 정보시스템, 1년이상 모바일앱 <br/><br/>\
+- 사전협의/정보화 사업 : 중복투자, 상호연계 여부 관리 / 신규, 계속사업 <br/>\
+- 운영성과 : 시스템 효율적 운영 성과 측정 / 3년 이상 정보시스템, 1년이상 모바일앱 <br/><br/>\
 2. 평가 프로세스 <br/>\
 <img src = "./img/IT_InvestProcess.png" style = "max-width:100%; height:auto;"><br/><br/>\
 3. 평가지표 <br/>\
@@ -1720,7 +1720,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 // COBIT 5.0
 '# 정의 : 실행, 수준 진단 / 통제, 감사, 개선 / IT-Governance Framework <br/>\
 - IT 거버넌스 실행, 수준 진단 통해 IT 통제, 감사, 개선에 사용되는 IT 거버넌스 프레임워크 <br/><br/>\
-# 진화 과정(<font color = "red">ACMIG) : Audit > Control > Management > IT Governance > Governance of Enterprise IT <br/><br/>\
+# 진화 과정(ACMIG) : Audit > Control > Management > IT Governance > Governance of Enterprise IT <br/><br/>\
 # 구성요소 <br/>\
 1. IT Governance <br/>\
 - EDM : Evaluate(평가), Direct(지휘), Monitor(모니터링) <br/><br/>\
@@ -1731,11 +1731,11 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 - MEA : Monitor(모니터링), Evaluate(평가), Assess(진단)<br/><br/>\
 # 거버넌스 및 관리 핵심영역 <br/>\
 <img src = "./img/COBIT5.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 5 원칙 (<font color = "red">통이비인거) <br/>\
+# 5 원칙 (통이비인거) <br/>\
 - 통합 프레임워크 : Best Practice 연계 <br/>\
 - 이해관계자의 가치제고 지향 : 가치 창출 위해 존재 <br/>\
 - 비즈니스 초점 : 거버넌스, 매니지먼트 의사결정 연계 <br/>\
-- 인에이블러 기반(<font color = "red">원프조문정서인) : 원칙/정책 및 프레임워크, 프로세스, 조직구조, 문화/윤리 및 행동, 정보, 서비스, 인력 <br/>\
+- 인에이블러 기반(원프조문정서인) : 원칙/정책 및 프레임워크, 프로세스, 조직구조, 문화/윤리 및 행동, 정보, 서비스, 인력 <br/>\
 - 거버넌스와 관리 분리 : 다른 구조, 목적 <br/><br/>\
 # Enabler <br/>\
 - 원칙/정책/프레임워크 : IT 지침, 정책, 내부 규정 <br/>\
@@ -1771,13 +1771,13 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 - RDB <br/><br/>\
 # 필요성 <br/>\
 <img src = "./img/ITComplianceOverview.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 주요 요구사항 (<font color = "red">공보보통책)<br/>\
+# 주요 요구사항 (공보보통책)<br/>\
 <img src = "./img/ITComplianceNeeds.png" style = "max-width:100%; height:auto;"><br/><br/>\
-- 공개 : <font color = "red>투명성 제고, <font color = "red>데이터 공개 요구 <br/>\
-- 보존 : <font color = "red>이력 추적, 데이터 보존 기한 준수 요구 <br/>\
-- 보호 : 암호화, <font color = "red>접근 제어 요구 <br/>\
-- 내부통제 : <font color = "red>감사 수준 요구 <br/>\
-- 책임성 : 수집,저장,활용,파기시 발생 <font color = "red>변조,유출,침해 사고 고지 및 책임요구 <br/><br/>\
+- 공개 : 투명성 제고, 데이터 공개 요구 <br/>\
+- 보존 : 이력 추적, 데이터 보존 기한 준수 요구 <br/>\
+- 보호 : 암호화, 접근 제어 요구 <br/>\
+- 내부통제 : 감사 수준 요구 <br/>\
+- 책임성 : 수집,저장,활용,파기시 발생 변조,유출,침해 사고 고지 및 책임요구 <br/><br/>\
 # 대응방안 <br/>\
 1. 인식전환 <br/>\
 - 조직 교육 : 조직 문화화, 정기적 교육, CSR 강화, 사례 공유 <br/>\
@@ -1802,7 +1802,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 // 매매 임치제도
 '# 정의 : SW 유지보수 지속 담보 보험 <br/>\
 - 저작권자가 소프트웨어의 유지보수를 계속 수행할 수 없는 경우를 대비하여 신뢰성 있는 제3기관에 소스코드와 정보기술을 임치해 두는 제도 <br/>\
-- <font color = "red">저작권법 제101조의 7 (프로그램의 임치) \
+- 저작권법 제101조의 7 (프로그램의 임치) \
 ',
 
 // Design Thinking
@@ -1812,7 +1812,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 - 인간 중심 디자인 방법론 <br/>\
 - 공감 통한 문제 맥락 접근 <br/>\
 - 감수성과 비즈니스 전략적 사고의 통합 통한 문제 접근 <br/><br/>\
-# 프로세스 (<font color = "red">공정아프테)<br/>\
+# 프로세스 (공정아프테)<br/>\
 <img src = "./img/DesignThinkingProcess.png" style = "max-width:100%; height:auto;"><br/>\
 - 공감 : 인터뷰, 관찰, 설문조사 / 관찰, 공감 과정, 문제점 발견 <br/>\
 - 정의 : 요구사항 정의, 의견조율 / 공감 결과 통한 문제 정의 <br/>\
@@ -1879,7 +1879,7 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 // Value Chain
 '# 정의 : 주활동 / 지원활동 / 기능 / 프로세스 / 연계 분석 기법 <br/>\
 - 기업이 고객에게 가치를 제공함에 있어서 부가가치 창출에 직/간접적으로 관련된 주활동, 지원활동, 기능, 프로세스를 연계하는 분석 기법 <br/><br/>\
-# 구성도 (<font color = "red">기인개조 내생외영사) <br/>\
+# 구성도 (기인개조 내생외영사) <br/>\
 <img src = "./img/ValueChain.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 역할 <br/>\
 - 기업 각 생산 활동 영역 비용, 부가가치 정교 분석 <br/>\
@@ -1906,20 +1906,20 @@ A(10) 개선 : 부적합 <font color = "red">시정조치, 개선 <br/>\
 - 초기 사용자들이 관심과 구매 의사 및 피드백을 제공할 것으로 예상되는 핵심 가치(기능)을 선정하고 시간과 돈을 최소한 투입하여 구현한 제품 혹은 서비스 <br/><br/>\
 # 개념도 <br/>\
 <img src = "./img/MVP_Overview.png" style = "max-width:100%; height:auto;"><br/><br/>\
-# 절차 (<font color = "red">아빌프메데런)<br/>\
+# 절차 (아빌프메데런)<br/>\
 <img src = "./img/MVP_Process.png" style = "max-width:100%; height:auto;"><br/>\
-- Idea : <font color = "red">새로운 제품 아이디어 도출, 고객 가치 판단 가설, <font color = "red">린 캔버스 통해 도출 <br/>\
-- Build : <font color = "red">핵심 가치 집중 제품 개발, 제작 <br/>\
-- Product : 개발된 제품 시장 <font color = "red">배포 <br/>\
-- Measure : 고객 가체 제공 <font color = "red">정량적 측정 <br/>\
-- Data : 정량적 측정된 데이터 <font color = "red">저장 <br/>\
-- Learn : <font color = "red">개선 사항 도출, 문제시 <font color = "red">방향 전환 제시 <br/><br/>\
+- Idea : 새로운 제품 아이디어 도출, 고객 가치 판단 가설, 린 캔버스 통해 도출 <br/>\
+- Build : 핵심 가치 집중 제품 개발, 제작 <br/>\
+- Product : 개발된 제품 시장 배포 <br/>\
+- Measure : 고객 가체 제공 정량적 측정 <br/>\
+- Data : 정량적 측정된 데이터 저장 <br/>\
+- Learn : 개선 사항 도출, 문제시 방향 전환 제시 <br/><br/>\
 # MVP, MMF, MMR, MMP<br/>\
 <img src = "./img/MVP_MMR_MMF_MMP.png" style = "max-width:100%; height:auto;"><br/>\
-- MVP : 가설 테스트, 학습 위한 <font color = "red">최소 제품, 서비스<br/>\
-- MMF : 최종 사용자 기대하는 <font color = "red">최소 기능 정의  <br/>\
-- MMR : <font color = "red">MMF의 모든 기능 제공 <br/>\
-- MMP : <font color = "red">MMR의 최초 버전 <br/><Br/>\
+- MVP : 가설 테스트, 학습 위한 최소 제품, 서비스<br/>\
+- MMF : 최종 사용자 기대하는 최소 기능 정의  <br/>\
+- MMR : MMF의 모든 기능 제공 <br/>\
+- MMP : MMR의 최초 버전 <br/><Br/>\
 * ITPE 합숙 124회 2일차 관리 1교시 2번\
 ',
 

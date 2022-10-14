@@ -585,7 +585,7 @@ var answer = answer.concat(
 - 기능<bl>유형</bl> : <bl>ILF, EIF</bl> <br/>\
 - <bl>복잡도</bl> 및 기여도 : <bl>DET</bl>(Attribute), <bl>RET</bl>(Split Table - 사원(정규직,비정규직)) <br/><br/>\
 2. <bl>트랜잭션</bl> 기능 <br/>\
-- 기능<bl>유형</bl> : <bl>EI, EO, EQ<bl> <br/>\
+- 기능<bl>유형</bl> : <bl>EI, EO, EQ</bl> <br/>\
 - <bl>복잡도</bl> 및 기여도 : <bl>DET, FTR</bl>(Table 수) <br/><br/>\
 # 개발비 산정절차 / 산출물 (사개보직소)<br/>\
 <img src = "./img/FP_Process.png" style = "max-width:100%; height:auto;"><br/>\
@@ -610,7 +610,7 @@ var answer = answer.concat(
 
 // 측정유형
 '# 유형 <br/>\
-- <re>개발 <r/e>프로젝트 : 최초 설치 소프트웨어 기능 측정 <br/>\
+- <re>개발 </re>프로젝트 : 최초 설치 소프트웨어 기능 측정 <br/>\
 - <re>개선 </re>프로젝트 : 변경 부분 측정 <br/>\
 - <re>어플</re>리케이션 : 설치되어 있는 어플리케이션 베이스라인 <br/><br/>\
 # 유형별 조정 기능 점수 <br/>\
@@ -653,7 +653,7 @@ var answer = answer.concat(
 # <bl>절차</bl> : 사업<bl>유형</bl>식별 > 대가산정 <bl>시점</bl>식별 > 대가산정<bl>모형</bl> 선정 <br/><br/>\
 # 사업<bl>유형</bl>(<re>I,IB,EI,I,보</re>) <br/>\
 1. <bl>기획</bl>단계<br/>\
-- <gr>I<g/r>SP(컨지수) <br/>\
+- <gr>I</gr>SP(컨지수) <br/>\
 - <gr>I</gr>SP/<gr>B</gr>PR(투) <br/>\
 - <gr>E</gr>A/ITA(투) <br/>\
 - <gr>I</gr>SMP(투) <br/>\
