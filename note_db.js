@@ -96,6 +96,7 @@ var question = question.concat(
 '<re>DB 확장성 확보 방안</re>',
 '<re>[DB확장]- Database Shard</re>',
 '<re>[DB확장]- Database Partitioning</re>',
+'<re>[DB확장]- Query Offloading</re>',
 '<re>DB 복제 - Web Service</re>',
 '<re>Data File Structure</re>',
 '<re>인공지능 학습용 데이터 품질관리 지표</re>',
@@ -2013,6 +2014,16 @@ FROM TABLE_A A, TABLE_A B <br/><br/>\
 - Reference : 부모 테이블 Reference Key <br/>\
 <img src = "./img/ProDataPartitioning.png" style = "max-width:100%; height:auto;"><br/><br/>\
 * 119회 응용 3교시 5번\
+',
+
+// Query Offloading
+'# 정의 : Update(10-30%) / Read(70-90%) / 분리. 처리량증가 디비 성능향상기법 <br/>\
+- Update 트랜잭션,Read 트랜잭션을 분리하여 DB 처리량을 증가시키는 성능향상기법 <br/><br/>\
+<img src = "./img/queryoffloading.png" style = "max-width:100%; height:auto;"><br/><br/>\
+2. 쿼리 오프로딩의 구성 <br/>\
+- Master DB : Creat/Delete/Update만 수행 <br/>\
+- Staging DB : master에서 다수의 slave로 복제시 성능저하 방지. 중간 경유지 <br/>\
+- Slave DB : Read 트랜잭션만 수행, 상호 접근 HA 기능 제공 <br/>\
 ',
 
 // DB 복제 - Web Service
