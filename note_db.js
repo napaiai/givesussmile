@@ -93,6 +93,7 @@ var question = question.concat(
 '<re>[빅데이터]- D-Commerce</re>',
 '<re>[빅데이터]- Random Sampling</re>',
 '<re>[빅데이터]- Filtering</re>',
+'<re>[빅데이터]- 데이터 가치평가 제도</re>',
 '<re>DB 확장성 확보 방안</re>',
 '<re>[DB확장]- Database Shard</re>',
 '<re>[DB확장]- Database Partitioning</re>',
@@ -1982,6 +1983,25 @@ FROM TABLE_A A, TABLE_A B <br/><br/>\
 - PCA : 차원 축 집단 분류 필터링 <br/><br/>\
 * 116회 응용 2교시 1번\
 ',
+
+//[빅데이터] - 데이터 가치평가 제도
+'# 정의 : 데이터 가치 / 시장 평가 기법 모델 / 가액,등급,점수 / 평가활동 <br/><br/>\
+#기대효과<br/>\
+1) 데이터 가치인식 재고<br/>\
+2) 데이터 체계관리 계기<br/>\
+3) 데이터 유통거래 촉진<br/>\
+4) 새로운 투자, 자금조달 활용<br/><br/>\
+#근거:<br/>\
+-데이터 <re>가치평가 기관 지정</re> 및 운영에 관한 지침<br/>\
+-데이터 <re>안심구역 지정</re> 및 운영 에 관한 지침<br/><br/>\
+#자격 :<br/>\
+- 기술사,변호사, 데이터 경력자 전문인력 <re>6인 포함 10인 이상 상설</re>조직<br/>\
+- 평가 모델과 기법, 시설, 장비 보유<br/>\
+- 과기 정통부 장관의 데이터 가치평가 기관 지정<br/><br/>\
+#기법:<re>수접,원접,시접</re><br/>\
+<img src = "./img/가치평가기법.jpg" style = "max-width:100%; height:auto;"><br/><br/>\
+'
+,
 
 // DB 확장성 확보 방안
 '<img src = "./img/DB_AddScale.png" style = "max-width:100%; height:auto;">\
