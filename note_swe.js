@@ -411,6 +411,7 @@ var question = question.concat(
 '<re>SW사업 관리감독 항목</re>',
 '<re>[SW사업]- SW개발사업 적정 사업기간 산정</re>',
 '<re>[SW사업]- 상용SW직접구매(분리발주)</re>',
+'<re>[SW사업]- 다수공급자 계약제도 (MAS:Multiple Award Schedule)</re>',
 );
 
 var answer = answer.concat(
@@ -7132,5 +7133,15 @@ GP(Generative Programming) : 상세한 Feature 모델 바탕으로 프로그램 
 * KPC 101회 관리 1교시 13번\
 ',
 
-
+// [SW사업]- 다수공급자 계약제도 (MAS:Multiple Award Schedule)
+'# 정의 : 선의의 가격/품질경쟁 유도 / 수요기관 선택권 제고 제도 <br/>\
+- 다수의 공급자를 선정하여, 수요기관이 직접 물품 선택하여 사용하는 제도 <br/><br/>\
+<img src = "./img/mas.jpg" style = "max-width:100%; height:auto;"><br/><br/>\
+# 법적근거 <br/>\
+ - <re>조달사업에 관한 법률 제 13조</re><br/>\
+# 대상품목 <br/>\
+1) 규격이 확장되고 <bl>상용화</bl>된 물품 / 업체공통의 상용규격<br/>\
+2) <bl>단가계약</bl>이 가능한 물품 <br/>\
+3) 기타 <bl>조달청장이 필요</bl>하다고 판단 물품<br/>\
+',
 );
