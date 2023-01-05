@@ -530,7 +530,7 @@ var answer = answer.concat(
 - Information Strategy Planning <br/>\
 - 조직의 중장기 마스터 플랜을 지원하기 위한 정보 시스템을 계획하고 전략을 수립하는 활동 <br/><br/>\
 # <bl>22년 5월 20일</bl> ISP,ISMP 수립 공통가이드 <bl>6판</bl> <br/>\
-<img src = "./img/ispismp_modified.png" style = "max-width:100%; height:auto;"><br/><br/>\
+<img src = "./img/ispismp.png" style = "max-width:100%; height:auto;"><br/><br/>\
 # 배경 <br/>\
 - 환경변화 요인 : 경영/업무 환경 변화, 정보기술 환경 변화 <br/>\
 - 외부지적 요인 : 구축 사업 대가산정 부정, 데이터 표준화 미 준수 <br/>\
