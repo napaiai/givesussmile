@@ -272,6 +272,7 @@ var question = question.concat(
 '<re>[Gartner 2021][Resilient Delivery]- 지능형 구성 가능한 비즈니스</re>',
 '<re>[Gartner 2021][Resilient Delivery]- AI 엔지니어링</re>',
 '<re>[Gartner 2021][Resilient Delivery]- 초자동화</re>',
+'<re>[Gartner 2023] 10대 전략</re>',
 '<re>Ray Tracing</re>',
 '<re>Living Lab</re>',
 '<re>SOS Lab</re>',
@@ -5831,6 +5832,23 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - Patchwork 탈피(비효율적인 레거시 비즈니스 프로세스) <br/><br/>\
 2. 해결방안 : 효율성, 속도, 전문성의 민주화, 비즈니스 민첩성 <br/><br/>\
 * 라이지움 90회 1교시 8번\
+',
+
+// 10대 전략
+'<img src = "./img/가트너2023.png" style = "max-width:100%; height:auto;"><br/><br/>\
+-지속가능성 : 자원효율, ESG요구<br/><br/>\
+<re>((Prioneer))</re><br/>\
+-<bl>슈퍼</bl>앱     : 앱, 플랫폼 기능 -> 단일 어플리케이션 결합<br/>\
+-<bl>적응형</bl> AI  : 데이터 기반, 런타임 & 개발 환경내 모델 지속적 재교육<br/>\
+-<bl>메타</bl>버스   : 디지털 화폐 + NFT 구현 자체 가상 경제<br/>\
+<re>((Optimize))</re><br/>\
+-디지털 <bl>면역</bl> 시스템           : 데이터 기반, 자동화 익스트림 테스팅, 문제 해결<br/>\
+-<bl>관찰</bl> 가능성 응용              : 로그,흔적,api호출, 체류시간 등 취합 아티팩트<br/>\
+-<bl>AI 신뢰</bl>, 리스크 및 보안관리 : AI 리스크, 프라이버시, 보안문제 적극관여<br/><br/>\
+<re>((Scale))</re><br/>\
+-<bl>산업</bl> 클라우드 플랫폼 : SaaS,PaaS,IaaS 모듈식 기능 결합<br/>\
+-<bl>플랫폼 엔지</bl>니어링     : 소프트웨어 수명주기 관리 셀프 서비스 개발자 플랫폼 구축,운영<br/>\
+-<bl>무선</bl>의 가치 실현       : 다양한 무선 솔루션 활용, 비즈니스 가치 원천<br/><br/>\
 ',
 
 // Ray Tracing
