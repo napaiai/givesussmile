@@ -758,7 +758,7 @@ var answer = answer.concat(
 * 수요에서 자원배분 고객 수요에 따른 서비스 제공\
 ',
 
-// 기술 수명주기 이론
+// 기술수명주기 이론
 '# S-Curve 이론 <br/>\
 <img src = "./img/SCurve.png" style = "max-width:100%; height:auto;"><br/>\
 - 성장, 성숙기, 쇠퇴 <br/><br/>\

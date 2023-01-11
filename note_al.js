@@ -59,6 +59,7 @@ var question = question.concat(
 '<re>[AI]- 역강화학습</re>',
 '<re>[AI][AL]- 유전자 알고리즘</re>',
 '<re>[AI]- 전문가 시스템</re>',
+'<re>[AI]- 생성적 AI(Generative AI)</re>',
 '<re>[AI][Classifier][AL]- Perceptron</re>',
 '<re>[AI][Classifier][AL]- Activation Function</re>',
 '<re>[AI]- Feed Forward Neural</re>',
@@ -1210,6 +1211,33 @@ var answer = answer.concat(
 - 전방향 추론 : 데이터 지향, 결과 항상 True, 추론의 건전성 <br/>\
 - 역방향 추론 : 목표 지향, 겨롸 false 가능, 유사추론, 휴리스틱\
 ',
+
+//<re>[AI]- 생성적 AI(Generative AI)</re>
+'#정의 :훈련 데이터의 데이터 분포 구성 학습하여, 유사데이터 생성하는 AI 모델<br/><br/>\
+#분류<br/>\
+<h1>Tractable Density(확률 분포 직접)<br/>\
+Approximate Density(확률 분포 추정)<br/>\
+Implicit Density(임의 추정)</h1><br/><br/>\
+#<re>차원 축소 알고리즘 AutoEncoder</re><br/>\
+Encoder 와 Decoder로 구성. 입력출력 동일하게 latent feature 구하는 차원축소 알고리즘<br/>\
+"Latent feature를 얻자"<br/>\
+<img src = "./img/AE.png" style = "max-width:100%; height:auto;"><br/><br/>\
+#auto encoder 구성요소<br/>\
+모델구조 : Encdoer, Decoder<br/>\
+차원축소 : latent feature, manifold learning<br/>\
+모델학습방법 : flatten, MSE, ADAM<br/><br/>\
+- 과적합 되면 데이터를 한점으로 압축되어, 불규칙 latent space생성.<br/>\
+vae를 통해 데이터를 여러 정규분포로 구성<br/><br/><br/>\
+#<bl>VAE</bl><br/>\
+latent vector를 확률 분포(평균,분산)통해 유사 데이터 생성<br/>\
+<img src = "./img/VAE.png" style = "max-width:100%; height:auto;"><br/><br/>\
+#VAE 구성요소<br/>\
+모델구조 ( 동일 )<br/>\
+Latent Space : 정규분, Sample latnet vector<br/>\
+모델학습방법 (동일)<br/><br/>\
+* <re>AE</re>는 의미있는 <re>manifold학습</re>, <bl>VAE</bl>는 새로운 <bl>DaTa InsTance생성</bl><br/>\
+',
+
 
 // Perceptron
 '# 정의 : Pattern을 분류하기 위해 제안한 신경 회로망 모델 <br/><br/>\

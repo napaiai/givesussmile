@@ -4761,6 +4761,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 - RDF 사용 : 정형화, 연계 <br/>\
 - 링크정보 부여 : 발전된 시맨틱 웹 <br/><br/>\
 * 온톨로지 : 개념간 관계를 기술하는 정형 어휘의 집합 <br/>\<br/>\
+<img src = "./img/데이터생명주기.jpg" style = "max-width:100%; height:auto;"><br/><br/>\
 # 구축 절차 <br/>\
 - 명세화/용어 설계 <br/>\
 - 온톨로지 설계 <br/>\
@@ -4772,6 +4773,7 @@ IDMZ : IT, OT 정보 공유 계층, 중계/분리 역할 <br/>\
 # 사례 <br/>\
 - 해외 : DB pedia, BBC <br/>\
 - 국내 : 공공 Wifi 정보, 국가서지 <br/><br/>\
+<img src = "./img/웹문서LOD비교.png" style = "max-width:100%; height:auto;"><br/>\
 * 라이지움 88회 관리 2교시 3번 <br/>\
 * 122회 1교시 3번\
 ',
