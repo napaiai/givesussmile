@@ -1924,10 +1924,10 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 * 120회 응용 1교시 13번\
 ',
 
-// Li-Fi
-'# 정의 : 광원 신호기반 통신 기술 <br/>\
+// 라이파이 Li-Fi
+'# 정의 : 광원 신호기반 통신 기술 IEEE 802.11.b <br/>\
 - Light Fidelity <br/>\
-- LED 전구 이용 초고속 통신 가능케 해주는 새로운 초고속 통신 규격, 빛 또는 전자파 스펙트럼의 일부라는 점에 착안, 전구와 같은 광원을 신호 증폭 거점으로 사용하는 기술 <br/><br/>\
+- LED 전구 이용 초고속 통신 가능케 해주는 새로운 초고속 통신 규격, 빛 또는 전자파 스펙트럼의 일부라는 점에 착안, 발광 다이오드와 같은 광원을 신호 증폭 거점으로 사용하는 기술 <br/><br/>\
 # 암기 <br/>\
 - 기술 : 디동오 <br/>\
 - 구성 : 컨램리(포앰리)피 <br/>\
@@ -1950,7 +1950,7 @@ IEEE 802.11ai: fast initial link setup, secure link setup within 100ms',
 # 스펙 <br/>\
 - 파장 : 780nm ~ 380nm의 가시광 파장 <br/>\
 - 주파수 : 380Thz ~ 750Thz, 무선 통신 주파수보다 1만배 이상 넓은 폭 <br/>\
-- 속도 : 10GBps, 와이파이 100Mbps의 100배, LTE-A 150Mbps의 66배 <br/>\
+- 속도 : 224GBps, 와이파이 100Mbps의 100배, LTE-A 150Mbps의 66배 <br/>\
 - 원리 : 광원 점멸 -> 1/0 <br/>\
 - 기술 : SIM-OFDM(Subcarriser Index Modulation-OFDM기술; 수천개의 데이터 스트림을 병렬적으로 전송하는 방식 (IEEE 국제 표준 VLC-PHY) <br/><br/>\
 <img src = "./img/LIFI.png" style = "max-width:100%; height:auto;">\
