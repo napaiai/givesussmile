@@ -124,7 +124,7 @@ var question = question.concat(
 '<re>[해킹]- 베놈(VENOM) 취약점</re>',
 '<re>[해킹]- 크리덴셜 스터핑</re>',
 '<re>[해킹]- Atom Bombing</re>',
-'<re>[해킹]- OWASP Top 10</re>',
+'[해킹]- OWASP <re>API</re> Top 10 2023',
 '<re>[해킹][OWASP]- Injection</re>',
 '<re>[해킹][OWASP][Injection]- SQL Injection</re>',
 '<re>[해킹]- OWASP Mobile Top 10</re>',
@@ -2316,51 +2316,30 @@ var answer = answer.concat(
 # 대응 : 코드 인젝션 대응기법, 행위기반 보안\
 ',
 
-// OWASP Top 10
-'# 정의 : 웹 취약점 대응방안 기술 가이드<br/>\
-- Open Web Application Security Project Top 10 RC(Release Candidate)2 - The Ten Most Critical Web Application Security Risks <br/>\
-- 공격 빈도 높으며 보안 영향 큰 10가지 취약점에 대한 대응방안 제공하는 기술 가이드 <br/><br/>\
+// OWASP Top 10 2023
+'# 정의 :API 취약점<br/>\
+- Open Web Application Security Project Top 10 RC(Release Candidate)2 - The Ten Most Critical Web api Security Risks <br/>\
+- 공격 빈도 높으며 보안 영향 큰 10가지 <re>API</re> 취약점에 대한 대응방안 제공하는 기술 가이드 <br/><br/>\
 # 내용 <br/>\
-1. 인젝션(Injection) <br/>\
-- 개념 : 신뢰할 수 없는 데이터가 명령, 질의 문 전송 통한 오작동 유도 공격 <br/>\
-- 예시 : Blind SQL Injection, 매스 SQL <br/>\
-- 대응 : 데이터,명령어 분리, 입력값 공통 필터링 <br/><br/>\
-2. 취약한 인증(Broken Authentication) <br/>\
-- 개념 : 인증 및 세션 관리 암호키, 세션 토큰 노출 통한 권한 획득 <br/>\
-- 사례 : 세션 하이제킹 <br/>\
-- 대응 : 2Factor 인증, Admin 계정 인증, 강력한 비밀번호 <br/><br/>\
-3. 민감한 데이터 노출(Sensitive data exposure)<br/>\
-- 개념 : 금융 정보, 건강 정보, 개인 식별 정보 취약한 데이터 획득,변조 <br/>\
-- 예시 : 스니핑, MITM <br/>\
-- 대응 : 데이터 분류 및 통제, 암호화, Salt 기반 해시 <br/><br/>\
-4. XML 외부 개체(XML External entities, XXE) <br/>\
-- 개념 : 외부 개체 통한 내부 파일 공유, 원격 코드 실행 <br/>\
-- 사례 : 외부 참조 <br/>\
-- 대응 : 개발자 교육, 입력값 검증, JSON 처리, SOAP 1.2 이용 <br/><br/>\
-5. 취약한 접근 통제(Broken access control) <br/>\
-- 개념 : 작업 제한 미적용으로 다른 사용자 계정 접근 공격 <br/>\
-- 예시 : 직접 접근 <br/>\
-- 대응 : ACL 구성, 접근 제어 감사 <br/><br/>\
-6. 잘못된 보안 구성(Security misconfiguration)<br/>\
-- 개념 : 취약한 기본 설정, 에러 메시지 설정 실수 공격 <br/>\
-- 사례 : 에러 노출 <br/>\
-- 대응 : 안전한 설치, 불필요 기능 최소화 <br/><br/>\
-7. XSS(Cross site scripting) <br/>\
-- 개념 : 브라우저에서 스크립트 실행시 세션 탈취/변조 공격 <br/>\
-- 사례 : Reflected XSS, Stored XSS <br/>\
-- 대응 : XSS 자동 필터링 도구, 스마트 스크린, HTML & 인코딩 변환 <br/><br/>\
-8. 안전하지 않은 역직렬화(Insecure deserialization) <br/>\
-- 개념 : 원격 코드 실행, 권한 상승, 재생 공격등 비순차 공격 <br/>\
-- 사례 : 주입, 재생 공격 <br/>\
-- 대응 : 직렬화된 객체 미허용, 원시 데이터 유형만 허용 <br/><br/>\
-9. 알려진 취약점이 있는 구성요소(Using Components with known vulnerability) <br/>\
-- 개념 : 알려진 취약점 악용 공격 <br/>\
-- 예시 : CVE, CWE <br/>\
-- 대응방안 : 패치 관리 시스템, 불필요 기능 제거, 구성 변경 모니터링 <br/><br/>\
-10. 불필요한 로깅 및 모니터링(Insufficient logging and monitoring) <br/>\
-- 예시 : 개인사업자 사이트 <br/>\
-- 대응방안 : 통합 로그 관리 솔루션(ESM, SIEM, NMS) <br/><br/>\
-<img src = "./img/OWASP.PNG" style = "max-width:100%; height:auto;">\
+1. 손상된 개체 수준 권한 부여 <br/>\
+- 개념 : 신뢰할 수 없는 데이터가 명령, 질의 문 전송 통한 오작동 유도 공격 <br/> <br/>\
+2.인증 매커니즘 오류 <br/>\
+- 개념 : 인증 및 세션 관리 암호키, 세션 토큰 노출 통한 권한 획득 <br/><br/>\
+3. 부적절 개체속성 <br/>\
+- 개념 : 금융 정보, 건강 정보, 개인 식별 정보 취약한 데이터 획득,변조 <br/><br/>\
+4. 제한 없는 리소스 <br/>\
+- 개념 : 외부 개체 통한 내부 파일 공유, 원격 코드 실행 <br/><br/>\
+5. 접근 제어 정책 미숙 <br/>\
+- 개념 : 작업 제한 미적용으로 다른 사용자 계정 접근 공격  <br/><br/>\
+6. 비즈니스 흐름 노출 <br/>\
+- 개념 : 취약한 기본 설정, 에러 메시지 설정 실수 공격 <br/><br/>\
+7.  SSRF <br/>\
+- 개념 : 브라우저에서 스크립트 실행시 세션 탈취/변조 공격  <br/><br/>\
+8. 잘못된 보안기능 <br/>\
+- 개념 : 원격 코드 실행, 권한 상승, 재생 공격등 비순차 공격  <br/><br/>\
+9.부적절한 api 관리 <br/>\
+- 개념 : 알려진 취약점 악용 공격  <br/><br/>\
+10. 외부 API 과신뢰  <br/><br/>\
 ',
 
 // Injection
